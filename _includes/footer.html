@@ -13,17 +13,27 @@
 
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
+{% if site.facebook_username %}
+  <li>
+    <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank">
+      <i class="fa fa-facebook"></i> Facebook
+    </a>
+  </li>
+{% endif %}
+{% if site.google_plus_username %}
+  <li>
+    <a href="https://plus.google.com/{{ site.google_plus_username }}" target="_blank">
+      <i class="fa fa-google-plus"></i> Google+
+    </a>
+  </li>
+{% endif %}
+{% if site.github_username %}
+  <li>
+    <a href="https://github.com/{{ site.github_username }}" target="_blank">
+      <i class="fa fa-github"></i> GitHub
+    </a>
+  </li>
+{% endif %}
         </ul>
       </div>
 

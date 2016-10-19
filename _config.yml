@@ -15,7 +15,8 @@ description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nicktux.github.io" # the base hostname & protocol for your site
-twitter_username: nickth76
+facebook_username: NickTuxWP
+google_plus_username: +Nicktuxwordpress
 github_username:  NickTux
 
 # Build settings
