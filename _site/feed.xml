@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>NickTux@Github</title>
+    <title>NickTux@GitHub</title>
     <description></description>
     <link>https://nicktux.github.io/</link>
     <atom:link href="https://nicktux.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Nov 2016 04:07:29 +0200</pubDate>
-    <lastBuildDate>Tue, 01 Nov 2016 04:07:29 +0200</lastBuildDate>
+    <pubDate>Tue, 01 Nov 2016 20:09:08 +0200</pubDate>
+    <lastBuildDate>Tue, 01 Nov 2016 20:09:08 +0200</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Linux Kernel v4.4.30 LTS available</title>
+        <description>&lt;p&gt;One new kernel available BFS/BFQ PPA.&lt;/p&gt;
+
+&lt;p&gt;In PPA &lt;a href=&quot;https://launchpad.net/~nick-athens30/+archive/ubuntu/xenial-ck/&quot; target=&quot;_blank&quot;&gt;Xenial Xerus BFQ/BFS Linux Kernels&lt;/a&gt; you will find the version 4.4.0-300-bb, based on upstream &lt;strong&gt;v4.4.30 LTS&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Read the Kernel &lt;a href=&quot;https://kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.30&quot; target=&quot;_blank&quot;&gt;Official Changelog&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 01 Nov 2016 19:06:25 +0200</pubDate>
+        <link>https://nicktux.github.io/bfs/bfq/2016/11/01/linux-kernel-v4.4.30-LTS.html</link>
+        <guid isPermaLink="true">https://nicktux.github.io/bfs/bfq/2016/11/01/linux-kernel-v4.4.30-LTS.html</guid>
+        
+        
+        <category>BFS</category>
+        
+        <category>BFQ</category>
+        
+      </item>
     
       <item>
         <title>Linux Kernel v4.8.6 and v4.4.29 LTS available</title>
@@ -20,8 +40,8 @@ Read the Kernel &lt;a href=&quot;https://kernel.org/pub/linux/kernel/v4.x/Change
 Read the Kernel &lt;a href=&quot;https://kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.29&quot; target=&quot;_blank&quot;&gt;Official Changelog&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Nov 2016 03:05:00 +0200</pubDate>
-        <link>https://nicktux.github.io/bfs/bfq/2016/11/01/linux-kernel-v4.8.6-and-v4.4.29.html</link>
-        <guid isPermaLink="true">https://nicktux.github.io/bfs/bfq/2016/11/01/linux-kernel-v4.8.6-and-v4.4.29.html</guid>
+        <link>https://nicktux.github.io/bfs/bfq/2016/11/01/linux-kernel-v4.8.6-and-v4.4.29LTS.html</link>
+        <guid isPermaLink="true">https://nicktux.github.io/bfs/bfq/2016/11/01/linux-kernel-v4.8.6-and-v4.4.29LTS.html</guid>
         
         
         <category>BFS</category>
