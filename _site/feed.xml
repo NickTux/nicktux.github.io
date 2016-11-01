@@ -5,9 +5,30 @@
     <description></description>
     <link>https://nicktux.github.io/</link>
     <atom:link href="https://nicktux.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Oct 2016 22:22:24 +0300</pubDate>
-    <lastBuildDate>Wed, 19 Oct 2016 22:22:24 +0300</lastBuildDate>
+    <pubDate>Tue, 01 Nov 2016 04:07:29 +0200</pubDate>
+    <lastBuildDate>Tue, 01 Nov 2016 04:07:29 +0200</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Linux Kernel v4.8.6 and v4.4.29 LTS available</title>
+        <description>&lt;p&gt;Two new kernels available in BFQ and BFS/BFQ PPAs.&lt;/p&gt;
+
+&lt;p&gt;In PPA &lt;a href=&quot;https://launchpad.net/~nick-athens30/+archive/ubuntu/xenial/&quot; target=&quot;_blank&quot;&gt;Xenial Xerus BFQ Linux Kernels&lt;/a&gt; you will find the version 4.8.0-60-bfq based on upstream &lt;strong&gt;v4.8.6&lt;/strong&gt;
+Read the Kernel &lt;a href=&quot;https://kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.8.6&quot; target=&quot;_blank&quot;&gt;Official Changelog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In PPA &lt;a href=&quot;https://launchpad.net/~nick-athens30/+archive/ubuntu/xenial-ck/&quot; target=&quot;_blank&quot;&gt;Xenial Xerus BFQ/BFS Linux Kernels&lt;/a&gt; you will find the version 4.4.0-290-bb, based on upstream &lt;strong&gt;v4.4.29 LTS&lt;/strong&gt;.
+Read the Kernel &lt;a href=&quot;https://kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.29&quot; target=&quot;_blank&quot;&gt;Official Changelog&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Nov 2016 03:05:00 +0200</pubDate>
+        <link>https://nicktux.github.io/bfs/bfq/2016/11/01/linux-kernel-v4.8.6-and-v4.4.29.html</link>
+        <guid isPermaLink="true">https://nicktux.github.io/bfs/bfq/2016/11/01/linux-kernel-v4.8.6-and-v4.4.29.html</guid>
+        
+        
+        <category>BFS</category>
+        
+        <category>BFQ</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
