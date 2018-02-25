@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on NickTux</title>
+    <link>https://nicktux.github.io/tags/</link>
+    <description>Recent content in Tags on NickTux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us, el-gr</language>
+    <copyright>Copyleft (ɔ) 2018. No rights reserved.</copyright>
+    
+	<atom:link href="https://nicktux.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
