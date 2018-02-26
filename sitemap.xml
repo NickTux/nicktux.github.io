@@ -3,10 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nicktux.github.io/post/</loc>
-  </url>
-  
-  <url>
     <loc>https://nicktux.github.io/categories/</loc>
     <priority>0</priority>
   </url>
