@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://nicktux.github.io/articles/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://nicktux.github.io/categories/</loc>
     <priority>0</priority>
   </url>
@@ -19,11 +24,6 @@
   
   <url>
     <loc>https://nicktux.github.io/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nicktux.github.io/post/</loc>
     <priority>0</priority>
   </url>
   
