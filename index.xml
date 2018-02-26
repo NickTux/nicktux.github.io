@@ -7,9 +7,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
+    <lastBuildDate>Mon, 26 Feb 2018 02:30:14 +0200</lastBuildDate>
     
 	<atom:link href="https://nicktux.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nextcloud Apps Deck</title>
+      <link>https://nicktux.github.io/post/nextcloud-apps-deck/</link>
+      <pubDate>Mon, 26 Feb 2018 02:30:14 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/post/nextcloud-apps-deck/</guid>
+      <description>Το Deck είναι μια εφαρμογή για το Nextcloud. Είναι ένα εργαλείο που επιτρέπει την οργάνωση της καθημερινότητάς μας, είτε και στην εργασία μας, με ομάδες που συμμετέχουν στο Nextcloud.
+Μια από τις πολλές και χρήσιμες εφαρμογές στο Nextcloud Store είναι και το Deck. Ένα εργαλείο οργάνωσης ομάδων και έργων σε Kanban Board Style. Ένα από τα πιο γνωστά τέτοια εργαλεία, για όσους δεν γνωρίζουν τι είναι ένα Kanban Board, είναι το Trello.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://nicktux.github.io/contact/</link>
+      <pubDate>Sun, 25 Feb 2018 22:24:52 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/contact/</guid>
+      <description>First Name  Last Name  E-Mail     send   Στα social (μη διστάσετε να ζητήσετε support)  Google+ Facebook Twitter Tumblr Librenet nicktux@gnu.gr (jabber) Telegram (Group) nicktux (Freenode Κανάλι)</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://nicktux.github.io/about/</link>
+      <pubDate>Sun, 25 Feb 2018 22:03:43 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/about/</guid>
+      <description>LATEST UPDATE: 10.02.2018 Προφίλ σελίδας: Η σελίδα αυτή ασχολείται με το λειτουργικό σύστημα GNU/Linux. Το GNU/Linux είναι ένα πλήρες λειτουργικό σύστημα που μπορείτε να εγκαταστήσετε στον υπολογιστή σας. Υπάρχουν αρκετές διανομές , δίνοντάς σας έτσι την ελευθερία να επιλέξετε όποια σας ταιριάζει περισσότερο. Σε αυτό το blog γράφονται διάφοροι οδηγοί/tutorials που αφορούν το Linux και μόνο. Ειδήσεις και νέα από τον κόσμο του Linux θα δείτε περιστασιακά. Το συγκεκριμένο blog δεν είναι ειδησεογραφική σελίδα.</description>
+    </item>
     
   </channel>
 </rss>
