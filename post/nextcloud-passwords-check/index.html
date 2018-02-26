@@ -4,10 +4,10 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta name="description" content="Το Nextcloud θα ελέγχει τους κωδικούς των χρηστών για αδυναμίες.">
   <meta name="generator" content="Hugo 0.33" />
 
-  <title>NickTux</title>
+  <title>Nextcloud: Έλεγχος Κωδικών Χρηστών &middot; NickTux</title>
 
   
   
@@ -36,8 +36,6 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 
   
-  
-  <link rel="alternate" type="application/rss+xml" title="NickTux" href="https://nicktux.github.io/index.xml" />
   
 
   
@@ -115,10 +113,6 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://nicktux.github.io/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
-    </li>
     
 
     
@@ -226,17 +220,12 @@
 
 
 <div class="header">
-  <h1>NickTux</h1>
-  <h2>Keep Your Mind in a Constant State of Openness</h2>
+  <h1>Nextcloud: Έλεγχος Κωδικών Χρηστών</h1>
+  <h2>Το Nextcloud θα ελέγχει τους κωδικούς των χρηστών για αδυναμίες.</h2>
 </div>
-
 <div class="content">
-  
-    <article>
-  <header>
-    <h2><a href="https://nicktux.github.io/post/nextcloud-passwords-check/">Nextcloud: Έλεγχος Κωδικών Χρηστών</a></h2>
 
-    <div class="post-meta">
+  <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
@@ -273,84 +262,65 @@
 
 </div>
 
-  </header>
-
-  <p>
-  Σε πρόσφατη δημοσίευσή τους οι δημιουργοί του πλέον δημοφιλούς Nextcloud ανακοίνωσαν πως προτίθενται να ελέγχουν τους κωδικούς όσων τρέχουν κάποιο Nextcloud Instance με ένα built-in module, για τυχόν αδυναμίες.
-Γιατί; Λόγω του ότι οι χρήστες τείνουν να χρησιμοποιούν τους ίδιους κωδικούς σε πολλαπλές τοποθεσίες και επειδή αυτό δημιουργεί έναν σημαντικό κίνδυνο σε περίπτωση κλοπής του κωδικού, οι προγραμματιστές του Nextcloud αποφάσισαν να μειώσουν αυτό τον κίνδυνο με άλλα ένα χαρακτηριστικό ασφαλείας (Security Feature).
-  </p>
-
-  
-  <footer>
-    <a href="https://nicktux.github.io/post/nextcloud-passwords-check/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://nicktux.github.io/post/nextcloud-apps-deck/">Nextcloud Apps Deck</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>26 Feb 2018</time>
-  </div>
-
   
 
+<p>Σε πρόσφατη δημοσίευσή τους οι δημιουργοί του πλέον δημοφιλούς Nextcloud ανακοίνωσαν πως προτίθενται να ελέγχουν τους κωδικούς όσων τρέχουν κάποιο Nextcloud Instance με ένα built-in module, για τυχόν αδυναμίες.</p>
+
+<h3 id="γιατί">Γιατί;</h3>
+
+<p>Λόγω του ότι οι χρήστες τείνουν να χρησιμοποιούν τους ίδιους κωδικούς σε πολλαπλές τοποθεσίες και επειδή αυτό δημιουργεί έναν σημαντικό κίνδυνο σε περίπτωση κλοπής του κωδικού, οι προγραμματιστές του Nextcloud αποφάσισαν να μειώσουν αυτό τον κίνδυνο με άλλα ένα χαρακτηριστικό ασφαλείας (Security Feature).</p>
+
+<p><img src="https://nicktux.github.io/img/post/pwned.jpg" alt="Pwned" title="Have I Been Pwned?" /></p>
+
+<h3 id="have-i-been-pwned">Have I Been Pwned?</h3>
+
+<p>Ένα από τα πιο γνωστά sites συλλογής εκτεθιμένων/σπασμένων κωδικών είναι το <code>HaveIBeenPwned.com</code>
+<br>Η βάση δεδομένων για τους κωδικούς φτάνει τα 500 εκατομμύρια, με όγκο αρχείου περί τα 8,8GB.</p>
+
+<h3 id="πως">Πως;</h3>
+
+<p>Μέσω ενός public API που διαθέτει το προαναφερόμενο site και ενός νέου security module το Nextcloud θα ελέγχει το hash των 5 πρώτων χαρακτήρων του κωδικού του χρήστη. Δηλαδή, θα το στέλνει για έλεγχο στο συγκεκριμένο site αναμένοντας τα αποτελέσματα.</p>
+
+<h3 id="και-θα-δώσω-τον-κωδικό-μου-ή-μέρος-αυτού-σε-κάποιο-site-για-έλεγχο">Και θα δώσω τον κωδικό μου ή μέρος αυτού σε κάποιο site για έλεγχο;</h3>
+
+<p>Όχι αν δεν θέλεις.
+Το Nextcloud είναι της φιλοσοφίας opt-in, οπότε το συγκεκριμένο χαρακτηριστικό θα είναι <strong>απενεργοποιημένο από προεπιλογή</strong>. Μόνον οι Admin του εκάστοτε Nextcloud Instance θα μπορούν να το ενεργοποιήσουν.</p>
+
+<h3 id="πότε">Πότε;</h3>
+
+<p>Σύντομα. Στην αρχή είχαν αναφερθεί για την έκδοση 14, μιας και πρόκειται για ένα εντελώς νέο χαρακτηριστικό. Λόγω του ότι πρόκειται για χαρακτηριστικό ασφαλείας όμως, αποφάσισαν από την επόμενη μικρή έκδοση (point release) να το ενσωματώσουν. Οπότε, το αναμένουμε στη 13.0.1.</p>
+
+<p>Διαβάστε όλο το άρθρο στο <a href="https://nextcloud.com/blog/nextcloud-will-check-passwords-against-database-of-haveibeenpwned">Nextcloud/blog</a></p>
+
+
   
-  
-  
-  <div>
-    <i class="fa fa-folder fa-fw"></i>
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
     
-      <a class="post-taxonomy-topic" href="https://nicktux.github.io/topics/linux">Linux</a>
-    
-  </div>
-  
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/nextcloud">nextcloud</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/kanban">kanban</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/organization">Organization</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/apps">Apps</a>
+    <a href="https://nicktux.github.io/post/nextcloud-apps-deck/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
-  
-  
-
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://nicktux.github.io/post/nextcloud-apps-deck/">Nextcloud Apps Deck</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
 </div>
 
-  </header>
 
-  <p>
-  Το Deck είναι μια εφαρμογή για το Nextcloud. Είναι ένα εργαλείο που επιτρέπει την οργάνωση της καθημερινότητάς μας, είτε και στην εργασία μας, με ομάδες που συμμετέχουν στο Nextcloud.
-Μια από τις πολλές και χρήσιμες εφαρμογές στο Nextcloud Store είναι και το Deck. Ένα εργαλείο οργάνωσης ομάδων και έργων σε Kanban Board Style. Ένα από τα πιο γνωστά τέτοια εργαλεία, για όσους δεν γνωρίζουν τι είναι ένα Kanban Board, είναι το Trello.
-  </p>
 
   
-  <footer>
-    <a href="https://nicktux.github.io/post/nextcloud-apps-deck/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-
-  
-
 
 </div>
 
