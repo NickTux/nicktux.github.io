@@ -4,10 +4,10 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Το Nextcloud θα ελέγχει τους κωδικούς των χρηστών για αδυναμίες.">
+  <meta name="description" content="">
   <meta name="generator" content="Hugo 0.37.1" />
 
-  <title>Nextcloud: Έλεγχος Κωδικών Χρηστών &middot; NickTux</title>
+  <title>[Nextcloud] Απευθείας πρόσβαση από Online Accounts &middot; NickTux</title>
 
   
   
@@ -238,8 +238,8 @@
 
 
 <div class="header">
-  <h1>Nextcloud: Έλεγχος Κωδικών Χρηστών</h1>
-  <h2>Το Nextcloud θα ελέγχει τους κωδικούς των χρηστών για αδυναμίες.</h2>
+  <h1>[Nextcloud] Απευθείας πρόσβαση από Online Accounts</h1>
+  <h2></h2>
 </div>
 <div class="content">
 
@@ -247,7 +247,7 @@
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>27 Feb 2018</time>
+    <time>11 Apr 2018</time>
   </div>
 
   
@@ -258,7 +258,7 @@
   <div>
     <i class="fa fa-folder fa-fw"></i>
     
-      <a class="post-taxonomy-topic" href="https://nicktux.github.io/topics/cloud">Cloud</a>
+      <a class="post-taxonomy-topic" href="https://nicktux.github.io/topics/cloud">cloud</a>
     
   </div>
   
@@ -270,9 +270,7 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/nextcloud">nextcloud</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/security">security</a>
+      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/nextcloud-ubuntu">nextcloud, ubuntu</a>
     
   </div>
   
@@ -280,48 +278,49 @@
 
 </div>
 
-  
+  <p>Με την έλευση του Ubuntu 18.04 LTS (Bionic Beaver)και την αλλαγή από Unity σε GNOME (3.28), οι ρυθμίσεις για Online Accounts εμπεριέχουν πλέον την επιλογή για Nextcloud.
+</p>
 
-<p>Σε πρόσφατη δημοσίευσή τους οι δημιουργοί του πλέον δημοφιλούς Nextcloud ανακοίνωσαν πως προτίθενται να ελέγχουν τους κωδικούς όσων τρέχουν κάποιο Nextcloud Instance με ένα built-in module, για τυχόν αδυναμίες.</p>
+<p>Λόγω του ότι το Ubuntu 18.04 βρίσκεται αυτή τη στιγμή σε έκδοση beta2 τα αποθετήρια του Nextcloud δεν περιέχουν ακόμη κάποια συμβατή έκδοση του Client για Desktop.<br>
+Έτσι κάποιος θα πρέπει να χρησιμοποιήσει άλλες μεθόδους για την εγκατάσταση του Client οι οποίες ίσως δουλέψουν, ίσως όχι. Ίσως όμως να δημιουργήσουν και προβλήματα στη λειτουργία του συστήματος. Είναι καλό να αποφεύγουμε πειράματα και &ldquo;τύπου hackιες&rdquo; οι οποίες δεν γνωρίζουμε εάν και πως θα δουλέψουν.<br>
+Για παράδειγμα, κάποιος μπορεί να δοκιμάσει να κάνει εγκατάσταση το πακέτο από το αποθετήριο του xenial (16.04) ή το AppImage που είναι διαθέσιμο από τη σελίδα του Nextcloud ή μπορεί να δοκιμάσει να μεταγλωττίσει και να χτίσει το πακέτο μόνος του (2018 έχουμε να υπενθυμίσω).<br>
+Σίγουρα κάποια στιγμή θα υπάρξει έκδοση του Client για το 18.04, μέχρι να γίνει αυτό όμως μπορούμε να χρησιμοποιήσουμε την ήδη υπάρχουσα και ενσωματωμένη επιλογή του Online Account. Εν τέλει ίσως μας βολέψει καλύτερα από τον Nextcloud Client.<br></p>
 
-<h3 id="γιατί">Γιατί;</h3>
+<h3 id="ρύθμιση-online-accounts-nextcloud">Ρύθμιση Online Accounts (Nextcloud)</h3>
 
-<p>Λόγω του ότι οι χρήστες τείνουν να χρησιμοποιούν τους ίδιους κωδικούς σε πολλαπλές τοποθεσίες και επειδή αυτό δημιουργεί έναν σημαντικό κίνδυνο σε περίπτωση κλοπής του κωδικού, οι προγραμματιστές του Nextcloud αποφάσισαν να μειώσουν αυτό τον κίνδυνο με άλλo ένα χαρακτηριστικό ασφαλείας (Security Feature).</p>
+<p>Είναι αρκετά εύκολο να ρυθμίσουμε αυτό το λογαριασμό. Προϋποθέτει να έχουμε δημιουργήσει ένα App Password. Δεν θα δώσουμε το πραγματικό μας password, αυτό άλλωστε ποτέ δεν πρέπει να το κάνουμε.<br>
+Πηγαίνοντας στις ρυθμίσεις κάνουμε κλικ στο Online Accounts και στη συνέχεια στο Nextcloud. Θα μας ζητήσει server, username και password. Μόλις εισάγουμε τα σωστά στοιχεία θα ανοίξει το κουτί διαλόγου για τον Online συγχρονισμό, στο οποίο από προ-επιλογή είναι όλα On.<br></p>
 
-<p><img src="https://nicktux.github.io/img/post/pwned.jpg" alt="Pwned" title="Have I Been Pwned?" /></p>
+<p><a href="https://i.imgur.com/4boyzLr.jpg" target="_blank"><img src="https://i.imgur.com/4boyzLr.jpg" alt="" width="640" height="360" class="alignleft size-full" /></a></p>
 
-<h3 id="have-i-been-pwned">Have I Been Pwned?</h3>
+<p><a href="https://i.imgur.com/UviG1oM.jpg" target="_blank"><img src="https://i.imgur.com/UviG1oM.jpg" alt="" width="640" height="360" class="alignleft size-full" /></a></p>
 
-<p>Ένα από τα πιο γνωστά sites συλλογής εκτεθιμένων/σπασμένων κωδικών είναι το <code>HaveIBeenPwned.com</code>
-<br>Η βάση δεδομένων για τους κωδικούς φτάνει τα 500 εκατομμύρια, με όγκο αρχείου περί τα 8,8GB.</p>
+<p><a href="https://i.imgur.com/0RR2dan.jpg" target="_blank"><img src="https://i.imgur.com/0RR2dan.jpg" alt="" width="640" height="360" class="alignleft size-full" /></a></p>
 
-<h3 id="πως">Πως;</h3>
+<p>Αφού ολοκληρώσουμε αυτή την απλή διαδικασία πλέον θα έχουμε πρόσβαση στα αρχεία μας μέσω του File Manager (Nautilus). Σημειώστε εδώ ότι αντίθετα με τον Nextcloud Client αυτή η μέθοδος δεν κάνει λήψη όλα τα αρχεία στον υπολογιστή μας, απλά έχουμε πρόσβαση σε αυτά. Το σημείο προσάρτησης σε αυτή τη περίπτωση είναι ο Nextcloud Server μας σε επίπεδο λογαριασμού χρήστη. Επίσης, δεν συγχρονίζει μόνον τα αρχεία μας αλλά και το Ημερολόγιο και τις Επαφές που διατηρούμε στο Nextcloud μας. Η σύνδεση επιτυγχάνεται με την επέκταση WebDAV.<br></p>
 
-<p>Μέσω ενός public API που διαθέτει το προαναφερόμενο site και ενός νέου security module το Nextcloud θα ελέγχει το hash των 5 πρώτων χαρακτήρων του κωδικού του χρήστη. Δηλαδή, θα το στέλνει για έλεγχο στο συγκεκριμένο site αναμένοντας τα αποτελέσματα.</p>
+<p><a href="https://i.imgur.com/LB6BHeG.jpg" target="_blank"><img src="https://i.imgur.com/LB6BHeG.jpg" alt="" width="640" height="360" class="alignleft size-full" /></a></p>
 
-<h3 id="και-θα-δώσω-τον-κωδικό-μου-ή-μέρος-αυτού-σε-κάποιο-site-για-έλεγχο">Και θα δώσω τον κωδικό μου ή μέρος αυτού σε κάποιο site για έλεγχο;</h3>
+<p><strong>Tip:</strong> Αφού κάνουμε κλικ και προσαρτήσουμε το σημείο, μπορούμε να δημιουργήσουμε ένα Bookmark για δική μας ευκολία και να το μετονομάσουμε όπως μας βολεύει. Από εκεί και στο εξής κάνοντας κλικ στο Bookmark θα γίνεται αυτόματα η προσάρτηση του σημείου.</p>
 
-<p>Όχι αν δεν θέλεις.
-Το Nextcloud είναι της φιλοσοφίας opt-in, οπότε το συγκεκριμένο χαρακτηριστικό θα είναι <strong>απενεργοποιημένο από προεπιλογή</strong>. Μόνον οι Admin του εκάστοτε Nextcloud Instance θα μπορούν να το ενεργοποιήσουν.</p>
+<p>Είναι μια εύκολη μέθοδος η οποία βρίσκεται εκεί από την εγκατάσταση του λειτουργικού μας και απλά δουλεύει. Δοκιμάστε τη.</p>
 
-<h3 id="πότε">Πότε;</h3>
+<hr />
 
-<p>Σύντομα. Στην αρχή είχαν αναφερθεί για την έκδοση 14, μιας και πρόκειται για ένα εντελώς νέο χαρακτηριστικό. Λόγω του ότι πρόκειται για χαρακτηριστικό ασφαλείας όμως, αποφάσισαν από την επόμενη μικρή έκδοση (point release) να το ενσωματώσουν. Οπότε, το αναμένουμε στη 13.0.1.</p>
-
-<p>Διαβάστε όλο το άρθρο στο <a href="https://nextcloud.com/blog/nextcloud-will-check-passwords-against-database-of-haveibeenpwned">Nextcloud/blog</a></p>
-
+<p><span style="font-size:small;color:#999999;">Until next time &hellip;
+Thanks for reading!</span></p>
 
   
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://nicktux.github.io/post/nextcloud-apps-deck/"><i class="fa fa-chevron-left"></i></a>
+    <a href="https://nicktux.github.io/post/ubuntu-26_april_18_04_release/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
   <div class="pure-u-10-24">
     
     <nav class="prev">
-      <a href="https://nicktux.github.io/post/nextcloud-apps-deck/">Nextcloud Apps Deck</a>
+      <a href="https://nicktux.github.io/post/ubuntu-26_april_18_04_release/">[Ubuntu] 26 Απριλίου η νέα LTS έκδοση</a>
     </nav>
     
   </div>
@@ -330,14 +329,8 @@
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://nicktux.github.io/post/gnome-startup-apps-delay/">[GNOME] Καθυστέρηση Εκκίνησης Εφαρμογών</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://nicktux.github.io/post/gnome-startup-apps-delay/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>

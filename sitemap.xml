@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nicktux.github.io/post/nextcloud-bionic-online-accounts/</loc>
+    <lastmod>2018-04-11T22:46:06+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nicktux.github.io/my-pgp-key/</loc>
     <lastmod>2018-04-09T21:23:01+03:00</lastmod>
   </url>
@@ -43,8 +48,14 @@
   </url>
   
   <url>
-    <loc>https://nicktux.github.io/post/</loc>
+    <loc>https://nicktux.github.io/topics/</loc>
     <lastmod>2018-04-09T12:26:43+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nicktux.github.io/post/</loc>
+    <lastmod>2018-04-11T22:46:06+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -56,7 +67,7 @@
   
   <url>
     <loc>https://nicktux.github.io/topics/cloud/</loc>
-    <lastmod>2018-02-27T00:08:51+02:00</lastmod>
+    <lastmod>2018-04-11T22:46:06+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -91,8 +102,14 @@
   </url>
   
   <url>
+    <loc>https://nicktux.github.io/tags/nextcloud-ubuntu/</loc>
+    <lastmod>2018-04-11T22:46:06+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://nicktux.github.io/</loc>
-    <lastmod>2018-04-09T21:23:01+03:00</lastmod>
+    <lastmod>2018-04-11T22:46:06+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -104,7 +121,7 @@
   
   <url>
     <loc>https://nicktux.github.io/post/</loc>
-    <lastmod>2018-04-09T12:26:43+03:00</lastmod>
+    <lastmod>2018-04-11T22:46:06+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -128,12 +145,6 @@
   
   <url>
     <loc>https://nicktux.github.io/topics/</loc>
-    <lastmod>2018-02-27T00:08:51+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nicktux.github.io/topics/ubuntu/</loc>
     <lastmod>2018-04-09T12:26:43+03:00</lastmod>
     <priority>0</priority>
   </url>
