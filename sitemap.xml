@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nicktux.github.io/post/ubuntu-bionic-gksu-removed/</loc>
+    <lastmod>2018-04-16T22:29:19+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nicktux.github.io/post/nextcloud-bionic-online-accounts/</loc>
     <lastmod>2018-04-11T22:46:06+03:00</lastmod>
   </url>
@@ -49,7 +54,7 @@
   
   <url>
     <loc>https://nicktux.github.io/post/</loc>
-    <lastmod>2018-04-11T22:46:06+03:00</lastmod>
+    <lastmod>2018-04-16T22:29:19+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -73,7 +78,7 @@
   
   <url>
     <loc>https://nicktux.github.io/tags/desktop/</loc>
-    <lastmod>2018-04-09T12:26:43+03:00</lastmod>
+    <lastmod>2018-04-16T22:29:19+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -91,7 +96,7 @@
   
   <url>
     <loc>https://nicktux.github.io/topics/linux/</loc>
-    <lastmod>2018-04-09T12:26:43+03:00</lastmod>
+    <lastmod>2018-04-16T22:29:19+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -109,7 +114,7 @@
   
   <url>
     <loc>https://nicktux.github.io/</loc>
-    <lastmod>2018-04-11T22:46:06+03:00</lastmod>
+    <lastmod>2018-04-16T22:29:19+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -121,7 +126,7 @@
   
   <url>
     <loc>https://nicktux.github.io/post/</loc>
-    <lastmod>2018-04-11T22:46:06+03:00</lastmod>
+    <lastmod>2018-04-16T22:29:19+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -151,7 +156,7 @@
   
   <url>
     <loc>https://nicktux.github.io/tags/ubuntu/</loc>
-    <lastmod>2018-04-09T12:26:43+03:00</lastmod>
+    <lastmod>2018-04-16T22:29:19+03:00</lastmod>
     <priority>0</priority>
   </url>
   

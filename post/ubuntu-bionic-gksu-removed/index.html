@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ποιά η προτεινόμενη εναλλακτική">
+  <meta name="generator" content="Hugo 0.37.1" />
+
+  <title>[Ubuntu] Αφαίρεση του gksu από τη 18.04 LTS &middot; NickTux</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://nicktux.github.io/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://nicktux.github.io/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://nicktux.github.io/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+   
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://nicktux.github.io/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  <a class="pure-menu-heading brand" href="https://nicktux.github.io/">
+  <img src="https://nicktux.github.io/img/logo.png" width="35px">
+</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/topics/"><i class='fa fa-folder fa-fw'></i>Topics</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/tags/"><i class='fa fa-tags fa-fw'></i>Tags</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/contact/"><i class='fa fa-phone-square fa-fw'></i>Contact</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/post/index.xml"><i class='fa fa-rss fa-fw'></i>RSS</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/my-pgp-key/"><i class='fa fa-key fa-fw'></i>My GPG Key</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.com"><i class='fa fa-link fa-fw'></i>NickTux.com</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+   
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/nicktuxdotcom" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://facebook.com/nicktuxdotcom" target="_blank"><i class="fa fa-facebook-square fa-fw"></i>Facebook</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/nicktux" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>Copyleft (ɔ) 2018.<br> No rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>[Ubuntu] Αφαίρεση του gksu από τη 18.04 LTS</h1>
+  <h2>Ποιά η προτεινόμενη εναλλακτική</h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>16 Apr 2018</time>
+  </div>
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-folder fa-fw"></i>
+    
+      <a class="post-taxonomy-topic" href="https://nicktux.github.io/topics/linux">Linux</a>
+    
+  </div>
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/ubuntu">ubuntu</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/desktop">desktop</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Αυτή η μετάβαση, δηλαδή η πλήρης κατάργηση του gksu από το Ubuntu έχει ξεκινήσει κάμποσες εκδόσεις πριν. Συγκεκριμένα από τη 13.10 όπου το από προ-επιλογή εγκατεστημένο gksu έπαψε να υφίσταται. Μέχρι και σήμερα βέβαια οι χρήστες είχαν την επιλογή της εγκατάστασης από τα αποθετήρια, αφού εκεί ήταν και είναι ακόμη διαθέσιμο.<br>
+Στο άμεσο μέλλον όμως, προβλέπεται να αφαιρεθεί εντελώς από τα αποθετήρια. Επίσης, παρακάτω θα δούμε ποια είναι η προτεινόμενη από τους Developers εναλλακτική.<br>
+</p>
+
+<h3 id="τι-είναι-το-gksu">Τι είναι το gksu</h3>
+
+<p>Το gksu είναι στην ουσία ένα Graphical Front-End του sudo. Το sudo είναι το πρόγραμμα εκείνο που μας δίνει προσωρινά και με ασφάλεια αυξημένα δικαιώματα (root) ώστε να επιτύχουμε διάφορα tasks που τα απαιτούν. Το πακέτο gksu περιλαμβάνει δυο Front-End, την <code>gksu</code> και την <code>gksudo</code>, με τη δεύτερη μέχρι πρωτίστως να ήταν η προτεινόμενη για όλες τις γραφικές εφαρμογές που ήθελε κάποιος χρήστης να τρέξει με αυξημένα δικαιώματα.<br>
+Με αυτό τον τρόπο, όταν ο χρήστης έτρεχε για παράδειγμα την εντολή</p>
+
+<pre><code>gksudo gedit /etc/default/grub
+</code></pre>
+
+<p>ένα παράθυρο διαλόγου άνοιγε ζητώντας του τον κωδικό, ώστε να του παραχωρήσει αυξημένα δικαιώματα για την επεξεργασία του συγκεκριμένου αρχείου.<br></p>
+
+<p>Παρακάτω βλέπουμε την έκδοση gksu που ακόμη είναι διαθέσιμη στο Ubuntu 18.04 (beta 2).</p>
+
+<p><a href="https://i.imgur.com/2YH1SuO.jpg" target="_blank"><img src="https://i.imgur.com/2YH1SuO.jpg" alt="" width="640" height="360" class="alignleft size-full" /></a></p>
+
+<p><a href="https://i.imgur.com/JEytFLu.jpg" target="_blank"><img src="https://i.imgur.com/JEytFLu.jpg" alt="" width="640" height="360" class="alignleft size-full" /></a></p>
+
+<h3 id="gksu-με-policykit">gksu με PolicyKit</h3>
+
+<p>Εδώ και κάποια χρόνια (2-3 περίπου) <a href="https://wiki.gnome.org/Attic/gksu" _target=_blank"><strong>το GNOME είχε προτείνει</strong></a> την αλλαγή και αντικατάσταση του παραδοσιακού gksu με μια νεότερη έκδοση η οποία θα χρησιμοποιούσε το PolicyKit Framework. Το πρόβλημα ήταν ότι κάποιες εφαρμογές έπρεπε να γραφτούν ξανά ώστε να λειτουργούν σωστά με αυτή την αλλαγή.<br>
+Ωστόσο, αυτή η αλλαγή δεν προξένησε το ενδιαφέρον των χρηστών μιας και το gksu ως πακέτο ήταν και παραμένει διαθέσιμο για εγκατάσταση και χρήση.</p>
+
+<h3 id="pkcexec-αντί-gksu">pkcexec αντί gksu</h3>
+
+<p>Άλλη μια πρόταση για την αντικατάσταση του gksu και ως εναλλακτική ήταν το <code>pkexec</code> . Δεν θα επεκταθώ εδώ περαιτέρω, μιας και τότε είχα γράψει σχετικό άρθρο το οποίο μπορείτε να βρείτε <a href="https://nicktux.com/2014/06/09/pkexec-%CE%B1%CE%BD%CF%84%CE%AF-gksugksudokdesudo/" target="_blank"><strong>εδώ</strong></a>. Το συμπέρασμα είναι ότι η pkexec αποδείχτηκε πιο περίπλοκη και δύσκολη στην εφαρμογή.</p>
+
+<h3 id="γιατί-front-end-και-όχι-απευθείας-sudo">Γιατί Front-End και όχι απευθείας sudo;</h3>
+
+<p>Στο ίδιο άρθρο αναφέρω και για πιο λόγο κάποιος πρέπει να χρησιμοποιήσει gksudo/pkexec ή κάποια άλλη εναλλακτική μέθοδο αντί του παραδοσιακού <code>sudo</code> σε ότι αφορά γραφικές εφαρμογές. Παραθέτω εδώ σχετικό quote και από το Ubuntu Documentation.</p>
+
+<blockquote>
+<p>You should <strong>never</strong> use normal sudo to start graphical applications as root. You should use gksudo (kdesudo on Kubuntu) to run such programs. gksudo sets HOME=~root, and copies <code>.Xauthority</code> to a tmp directory. This prevents files in your home directory becoming owned by root.</p>
+</blockquote>
+
+<p>Σε απλά ελληνικά, υπάρχει η πιθανότητα εάν ανοίξουμε κάποια γραφική εφαρμογή με αυτό τον τρόπο όλα τα αρχεία που αυτή περιλαμβάνει να αλλάξουν ιδιοκτήτη, και ο νέος ιδιοκτήτης να είναι ο χρήστης root. Οι πιθανότητες είναι λιγότερες να συμβεί κάτι τέτοιο όταν μιλάμε για έναν απλό επεξεργαστή κειμένου, πχ gedit και περισσότερες όταν μιλάμε για έναν διαχειριστή αρχείων και φακέλων όπως ο nautilus.</p>
+
+<h3 id="από-το-ubuntu-18-04-θα-αφαιρεθεί-εντελώς-το-gksu">Από το Ubuntu 18.04 θα αφαιρεθεί εντελώς το gksu</h3>
+
+<p>Σε μια αναφορά σφάλματος <a href="https://bugs.launchpad.net/ubuntu/+source/umit/+bug/1740618" target="_blank">[Bug 1740618]</a> βλέπουμε τη διαδικασία αφαίρεσης του πακέτου gksu από το Ubuntu 18.04.</p>
+
+<h3 id="προτεινόμενος-εναλλακτικός-τρόπος">Προτεινόμενος εναλλακτικός τρόπος</h3>
+
+<p>Στην ίδια αναφορά σφάλματος αναφέρεται ο προτεινόμενος εναλλακτικός τρόπος για tasks που απαιτούν αυξημένα δικαιώματα. Μπορούμε να χρησιμοποιούμε τον Nautilus με το prefix <code>admin:///</code> όποτε θελήσουμε αυξημένα δικαιώματα.<br>
+Παρακάτω βλέπουμε πως επιτυγχάνεται με αυτό τον τρόπο η επεξεργασία του αρχείου <code>grub</code> στην τοποθεσία <code>/etc/default/</code>
+<br><br>
+Ανοίγωντας τον Nautilus επιλέγουμε &ldquo;Other Locations&rdquo;</p>
+
+<p><a href="https://i.imgur.com/A27TEc2.jpg" target="_blank"><img src="https://i.imgur.com/A27TEc2.jpg" alt="" width="640" height="360" class="alignleft size-full" /></a></p>
+
+<p>Κάτω στο &ldquo;Connect to server&rdquo; γράφουμε την τοποθεσία με το prefix <code>admin:///</code> . Στη συγκεκριμένη περίπτωση <code>admin:///etc/default</code> διότι εκεί μέσα βρίσκεται το αρχείο <code>grub</code> που θέλουμε να επεξεργαστούμε. Πατάμε Conect.</p>
+
+<p><a href="https://i.imgur.com/92mCuMg.jpg" target="_blank"><img src="https://i.imgur.com/92mCuMg.jpg" alt="" width="640" height="360" class="alignleft size-full" /></a></p>
+
+<p>Ένα παράθυρο διαλόγου θα απαιτήσει τον κωδικό μας ώστε να λάβουμε αυξημένα δικαιώματα στη συγκεκριμένη τοποθεσία.</p>
+
+<p><a href="https://i.imgur.com/6p9FTjm.jpg" target="_blank"><img src="https://i.imgur.com/6p9FTjm.jpg" alt="" width="640" height="360" class="alignleft size-full" /></a></p>
+
+<p>Επιλέγουμε το αρχείο <code>grub</code> και είτε πατάμε διπλό κλικ, είτε δεξί κλικ και Open With Text Editor.</p>
+
+<p><a href="https://i.imgur.com/mlKMS8e.jpg" target="_blank"><img src="https://i.imgur.com/mlKMS8e.jpg" alt="" width="640" height="360" class="alignleft size-full" /></a></p>
+
+<p>Ένα νέο παράθυρο διαλόγου μας ζητά εκ νέου τον κωδικό μας, ώστε να αποκτήσουμε το δικαίωμα επεξεργασίας του αρχείου.</p>
+
+<p><a href="https://i.imgur.com/3uVxZxw.jpg" target="_blank"><img src="https://i.imgur.com/3uVxZxw.jpg" alt="" width="640" height="360" class="alignleft size-full" /></a></p>
+
+<p>Στο τέλος έχουμε το αρχείο έτοιμο προς επεξεργασία.</p>
+
+<p><a href="https://i.imgur.com/c3IyyHR.jpg" target="_blank"><img src="https://i.imgur.com/c3IyyHR.jpg" alt="" width="640" height="360" class="alignleft size-full" /></a></p>
+
+<h4 id="δεν-μπορώ-απλά-να-δώσω-ένα-sudo-gedit-etc-default-grub-να-τελειώνουμε">Δεν μπορώ απλά να δώσω ένα sudo gedit /etc/default/grub να τελειώνουμε;</h4>
+
+<p>Φυσικά και μπορείς. Όπως άλλωστε αναφέρθηκε και παραπάνω η χρήση του παραδοσιακού sudo με έναν επεξεργαστή κειμένου πιθανότατα δεν θα δημιουργήσει κάποιο πρόβλημα. Αν όμως θελήσεις να διαγράψεις ή να δημιουργήσεις κάποιο αρχείο ή φάκελο, τότε είναι καλύτερα με τον παραπάνω τρόπο παρά με <code>sudo nautilus</code>.</p>
+
+<h4 id="πρέπει-να-πηγαίνω-τα-βήματα-ένα-ένα">Πρέπει να πηγαίνω τα βήματα ένα-ένα;</h4>
+
+<p>Όχι. Αυτό δείξαμε εδώ για να δούμε πως λειτουργεί. Μπορεί κάποιος να γράψει κατευθείαν</p>
+
+<pre><code>admin:///etc/default/grub
+</code></pre>
+
+<p>και θα ανοίξει το αρχείο με τον προ-επιλεγμένο editor (στο Ubuntu τον Gedit).</p>
+
+<h4 id="γιατί-ζητά-δυο-φορές-τον-κωδικό">Γιατί ζητά δυο φορές τον κωδικό;</h4>
+
+<p>Η πρώτη φορά είναι για να αποκτήσουμε δικαιώματα επεξεργασίας μέσα στον κατάλογο που βρισκόμαστε (στο παράδειμα /etc/default) και η δεύτερη για δικαιώματα επεξεργασίας του συγκεκριμένου αρχείου (στο παράδειγμα grub). <br>
+Αν χρησιμοποιήσετε τον απευθείας τρόπο(<code>admin:///etc/default/grub</code>) , που αυτόν λογικά θα χρησιμοποιήσει κάποιος, τότε θα ζητήσει μια φορά τον κωδικό.</p>
+
+<h4 id="από-το-τερματικό-είναι-πιο-εύκολο">Από το τερματικό είναι πιο εύκολο.</h4>
+
+<p>Το ξέρω.<br>
+Αυτή η δημοσίευση είναι για όσους/ες δεν θέλουν, δεν ξέρουν ή/και δεν γουστάρουν να μάθουν να χρησιμοποιούν γραμμή εντολών, αλλά γραφικές εφαρμογές.</p>
+
+<hr />
+
+<p><span style="font-size:small;color:#999999;">Until next time &hellip;
+Thanks for reading!</span></p>
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://nicktux.github.io/post/nextcloud-bionic-online-accounts/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://nicktux.github.io/post/nextcloud-bionic-online-accounts/">[Nextcloud] Απευθείας πρόσβαση από Online Accounts</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'nicktuxgithub';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+</div>
+
+</div>
+</div>
+<script src="https://nicktux.github.io/js/ui.js"></script>
+
+
+
+
+
+
+</body>
+</html>
+
