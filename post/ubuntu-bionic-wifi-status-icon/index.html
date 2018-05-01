@@ -4,10 +4,10 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta name="description" content="Workaround σε ενδεχόμενο πρόβλημα με WiFi">
   <meta name="generator" content="Hugo 0.40.1" />
 
-  <title>Ubuntu &middot; NickTux</title>
+  <title>[Ubuntu 18.04] Εικονίδιο WiFi με ερωτηματικό (?) &middot; NickTux</title>
 
   
   
@@ -36,8 +36,6 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 
   
-  
-  <link rel="alternate" type="application/rss+xml" title="NickTux" href="https://nicktux.github.io/tags/ubuntu/index.xml" />
    
 
   
@@ -240,16 +238,12 @@
 
 
 <div class="header">
-  <h1>Ubuntu</h1>
+  <h1>[Ubuntu 18.04] Εικονίδιο WiFi με ερωτηματικό (?)</h1>
+  <h2>Workaround σε ενδεχόμενο πρόβλημα με WiFi</h2>
 </div>
-
 <div class="content">
-  
-    <article>
-  <header>
-    <h2><a href="https://nicktux.github.io/post/ubuntu-bionic-wifi-status-icon/">[Ubuntu 18.04] Εικονίδιο WiFi με ερωτηματικό (?)</a></h2>
 
-    <div class="post-meta">
+  <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
@@ -286,198 +280,89 @@
 
 </div>
 
-  </header>
-
-  <p>
   <p>Είναι γνωστό σε όσους ασχολούνται λίγο περισσότερο με το λειτουργικό τους σύστημα πως κάθε νέα έκδοση ή πακέτο αναβαθμίσεων εκτός από νέα χαρακτηριστικά και βελτιώσεις, μπορεί να φέρει και νέα προβλήματα. Το Ubuntu δεν θα μπορούσε να αποτελεί εξαίρεση.
 </p>
-  </p>
+
+<p><h3>Το πρόβλημα</h3>
+<a href="https://i.imgur.com/HWikH7V.jpg" target="_blank"><img src="https://i.imgur.com/HWikH7V.jpg" alt="" class="alignleft size-full" /></a><br></p>
+
+<p>Το συγκεκριμένο Laptop, στο οποίο αντιμετώπισα το ζήτημα με το WiFi, τρέχει Ubuntu από την ημέρα που αγοράστηκε χωρίς ιδιαίτερα προβλήματα.
+Μετά την εγκατάσταση του Ubuntu 18.04 εμφανίστηκε ένα θέμα με το εικονίδιο του WiFi (του Network Manager δηλαδή) όπου εμφανίζει ένα ερωτηματικό επάνω στο εικονίδιο.<br>
+Αλλες φορές το θέμα είναι μόνον &ldquo;αισθητικό&rdquo;, δηλαδή δεν επηρεάζει τη σύνδεση, άλλες φορές όμως την επηρεάζει. Αυτό συνήθως συμβαίνει μετά από suspend, όταν επανέρχεται δηλαδή το Laptop, αλλά αυτό δεν είναι απαραίτητο.<br>
+Λόγω και του γνωστού ζητήματος με το suspend σε αυτή την έκδοση δεν είναι λύση να απενεργοποιήσει κάποιος αυτή τη λειτουργία. Εκτός αυτού, το suspend, θεωρείται κρίσιμη λειτουργία για φορητούς υπολογιστές αφού συνεισφέρει στη διάρκεια της μπαταρίας<br>
+Το συγκεκριμένο πρόβλημα είναι ανεξάρτητο κάρτας δικτύου ή driver. Οφείλεται στη νέα έκδοση GNOME (Network Manager) με την οποία έρχεται πλέον το Ubuntu.</p>
+
+<p><h3>Η (προσωρινή) λύση</h3>
+<a href="https://i.imgur.com/2KLK6pl.png" target="_blank"><img src="https://i.imgur.com/2KLK6pl.png" alt="" width="640" height="360" class="alignleft size-full" /></a><br></p>
+
+<p>Όπως τα περισσότερα bugs έτσι κι αυτό θα διορθωθεί αργά ή γρήγορα. Μέχρι τότε όμως η λύση είναι να επεξεργαστούμε ένα αρχείο και να προσθέσουμε μια γραμμή.<br>
+Με τον αγαπημένο μας editor και με δικαιώματα root ανοίγουμε το αρχείο στη διαδρομή <code>/etc/NetworkManager/NetworkManager.conf</code>.
+Έπειτα προσθέτουμε στην κατηγορία <code>[Main]</code> την παρακάτω γραμμή:</p>
+
+<pre><code>dns=default
+</code></pre>
+
+<p>και αποθηκεύουμε.<br>
+Κάνουμε επανεκκίνηση τον Network Manager και το συγκεκριμένο ζήτημα θα έχει διορθωθεί.</p>
+
+<pre><code>sudo systemctl restart NetworkManager
+</code></pre>
+
+<hr />
+
+<p>Η Αναφορά σφάλματος και η λύση στα σχόλια ⇨ <a href="https://bugs.launchpad.net/ubuntu/+source/gnome-shell/+bug/1722256" target="_blank">Bug 1722256</a>
+<hr /></p>
+
+<p><span style="font-size:small;color:#999999;">Until next time &hellip;
+Thanks for reading!</span></p>
 
   
-  <footer>
-    <a href="https://nicktux.github.io/post/ubuntu-bionic-wifi-status-icon/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://nicktux.github.io/post/ubuntu-bionic-gksu-removed/">[Ubuntu] Αφαίρεση του gksu από τη 18.04 LTS</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>16 Apr 2018</time>
-  </div>
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-folder fa-fw"></i>
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
     
-      <a class="post-taxonomy-topic" href="https://nicktux.github.io/topics/linux">Linux</a>
-    
-  </div>
-  
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/ubuntu">ubuntu</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/desktop">desktop</a>
+    <a href="https://nicktux.github.io/post/ubuntu-bionic-gksu-removed/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
-  
-  
-
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://nicktux.github.io/post/ubuntu-bionic-gksu-removed/">[Ubuntu] Αφαίρεση του gksu από τη 18.04 LTS</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
 </div>
 
-  </header>
 
-  <p>
-  <p>Αυτή η μετάβαση, δηλαδή η πλήρης κατάργηση του gksu από το Ubuntu έχει ξεκινήσει κάμποσες εκδόσεις πριν. Συγκεκριμένα από τη 13.10 όπου το από προ-επιλογή εγκατεστημένο gksu έπαψε να υφίσταται. Μέχρι και σήμερα βέβαια οι χρήστες είχαν την επιλογή της εγκατάστασης από τα αποθετήρια, αφού εκεί ήταν και είναι ακόμη διαθέσιμο.<br>
-Στο άμεσο μέλλον όμως, προβλέπεται να αφαιρεθεί εντελώς από τα αποθετήρια. Επίσης, παρακάτω θα δούμε ποια είναι η προτεινόμενη από τους Developers εναλλακτική.<br>
-</p>
-  </p>
 
   
-  <footer>
-    <a href="https://nicktux.github.io/post/ubuntu-bionic-gksu-removed/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
 
-  
-    <article>
-  <header>
-    <h2><a href="https://nicktux.github.io/post/ubuntu-26_april_18_04_release/">[Ubuntu] 26 Απριλίου η νέα LTS έκδοση</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>09 Apr 2018</time>
-  </div>
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-folder fa-fw"></i>
+(function() {
     
-      <a class="post-taxonomy-topic" href="https://nicktux.github.io/topics/linux">Linux</a>
     
-  </div>
-  
-  
+    if (window.location.hostname == "localhost")
+        return;
 
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/ubuntu">ubuntu</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/desktop">desktop</a>
-    
-  </div>
-  
-  
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'nicktuxgithub';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
-</div>
 
-  </header>
-
-  <p>
-  <p>Σε λίγες ημέρες από σήμερα η νέα έκδοση του Ubuntu 18.04 προβλέπεται να κυκλοφορήσει ως η νέα σταθερή LTS έκδοση.<br>
-Παρακάτω θα δούμε τι νέο φέρνει, πως μπορούμε να αναβαθμίσουμε με ασφάλεια και πότε, καθώς και άλλες χρήσιμες πληροφορίες.
-</p>
-  </p>
-
-  
-  <footer>
-    <a href="https://nicktux.github.io/post/ubuntu-26_april_18_04_release/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://nicktux.github.io/post/gnome-startup-apps-delay/">[GNOME] Καθυστέρηση Εκκίνησης Εφαρμογών</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>01 Mar 2018</time>
-  </div>
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-folder fa-fw"></i>
-    
-      <a class="post-taxonomy-topic" href="https://nicktux.github.io/topics/tips--tricks">Tips &amp; Tricks</a>
-    
-  </div>
-  
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/gnome">gnome</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/debian">debian</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/ubuntu">ubuntu</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/desktop">desktop</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  <p>Υπάρχουν πολλοί και διάφοροι τρόποι για να πετύχει κάποιος την καθυστέρηση εκκίνησης μιας εφαρμογής.
-Ίσως ο πιο συνηθισμένος από αυτούς να είναι η δημιουργία ενός απλού εκτελέσιμου script με sleep κλπ και η προσθήκη αυτού στις εφαρμογές εκκίνησης.
-<br>Εδώ θα δούμε έναν απλό τρόπο, με μια γραμμή κώδικα την οποία προσθέτουμε στο ήδη υπάρχον αρχείο με κατάληξη <code>.desktop</code>.
-<br>
-</p>
-  </p>
-
-  
-  <footer>
-    <a href="https://nicktux.github.io/post/gnome-startup-apps-delay/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
 </div>
 
 </div>
@@ -491,3 +376,4 @@
 
 </body>
 </html>
+

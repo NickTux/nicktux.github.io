@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <lastBuildDate>Mon, 16 Apr 2018 22:29:19 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 01 May 2018 21:25:02 +0300</lastBuildDate>
     
 	<atom:link href="https://nicktux.github.io/tags/desktop/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Ubuntu 18.04] Εικονίδιο WiFi με ερωτηματικό (?)</title>
+      <link>https://nicktux.github.io/post/ubuntu-bionic-wifi-status-icon/</link>
+      <pubDate>Tue, 01 May 2018 21:25:02 +0300</pubDate>
+      
+      <guid>https://nicktux.github.io/post/ubuntu-bionic-wifi-status-icon/</guid>
+      <description>&lt;p&gt;Είναι γνωστό σε όσους ασχολούνται λίγο περισσότερο με το λειτουργικό τους σύστημα πως κάθε νέα έκδοση ή πακέτο αναβαθμίσεων εκτός από νέα χαρακτηριστικά και βελτιώσεις, μπορεί να φέρει και νέα προβλήματα. Το Ubuntu δεν θα μπορούσε να αποτελεί εξαίρεση.
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Ubuntu] Αφαίρεση του gksu από τη 18.04 LTS</title>
