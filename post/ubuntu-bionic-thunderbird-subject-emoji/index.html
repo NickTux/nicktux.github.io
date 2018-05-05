@@ -4,10 +4,10 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta name="description" content="Υπερβολικά μεγάλα Emoji στο Subject line του Thunderbird και πως να το διορθώσετε">
   <meta name="generator" content="Hugo 0.40.1" />
 
-  <title>Linux &middot; NickTux</title>
+  <title>[Ubuntu 18.04] Thunderbird και Emoji &middot; NickTux</title>
 
   
   
@@ -36,8 +36,6 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 
   
-  
-  <link rel="alternate" type="application/rss+xml" title="NickTux" href="https://nicktux.github.io/topics/linux/index.xml" />
    
 
   
@@ -240,16 +238,12 @@
 
 
 <div class="header">
-  <h1>Linux</h1>
+  <h1>[Ubuntu 18.04] Thunderbird και Emoji</h1>
+  <h2>Υπερβολικά μεγάλα Emoji στο Subject line του Thunderbird και πως να το διορθώσετε</h2>
 </div>
-
 <div class="content">
-  
-    <article>
-  <header>
-    <h2><a href="https://nicktux.github.io/post/ubuntu-bionic-thunderbird-subject-emoji/">[Ubuntu 18.04] Thunderbird και Emoji</a></h2>
 
-    <div class="post-meta">
+  <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
@@ -288,191 +282,95 @@
 
 </div>
 
-  </header>
-
-  <p>
   <p>Αναβαθμίζοντας στην έκδοση του Ubuntu 18.04 και χρησιμοποιώντας τον Thunderbird ως Email Client ίσως έρθετε αντιμέτωποι με αυτό το περίεργο σφάλμα, το οποίο δεν είμαι σίγουρος εάν οφείλεται στη γραμματοσειρά (.ttf) ή στον συνδυασμό γραμματοσειράς και Thunderbird.
 </p>
-  </p>
+
+<p><h3>Το πρόβλημα</h3>
+Η νέα μόδα Marketing και Sales είναι η ενσωμάτωση εικονιδίων στο Subject Line του Email. Προσωπικά το βρίσκω αχρείαστο, αλλά δεν είναι απαραίτητα και κακό. Πολλές εταιρίες επιλέγουν αυτό τον τρόπο για να ενθαρρύνουν τον χρήστη έστω να ανοίξει το Email.<br>
+Πολλοί χρήστες όταν αντιληφθούν Sales/Marketing μηνύματα η πρώτη τους ενέργεια είναι να τα στείλουν στον κάδο χωρίς καν να τα ανοίξουν ή στον φάκελο με τα ανεπιθύμητα.<br>
+Στον Thunderbird, στο Ubuntu 18.04, αυτά τα εικονίδια εμφανίζονται υπερβολικά μεγάλα με αποτέλεσμα να χαλάει εκτός από την αιθητική και το subject line του μηνύματος.</p>
+
+<p><a href="https://i.imgur.com/yGDdIVq.jpg" target="_blank"><img src="https://i.imgur.com/yGDdIVq.jpg" alt="" width="640" height="360" class="alignleft size-full" /></a><br></p>
+
+<p><h3>1η Λύση</h3>
+Ίσως σας φανεί απλή και λίγο ακατανόητη, αλλά η συγκεκριμένη λύση δούλεψε σε Debian (Buster). Στο Ubuntu 18.04 δούλεψε η δεύτερη(παρακάτω) λύση, εσείς όμως μπορείτε να δοκιμάσετε και τις δυο με τη σειρά.<br>
+Απλά μεταφέρουμε το αρχείο της γραμματοσειράς εκτός τοποθεσίας, κάνουμε μια ενημέρωση των fonts του συστήματος, έπειτα μεταφέρουμε ξανά το αρχείο γραμματοσειράς στη θέση του και κάνουμε ξανά ενημέρωση των Fonts του συστήματος. Τόσο απλό και επιτυγχάνεται με τις παρακάτω εντολές σε ένα τερματικό και φυσικά τον Thunderbird κλειστό.</p>
+
+<pre><code>sudo mv /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf ~/
+sudo fc-cache -v 
+sudo mv NotoColorEmoji.ttf /usr/share/fonts/truetype/noto
+sudo fc-cache -v
+</code></pre>
+
+<h4>Αποτέλεσμα</h4>
+
+<p><a href="https://i.imgur.com/gSYAopD.jpg" target="_blank"><img src="https://i.imgur.com/gSYAopD.jpg" alt="" width="640" height="360" class="alignleft size-full" /></a><br></p>
+
+<p><h3>2η Λύση</h3>
+Η δεύτερη λύση έχει να κάνει με την αντικατάσταση της γραμματοσειράς με εκείνη που διατίθεται από την Google. Τη βρίσκουμε και την κάνουμε λήψη από το αποθετήριο<br>στο GitHub ⤏ <a href="https://github.com/googlei18n/noto-emoji">https://github.com/googlei18n/noto-emoji</a><br>
+Εάν γνωρίζουμε τη βασική χρήση του GitHub μπορούμε να χρησιμοποιήσουμε τις γνώσεις μας για τη λήψη του αποθετηρίου. Διαφορετικά κάνουμε κλικ στο &ldquo;Clone or Download&rdquo; και κάνουμε λήψη το αρχείο σε μορφή Zip που από προεπιλογή θα μεταφερθεί στον κατάλογο Downloads (ή Λήψεις) του υπολογιστή μας.<br>
+Λαμβάνοντας υπόψη τη δεύτερη μέθοδο βλέπουμε παρακάτω την αντικατάσταση της γραμματοσειράς.</p>
+
+<pre><code>cd Downloads
+unzip noto-emoji-master.zip
+cd noto-emoji-master/fonts
+sudo mv * /usr/share/fonts/truetype/noto/
+sudo fc-cache -v
+</code></pre>
+
+<p><a href="https://i.imgur.com/aehFlXk.jpg" target="_blank"><img src="https://i.imgur.com/aehFlXk.jpg" alt="" width="640" height="360" class="alignleft size-full" /></a><br></p>
+
+<h4>Αποτέλεσμα</h4>
+
+<p><a href="https://i.imgur.com/yzNjNWz.jpg" target="_blank"><img src="https://i.imgur.com/yzNjNWz.jpg" alt="" width="640" height="360" class="alignleft size-full" /></a><br></p>
 
   
-  <footer>
-    <a href="https://nicktux.github.io/post/ubuntu-bionic-thunderbird-subject-emoji/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://nicktux.github.io/post/ubuntu-bionic-wifi-status-icon/">[Ubuntu 18.04] Εικονίδιο WiFi με ερωτηματικό (?)</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>01 May 2018</time>
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://nicktux.github.io/post/ubuntu-bionic-wifi-status-icon/"><i class="fa fa-chevron-left"></i></a>
+    
   </div>
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-folder fa-fw"></i>
+  <div class="pure-u-10-24">
     
-      <a class="post-taxonomy-topic" href="https://nicktux.github.io/topics/linux">Linux</a>
+    <nav class="prev">
+      <a href="https://nicktux.github.io/post/ubuntu-bionic-wifi-status-icon/">[Ubuntu 18.04] Εικονίδιο WiFi με ερωτηματικό (?)</a>
+    </nav>
     
   </div>
-  
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/ubuntu">ubuntu</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/desktop">desktop</a>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
     
   </div>
-  
-  
-
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
 </div>
 
-  </header>
 
-  <p>
-  <p>Είναι γνωστό σε όσους ασχολούνται λίγο περισσότερο με το λειτουργικό τους σύστημα πως κάθε νέα έκδοση ή πακέτο αναβαθμίσεων εκτός από νέα χαρακτηριστικά και βελτιώσεις, μπορεί να φέρει και νέα προβλήματα. Το Ubuntu δεν θα μπορούσε να αποτελεί εξαίρεση.
-</p>
-  </p>
 
   
-  <footer>
-    <a href="https://nicktux.github.io/post/ubuntu-bionic-wifi-status-icon/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
 
-  
-    <article>
-  <header>
-    <h2><a href="https://nicktux.github.io/post/ubuntu-bionic-gksu-removed/">[Ubuntu] Αφαίρεση του gksu από τη 18.04 LTS</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>16 Apr 2018</time>
-  </div>
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-folder fa-fw"></i>
+(function() {
     
-      <a class="post-taxonomy-topic" href="https://nicktux.github.io/topics/linux">Linux</a>
     
-  </div>
-  
-  
+    if (window.location.hostname == "localhost")
+        return;
 
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/ubuntu">ubuntu</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/desktop">desktop</a>
-    
-  </div>
-  
-  
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'nicktuxgithub';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
-</div>
 
-  </header>
-
-  <p>
-  <p>Αυτή η μετάβαση, δηλαδή η πλήρης κατάργηση του gksu από το Ubuntu έχει ξεκινήσει κάμποσες εκδόσεις πριν. Συγκεκριμένα από τη 13.10 όπου το από προ-επιλογή εγκατεστημένο gksu έπαψε να υφίσταται. Μέχρι και σήμερα βέβαια οι χρήστες είχαν την επιλογή της εγκατάστασης από τα αποθετήρια, αφού εκεί ήταν και είναι ακόμη διαθέσιμο.<br>
-Στο άμεσο μέλλον όμως, προβλέπεται να αφαιρεθεί εντελώς από τα αποθετήρια. Επίσης, παρακάτω θα δούμε ποια είναι η προτεινόμενη από τους Developers εναλλακτική.<br>
-</p>
-  </p>
-
-  
-  <footer>
-    <a href="https://nicktux.github.io/post/ubuntu-bionic-gksu-removed/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://nicktux.github.io/post/ubuntu-26_april_18_04_release/">[Ubuntu] 26 Απριλίου η νέα LTS έκδοση</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>09 Apr 2018</time>
-  </div>
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-folder fa-fw"></i>
-    
-      <a class="post-taxonomy-topic" href="https://nicktux.github.io/topics/linux">Linux</a>
-    
-  </div>
-  
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/ubuntu">ubuntu</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/desktop">desktop</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  <p>Σε λίγες ημέρες από σήμερα η νέα έκδοση του Ubuntu 18.04 προβλέπεται να κυκλοφορήσει ως η νέα σταθερή LTS έκδοση.<br>
-Παρακάτω θα δούμε τι νέο φέρνει, πως μπορούμε να αναβαθμίσουμε με ασφάλεια και πότε, καθώς και άλλες χρήσιμες πληροφορίες.
-</p>
-  </p>
-
-  
-  <footer>
-    <a href="https://nicktux.github.io/post/ubuntu-26_april_18_04_release/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
 </div>
 
 </div>
@@ -486,3 +384,4 @@
 
 </body>
 </html>
+
