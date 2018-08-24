@@ -1,7 +1,15 @@
 .header {
-  font-family: "Ubuntu", Helvetica, Arial, sans-serif
+  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
 }
 
+p {
+   font-size: 105%;
+   color: #4f4e4e
+}
+
+h3 {
+	color: #292929
+} 
 a {
   color: #3b8bba;
   text-decoration: none;
