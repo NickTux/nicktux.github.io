@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nicktux.github.io/post/which-kernel/</loc>
+    <lastmod>2018-08-25T14:52:27+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nicktux.github.io/post/ubuntu-bionic-thunderbird-subject-emoji/</loc>
     <lastmod>2018-05-03T22:30:51+03:00</lastmod>
   </url>
@@ -64,7 +69,7 @@
   
   <url>
     <loc>https://nicktux.github.io/post/</loc>
-    <lastmod>2018-05-03T22:30:51+03:00</lastmod>
+    <lastmod>2018-08-25T14:52:27+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -105,8 +110,20 @@
   </url>
   
   <url>
+    <loc>https://nicktux.github.io/tags/kernel/</loc>
+    <lastmod>2018-08-25T14:52:27+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nicktux.github.io/tags/linux/</loc>
+    <lastmod>2018-08-25T14:52:27+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://nicktux.github.io/topics/linux/</loc>
-    <lastmod>2018-05-03T22:30:51+03:00</lastmod>
+    <lastmod>2018-08-25T14:52:27+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -124,7 +141,7 @@
   
   <url>
     <loc>https://nicktux.github.io/</loc>
-    <lastmod>2018-05-03T22:30:51+03:00</lastmod>
+    <lastmod>2018-08-25T14:52:27+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -136,13 +153,19 @@
   
   <url>
     <loc>https://nicktux.github.io/post/</loc>
-    <lastmod>2018-05-03T22:30:51+03:00</lastmod>
+    <lastmod>2018-08-25T14:52:27+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://nicktux.github.io/tags/security/</loc>
     <lastmod>2018-02-27T00:08:51+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nicktux.github.io/tags/stable/</loc>
+    <lastmod>2018-08-25T14:52:27+03:00</lastmod>
     <priority>0</priority>
   </url>
   
