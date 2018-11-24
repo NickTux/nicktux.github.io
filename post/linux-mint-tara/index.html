@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tara, Cinammon Edition">
+  <meta name="generator" content="Hugo 0.40.1" />
+
+  <title>Νέα χαρακτηριστικά στο Linux Mint 19 &middot; NickTux</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://nicktux.github.io/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://nicktux.github.io/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://nicktux.github.io/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+   
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://nicktux.github.io/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  <a class="pure-menu-heading brand" href="https://nicktux.github.io/">
+  <img src="https://nicktux.github.io/img/logo.png" width="35px">
+</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/topics/"><i class='fa fa-folder fa-fw'></i>Topics</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/tags/"><i class='fa fa-tags fa-fw'></i>Tags</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/contact/"><i class='fa fa-phone-square fa-fw'></i>Contact</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/post/index.xml"><i class='fa fa-rss fa-fw'></i>RSS</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/my-pgp-key/"><i class='fa fa-key fa-fw'></i>My GPG Key</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.com"><i class='fa fa-link fa-fw'></i>NickTux.com</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+   
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/nicktuxdotcom" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://facebook.com/nicktuxdotcom" target="_blank"><i class="fa fa-facebook-square fa-fw"></i>Facebook</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>Copyleft (ɔ) 2018.<br> No rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Νέα χαρακτηριστικά στο Linux Mint 19</h1>
+  <h2>Tara, Cinammon Edition</h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>24 Nov 2018</time>
+  </div>
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-folder fa-fw"></i>
+    
+      <a class="post-taxonomy-topic" href="https://nicktux.github.io/topics/linux">Linux</a>
+    
+  </div>
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/mint">mint</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/tara">tara</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p><p>Το Linux Mint 19 είναι μια έκδοση με υποστήριξη μακράς διάρκειας. Αυτό σημαίνει ότι θα υποστηρίζεται μέχρι το <strong>2023</strong>.<br>
+Είναι βασισμένο στο Ubuntu 18.04 LTS και κυκλοφόρησε στις 29 Ιουνίου 2018.<br>
+Τα νέα χαρακτηριστικά που φέρνει αυτή η έκδοση αναφέρονται παρακάτω.
+</p>
+
+<p><a href="https://i.imgur.com/FSKVLas.png" target="_blank"><img src="https://i.imgur.com/FSKVLas.png" title="Mint 19 Cinammon Edition" alt="" width="640" height="400" class="alignleft size-full" /></a><br></p>
+
+<p><h3>TimeShift</h3>
+<p>Το TimeShift θα μπορούσαμε να πούμε ότι είναι ο πρωταγωνιστής αυτής της έκδοσης. Αν και έχει συμπεριληφθεί από την 18.3 και έχει γίνει backport σε όλες τις υποστηριζόμενες εκδόσεις του Mint, πλέον από την έκδοση 19 έχει πρωταγωνιστικό ρόλο στη στρατηγική αναβάθμισης του λειτουργικού συστήματος.
+<br><br>
+Ανέκαθεν το Mint ακολουθούσε μια διαφορετική προσέγγιση σε ότι αφορά τις αναβαθμίσεις του συστήματος, σε σχέση με τις περισσότερες διανομές. Προκειμένου οι χρήστες του να έχουν πάντα ένα σταθερό σύστημα με όσο λιγότερα προβλήματα είναι δυνατόν, κρατούσε &ldquo;παγωμένη&rdquo; την αναβάθμιση του πυρήνα.<br>
+Ο χρήστης έπρεπε να επιλέξει μόνος του την αναβάθμιση του πυρήνα μέσω του διαχειριστή ενημερώσεων (update manager). Για όσους/ες έχουν ασχοληθεί λίγο με το Mint, είναι τα επίπεδα (levels) εκείνα που καθόριζαν πως θα αναβαθμιστεί το σύστημα. Τα επίπεδα εκείνα που θεωρούνταν critical για τη σταθερότητα ήταν απενεργοποιημένα.<br><br>
+Αυτή η τακτική είχε δημιουργήσει τριβές στην κοινότητα του Linux καθώς είναι γενικώς αποδεκτό ότι ο πυρήνας θα πρέπει να βρίσκεται πάντα στην τελευταία έκδοσή του, έτσι όπως παρέχεται από τους προγραμματιστές του και με όποια patches προσθέτει (αν προσθέτει) η εκάστοτε διανομή. Αυτό διατηρεί σε σωστά επίπεδα και την ασφάλεια αλλά και τη σταθερότητα του συστήματος.<br>
+Επειδή όμως ο πυρήνας ως λογισμικό είναι το μεγαλύτερο ενιαίο κομμάτι του συστήματος, κατά τη διάρκεια της αναβάθμισης μπορεί να προκύψουν προβλήματα. Αν και αυτό σπάνια συμβαίνει, το Linux Mint θέλει να εξαλείψει ακόμη και αυτή τη μικρή περίπτωση που το σύστημα θα &ldquo;σπάσει&rdquo; λόγω αναβάθμισης του πυρήνα ή ακόμη και άλλων σημαντικών στοιχείων.<br><br>
+<strong>Από την έκδοση 19</strong> αυτό το καταφέρνει με το TimeShift. <strong>Στον Update Manager πλέον είναι όλα τα επίπεδα ενεργοποιημένα από προεπιλογή</strong>, δηλαδή δεν κρατάει πίσω ούτε τον πυρήνα αλλά ούτε και τίποτε άλλο. Εμφανίζεται όμως μια προειδοποίηση στον χρήστη να ρυθμίσει το TimeShift.<br>
+Έτσι, στη περίπτωση που κάτι δεν πάει καλά με την αναβάθμιση και ξαφνικά βρεθεί ο χρήστης με ένα μη-εκκινήσιμο σύστημα, μπορεί να κάνει επαναφορά σε προηγούμενη έκδοση. Η ρύθμιση του TimeShift είναι σχετικά εύκολη.</p>
+
+<p><a href="https://i.imgur.com/F33l4ds.jpg" target="_blank"><img src="https://i.imgur.com/F33l4ds.jpg" title="Διαχειριστής Ενημερώσεων" alt="" width="640" height="507" class="alignleft size-full" /></a><br></p>
+
+<p><p>Ένα άλλο χαρακτηριστικό, πάλι σε σχέση με τον Update Manager, είναι οι αυτόματες αναβαθμίσεις. Αυτές, σε προηγούμενες εκδόσεις του Mint, ήταν προσπελάσιμες μόνον από πεπειραμένους χρήστες. Πλέον έχουν ενσωματωθεί στον Update Manager και με ένα κλικ μπορεί κάποιος να τις ενεργοποιήσει. <em>Πάλι το TimeShift &ldquo;ευθύνεται&rdquo; γι&rsquo; αυτό.</em></p>
+
+<p><a href="https://i.imgur.com/PSeXT3n.jpg" target="_blank"><img src="https://i.imgur.com/PSeXT3n.jpg" title="Αυτόματες Ένημερώσεις" alt="" class="alignleft size-full" /></a><br></p>
+
+<p><h3>Διαχειριστής Λογισμικού</h3>
+<p>Ο διαχειριστής λογισμικού έχει δεχτεί αρκετές βελτιώσεις με τις σημαντικότερες από αυτές να είναι:</p>
+
+<ol>
+<li>Η ταχύτερη αναζήτηση εφαρμογών</li>
+<li>Η προσθήκη υποστήριξης .flatpakref και .flatpakrepo</li>
+</ol>
+
+<p><em>Το Linux Mint είναι υποστηρικτής περισσότερο των Flatpaks πακέτων, αντί των Snaps.</em></p>
+
+<p><a href="https://i.imgur.com/z4ynqOG.jpg" target="_blank"><img src="https://i.imgur.com/z4ynqOG.jpg" title="Διαχειριστής Λογισμικού" alt="" class="alignleft size-full" /></a><br></p>
+
+<p><p>Με την υποστήριξη .flatpakref και .flatpakrepo δίνεται η δυνατότητα στο χρήστη να κάνει εγκατάσταση πακέτων flatpak κάνοντας ένα κλικ στο αντίστοιχο κουμπί σε μια ιστοσελίδα.</p>
+
+<p>Σε αυτή τη δημοσίευση αναφέρθηκαν δυο από τα πολλά νέα χαρακτηριστικά του Mint 19. Τουλάχιστον αυτά που θεώρησα ως τα πιο σημαντικά, με το σημαντικότερο απ&rsquo; όλα την αλλαγή στον Update Manager.<br><br>
+Για να διαβάσετε όλα τα νεα χαρακτηριστικά, μεταβείτε στη σελίδα: <a href="https://www.linuxmint.com/rel_tara_cinnamon_whatsnew.php" target="_blank" rel="noopener" rel="noreferrer">New features in Linux Mint 19 Cinnamon</a><br></p>
+
+<p>Για να κάνετε <strong>λήψη και εγκατάσταση</strong> μεταβείτε στη <a href="https://www.linuxmint.com/download.php" rel="noreferrer" rel="noopener" target="_blank">σελίδα λήψης</a>.<br></p>
+
+<p>Για <strong>υποστήριξη</strong> από την ελληνόφωνη κοινότητα του Linux Mint:</p>
+
+<ol>
+<li><a href="https://www.facebook.com/groups/107979005927688" target="_blank" rel="noopener" rel="noreferrer">Facebook</a></li>
+<li><a href="https://linuxmint.gr" target="_blank" rel="noopener" rel="noreferrer">Forum</a></li>
+</ol>
+
+<hr />
+
+<p><span style="font-size:small;color:#999999;">Until next time &hellip;
+&ldquo;Be excellent to each other&rdquo;</span></p>
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://nicktux.github.io/post/which-kernel/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://nicktux.github.io/post/which-kernel/">Ποιόν σταθερό πυρήνα</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'nicktuxgithub';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+</div>
+
+</div>
+</div>
+<script src="https://nicktux.github.io/js/ui.js"></script>
+
+
+
+
+
+
+</body>
+</html>
+
