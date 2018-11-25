@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tara, Cinammon Edition">
+  <meta name="generator" content="Hugo 0.40.1" />
+
+  <title>Εγκατάσταση και χρήση του Telegram Desktop σε Linux Mint &middot; NickTux</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://nicktux.github.io/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://nicktux.github.io/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://nicktux.github.io/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+   
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://nicktux.github.io/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  <a class="pure-menu-heading brand" href="https://nicktux.github.io/">
+  <img src="https://nicktux.github.io/img/logo.png" width="35px">
+</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/topics/"><i class='fa fa-folder fa-fw'></i>Topics</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/tags/"><i class='fa fa-tags fa-fw'></i>Tags</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/contact/"><i class='fa fa-phone-square fa-fw'></i>Contact</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/post/index.xml"><i class='fa fa-rss fa-fw'></i>RSS</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/my-pgp-key/"><i class='fa fa-key fa-fw'></i>My GPG Key</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.com"><i class='fa fa-link fa-fw'></i>NickTux.com</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+   
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/nicktuxdotcom" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://facebook.com/nicktuxdotcom" target="_blank"><i class="fa fa-facebook-square fa-fw"></i>Facebook</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>Copyleft (ɔ) 2018.<br> No rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Εγκατάσταση και χρήση του Telegram Desktop σε Linux Mint</h1>
+  <h2>Tara, Cinammon Edition</h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>25 Nov 2018</time>
+  </div>
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-folder fa-fw"></i>
+    
+      <a class="post-taxonomy-topic" href="https://nicktux.github.io/topics/linux">Linux</a>
+    
+  </div>
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/mint">mint</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/tara">tara</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Σε αυτή τη δημοσίευση θα δούμε βήμα-βήμα πως κάνουμε λήψη και εγκατάσταση του Telegram Desktop App, στο λειτουργικό μας σύστημα.<br>
+Αν και φαντάζει απλό και εύκολο, θα κάνουμε τη διαδικασία με έναν διαφορετικό τρόπο και θα εξηγήσουμε το (τα) γιατί.
+</p>
+
+<p>To να κάνουμε εγκατάσταση πακέτα/προγράμματα/εφαρμογές οι οποίες έχουν ελεγχθεί και φιλοξενούνται στα επίσημα αποθετήρια της διανομής που χρησιμοποιούμε, είναι γνωστό και σωστό. Αυτά τα πακέτα συνήθως τα βρίσκουμε στο(ν) Software Center/Manager. Είναι η πιο ασφαλής μέθοδος και εκτός αυτού αποφεύγουμε μπελάδες όπως ανικανοποίητες εξαρτήσεις κλπ.<br></p>
+
+<p>Υπάρχουν όμως λίγες περιπτώσεις που η εγκατάσταση από το Official Site της εφαρμογής, δηλαδή με τον ΜΗ-προτεινόμενο τρόπο, είναι σε κάποια σημεία καλύτερη. Μια από αυτές τις περιπτώσεις είναι το Telegram και παρακάτω δείχνω το γιατί (πάντα σύμφωνα με τη προσωπική μου γνώμη).<br></p>
+
+<p>Ανοίγουμε τον διαχειριστή λογισμικού και ψάχνουμε για το Telegram. Η αναζήτηση θα επιστρέψει δυο αποτελέσματα.</p>
+
+<p><a href="https://i.imgur.com/8cL4BBW.jpg" target="_blank"><img src="https://i.imgur.com/8cL4BBW.jpg" title="Telegram Desktop App" alt="" width="640" height="360" class="alignleft size-full" /></a><br></p>
+
+<p>Ωραία. Ενστικτωδώς πηγαίνουμε στη πρώτη εφαρμογή της λίστας μιας και έχει βαθμολογία 4.2 και κάνοντας κλικ στο Install Button, βλέπουμε τη παρακάτω εικόνα.</p>
+
+<p><a href="https://i.imgur.com/nBrURZ1.jpg" target="_blank"><img src="https://i.imgur.com/nBrURZ1.jpg" title="Telegram Flatpack Desktop App" alt="" width="640" height="360" class="alignleft size-full" /></a><br></p>
+
+<p><strong>Εξωφρενικό ;</strong>
+<br>
+Μια εφαρμογή σαν το Telegram, θα καταλάβει <strong>788,1 ΜΒ</strong> , ενώ ζητάει τουλάχιστον <strong>2,5 GB</strong> χώρο στο δίσκο. Μετά αναρωτιόμαστε γιατί δεν προχωράνε τα Flatpaks και δεν τα προτιμάει ο κόσμος. Θα τα προτιμήσει, όταν οι SSD δίσκοι του 1TB+ θα κοστίζουν 100€.<br>
+Το παραπάνω, για &lsquo;μένα, είναι αρκετό για να προχωρήσω στη δεύτερη στη λίστα εφαρμογή. Εκεί, κάνοντας κλικ στο Install Button βλέπουμε το παρακάτω.</p>
+
+<p><a href="https://i.imgur.com/x5aqIqf.jpg" target="_blank"><img src="https://i.imgur.com/x5aqIqf.jpg" title="Telegram Deb Desktop App" alt="" width="640" height="360" class="alignleft size-full" /></a><br></p>
+
+<p>Normal μέγεθος εφαρμογής, μόλις 30,3 MB. Τι γίνεται όμως με την έκδοση; Βλέπω αναφέρει την 2.17. Είναι άραγε αυτή η τελευταία έκδοση του Telegram; και αν όχι, πόσο παλιά είναι;<br></p>
+
+<p>Πηγαίνοντας στο Official Site και κάνοντας κλικ στο Download βλέπουμε &hellip;<br>
+<a href="https://i.imgur.com/xRruJY0.jpg" target="_blank"><img src="https://i.imgur.com/xRruJY0.jpg" title="Telegram Website Desktop App" alt="" width="640" height="360" class="alignleft size-full" /></a><br></p>
+
+<p>Από την 2.17 στην 4.3 φαντάζομαι μεσολαβούν κάμποσες εκδόσεις. Αναζητώντας επιβεβαίωση, πάμε στο Launchpad μιας και το πακέτο αυτό αναπτύσσεται και φιλοξενείται στο universe αποθετήριο του Ubuntu 18.04.</p>
+
+<p><a href="https://i.imgur.com/aqxbZam.jpg" target="_blank"><img src="https://i.imgur.com/aqxbZam.jpg" title="Telegram Launchpad Desktop App" alt="" width="640" height="360" class="alignleft size-full" /></a><br></p>
+
+<p>Ωραία. Αυτή είναι η έκδοση 2.17 λοιπόν, η οποία μεταφορτώθηκε στο αποθετήριο τον Απρίλιο του 2018. <em>Να υπενθυμίσω ότι κοντεύει να φύγει το 2018.</em><br></p>
+
+<p>Αυτόματα έρχεται στο μυαλό κάποιου χρήστη, ας το πούμε λίγο εξοικειωμένου με το Ubuntu/Mint, τα προσωπικά αποθετήρια (PPAs). Υπάρχει κάτι άραγε; κάτι Official όμως. Όχι του Νίκου, του Μήτσου ή του Κίτσου.<br>
+Ψάχνοντας με &ldquo;Official Telegram PPA Ubuntu&rdquo; εντόπισα το παρακάτω, το οποίο για την έκδοση Bionic (στην οποία βασίζεται το Tara) δεν βλέπω κάτι αξιόλογο.</p>
+
+<p><a href="https://i.imgur.com/ek5Fss3.jpg" target="_blank"><img src="https://i.imgur.com/ek5Fss3.jpg" title="Telegram PPA Desktop App" alt="" width="640" height="360" class="alignleft size-full" /></a><br></p>
+
+<p>Έχουμε κάτι άλλο; ( πριν πάμε να τρέξουμε την έκδοση από το Website; ) σημειώστε εδώ ότι πρόκειται για μια εφαρμογή <strong>Ανοιχτού Κώδικα.</strong><br>
+Α, ναι. Έχουμε και τα Snaps. Αν και στο Mint η βάση δεν είναι καν εγκατεστημένη, αυτό είναι εύκολο. Δίνουμε σε ένα τερματικό τη παρακάτω εντολή:</p>
+
+<pre><code>sudo apt install snapd 
+</code></pre>
+
+<p>και είμαστε έτοιμοι.</p>
+
+<p>Τι έκδοση φιλοξενείται εκεί και πόσα MB να είναι;</p>
+
+<p><a href="https://i.imgur.com/sdWNENS.jpg" target="_blank"><img src="https://i.imgur.com/sdWNENS.jpg" title="Telegram Snap Desktop App" alt="" width="640" height="265" class="alignleft size-full" /></a><br></p>
+
+<p>Πολύ καλύτερα από το Flatpak. Πάλι σε σχέση με του Website είναι μεγαλύτερο σε όγκο, αλλά &ldquo;τρώγεται&rdquo;. Και η έκδοση είναι η τελευταία.<br>
+<br>
+Συμπεραίνουμε ότι, αν θέλουμε την τελευταία έκδοση του Telegram, η οποία να μη πιάσει περί τα 1000ΜΒ στο δίσκο μας, έχουμε δυο επιλογές. Website ή Snap.
+Θα δούμε την εγκατάσταση και με τους δυο τρόπους, κλείνοντας προς εκείνον του Website λόγω μικρότερου όγκου της εγκατάστασης.</p>
+
+<h3>Snap</h3>
+
+<p>Μέσω τερματικού εκτελούμε τις παρακάτω εντολές μια-μια</p>
+
+<pre><code>sudo apt install snapd
+sudo snap install telegram-desktop
+</code></pre>
+
+<h3>Website</h3>
+
+<p>Κάνουμε λήψη το αρχείο από την <a href="https://desktop.telegram.org" rel="noopener" rel="noreferer" target="_blank">Official σελίδα</a>.
+Ανοίγουμε τον Nemo (ή όποιον διαχειριστή αρχείων έχουμε) βρίσκουμε το αρχείο και με δεξί κλικ κάνουμε αποσυμπίεση (extract here).<br>
+Στον αποσυμπιεσμένο φάκελο, ο οποίος έχει το όνομα Telegram, θα βρούμε δυο εκτελέσιμα αρχεία. Το ένα ονομάζεται Telegram και το άλλο Updater.</p>
+
+<p><a href="https://i.imgur.com/BkTxgs0.jpg" target="_blank"><img src="https://i.imgur.com/BkTxgs0.jpg" title="Telegram Executable" alt="" width="640" height="436" class="alignleft size-full" /></a><br></p>
+
+<p>Με διπλό κλικ στο Telegram θα ανοίξει η εφαρμογή και είμαστε έτοιμοι να τη χρησιμοποιήσουμε. Τόσο απλά!</p>
+
+<p><a href="https://i.imgur.com/5qq5qsd.jpg" target="_blank"><img src="https://i.imgur.com/5qq5qsd.jpg" title="Telegram Ready" alt="" width="640" height="439" class="alignleft size-full" /></a><br></p>
+
+<p>Είδαμε ότι στη περίπτωση του Telegram, η καλύτερη (ίσως) αλλά σίγουρα, η πιο συμφέρουσα λύση είναι η λήψη της εφαρμογής από την Official σελίδα. Αν και στο Linux γενικότερα αυτό είναι καλό να το αποφεύγουμε, υπάρχουν περιπτώσεις σαν κι αυτή που μπορούμε να &ldquo;παρακάμψουμε&rdquo; τους προτεινόμενους τρόπους, και με το δίκιο μας.<br></p>
+
+<p>Μη ξεχνάμε και το κανάλι επικοινωνίας <a href="https://t.me/joinchat/ErjrDU20N3dPzExUlHwenA" target="_blank" rel="noopener" rel="noreferrer">της ελληνόφωνης κοινότητας του Linux Mint στο Telegram</a>. Τώρα που κάναμε εγκατάσταση την εφαρμογή, το μόνο που έχουμε να κάνουμε είναι Join και να πούμε ένα γεια. <em>(εχμ, το &ldquo;να πούμε ένα γεια&rdquo; δεν το λέω έτσι. Σχεδόν επιβάλλεται. Διαφορετικά μπορεί να σας θεωρήσουν Bot και να φάτε Ban)</em></p>
+
+<h3>Desktop Launcher;</h3>
+
+<p>Πριν κλείσουμε να πούμε ότι το εκτελέσιμο αρχείο δημιουργεί και Desktop Launcher με Exec= την τοποθεσία από την οποία έτρεξε για πρώτη φορά.
+<br></p>
+
+<p><a href="https://i.imgur.com/UCQLmId.jpg" target="_blank"><img src="https://i.imgur.com/UCQLmId.jpg" title="Telegram Launcher" alt="" width="640" height="344" class="alignleft size-full" /></a><br></p>
+
+<p><a href="https://i.imgur.com/INzLkD3.jpg" target="_blank"><img src="https://i.imgur.com/INzLkD3.jpg" title="Telegram Menu Entry" alt="" width="640" height="360" class="alignleft size-full" /></a><br></p>
+
+<hr />
+
+<p><span style="font-size:small;color:#999999;">Until next time &hellip;
+&ldquo;Be excellent to each other&rdquo;</span></p>
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://nicktux.github.io/post/linux-mint-tara/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://nicktux.github.io/post/linux-mint-tara/">Νέα χαρακτηριστικά στο Linux Mint 19</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'nicktuxgithub';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+</div>
+
+</div>
+</div>
+<script src="https://nicktux.github.io/js/ui.js"></script>
+
+
+
+
+
+
+</body>
+</html>
+
