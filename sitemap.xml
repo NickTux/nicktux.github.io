@@ -78,12 +78,6 @@
   </url>
   
   <url>
-    <loc>https://nicktux.github.io/tags/</loc>
-    <lastmod>2018-10-23T00:37:48+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nicktux.github.io/topics/</loc>
     <lastmod>2018-10-23T00:37:48+03:00</lastmod>
     <priority>0</priority>
@@ -92,6 +86,12 @@
   <url>
     <loc>https://nicktux.github.io/post/</loc>
     <lastmod>2018-11-25T21:54:28+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nicktux.github.io/tags/</loc>
+    <lastmod>2018-10-23T00:37:48+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -138,14 +138,14 @@
   </url>
   
   <url>
-    <loc>https://nicktux.github.io/tags/linux/</loc>
-    <lastmod>2018-08-25T14:52:27+03:00</lastmod>
+    <loc>https://nicktux.github.io/topics/linux/</loc>
+    <lastmod>2018-11-25T21:54:28+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nicktux.github.io/topics/linux/</loc>
-    <lastmod>2018-11-25T21:54:28+02:00</lastmod>
+    <loc>https://nicktux.github.io/tags/linux/</loc>
+    <lastmod>2018-08-25T14:52:27+03:00</lastmod>
     <priority>0</priority>
   </url>
   
