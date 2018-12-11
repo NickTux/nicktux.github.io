@@ -1,15 +1,21 @@
 .header {
-  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans', Ubuntu, Helvetica, Arial, sans-serif;
 }
 
 p {
+   font-family: 'Noto Sans', sans-serif;
    font-size: 105%;
    color: #333333
 }
 
+h2 {
+  color: #161617
+} 
+
 h3 {
 	color: #292929
 } 
+
 a {
   color: #3b8bba;
   text-decoration: none;
@@ -85,7 +91,7 @@ i {
 }
 
 blockquote {
-  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+  font-family: Ubuntu, Helvetica, Arial, sans-serif;
   font-size: normal;
   font-style: italic;
   content: "\"";
