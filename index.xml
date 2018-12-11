@@ -165,6 +165,19 @@ nicktux [AT] ubuntu [PERIOD] com  &amp;ldquo;Keep Your Mind in a Constant State 
     </item>
     
     <item>
+      <title>Επιδόρθωση στο διαχειριστή πακέτων</title>
+      <link>https://nicktux.github.io/post/package-manager-troubleshooting-ubuntu/</link>
+      <pubDate>Tue, 02 Jul 2013 14:50:44 -0500</pubDate>
+      
+      <guid>https://nicktux.github.io/post/package-manager-troubleshooting-ubuntu/</guid>
+      <description>&lt;pre style=&#34;width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:&#39;Ubuntu&#39;;font-style:normal;font-size:small;&#34;&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ! ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΙΣΧΥΕΙ ΠΛΕΟΝ&lt;/pre&gt;
+
+&lt;p&gt;Όταν λέμε διαχειριστής πακέτων , εννοούμε οτιδήποτε έχει σχέση με την εγκατάσταση ή αναβάθμιση των πακέτων - προγραμμάτων του Ubuntu.
+Το πρόβλημα μπορεί να είναι , είτε &amp;ldquo;μη επιλυμένες εξαρτήσεις&amp;rdquo; (dependencies) , είτε αδυναμία αναβάθμισης , είτε κρατούμενα ελαττωματικά πακέτα &amp;hellip; κλπ.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Fosscomm 2013</title>
       <link>https://nicktux.github.io/post/fosscomm-2013/</link>
       <pubDate>Tue, 02 Jul 2013 02:16:08 +0200</pubDate>

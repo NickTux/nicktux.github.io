@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux Mint on NickTux</title>
+    <link>https://nicktux.github.io/topics/linux-mint/</link>
+    <description>Recent content in Linux Mint on NickTux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>el</language>
+    <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
+    <lastBuildDate>Sun, 25 Nov 2018 21:54:28 +0200</lastBuildDate>
+    
+	<atom:link href="https://nicktux.github.io/topics/linux-mint/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Εγκατάσταση του Telegram Desktop σε Linux Mint</title>
+      <link>https://nicktux.github.io/post/telegram-mint-tara/</link>
+      <pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/post/telegram-mint-tara/</guid>
+      <description>&lt;p&gt;Σε αυτή τη δημοσίευση θα δούμε βήμα-βήμα πως κάνουμε λήψη και εγκατάσταση του Telegram Desktop App, στο λειτουργικό μας σύστημα.&lt;br&gt;
+Αν και φαντάζει απλό και εύκολο, θα κάνουμε τη διαδικασία με έναν διαφορετικό τρόπο και θα εξηγήσουμε το (τα) γιατί.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Νέα χαρακτηριστικά στο Linux Mint 19</title>
+      <link>https://nicktux.github.io/post/linux-mint-tara/</link>
+      <pubDate>Sat, 24 Nov 2018 20:19:02 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/post/linux-mint-tara/</guid>
+      <description>&lt;p&gt;&lt;p&gt;Το Linux Mint 19 είναι μια έκδοση με υποστήριξη μακράς διάρκειας η οποία κυκλοφόρησε στις 29 Ιουνίου 2018. Αυτό σημαίνει ότι θα υποστηρίζεται μέχρι το &lt;strong&gt;2023&lt;/strong&gt;.&lt;br&gt;
+Είναι βασισμένο στο Ubuntu 18.04 LTS.&lt;br&gt;
+Δυο σημαντικά από τα νέα χαρακτηριστικά που φέρνει αυτή η έκδοση, αναφέρονται παρακάτω.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
