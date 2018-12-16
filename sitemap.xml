@@ -83,13 +83,18 @@
   </url>
   
   <url>
+    <loc>https://nicktux.github.io/post/problems-wireless-ubuntu/</loc>
+    <lastmod>2013-07-03T17:18:12+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nicktux.github.io/post/package-manager-troubleshooting-ubuntu/</loc>
     <lastmod>2013-07-02T14:50:44-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nicktux.github.io/post/problems-wireless-ubuntu/</loc>
-    <lastmod>2013-07-02T17:18:12+02:00</lastmod>
+    <loc>https://nicktux.github.io/post/reset-password-ubuntu/</loc>
+    <lastmod>2013-07-02T17:16:40+02:00</lastmod>
   </url>
   
   <url>
@@ -235,6 +240,12 @@
   </url>
   
   <url>
+    <loc>https://nicktux.github.io/tags/password/</loc>
+    <lastmod>2013-07-02T17:16:40+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://nicktux.github.io/tags/passwords/</loc>
     <lastmod>2018-02-27T00:08:51+02:00</lastmod>
     <priority>0</priority>
@@ -301,12 +312,6 @@
   </url>
   
   <url>
-    <loc>https://nicktux.github.io/tags/tips--tricks/</loc>
-    <lastmod>2018-03-01T02:46:56+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nicktux.github.io/topics/</loc>
     <lastmod>2018-03-01T02:46:56+02:00</lastmod>
     <priority>0</priority>
@@ -315,6 +320,12 @@
   <url>
     <loc>https://nicktux.github.io/tags/troubleshooting/</loc>
     <lastmod>2018-12-11T14:13:46-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nicktux.github.io/tags/tutorials/</loc>
+    <lastmod>2018-11-25T21:54:28+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -338,7 +349,7 @@
   
   <url>
     <loc>https://nicktux.github.io/tags/wireless/</loc>
-    <lastmod>2013-07-02T17:18:12+02:00</lastmod>
+    <lastmod>2013-07-03T17:18:12+02:00</lastmod>
     <priority>0</priority>
   </url>
   

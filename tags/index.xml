@@ -148,6 +148,15 @@
     </item>
     
     <item>
+      <title>Password</title>
+      <link>https://nicktux.github.io/tags/password/</link>
+      <pubDate>Tue, 02 Jul 2013 17:16:40 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/password/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Passwords</title>
       <link>https://nicktux.github.io/tags/passwords/</link>
       <pubDate>Tue, 27 Feb 2018 00:08:51 +0200</pubDate>
@@ -229,20 +238,20 @@
     </item>
     
     <item>
-      <title>Tips  Tricks</title>
-      <link>https://nicktux.github.io/tags/tips--tricks/</link>
-      <pubDate>Thu, 01 Mar 2018 02:46:56 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/tips--tricks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Troubleshooting</title>
       <link>https://nicktux.github.io/tags/troubleshooting/</link>
       <pubDate>Tue, 11 Dec 2018 14:13:46 -0500</pubDate>
       
       <guid>https://nicktux.github.io/tags/troubleshooting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorials</title>
+      <link>https://nicktux.github.io/tags/tutorials/</link>
+      <pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/tutorials/</guid>
       <description></description>
     </item>
     
@@ -267,7 +276,7 @@
     <item>
       <title>Wireless</title>
       <link>https://nicktux.github.io/tags/wireless/</link>
-      <pubDate>Tue, 02 Jul 2013 17:18:12 +0200</pubDate>
+      <pubDate>Wed, 03 Jul 2013 17:18:12 +0200</pubDate>
       
       <guid>https://nicktux.github.io/tags/wireless/</guid>
       <description></description>
