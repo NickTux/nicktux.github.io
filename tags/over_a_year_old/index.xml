@@ -1,40 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tutorials on NickTux</title>
-    <link>https://nicktux.github.io/tags/tutorials/</link>
-    <description>Recent content in Tutorials on NickTux</description>
+    <title>Over_a_year_old on NickTux</title>
+    <link>https://nicktux.github.io/tags/over_a_year_old/</link>
+    <description>Recent content in Over_a_year_old on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <lastBuildDate>Sun, 25 Nov 2018 21:54:28 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jul 2013 17:18:12 +0200</lastBuildDate>
     
-	<atom:link href="https://nicktux.github.io/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nicktux.github.io/tags/over_a_year_old/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Εγκατάσταση του Telegram Desktop σε Linux Mint</title>
-      <link>https://nicktux.github.io/post/telegram-mint-tara/</link>
-      <pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/post/telegram-mint-tara/</guid>
-      <description>&lt;p&gt;Σε αυτή τη δημοσίευση θα δούμε βήμα-βήμα πως κάνουμε λήψη και εγκατάσταση του Telegram Desktop App, στο λειτουργικό μας σύστημα.&lt;br&gt;
-Αν και φαντάζει απλό και εύκολο, θα κάνουμε τη διαδικασία με έναν διαφορετικό τρόπο και θα εξηγήσουμε το (τα) γιατί.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[GNOME] Καθυστέρηση Εκκίνησης Εφαρμογών</title>
-      <link>https://nicktux.github.io/post/gnome-startup-apps-delay/</link>
-      <pubDate>Thu, 01 Mar 2018 02:46:56 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/post/gnome-startup-apps-delay/</guid>
-      <description>&lt;p&gt;Υπάρχουν πολλοί και διάφοροι τρόποι για να πετύχει κάποιος την καθυστέρηση εκκίνησης μιας εφαρμογής.
-Ίσως ο πιο συνηθισμένος από αυτούς να είναι η δημιουργία ενός απλού εκτελέσιμου script με sleep κλπ και η προσθήκη αυτού στις εφαρμογές εκκίνησης.
-&lt;br&gt;Εδώ θα δούμε έναν απλό τρόπο, με μια γραμμή κώδικα την οποία προσθέτουμε στο ήδη υπάρχον αρχείο με κατάληξη &lt;code&gt;.desktop&lt;/code&gt;.
-&lt;br&gt;
-&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>Προβλήματα στην ασύρματη σύνδεση</title>
@@ -70,6 +46,28 @@
 
 &lt;p&gt;Υπάρχουν διάφοροι λόγοι όπου μπορεί να θέλουμε να επαναφέρουμε τον κωδικό μας στο Ubuntu.
 &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fosscomm 2013</title>
+      <link>https://nicktux.github.io/post/fosscomm-2013/</link>
+      <pubDate>Tue, 02 Jul 2013 02:16:08 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/post/fosscomm-2013/</guid>
+      <description>&lt;p&gt;H Ελληνική κοινότητα Ubuntu (Ubuntu-gr) συμμετείχε και φέτος στην Fosscomm 2013, που πραγματοποιήθηκε στο Χαροκόπειο Πανεπιστήμιο Αθηνών με δικό της booth - καθώς και παρουσιάσεις.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Release Party Ubuntu 13.10 Athens 2013</title>
+      <link>https://nicktux.github.io/post/release-party-ubuntu-13-10-athens2013/</link>
+      <pubDate>Tue, 02 Jul 2013 02:05:25 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/post/release-party-ubuntu-13-10-athens2013/</guid>
+      <description>To release party για το Ubuntu 13.04 διεξήχθη με επιτυχία και φέτος στο καφέ Ηλιοστάσιο στο Θησείο. Ο κόσμος προσήλθε σε ικανοποιητικό αριθμό, η τούρτα όμορφη και εύγευστη και το κλίμα όπως πάντα φιλικό.
+  
+Περισσότερο φωτογραφικό υλικό στο φώτο-άλμπουμ της Ελληνικής κοινότητας.
+Until next time &amp;hellip; &amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;</description>
     </item>
     
   </channel>
