@@ -93,6 +93,11 @@
   </url>
   
   <url>
+    <loc>https://nicktux.github.io/post/how-to-become-ubuntu-member/</loc>
+    <lastmod>2013-07-02T18:54:28+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nicktux.github.io/post/reset-password-ubuntu/</loc>
     <lastmod>2013-07-02T17:16:40+02:00</lastmod>
   </url>
@@ -128,6 +133,18 @@
   <url>
     <loc>https://nicktux.github.io/tags/cloud/</loc>
     <lastmod>2018-04-11T22:46:06+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nicktux.github.io/tags/community/</loc>
+    <lastmod>2013-07-02T18:54:28+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nicktux.github.io/tags/contirbution/</loc>
+    <lastmod>2013-07-02T18:54:28+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -200,6 +217,12 @@
   <url>
     <loc>https://nicktux.github.io/topics/linux-mint/</loc>
     <lastmod>2018-11-25T21:54:28+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nicktux.github.io/tags/member/</loc>
+    <lastmod>2013-07-02T18:54:28+02:00</lastmod>
     <priority>0</priority>
   </url>
   
