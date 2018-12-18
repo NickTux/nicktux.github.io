@@ -88,6 +88,11 @@
   </url>
   
   <url>
+    <loc>https://nicktux.github.io/post/boot-repair/</loc>
+    <lastmod>2013-07-03T00:47:27+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nicktux.github.io/post/package-manager-troubleshooting-ubuntu/</loc>
     <lastmod>2013-07-02T14:50:44-05:00</lastmod>
   </url>
@@ -121,6 +126,12 @@
   <url>
     <loc>https://nicktux.github.io/tags/apps/</loc>
     <lastmod>2018-11-25T21:54:28+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nicktux.github.io/tags/boot/</loc>
+    <lastmod>2013-07-03T00:47:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -295,6 +306,12 @@
   <url>
     <loc>https://nicktux.github.io/tags/release/</loc>
     <lastmod>2018-12-11T14:13:46-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nicktux.github.io/tags/repair/</loc>
+    <lastmod>2013-07-03T00:47:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   

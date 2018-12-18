@@ -155,6 +155,16 @@
     </item>
     
     <item>
+      <title>Διόρθωση Εκκίνησης</title>
+      <link>https://nicktux.github.io/post/boot-repair/</link>
+      <pubDate>Wed, 03 Jul 2013 00:47:27 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/post/boot-repair/</guid>
+      <description>&lt;p&gt;Το boot-repair είναι ένα πρόγραμμα που θα σας βοηθήσει να διορθώσετε τυχών προβλήματα εκκίνησης του λειτουργικού συστήματος Ubuntu. Τέτοια προβλήματα μπορεί να είναι:
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Επιδόρθωση στο διαχειριστή πακέτων</title>
       <link>https://nicktux.github.io/post/package-manager-troubleshooting-ubuntu/</link>
       <pubDate>Tue, 02 Jul 2013 14:50:44 -0500</pubDate>
