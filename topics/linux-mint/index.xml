@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <lastBuildDate>Sun, 25 Nov 2018 21:54:28 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 22 Dec 2018 19:56:06 +0200</lastBuildDate>
     
 	<atom:link href="https://nicktux.github.io/topics/linux-mint/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Εγκατάσταση του GIMP 2.10 σε Linux Mint</title>
+      <link>https://nicktux.github.io/post/gimp210-lm19/</link>
+      <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/post/gimp210-lm19/</guid>
+      <description>&lt;p&gt;Σε αυτή τη δημοσίευση θα δούμε έναν τρόπο εγκατάστασης της νέας έκδοσης του GIMP 2.10 σε Linux Mint 19.1, την οποία έχω ήδη δοκιμάσει και λειτουργεί χωρίς προβλήματα.&lt;br&gt;
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Εγκατάσταση του Telegram Desktop σε Linux Mint</title>

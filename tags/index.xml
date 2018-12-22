@@ -121,11 +121,29 @@
     </item>
     
     <item>
+      <title>Gimp</title>
+      <link>https://nicktux.github.io/tags/gimp/</link>
+      <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/gimp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Gnome</title>
       <link>https://nicktux.github.io/tags/gnome/</link>
       <pubDate>Wed, 11 Apr 2018 22:46:06 +0300</pubDate>
       
       <guid>https://nicktux.github.io/tags/gnome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Install</title>
+      <link>https://nicktux.github.io/tags/install/</link>
+      <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/install/</guid>
       <description></description>
     </item>
     
@@ -162,6 +180,15 @@
       <pubDate>Sat, 24 Nov 2018 20:19:02 +0200</pubDate>
       
       <guid>https://nicktux.github.io/tags/new/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Version</title>
+      <link>https://nicktux.github.io/tags/new-version/</link>
+      <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/new-version/</guid>
       <description></description>
     </item>
     
@@ -252,6 +279,15 @@
       <pubDate>Tue, 27 Feb 2018 00:08:51 +0200</pubDate>
       
       <guid>https://nicktux.github.io/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snap</title>
+      <link>https://nicktux.github.io/tags/snap/</link>
+      <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/snap/</guid>
       <description></description>
     </item>
     
