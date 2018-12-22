@@ -310,7 +310,19 @@ sudo snap install gimp
 
 <p><a href="https://i.imgur.com/LsZdBaN.jpg" target="_blank" rel="noopener"><img src="https://i.imgur.com/LsZdBaN.jpg" alt="" width="640" height="340" /></a><br></p>
 
-<p>Για πακέτο Flatpak, ο όγκος του αρχείου είναι απαγορευτικός.</p>
+<h4>Troubleshooting</h4>
+
+<p>Στη περίπτωση που δημιουργηθεί κάποιο πρόβλημα με τα δικαιώματα σε καταλόγους, δηλαδή θέλουμε να ανοίξουμε μια εικόνα και το GIMP επιστρέφει error του τύπου <code>Opening failed: Could not open '/media/nicktux/pictures/.....' for reading: Permission denied</code></p>
+
+<p>Τότε η παρακάτω εντολή πιθανόν να επιλύσει το πρόβλημα.</p>
+
+<pre><code>snap connect gimp:removable-media :removable-media
+</code></pre>
+
+<p>Αυτό συνήθως συμβαίνει όταν θελήσουμε να ανοίξουμε ένα αρχείο με το GIMP σε μια τοποθεσία εκτός του προσωπικού μας καταλόγου (Home) και η τοποθεσία αυτή βρίσκεται σε άλλο δίσκο/διαμέρισμα δίσκου ή USB stick το οποίο έχει προσαρτηθεί (mounted).
+<br><br></p>
+
+<p><em>Για πακέτο Flatpak, ο όγκος του αρχείου είναι απαγορευτικός.</em></p>
 
 <p><a href="https://i.imgur.com/cqlxCIJ.jpg" target="_blank" rel="noopener"><img src="https://i.imgur.com/cqlxCIJ.jpg" alt="" width="640" height="344" /></a><br></p>
 
