@@ -166,6 +166,15 @@
     </item>
     
     <item>
+      <title>Mastodon</title>
+      <link>https://nicktux.github.io/tags/mastodon/</link>
+      <pubDate>Sat, 29 Dec 2018 13:10:23 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/mastodon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Member</title>
       <link>https://nicktux.github.io/tags/member/</link>
       <pubDate>Tue, 02 Jul 2013 18:54:28 +0200</pubDate>
@@ -247,6 +256,24 @@
     </item>
     
     <item>
+      <title>Peertube</title>
+      <link>https://nicktux.github.io/tags/peertube/</link>
+      <pubDate>Sat, 29 Dec 2018 13:10:23 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/peertube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy</title>
+      <link>https://nicktux.github.io/tags/privacy/</link>
+      <pubDate>Sat, 29 Dec 2018 13:10:23 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Pwned</title>
       <link>https://nicktux.github.io/tags/pwned/</link>
       <pubDate>Tue, 27 Feb 2018 00:08:51 +0200</pubDate>
@@ -276,7 +303,7 @@
     <item>
       <title>Security</title>
       <link>https://nicktux.github.io/tags/security/</link>
-      <pubDate>Tue, 27 Feb 2018 00:08:51 +0200</pubDate>
+      <pubDate>Sat, 29 Dec 2018 13:10:23 +0200</pubDate>
       
       <guid>https://nicktux.github.io/tags/security/</guid>
       <description></description>
