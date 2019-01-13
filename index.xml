@@ -68,12 +68,12 @@
     </item>
     
     <item>
-      <title>My PGP Key</title>
+      <title>PGP Key</title>
       <link>https://nicktux.github.io/my-pgp-key/</link>
       <pubDate>Tue, 23 Oct 2018 00:37:48 +0300</pubDate>
       
       <guid>https://nicktux.github.io/my-pgp-key/</guid>
-      <description>Στον παρακάτω σύνδεσμο μπορείτε να βρείτε το μοναδικό GPG κλειδί, το οποίο είναι ισχυρό και έγκυρο για επικοινωνία.
+      <description>Στον παρακάτω σύνδεσμο μπορείτε να βρείτε το μοναδικό OpenPGP κλειδί, το οποίο είναι ισχυρό και έγκυρο για επικοινωνία.
 https://keys.mailvelope.com/pks/lookup?op=get&amp;amp;search=0x585C328CA1F33101
 KeyID Short: A1F33101 KeyID Long: 585C328CA1F33101 Full fingerprint: 99D836D28BE53419FE2A57DF585C328CA1F33101  Όλα τα υπόλοιπα που ενδεχομένως να υπάρχουν εκεί έξω:
  είτε χρησιμοποιούνται για συγκεκριμένους λόγους (πχ υπογραφή πακέτων), είτε έχουν λήξει (expired), είτε έχουν γίνειrevoke.  </description>
