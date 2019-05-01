@@ -2,15 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Startup on NickTux</title>
-    <link>https://nicktux.github.io/tags/startup/</link>
+    <link>https://nicktux.github.io/tags/startup/index.xml</link>
     <description>Recent content in Startup on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <lastBuildDate>Thu, 01 Mar 2018 02:46:56 +0200</lastBuildDate>
-    
-	<atom:link href="https://nicktux.github.io/tags/startup/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://nicktux.github.io/tags/startup/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>[GNOME] Καθυστέρηση Εκκίνησης Εφαρμογών</title>
@@ -22,7 +19,33 @@
 Ίσως ο πιο συνηθισμένος από αυτούς να είναι η δημιουργία ενός απλού εκτελέσιμου script με sleep κλπ και η προσθήκη αυτού στις εφαρμογές εκκίνησης.
 &lt;br&gt;Εδώ θα δούμε έναν απλό τρόπο, με μια γραμμή κώδικα την οποία προσθέτουμε στο ήδη υπάρχον αρχείο με κατάληξη &lt;code&gt;.desktop&lt;/code&gt;.
 &lt;br&gt;
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+Ο παρακάτω τρόπος θα λειτουργήσει στο γραφικό περιβάλλον GNOME και σε όσα αναγνωρίζουν τις παραμέτρους του (πχ Unity). Σε άλλα DEs (πχ. XFCE, LXDE, KDE) ίσως να μη δουλέψει.
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;τοποθεσία-εφαρμογών-εκκίνησης&#34;&gt;Τοποθεσία Εφαρμογών Εκκίνησης&lt;/h3&gt;
+
+&lt;p&gt;Τις βρίσκουμε συνήθως σε μια από τις παρακάτω τοποθεσίες&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/etc/xdg/autostart #System Wide
+~/.config/autostart #Current User
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;x-gnome-autostart-delay&#34;&gt;X-GNOME-Autostart-Delay&lt;/h3&gt;
+
+&lt;p&gt;Βρίσκουμε το αρχείο εκκίνησης της εφαρμογής και ανοίγοντάς το με τον αγαπημένο μας editor (πχ. gedit) προσθέτουμε στο τέλος τη παρακάτω παράμετρο:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;X-GNOME-Autostart-Delay=SECONDS
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Αντικαθιστούμε το &lt;code&gt;SECONDS&lt;/code&gt; με τα δευτερόλεπτα που θέλουμε να καθυστερήσει να εκκινήσει η εφαρμογή, από τη στιγμή σύνδεσης (login).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

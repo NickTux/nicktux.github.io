@@ -2,15 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apg on NickTux</title>
-    <link>https://nicktux.github.io/tags/apg/</link>
+    <link>https://nicktux.github.io/tags/apg/index.xml</link>
     <description>Recent content in Apg on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <lastBuildDate>Thu, 04 Jul 2013 22:42:11 +0200</lastBuildDate>
-    
-	<atom:link href="https://nicktux.github.io/tags/apg/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://nicktux.github.io/tags/apg/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Παραγωγή ισχυρών κωδικών</title>
@@ -19,7 +16,43 @@
       
       <guid>https://nicktux.github.io/post/apg-strong-passwords/</guid>
       <description>&lt;p&gt;Το apg είναι ένα εργαλείο που μπορεί να μας βοηθήσει στην παραγωγή ισχυρών τυχαίων (random) κωδικών. Είναι προ-εγκατεστημένο σε Ubuntu. Αν χρειαζόμαστε ισχυρούς κωδικούς που σπάνε δύσκολα έως καθόλου (πρακτικά) τότε με μια απλή εντολή σε ένα τερματικό* μπορούμε να έχουμε το επιθυμητό αποτέλεσμα.
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;span style=&#34;font-size:x-small;color:#ff0000;&#34;&gt;&lt;strong&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ! ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΙΣΧΥΕΙ ΠΛΕΟΝ.&lt;/strong&gt;&lt;/span&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Το apg χρησιμοποιεί δύο αλγόριθμους για την παραγωγή κωδικών. Ο πρώτος (1) και προεπιλεγμένος, είναι εκείνος που παράγει τους λεγόμενους pronoucable passwords ή κωδικούς που μπορείτε να προφέρετε. Ο δεύτερος αλγόριθμος (2) είναι εκείνος της τυχαίας παραγωγής.&lt;/p&gt;
+
+&lt;p&gt;Παραδείγματα αποτελεσμάτων.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;orijipoytDezobUjSi
+)ge}wgl(k&amp;lt;:Q65)=V
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ποιον από τους παραπάνω θεωρείτε πιο ισχυρό και δύσκολα προβλέψιμο;&lt;/p&gt;
+
+&lt;p&gt;Η εντολή είναι μια γραμμή και είναι απλή και θα εξηγήσουμε τις παραμέτρους μια-μια.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apg -s -a 1 -m 12 -x 20 -n 4
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Θα σας ζητήσει να δώσετε κάποια τυχαία νούμερα - αριθμούς και σύμβολα έτσι  ώστε να πάρει ένα παράδειγμα για το τι κωδικός θέλετε να παραχθεί. Αν για παράδειγμα δώσετε μόνο νούμερα, θα δημιουργήσει κωδικό μόνο με αριθμούς.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Παράμετροι:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;-s : προτρέπει τον χρήστη να δώσει τυχαίο παράδειγμα κωδικού.&lt;/li&gt;
+    &lt;li&gt;-a: Ο αλγόριθμος που θα χρησιμοποιηθεί. Υπάρχει ο 0 (προεπιλογή - pronoucable) και ο 1 (random)&lt;/li&gt;
+    &lt;li&gt;-m: Ο αριθμός ελάχιστων χαρακτήρων του κωδικού.&lt;/li&gt;
+    &lt;li&gt;-x: Ο αριθμός μέγιστων χαρακτήρων του κωδικού.&lt;/li&gt;
+    &lt;li&gt;-n: Ο αριθμός των παραγόμενων κωδικών.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Η παραπάνω εντολή λοιπόν, θα δημιουργήσει 4 κωδικούς από 12 έως 20 χαρακτήρες με τον αλγόριθμο τυχαίας παραγωγής. &lt;em&gt;Οι χαρακτήρες εξαρτώνται από το τι θα εισάγουμε εμείς ως παράδειγμα.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

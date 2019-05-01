@@ -2,15 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mic on NickTux</title>
-    <link>https://nicktux.github.io/tags/mic/</link>
+    <link>https://nicktux.github.io/tags/mic/index.xml</link>
     <description>Recent content in Mic on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <lastBuildDate>Fri, 05 Apr 2019 18:55:56 +0300</lastBuildDate>
-    
-	<atom:link href="https://nicktux.github.io/tags/mic/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://nicktux.github.io/tags/mic/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Δύο USB μικρόφωνα σε Linux</title>
@@ -21,7 +18,47 @@
       <description>&lt;p&gt;Καλή Χρονιά είπαμε;&lt;br&gt;
 Νομίζω είναι η πρώτη δημοσίευση του 2019. Ξέρετε, επειδή δεν είμαι επαγγελματίας αρθρογράφος και επειδή είμαι ένθερμος υποστηρικτής της άποψης &amp;ldquo;Γράψε, όταν έχεις κάτι να γράψεις&amp;rdquo;, επιπροσθέτως ότι ο ελεύθερος χρόνος είναι πλέον λίγος, το αποτέλεσμα είναι ακριβώς αυτό.&lt;br&gt;
 Αυτή τη φορά έχω να δημοσιεύσω κάτι όμως, το οποίο ίσως βοηθήσει άλλους που θα ήθελαν να πάρουν μια απόφαση στην αγορά ξεχωριστού/αποκλειστικού μικροφώνου πχ. για podcasts, youtube, live chatting, gaming κλπ.
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;h3&gt;Η λάθος επιλογή&lt;/h3&gt;
+
+&lt;p&gt;Θα προτείνω να ψάξετε αρκετά πριν αποφασίσετε τι είδους μικρόφωνο θα αγοράσετε. Σε γενικές γραμμές υπάρχουν δυο είδη μικροφώνων, τα πυκνωτικά (condenser) και τα δυναμικά (dynamic). Υπάρχουν κι άλλα πολλά χαρακτηριστικά τα οποία όμως θεωρώ δευτερεύουσας σημασίας για τη παρούσα δημοσίευση. Σε ότι αφορά τη σύνδεση, τα XLR απαιτούν έξτρα εξοπλισμό για σύνδεση με υπολογιστή. Τα USB φυσικά δεν έχουν τέτοιες απαιτήσεις, απλά τα συνδέεις και (τις περισσότερες φορές) απλά δουλεύουν.&lt;br&gt;
+Αν και το έψαξα αρκετά, με reviews στο Youtube, άρθρα κλπ, κατέληξα να κάνω τη λάθος (για μένα) επιλογή. Αυτή ήταν ένα &lt;b&gt;Samson Meteor&lt;/b&gt; το οποίο είναι πραγματικά ένα εξαιρετικό μικρόφωνο, αλλά δεν είναι για μένα ή για να το πω καλύτερα για το χώρο που διαθέτω.&lt;br&gt;
+Βλέπετε, τα πυκνωτικά μικρόφωνα (όπως το Meteor) είναι αρκετά ευαίσθητα στη &amp;ldquo;σύλληψη&amp;rdquo; ήχων από παντού. Το συγκεριμένο είναι μεν καρδιοειδές (cardioid), αλλά αυτό λίγη σημασία έχει στη δική μου περίπτωση. Δηλαδή, μιλάμε ότι αν περάσει κουνούπι εκείνη την ώρα θα ακουστεί στο μικρόφωνο. Αυτό για άλλους είναι καλό, για άλλους (σαν εμένα) είναι κακό. &lt;br&gt;
+Το αποτέλεσμα της παραπάνω λάθους επιλογής ήταν να παραγγείλω άλλο ένα μικρόφωνο, αυτή τη φορά δυναμικό. Το αρνητικό με αυτές τις αγορές είναι ότι δύσκολα μπορεί κάποιος να δοκιμάσει το προϊόν πριν το αγοράσει.&lt;br&gt; &lt;i&gt;Να σημειώσω εδώ ότι τα συγκεκριμένα δυο μικρόφωνα δεν υπήρχαν διαθέσιμα στην Ελληνική αγορά, τουλάχιστον σε ακτίνα 10χλμ από το σπίτι μου.&lt;/i&gt;&lt;br&gt;
+Επαναλαμβάνω ότι το μικρόφωνο είναι εξαιρετικό και ως κατασκευή και ως απόδοση. Απλά δεν είναι για μένα. Δείτε σχετικό review με δοκιμή στο παρακάτω βίντεο. Λάβετε υπόψη σας ότι ο τύπος έχει, όπως θα δείτε και μόνοι σας, (σχεδόν) studio στο σπίτι του.&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/z1_sAbTh_nw&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h3&gt;Η σωστή επιλογή&lt;/h3&gt;
+
+&lt;p&gt;Η σωστή επιλογή για μένα, αυτή που μου ταίριαξε καλύτερα, ήταν ένα &lt;b&gt;Samson Q2U Dynamic&lt;/b&gt;. Άλλη κατασκευή βέβαια, στιβαρή και αυτή μεν, αλλά διαφορετικής &amp;ldquo;νοοτροπίας&amp;rdquo;. &lt;i&gt;Είμαι έτοιμος για πίστα λέμε&lt;/i&gt;.&lt;br&gt;
+Χρειάζεται να είσαι πιο κοντά στο μικρόφωνο για να γράψεις σωστά, ενώ στο πυκνωτικό αυτό είναι πιο δύσκολο (μπουκώνει). Για τη &amp;ldquo;δουλειά&amp;rdquo; που το θέλω εγώ είναι μια χαρά. Το προηγούμενο απλά ήταν &amp;ldquo;too much&amp;rdquo;. Δείτε review του Q2U στο παρακάτω βίντεο.&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/qjCJbhjFYiA&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt; 
+
+&lt;h3&gt;Audacity&lt;/h3&gt;
+
+&lt;p&gt;Όσοι ασχοληθείτε με το &amp;ldquo;άθλημα&amp;rdquo; θα προτείνω ένα πρόγραμμα ανοιχτού κώδικα με το όνομα Audacity. Θέλει μια μικρή εξοικείωση για να το δουλεύετε άνετα, αλλά μικρή. Δεν είναι Blender ή Kdenlive και έχει εξίσου καλά αποτελέσματα, σε ότι αφορά βέβαια τον ήχο που επεξεργάζεστε. Δείτε ένα βίντεο για νέους χρήστες (από τα πολλά που κυκλοφορούν εκεί έξω) που αφορά το Audacity.&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ZWoycsTWLQk&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h3&gt;Windows &amp; Linux&lt;/h3&gt;
+
+&lt;p&gt;Ωραία όλα τα παραπάνω, ας πάμε όμως στο &amp;ldquo;ζουμί&amp;rdquo; της υπόθεσης. Λοιπόν, απλά και απέριττα θα σας πω ότι και τα δυο μικρόφωνα λειτουργούν καλύτερα σε Ubuntu/Linux 18.04 και Linux Mint 19.1 απ&amp;rsquo; ότι σε Windows 10. Η διαφορά εδώ είναι ένα πρόγραμμα (Samson Sound Deck), το οποίο προσωπικά θεωρώ απαραίτητο, που πρέπει να κάνεις εγκατάσταση σε Windows ώστε να μπορείς να γράψεις σαν άνθρωπος. Αυτό το πρόγραμμα &lt;a href=&#34;http://www.samsontech.com/samson/products/microphones/usb-microphones/sounddeck-win/&#34; target=&#34;_blank&#34; rel=&#34;noreferer&#34;&gt;&lt;b&gt;βρίσκεται εδώ&lt;/b&gt;&lt;/a&gt;.&lt;br&gt;
+Σε Linux, από την άλλη, δεν χρειάζεται κάτι τέτοιο (και να θέλαμε δεν υπάρχει). Ο θόρυβος (background noise) είναι λιγότερος (στα δικά μου αυτιά) και διορθώνεται εύκολα με το Audacity. Να πούμε εδώ για όσους δεν το γνωρίζουν ότι το Audacity είναι διαθέσιμο και σε Windows, αλλά για μένα δεν ήταν αρκετό για να μειώσω σε ικανοποιητικό επίπεδο τον θόρυβο (λαμβανομένου υπόψη ότι δεν είμαι και κανένας expert στο Audacity).&lt;br&gt;
+Επίσης το Monitoring, είναι η διαδικασία αυτή που ακούς σε realtime χωρίς καθυστερήσεις (latency) τι λες και τι γράφεις, λειτουργεί επίσης απρόσκοπτα (και στα δυο μικρόφωνα).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/2JzJkUF.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://i.imgur.com/2JzJkUF.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;460&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/05Ecywl.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://i.imgur.com/05Ecywl.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;460&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Αυτά τα ολίγα από &amp;lsquo;μένα και κάτι άλλο. Το Meteor σκέφτομαι να το δώσω. Είναι δυο μέρες χρησιμοποιημένο, με απόδειξη αγοράς και 2 χρόνια εγγύηση. Όποιος/α ενδιαφέρεται ας στείλει ένα μήνυμα στο nicktux AT disroot PERIOD com.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

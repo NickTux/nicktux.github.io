@@ -2,15 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Telegram on NickTux</title>
-    <link>https://nicktux.github.io/tags/telegram/</link>
+    <link>https://nicktux.github.io/tags/telegram/index.xml</link>
     <description>Recent content in Telegram on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <lastBuildDate>Sun, 25 Nov 2018 21:54:28 +0200</lastBuildDate>
-    
-	<atom:link href="https://nicktux.github.io/tags/telegram/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://nicktux.github.io/tags/telegram/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Εγκατάσταση του Telegram Desktop σε Linux Mint</title>
@@ -20,7 +17,100 @@
       <guid>https://nicktux.github.io/post/telegram-mint-tara/</guid>
       <description>&lt;p&gt;Σε αυτή τη δημοσίευση θα δούμε βήμα-βήμα πως κάνουμε λήψη και εγκατάσταση του Telegram Desktop App, στο λειτουργικό μας σύστημα.&lt;br&gt;
 Αν και φαντάζει απλό και εύκολο, θα κάνουμε τη διαδικασία με έναν διαφορετικό τρόπο και θα εξηγήσουμε το (τα) γιατί.
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;p&gt;To να κάνουμε εγκατάσταση πακέτα/προγράμματα/εφαρμογές οι οποίες έχουν ελεγχθεί και φιλοξενούνται στα επίσημα αποθετήρια της διανομής που χρησιμοποιούμε, είναι το σωστό. Αυτά τα πακέτα συνήθως τα βρίσκουμε στο(ν) Software Center/Manager. Είναι η πιο ασφαλής μέθοδος και εκτός αυτού αποφεύγουμε μπελάδες όπως ανικανοποίητες εξαρτήσεις κλπ.&lt;br&gt;
+&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;&lt;em&gt;Για να παραλείψετε τις επεξηγήσεις και να πάτε κατευθείαν στην εγκατάσταση, &lt;a href=&#34;#installation&#34;&gt;κλικ εδώ&lt;/a&gt;&lt;/em&gt;.&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Υπάρχουν όμως λίγες περιπτώσεις που η εγκατάσταση από το Official Site της εφαρμογής, δηλαδή με τον ΜΗ-προτεινόμενο τρόπο, είναι σε κάποια σημεία καλύτερη. Μια από αυτές τις περιπτώσεις είναι το Telegram και παρακάτω δείχνουμε το γιατί (σύμφωνα με τη προσωπική γνώμη του συντάκτη).&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Ανοίγουμε τον διαχειριστή λογισμικού και ψάχνουμε για το Telegram. Η αναζήτηση θα επιστρέψει δυο αποτελέσματα.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/8cL4BBW.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/8cL4BBW.jpg&#34; title=&#34;Telegram Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Ωραία. Ενστικτωδώς πηγαίνουμε στη πρώτη εφαρμογή της λίστας μιας και έχει βαθμολογία 4.2 και κάνοντας κλικ στο Install Button, βλέπουμε τη παρακάτω εικόνα.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/nBrURZ1.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/nBrURZ1.jpg&#34; title=&#34;Telegram Flatpack Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Εξωφρενικό ;&lt;/strong&gt;
+&lt;br&gt;
+Μια εφαρμογή σαν το Telegram, θα καταλάβει &lt;strong&gt;788,1 ΜΒ&lt;/strong&gt; , ενώ ζητάει τουλάχιστον &lt;strong&gt;2,5 GB&lt;/strong&gt; χώρο στο δίσκο. Μετά αναρωτιόμαστε γιατί δεν προχωράνε τα Flatpaks και δεν τα προτιμάει ο κόσμος. Θα τα προτιμήσει, όταν οι SSD δίσκοι του 1TB+ θα κοστίζουν 100€.&lt;br&gt;
+Το παραπάνω, για &amp;lsquo;μένα, είναι αρκετό για να προχωρήσω στη δεύτερη στη λίστα εφαρμογή. Εκεί, κάνοντας κλικ στο Install Button βλέπουμε το παρακάτω.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/x5aqIqf.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/x5aqIqf.jpg&#34; title=&#34;Telegram Deb Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Normal μέγεθος εφαρμογής, μόλις 30,3 MB. Τι γίνεται όμως με την έκδοση; Βλέπω αναφέρει την 2.17. Είναι άραγε αυτή η τελευταία έκδοση του Telegram; και αν όχι, πόσο παλιά είναι;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Πηγαίνοντας στο Official Site και κάνοντας κλικ στο Download βλέπουμε &amp;hellip;&lt;br&gt;
+&lt;a href=&#34;https://i.imgur.com/xRruJY0.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/xRruJY0.jpg&#34; title=&#34;Telegram Website Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Από την 2.17 στην 4.3 φαντάζομαι μεσολαβούν κάμποσες εκδόσεις. Αναζητώντας επιβεβαίωση πάμε στο Launchpad, μιας και το πακέτο αυτό αναπτύσσεται και φιλοξενείται στο universe αποθετήριο του Ubuntu 18.04.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/aqxbZam.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/aqxbZam.jpg&#34; title=&#34;Telegram Launchpad Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Το βρήκαμε. Αυτή είναι η έκδοση 2.17 λοιπόν, η οποία μεταφορτώθηκε στο αποθετήριο τον Απρίλιο του 2018. &lt;em&gt;Να υπενθυμίσω ότι κοντεύει να φύγει το 2018.&lt;/em&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Αυτόματα έρχεται στο μυαλό κάποιου χρήστη, ας το πούμε λίγο εξοικειωμένου με το Ubuntu/Mint, να ψάξει σε κάποιο προσωπικό αποθετήριο (PPA). Υπάρχει κάτι άραγε; κάτι Official όμως. Όχι του Νίκου, του Μήτσου ή του Κίτσου.&lt;br&gt;
+Ψάχνοντας με &amp;ldquo;Official Telegram PPA Ubuntu&amp;rdquo; εντόπισα το παρακάτω, το οποίο για την έκδοση Bionic (στην οποία βασίζεται το Tara) δεν βλέπω κάτι αξιόλογο.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/ek5Fss3.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/ek5Fss3.jpg&#34; title=&#34;Telegram PPA Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Έχουμε κάτι άλλο; ( πριν πάμε να τρέξουμε την έκδοση από το Website; ) ας σημειώσουμε εδώ ότι πρόκειται για μια εφαρμογή &lt;strong&gt;Ανοιχτού Κώδικα.&lt;/strong&gt;&lt;br&gt;
+Α, ναι. Έχουμε και τα Snaps. Αν και στο Mint η βάση δεν είναι καν εγκατεστημένη, αυτό είναι εύκολο. Δίνουμε σε ένα τερματικό τη παρακάτω εντολή:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt install snapd 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;και είμαστε έτοιμοι.&lt;/p&gt;
+
+&lt;p&gt;Τι έκδοση φιλοξενείται εκεί και πόσα MB είναι άραγε;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/sdWNENS.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/sdWNENS.jpg&#34; title=&#34;Telegram Snap Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;265&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Πολύ καλύτερα από το Flatpak. Πάλι σε σχέση με την εφαρμογή στο Website είναι μεγαλύτερο σε όγκο, αλλά &amp;ldquo;τρώγεται&amp;rdquo;. Και η έκδοση είναι η τελευταία.&lt;br&gt;
+&lt;br&gt;
+&lt;a name=&#34;installation&#34;&gt;&lt;/a&gt;
+&lt;br&gt;
+Συμπεραίνουμε ότι, αν θέλουμε την τελευταία έκδοση του Telegram, η οποία να μη πιάσει περί τα 1000ΜΒ στο δίσκο μας, έχουμε δυο επιλογές. Website ή Snap.
+Θα δούμε την εγκατάσταση και με τους δυο τρόπους, κλείνοντας προς εκείνον του Website λόγω μικρότερου όγκου της εγκατάστασης.&lt;/p&gt;
+
+&lt;h3&gt;Snap&lt;/h3&gt;
+
+&lt;p&gt;Μέσω τερματικού εκτελούμε τις παρακάτω εντολές μια-μια&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt install snapd
+sudo snap install telegram-desktop
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Website&lt;/h3&gt;
+
+&lt;p&gt;Κάνουμε λήψη το αρχείο από την &lt;a href=&#34;https://desktop.telegram.org&#34; rel=&#34;noopener&#34; rel=&#34;noreferer&#34; target=&#34;_blank&#34;&gt;Official σελίδα&lt;/a&gt;.
+Ανοίγουμε τον Nemo (ή όποιον διαχειριστή αρχείων έχουμε) βρίσκουμε το αρχείο και με δεξί κλικ κάνουμε αποσυμπίεση (extract here).&lt;br&gt;
+Στον αποσυμπιεσμένο φάκελο, ο οποίος έχει το όνομα Telegram, θα βρούμε δυο εκτελέσιμα αρχεία. Το ένα ονομάζεται Telegram και το άλλο Updater.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/BkTxgs0.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/BkTxgs0.jpg&#34; title=&#34;Telegram Executable&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;436&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Με διπλό κλικ στο Telegram θα ανοίξει η εφαρμογή και είμαστε έτοιμοι να τη χρησιμοποιήσουμε. Τόσο απλά!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/5qq5qsd.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/5qq5qsd.jpg&#34; title=&#34;Telegram Ready&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;439&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Είδαμε λοιπόν ότι στη περίπτωση του Telegram, η καλύτερη (ίσως) αλλά σίγουρα η πιο συμφέρουσα λύση είναι η λήψη της εφαρμογής από την Official σελίδα. Αν και στο Linux γενικότερα αυτό είναι καλό να το αποφεύγουμε υπάρχουν περιπτώσεις σαν κι αυτή που μπορούμε να &amp;ldquo;παρακάμψουμε&amp;rdquo; τους προτεινόμενους τρόπους, και με το δίκιο μας.&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Μη ξεχνάμε και το κανάλι επικοινωνίας &lt;a href=&#34;https://t.me/joinchat/ErjrDU20N3dPzExUlHwenA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; rel=&#34;noreferrer&#34;&gt;της ελληνόφωνης κοινότητας του Linux Mint στο Telegram&lt;/a&gt;. Τώρα που κάναμε εγκατάσταση την εφαρμογή, το μόνο που έχουμε να κάνουμε είναι Join και να πούμε ένα γεια. &lt;em&gt;(εχμ, το &amp;ldquo;να πούμε ένα γεια&amp;rdquo; δεν το λέω έτσι. Σχεδόν επιβάλλεται. Διαφορετικά μπορεί να σας θεωρήσουν Bot και να φάτε Ban)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3&gt;Desktop Launcher;&lt;/h3&gt;
+
+&lt;p&gt;Πριν κλείσουμε να πούμε ότι το εκτελέσιμο αρχείο δημιουργεί και Desktop Launcher με Exec= την τοποθεσία από την οποία έτρεξε για πρώτη φορά.
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/UCQLmId.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/UCQLmId.jpg&#34; title=&#34;Telegram Launcher&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;344&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/INzLkD3.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/INzLkD3.jpg&#34; title=&#34;Telegram Menu Entry&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

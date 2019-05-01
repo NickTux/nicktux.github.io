@@ -2,15 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorials on NickTux</title>
-    <link>https://nicktux.github.io/tags/tutorials/</link>
+    <link>https://nicktux.github.io/tags/tutorials/index.xml</link>
     <description>Recent content in Tutorials on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <lastBuildDate>Sun, 25 Nov 2018 21:54:28 +0200</lastBuildDate>
-    
-	<atom:link href="https://nicktux.github.io/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://nicktux.github.io/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Εγκατάσταση του Telegram Desktop σε Linux Mint</title>
@@ -20,7 +17,100 @@
       <guid>https://nicktux.github.io/post/telegram-mint-tara/</guid>
       <description>&lt;p&gt;Σε αυτή τη δημοσίευση θα δούμε βήμα-βήμα πως κάνουμε λήψη και εγκατάσταση του Telegram Desktop App, στο λειτουργικό μας σύστημα.&lt;br&gt;
 Αν και φαντάζει απλό και εύκολο, θα κάνουμε τη διαδικασία με έναν διαφορετικό τρόπο και θα εξηγήσουμε το (τα) γιατί.
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;p&gt;To να κάνουμε εγκατάσταση πακέτα/προγράμματα/εφαρμογές οι οποίες έχουν ελεγχθεί και φιλοξενούνται στα επίσημα αποθετήρια της διανομής που χρησιμοποιούμε, είναι το σωστό. Αυτά τα πακέτα συνήθως τα βρίσκουμε στο(ν) Software Center/Manager. Είναι η πιο ασφαλής μέθοδος και εκτός αυτού αποφεύγουμε μπελάδες όπως ανικανοποίητες εξαρτήσεις κλπ.&lt;br&gt;
+&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;&lt;em&gt;Για να παραλείψετε τις επεξηγήσεις και να πάτε κατευθείαν στην εγκατάσταση, &lt;a href=&#34;#installation&#34;&gt;κλικ εδώ&lt;/a&gt;&lt;/em&gt;.&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Υπάρχουν όμως λίγες περιπτώσεις που η εγκατάσταση από το Official Site της εφαρμογής, δηλαδή με τον ΜΗ-προτεινόμενο τρόπο, είναι σε κάποια σημεία καλύτερη. Μια από αυτές τις περιπτώσεις είναι το Telegram και παρακάτω δείχνουμε το γιατί (σύμφωνα με τη προσωπική γνώμη του συντάκτη).&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Ανοίγουμε τον διαχειριστή λογισμικού και ψάχνουμε για το Telegram. Η αναζήτηση θα επιστρέψει δυο αποτελέσματα.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/8cL4BBW.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/8cL4BBW.jpg&#34; title=&#34;Telegram Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Ωραία. Ενστικτωδώς πηγαίνουμε στη πρώτη εφαρμογή της λίστας μιας και έχει βαθμολογία 4.2 και κάνοντας κλικ στο Install Button, βλέπουμε τη παρακάτω εικόνα.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/nBrURZ1.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/nBrURZ1.jpg&#34; title=&#34;Telegram Flatpack Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Εξωφρενικό ;&lt;/strong&gt;
+&lt;br&gt;
+Μια εφαρμογή σαν το Telegram, θα καταλάβει &lt;strong&gt;788,1 ΜΒ&lt;/strong&gt; , ενώ ζητάει τουλάχιστον &lt;strong&gt;2,5 GB&lt;/strong&gt; χώρο στο δίσκο. Μετά αναρωτιόμαστε γιατί δεν προχωράνε τα Flatpaks και δεν τα προτιμάει ο κόσμος. Θα τα προτιμήσει, όταν οι SSD δίσκοι του 1TB+ θα κοστίζουν 100€.&lt;br&gt;
+Το παραπάνω, για &amp;lsquo;μένα, είναι αρκετό για να προχωρήσω στη δεύτερη στη λίστα εφαρμογή. Εκεί, κάνοντας κλικ στο Install Button βλέπουμε το παρακάτω.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/x5aqIqf.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/x5aqIqf.jpg&#34; title=&#34;Telegram Deb Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Normal μέγεθος εφαρμογής, μόλις 30,3 MB. Τι γίνεται όμως με την έκδοση; Βλέπω αναφέρει την 2.17. Είναι άραγε αυτή η τελευταία έκδοση του Telegram; και αν όχι, πόσο παλιά είναι;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Πηγαίνοντας στο Official Site και κάνοντας κλικ στο Download βλέπουμε &amp;hellip;&lt;br&gt;
+&lt;a href=&#34;https://i.imgur.com/xRruJY0.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/xRruJY0.jpg&#34; title=&#34;Telegram Website Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Από την 2.17 στην 4.3 φαντάζομαι μεσολαβούν κάμποσες εκδόσεις. Αναζητώντας επιβεβαίωση πάμε στο Launchpad, μιας και το πακέτο αυτό αναπτύσσεται και φιλοξενείται στο universe αποθετήριο του Ubuntu 18.04.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/aqxbZam.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/aqxbZam.jpg&#34; title=&#34;Telegram Launchpad Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Το βρήκαμε. Αυτή είναι η έκδοση 2.17 λοιπόν, η οποία μεταφορτώθηκε στο αποθετήριο τον Απρίλιο του 2018. &lt;em&gt;Να υπενθυμίσω ότι κοντεύει να φύγει το 2018.&lt;/em&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Αυτόματα έρχεται στο μυαλό κάποιου χρήστη, ας το πούμε λίγο εξοικειωμένου με το Ubuntu/Mint, να ψάξει σε κάποιο προσωπικό αποθετήριο (PPA). Υπάρχει κάτι άραγε; κάτι Official όμως. Όχι του Νίκου, του Μήτσου ή του Κίτσου.&lt;br&gt;
+Ψάχνοντας με &amp;ldquo;Official Telegram PPA Ubuntu&amp;rdquo; εντόπισα το παρακάτω, το οποίο για την έκδοση Bionic (στην οποία βασίζεται το Tara) δεν βλέπω κάτι αξιόλογο.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/ek5Fss3.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/ek5Fss3.jpg&#34; title=&#34;Telegram PPA Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Έχουμε κάτι άλλο; ( πριν πάμε να τρέξουμε την έκδοση από το Website; ) ας σημειώσουμε εδώ ότι πρόκειται για μια εφαρμογή &lt;strong&gt;Ανοιχτού Κώδικα.&lt;/strong&gt;&lt;br&gt;
+Α, ναι. Έχουμε και τα Snaps. Αν και στο Mint η βάση δεν είναι καν εγκατεστημένη, αυτό είναι εύκολο. Δίνουμε σε ένα τερματικό τη παρακάτω εντολή:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt install snapd 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;και είμαστε έτοιμοι.&lt;/p&gt;
+
+&lt;p&gt;Τι έκδοση φιλοξενείται εκεί και πόσα MB είναι άραγε;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/sdWNENS.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/sdWNENS.jpg&#34; title=&#34;Telegram Snap Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;265&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Πολύ καλύτερα από το Flatpak. Πάλι σε σχέση με την εφαρμογή στο Website είναι μεγαλύτερο σε όγκο, αλλά &amp;ldquo;τρώγεται&amp;rdquo;. Και η έκδοση είναι η τελευταία.&lt;br&gt;
+&lt;br&gt;
+&lt;a name=&#34;installation&#34;&gt;&lt;/a&gt;
+&lt;br&gt;
+Συμπεραίνουμε ότι, αν θέλουμε την τελευταία έκδοση του Telegram, η οποία να μη πιάσει περί τα 1000ΜΒ στο δίσκο μας, έχουμε δυο επιλογές. Website ή Snap.
+Θα δούμε την εγκατάσταση και με τους δυο τρόπους, κλείνοντας προς εκείνον του Website λόγω μικρότερου όγκου της εγκατάστασης.&lt;/p&gt;
+
+&lt;h3&gt;Snap&lt;/h3&gt;
+
+&lt;p&gt;Μέσω τερματικού εκτελούμε τις παρακάτω εντολές μια-μια&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt install snapd
+sudo snap install telegram-desktop
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Website&lt;/h3&gt;
+
+&lt;p&gt;Κάνουμε λήψη το αρχείο από την &lt;a href=&#34;https://desktop.telegram.org&#34; rel=&#34;noopener&#34; rel=&#34;noreferer&#34; target=&#34;_blank&#34;&gt;Official σελίδα&lt;/a&gt;.
+Ανοίγουμε τον Nemo (ή όποιον διαχειριστή αρχείων έχουμε) βρίσκουμε το αρχείο και με δεξί κλικ κάνουμε αποσυμπίεση (extract here).&lt;br&gt;
+Στον αποσυμπιεσμένο φάκελο, ο οποίος έχει το όνομα Telegram, θα βρούμε δυο εκτελέσιμα αρχεία. Το ένα ονομάζεται Telegram και το άλλο Updater.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/BkTxgs0.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/BkTxgs0.jpg&#34; title=&#34;Telegram Executable&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;436&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Με διπλό κλικ στο Telegram θα ανοίξει η εφαρμογή και είμαστε έτοιμοι να τη χρησιμοποιήσουμε. Τόσο απλά!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/5qq5qsd.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/5qq5qsd.jpg&#34; title=&#34;Telegram Ready&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;439&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Είδαμε λοιπόν ότι στη περίπτωση του Telegram, η καλύτερη (ίσως) αλλά σίγουρα η πιο συμφέρουσα λύση είναι η λήψη της εφαρμογής από την Official σελίδα. Αν και στο Linux γενικότερα αυτό είναι καλό να το αποφεύγουμε υπάρχουν περιπτώσεις σαν κι αυτή που μπορούμε να &amp;ldquo;παρακάμψουμε&amp;rdquo; τους προτεινόμενους τρόπους, και με το δίκιο μας.&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Μη ξεχνάμε και το κανάλι επικοινωνίας &lt;a href=&#34;https://t.me/joinchat/ErjrDU20N3dPzExUlHwenA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; rel=&#34;noreferrer&#34;&gt;της ελληνόφωνης κοινότητας του Linux Mint στο Telegram&lt;/a&gt;. Τώρα που κάναμε εγκατάσταση την εφαρμογή, το μόνο που έχουμε να κάνουμε είναι Join και να πούμε ένα γεια. &lt;em&gt;(εχμ, το &amp;ldquo;να πούμε ένα γεια&amp;rdquo; δεν το λέω έτσι. Σχεδόν επιβάλλεται. Διαφορετικά μπορεί να σας θεωρήσουν Bot και να φάτε Ban)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3&gt;Desktop Launcher;&lt;/h3&gt;
+
+&lt;p&gt;Πριν κλείσουμε να πούμε ότι το εκτελέσιμο αρχείο δημιουργεί και Desktop Launcher με Exec= την τοποθεσία από την οποία έτρεξε για πρώτη φορά.
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/UCQLmId.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/UCQLmId.jpg&#34; title=&#34;Telegram Launcher&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;344&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/INzLkD3.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/INzLkD3.jpg&#34; title=&#34;Telegram Menu Entry&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -33,7 +123,33 @@
 Ίσως ο πιο συνηθισμένος από αυτούς να είναι η δημιουργία ενός απλού εκτελέσιμου script με sleep κλπ και η προσθήκη αυτού στις εφαρμογές εκκίνησης.
 &lt;br&gt;Εδώ θα δούμε έναν απλό τρόπο, με μια γραμμή κώδικα την οποία προσθέτουμε στο ήδη υπάρχον αρχείο με κατάληξη &lt;code&gt;.desktop&lt;/code&gt;.
 &lt;br&gt;
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+Ο παρακάτω τρόπος θα λειτουργήσει στο γραφικό περιβάλλον GNOME και σε όσα αναγνωρίζουν τις παραμέτρους του (πχ Unity). Σε άλλα DEs (πχ. XFCE, LXDE, KDE) ίσως να μη δουλέψει.
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;τοποθεσία-εφαρμογών-εκκίνησης&#34;&gt;Τοποθεσία Εφαρμογών Εκκίνησης&lt;/h3&gt;
+
+&lt;p&gt;Τις βρίσκουμε συνήθως σε μια από τις παρακάτω τοποθεσίες&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/etc/xdg/autostart #System Wide
+~/.config/autostart #Current User
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;x-gnome-autostart-delay&#34;&gt;X-GNOME-Autostart-Delay&lt;/h3&gt;
+
+&lt;p&gt;Βρίσκουμε το αρχείο εκκίνησης της εφαρμογής και ανοίγοντάς το με τον αγαπημένο μας editor (πχ. gedit) προσθέτουμε στο τέλος τη παρακάτω παράμετρο:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;X-GNOME-Autostart-Delay=SECONDS
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Αντικαθιστούμε το &lt;code&gt;SECONDS&lt;/code&gt; με τα δευτερόλεπτα που θέλουμε να καθυστερήσει να εκκινήσει η εφαρμογή, από τη στιγμή σύνδεσης (login).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -43,7 +159,43 @@
       
       <guid>https://nicktux.github.io/post/apg-strong-passwords/</guid>
       <description>&lt;p&gt;Το apg είναι ένα εργαλείο που μπορεί να μας βοηθήσει στην παραγωγή ισχυρών τυχαίων (random) κωδικών. Είναι προ-εγκατεστημένο σε Ubuntu. Αν χρειαζόμαστε ισχυρούς κωδικούς που σπάνε δύσκολα έως καθόλου (πρακτικά) τότε με μια απλή εντολή σε ένα τερματικό* μπορούμε να έχουμε το επιθυμητό αποτέλεσμα.
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;span style=&#34;font-size:x-small;color:#ff0000;&#34;&gt;&lt;strong&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ! ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΙΣΧΥΕΙ ΠΛΕΟΝ.&lt;/strong&gt;&lt;/span&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Το apg χρησιμοποιεί δύο αλγόριθμους για την παραγωγή κωδικών. Ο πρώτος (1) και προεπιλεγμένος, είναι εκείνος που παράγει τους λεγόμενους pronoucable passwords ή κωδικούς που μπορείτε να προφέρετε. Ο δεύτερος αλγόριθμος (2) είναι εκείνος της τυχαίας παραγωγής.&lt;/p&gt;
+
+&lt;p&gt;Παραδείγματα αποτελεσμάτων.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;orijipoytDezobUjSi
+)ge}wgl(k&amp;lt;:Q65)=V
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ποιον από τους παραπάνω θεωρείτε πιο ισχυρό και δύσκολα προβλέψιμο;&lt;/p&gt;
+
+&lt;p&gt;Η εντολή είναι μια γραμμή και είναι απλή και θα εξηγήσουμε τις παραμέτρους μια-μια.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apg -s -a 1 -m 12 -x 20 -n 4
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Θα σας ζητήσει να δώσετε κάποια τυχαία νούμερα - αριθμούς και σύμβολα έτσι  ώστε να πάρει ένα παράδειγμα για το τι κωδικός θέλετε να παραχθεί. Αν για παράδειγμα δώσετε μόνο νούμερα, θα δημιουργήσει κωδικό μόνο με αριθμούς.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Παράμετροι:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;-s : προτρέπει τον χρήστη να δώσει τυχαίο παράδειγμα κωδικού.&lt;/li&gt;
+    &lt;li&gt;-a: Ο αλγόριθμος που θα χρησιμοποιηθεί. Υπάρχει ο 0 (προεπιλογή - pronoucable) και ο 1 (random)&lt;/li&gt;
+    &lt;li&gt;-m: Ο αριθμός ελάχιστων χαρακτήρων του κωδικού.&lt;/li&gt;
+    &lt;li&gt;-x: Ο αριθμός μέγιστων χαρακτήρων του κωδικού.&lt;/li&gt;
+    &lt;li&gt;-n: Ο αριθμός των παραγόμενων κωδικών.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Η παραπάνω εντολή λοιπόν, θα δημιουργήσει 4 κωδικούς από 12 έως 20 χαρακτήρες με τον αλγόριθμο τυχαίας παραγωγής. &lt;em&gt;Οι χαρακτήρες εξαρτώνται από το τι θα εισάγουμε εμείς ως παράδειγμα.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -56,7 +208,60 @@
 
 &lt;p&gt;Τα προβλήματα στην ασύρματη σύνδεση μπορεί να ποικίλουν. Γι&amp;rsquo; αυτό δεν υπάρχει κάποιος γενικός κανόνας επίλυσης τέτοιων προβλημάτων.
 Το καλύτερο που μπορείτε να κάνετε είναι να ζητήσετε βοήθεια από ένα φόρουμ υποστήριξης και βοηθείας για το Ubuntu.
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;span style=&#34;font-size:x-small;color:#ff0000;&#34;&gt;&lt;strong&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ! ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΙΣΧΥΕΙ ΠΛΕΟΝ.&lt;/strong&gt;&lt;/span&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Παρακάτω θα παραθέσω κάποιες εντολές διάγνωσης. Οι εντολές αυτές περιέχονται σε ένα script , το οποίο έχει γραφτεί από χρήστες του &lt;a href=&#34;http://ubuntuforums.org/forum.php&#34;&gt;UbuntuForums.org&lt;/a&gt; και τα αποτελέσματα θα βοηθήσουν αρκετά όσους ασχολούνται με wireless troubleshooting.&lt;/p&gt;
+
+&lt;h3 style=&#34;text-align:center;&#34;&gt;Η παρακάτω διαδικασία απαιτεί ενεργή σύνδεση στο Internet.&lt;/h3&gt;
+
+&lt;p&gt;Συνδέστε τον υπολογιστή σας στο Internet μέσω καλωδίου Ethernet .&lt;/p&gt;
+
+&lt;p&gt;Ανοίξτε ένα τερματικό με τον συνδυασμό πλήκτρων CTRL+ALT+T και εκτελέστε τις παρακάτω εντολές μια-μια.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;wget -N -t 5 -T 10 &amp;quot;https://dl.dropboxusercontent.com/s/l93ifv397doyvil/wireless-script&amp;quot;
+chmod +x wireless-script
+./wireless-script
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Οι παραπάνω εντολές θα κατεβάσουν και θα εκτελέσουν το script ονόματι &lt;strong&gt;wireless-script&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Όταν εκτελεστεί η τελευταία εντολή θα δημιουργηθεί ένα αρχείο ονόματι &lt;strong&gt;wireless-info.txt&lt;/strong&gt; στον προσωπικό σας κατάλογο. Δώσε τον κωδικό σας όταν σας ζητηθεί.&lt;/p&gt;
+
+&lt;p&gt;Αυτό το αρχείο περιέχει όλες τις πληροφορίες που χρειάζεται ένας troubleshooter για να προσπαθήσει να λύσει το πρόβλημα σας.
+Μπορείτε να κάνετε αντιγραφή και επικόλληση όλα τα περιεχόμενα σε ένα &lt;a href=&#34;https://forum.ubuntu-gr.org/&#34; target=&#34;_blank&#34;&gt;φόρουμ&lt;/a&gt; υποστήριξης και βοήθειας για το Ubuntu ή σε κάποια υπηρεσία &lt;a href=&#34;http://termbin.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pastebin&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Σε περίπτωση που το script ανιχνεύσει το πρόγραμμα pastebinit εγκατεστημένο, θα σας προτείνει να ανεβάσει το περιεχόμενο στο προεπιλεγμένο paste site που είναι το &lt;a href=&#34;http://paste.ubuntu.com/&#34;&gt;http://paste.ubuntu.com/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;color:#ff0000;&#34;&gt;&lt;strong&gt;Σημείωση:&lt;/strong&gt;&lt;/span&gt; Όλα τα προσωπικά σας στοιχεία , όπως access point , ESSID κλπ , έχουν αφαιρεθεί από τα αποτελέσματα του script για λόγους ασφαλείας.&lt;/p&gt;
+
+&lt;p&gt;Το αρχείο &lt;strong&gt;wireless-info.txt&lt;/strong&gt; που περιέχει τα αποτελέσματα μπορείτε να το ανοίξετε με έναν κειμενογράφο. Στο Ubuntu ως προ-εγκατεστημένος κειμενογράφος είναι το gedit , οπότε αρκεί να δώσετε στο τερματικό σας την εντολή&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gedit wireless-info.txt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ή απλά να κάνετε ένα δεξί κλικ στο αρχείο wireless-info.txt και να πατήσετε άνοιγμα (θα ανοίξει με τον προ-επιλεγμένο κειμενογράφο)
+Έτσι θα μπορέσετε να δείτε και να κάνετε αντιγραφή - επικόλληση τα αποτελέσματα.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Αν θέλετε να δείτε τα περιεχόμενα του script, τις εντολές που περιέχει, ανοίξτε το αρχείο (wireless-script) με έναν κειμενογράφο&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 style=&#34;text-align:center;&#34;&gt;H παρακάτω διαδικασία δεν απαιτεί σύνδεση στο Internet.&lt;/h3&gt;
+
+&lt;p&gt;Σε περίπτωση που δεν έχετε την δυνατότητα ενσύρματης σύνδεσης στο Internet από το λειτουργικό σύστημα Ubuntu , τότε μπείτε από έναν υπολογιστή που διαθέτει σύνδεση στο Internet και κάνετε &lt;a href=&#34;https://dl.dropboxusercontent.com/s/l93ifv397doyvil/wireless-script&#34; target=&#34;_blank&#34;&gt;κλικ εδώ&lt;/a&gt; . Πατήστε &amp;ldquo;Save page as&amp;hellip;&amp;rdquo; , έτσι ώστε να κατέβει και να σωθεί το αρχείο με την ονομασία wireless-script.
+Έπειτα πρέπει να το μεταφέρετε (π.χ μέσω USB-stick) στο λειτουργικό σύστημα Ubuntu, το οποίο «πάσχει» από το πρόβλημα.
+Αφού το μεταφέρετε κάνετε δεξί κλικ στο αρχείο (wireless-script) και κλικ στο properties (Ιδιότητες) , στο παράθυρο που θα ανοίξει πάτε στην καρτέλα Permissions(δικαιώματα) και μαρκάρετε το κουτάκι &amp;ldquo;Allow executing file as program&amp;rdquo; (να επιτρέπεται η εκτέλεση του αρχείου ως πρόγραμμα).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/CmKmDKZl.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/CmKmDKZl.jpg&#34; alt=&#34;&#34; width=&#34;360&#34; height=&#34;326&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Τέλος κάνετε ένα διπλό κλικ επάνω στο αρχείο wireless-script και πατήστε Run (Εκτέλεση).&lt;/p&gt;
+
+&lt;p&gt;Έπειτα ισχύει η ίδια διαδικασία (όπως παραπάνω) προκειμένου να ανοίξετε και να δείτε τα περιεχόμενα του αρχείου wireless-info.txt που θα δημιουργηθεί.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -67,7 +272,37 @@
       <guid>https://nicktux.github.io/post/package-manager-troubleshooting-ubuntu/</guid>
       <description>&lt;p&gt;Όταν λέμε διαχειριστής πακέτων , εννοούμε οτιδήποτε έχει σχέση με την εγκατάσταση ή αναβάθμιση των πακέτων - προγραμμάτων του Ubuntu.
 Το πρόβλημα μπορεί να είναι , είτε &amp;ldquo;μη επιλυμένες εξαρτήσεις&amp;rdquo; (dependencies) , είτε αδυναμία αναβάθμισης , είτε κρατούμενα ελαττωματικά πακέτα &amp;hellip; κλπ.
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;span style=&#34;font-size:x-small;color:#ff0000;&#34;&gt;&lt;strong&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ! ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΙΣΧΥΕΙ ΠΛΕΟΝ.&lt;/strong&gt;&lt;/span&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Σε τέτοιες περιπτώσεις είναι καλό να κάνουμε μόνοι μας μια διάγνωση ή και προσπάθεια διόρθωσης , πριν ζητήσουμε βοήθεια από κάποιο φόρουμ.. κλπ. Έτσι σε περίπτωση μη επίλυσης του προβλήματος θα έχουμε τα αποτελέσματα της διαδικασίας που ακολουθήσαμε έτοιμα και διαθέσιμα για να τα κάνουμε ποστ.
+Τα αποτελέσματα της παρακάτω διαδικασίας είναι σημαντικά και εκτός του ότι η ίδια η διαδικασία μπορεί αυτόματα να λύσει το πρόβλημα σας , θα σας παρέχει και διαγνωστικές πληροφορίες σχετικά με το τι συμβαίνει.&lt;/p&gt;
+
+&lt;h3&gt;Αυτόματο Script&lt;/h3&gt;
+
+&lt;p&gt;Ανοίξτε ένα τερματικό (CTRL+ALT+T) και εκτελέστε τις παρακάτω εντολές με τη σειρά , μια-μια&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;wget &amp;quot;https://dl.dropboxusercontent.com/s/w8nw83qjw2khl08/fixpackage&amp;quot; -O ~/fixpackage
+chmod +x fixpackage
+sudo ./fixpackage
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Το παραπάνω script , ονόματι fixpackage , δεν είναι τίποτε άλλο από μια σειρά εντολών. Αντί να τις κάνετε copy-paste μια μια (είναι και πολλές) , απλά τρέχετε το script  και έτσι δεν υπάρχει και περίπτωση να κάνετε κάποιο λάθος ή να παραλείψετε κάποια εντολή.
+Αν θέλετε να δείτε τα περιεχόμενα του script , τρέξτε την εντολή&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;paste fixpackage
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;span style=&#34;color:#ff0000;&#34;&gt;Σημαντικό :&lt;/span&gt;&lt;/strong&gt; Ρυθμίστε το τερματικό σας έτσι ώστε η εκτύπωση γραμμών να είναι απεριόριστη. Αφού ανοίξετε το τερματικό , πατήστε Edit &lt;code&gt;→&lt;/code&gt; Profile Preferences . Στο παράθυρο που θα ανοίξει πηγαίνετε στο Scrolling και τικάρετε το κουτάκι που γράφει Unlimited. Έτσι το τερματικό δεν θα κόψει αποτελέσματα εντολών.&lt;/p&gt;
+
+&lt;p&gt;Αφού τρέξετε το παραπάνω script , πιθανών το πρόβλημα που είχατε να έχει διορθωθεί ήδη. Αν όχι , τότε όλα τα αποτελέσματα που έβγαλε στο τερματικό είναι διαγνωστικά για όσους λύνουν προβλήματα στο Ubuntu.
+Να τα παραθέσετε μαζί με το αίτημα σας για βοήθεια. Μια αντιγραφή - επικόλληση όλων των αποτελεσμάτων είναι αρκετή.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -77,7 +312,110 @@
       
       <guid>https://nicktux.github.io/post/how-to-become-ubuntu-member/</guid>
       <description>&lt;p&gt;Με το να γίνει κάποιος Ubuntu Member σημαίνει αναγνώριση, από την διεθνή κοινότητα, της σημαντικής και συνεχούς προσφοράς του στο Ubuntu και κατ&amp;rsquo; επέκταση στο Ανοιχτό Λογισμικό.
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://i.imgur.com/HBsmed7.png&#34;&gt;&lt;img alt=&#34;ubuntu-chievey&#34; src=&#34;https://i.imgur.com/HBsmed7.png&#34; width=&#34;300&#34; height=&#34;58&#34; /&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;span style=&#34;font-size:x-small;color:#ff0000;&#34;&gt;&lt;strong&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ! ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΙΣΧΥΕΙ ΠΛΕΟΝ.&lt;/strong&gt;&lt;/span&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align:center;&#34;&gt;Προϋποθέσεις&lt;/h2&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Πρέπει να έχετε λογαριασμό στο Launchpad και να έχετε υπογράψει το Ubuntu Code of Conduct&lt;/li&gt;
+    &lt;li&gt;Η συνεισφορά σε όλους τους τομείς είναι καλοδεχούμενη.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Η συνεισφορά είναι ένα προαπαιτούμενο , είναι η βασική προϋπόθεση για να μπορέσετε να γίνετε Ubuntu-Member. Υπάρχουν πολλοί και διαφορετικοί τρόποι συνεισφοράς στο Ubuntu και την κοινότητα του Ubuntu. Εκείνοι οι τρόποι που αξιολογούνται και αναγνωρίζονται μπορεί να είναι , συνεισφορά στην τέχνη (artwork , π.χ γραφίστας) , στις ομάδες Loco , στην τεκμηρίωση , στην υποστήριξη μελών μέσω των Forums , στις απαντήσεις στο Launchpad , υποστήριξη μέσω IRC, στην μετάφραση , προγραμματισμός και πακετάρισμα εφαρμογών , marketing and advocacy (διαφήμιση και υποστήριξη του Ubuntu) , στο Wiki &amp;hellip; κλπ.&lt;/p&gt;
+
+&lt;p&gt;Βέβαια όλα τα παραπάνω θα πρέπει να αποδειχθούν όταν θα βρίσκεστε ενώπιον του συμβουλίου έγκρισης. Σε αυτό θα βοηθήσει η σελίδα Wiki που θα φτιάξετε (θα το δούμε παρακάτω) , καθώς και η παρουσία χρηστών που θα σας υποστηρίξουν κατά την διάρκεια της εξέτασης. (μέσω IRC).&lt;/p&gt;
+
+&lt;p&gt;Η ιδέα πως μόνον οι τεχνικά καταρτισμένοι χρήστες (π.χ προγραμματιστές) , οι οποίοι ξέρουν κώδικα ή εκείνοι οι οποίοι έχουν το &amp;ldquo;κάρμα του Βούδα&amp;rdquo; στο Launchpad μπορούν να γίνουν Ubuntu Members , απλά δεν ισχύει.&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align:center;&#34;&gt;Πλεονεκτήματα ενός Ubuntu Member&lt;/h2&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Δικαίωμα ψήφου στην εκλογή των μελών του Ubuntu Community Council&lt;/li&gt;
+    &lt;li&gt;Ένα e-mail που θα τελειώνει σε .@ubuntu.com και θα γίνεται αυτόματα forward (θα προωθείται) στο πραγματικό σας e-mail . (αυτό που έχετε δηλώσει στο Launchpad)&lt;/li&gt;
+    &lt;li&gt;Ένα /ubuntu/member/&#34;το ψευδώνυμο σας&#34; , cloak στο IRC.&lt;/li&gt;
+    &lt;li&gt;Κοινοπραξία - συμμετοχή του blog σας στο Planet Ubuntu.&lt;/li&gt;
+    &lt;li&gt;Συνδρομή στο εβδομαδιαίο Linux Weekly News.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Διαβάστε περισσότερα για να πλεονεκτήματα &lt;a href=&#34;https://wiki.ubuntu.com/Membership&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;εδώ&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align:center;&#34;&gt;Διαδικασία για να γίνετε Ubuntu Member&lt;/h2&gt;
+
+&lt;p&gt;Όπως αναφέρθηκε και παραπάνω , θα πρέπει η συνεισφορά σας να είναι σημαντική και συνεχής. Αν και δεν υπάρχει κάποιο χρονικό όριο, συνήθως οι αιτήσεις για κάποιον ο οποίος συνεισφέρει στο Ubuntu και την κοινότητα λιγότερο από 6 μήνες δεν γίνονται δεκτές.&lt;/p&gt;
+
+&lt;p&gt;Ο συνήθης τρόπος για να κάνετε αίτηση είναι μέσω του Membership Board. Θα πρέπει να προσθέσετε το όνομα σας στην agenda για το επόμενο meeting και εκεί θα εξεταστεί η αίτηση σας. Άλλοι τρόποι όπου μπορείτε να αποκτήσετε αναγνώριση ως Ubuntu Member αναφέρονται παρακάτω.&lt;/p&gt;
+
+&lt;p&gt;Αν η συνεισφορά σας είναι περισσότερο:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Στο Edubuntu , τότε μέσω του &lt;a href=&#34;https://wiki.ubuntu.com/Edubuntu/Council&#34; target=&#34;_blank&#34;&gt;Edubuntu/Council&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Στο Kubuntu , τότε μέσω του &lt;a href=&#34;https://wiki.ubuntu.com/Kubuntu/Meetings&#34; target=&#34;_blank&#34;&gt;Kubuntu/Meetings&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Για χρήστες με τεχνική κατάρτιση (προγραμματισμός , bug fixes κλπ) που έχουν συνεισφέρει εκεί , μέσω των &lt;a href=&#34;https://wiki.ubuntu.com/UbuntuDevelopers&#34; target=&#34;_blank&#34;&gt;Ubuntu Developers&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Για χρήστες που έχουν προσφέρει περισσότερο στο IRC , μέσω του &lt;a href=&#34;https://wiki.ubuntu.com/IRC/IrcCouncil/MeetingAgenda&#34; target=&#34;_blank&#34;&gt;IRC/Membership&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Για συνεισφορά η οποία είναι περισσότερο στο UbuntuForums.org , μέσω του &lt;a href=&#34;https://wiki.ubuntu.com/Forums/Membership&#34; target=&#34;_blank&#34;&gt;Forums Membership&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 style=&#34;text-align:center;&#34;&gt;Προετοιμασία αίτησης&lt;/h2&gt;
+
+&lt;p&gt;Το πιο σημαντικό κομμάτι όλης της διαδικασίας είναι η σωστή προετοιμασία. Όπως αναφέρθηκε και παραπάνω θα πρέπει να έχετε έναν ενεργό λογαριασμό στο Launchpad και να έχετε υπογράψει το Ubuntu Code of Conduct , διαφορετικά δεν μπορείτε να κάνετε καν αίτηση.&lt;/p&gt;
+
+&lt;p&gt;Έπειτα, φτιάξτε μια σελίδα Ubuntu Wiki.&lt;/p&gt;
+
+&lt;p&gt;Πρέπει να φτιάξετε μια &lt;a href=&#34;https://wiki.ubuntu.com/MembershipTemplate&#34; target=&#34;_blank&#34;&gt;προσωπική σελίδα Wiki&lt;/a&gt; η οποία να περιέχει κάποια βασικά πράγματα όπως:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Μια περίληψη - σύνοψη για την συνεισφορά σας στο Ubuntu και την κοινότητα.&lt;/li&gt;
+    &lt;li&gt;Ένα Link(σύνδεσμο) που θα οδηγεί στον λογαριασμό σας στο Launchpad.&lt;/li&gt;
+    &lt;li&gt;Μια πλήρη αναφορά στις συνεισφορές που έχετε κάνει στο Ubuntu και την κοινότητα.&lt;/li&gt;
+    &lt;li&gt;Τις σκέψεις και τα σχέδια σας για το μέλλον. (σε ότι αφορά το Ubuntu βέβαια).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ως παράδειγμα, δείτε σελίδες Wiki που έχουν ήδη περάσει με επιτυχία την διαδικασία του Membership.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.ubuntu.com/DimitriosNtoulas&#34; target=&#34;_blank&#34;&gt;Ntoulas Dimitrios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.ubuntu.com/simosx&#34; target=&#34;_blank&#34;&gt;simosx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.ubuntu.com/medigeek&#34; target=&#34;_blank&#34;&gt;Medigeek&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 style=&#34;text-align:center;&#34;&gt;Tips &amp; Tricks για μια πετυχημένη αίτηση&lt;/h2&gt;
+
+&lt;h3&gt;Σωστή και πλήρης σελίδα στο Wiki&lt;/h3&gt;
+
+&lt;p&gt;Η σελίδα σας στο Wiki πρέπει να είναι όσο γίνεται πιο ολοκληρωμένη και &amp;ldquo;όμορφη&amp;rdquo;(να διαβάζεται εύκολα). Αν και δεν είναι προϋπόθεση , καλό είναι να είναι γραμμένη στην Αγγλική γλώσσα έτσι ώστε τα μέλη του συμβουλίου να την διαβάσουν εύκολα. Μη διστάσετε να ζητήσετε βοήθεια από κάποιο Ubuntu Member ώστε να σας διορθώσει τυχόν λάθη και παραλείψεις. Δεν πειράζει που θα επεξεργαστεί άλλος την σελίδα για εσάς. Όλες οι αλλαγές φαίνονται. Το μόνο που δεν πρέπει να πειράξετε είναι τα testimonials.&lt;/p&gt;
+
+&lt;h3&gt;Testimonials (μαρτυρίες/σχόλια)&lt;/h3&gt;
+
+&lt;p&gt;Αν κάνετε αίτηση μέσω την ευθείας οδού (direct Ubuntu Member) , τότε μαζέψτε όσα πιο πολλά testimonials μπορείτε. Είναι σημαντικά! &lt;em&gt;Δεν είναι ανάγκη να γίνουν από Ubuntu Members αλλά το Testimonial ενός ήδη Member μετράει περισσότερο.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Απλοί χρήστες που σας γνωρίζουν και ξέρουν την προσφορά σας μπορούν να γράψουν για εσάς. Αν και δεν είναι προϋπόθεση, είναι σημαντικό οι χρήστες αυτοί να υπογράφουν στο τέλος με τον λογαριασμό τους στο Launchpad ή στο Ubuntu Wiki ή τέλος πάντων με κάποιον λογαριασμό εμφανή και ενεργό.&lt;/p&gt;
+
+&lt;h3&gt;Κάνετε την αίτηση σας εμφανή/δημόσια&lt;/h3&gt;
+
+&lt;p&gt;Δημιουργείστε ένα θέμα στο φόρουμ της Ελληνικής κοινότητας Ubuntu, ή και κάπου αλλόυ (πχ Facebook Group), τουλάχιστον 2 εβδομάδες πριν εξεταστεί επίσημα η αίτηση σας,έτσι ώστε να μαζέψετε όσα πιο πολλά testimonials γίνεται.&lt;/p&gt;
+
+&lt;p&gt;Οι συντονιστές και διαχειριστές του φόρουμ, ή του εκάστοτε γκρούπ, θα φροντίσουν να σας βοηθήσουν κάνοντας την αίτηση σας sticky(έτσι ώστε να είναι πάνω από όλα τα άλλα θέματα) μέχρι την ημέρα της εξέτασης.&lt;/p&gt;
+
+&lt;h3&gt;Παρουσία μελών κατά την διάρκεια της εξέτασης&lt;/h3&gt;
+
+&lt;p&gt;Αν ακολουθήσετε τον direct δρόμο (μέσω IRC) , τότε θα είναι καλό την ώρα της εξέτασης να βρίσκονται όσο γίνεται περισσότερα μέλη εκεί. Τα μέλη αυτά θα δηλώσουν μόνο την παρουσία τους και θα επέμβουν όπου και αν χρειαστεί, για να επιβεβαιώσουν πως κάτι από αυτά που είπατε είναι αλήθεια.&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align:center;&#34;&gt;Μέσω Ubuntu Forums&lt;/h2&gt;
+
+&lt;p&gt;Το Ubuntu Forums είναι εξουσιοδοτημένο να δίνει μέσω του δικού του συμβουλίου Memberships. Αν πάτε μέσω αυτής της οδού, τότε φροντίστε να είστε πάνω από 6-8 μήνες μέλος στο φόρουμ και να έχετε πάνω από 1000 δημοσιεύσεις οι οποίες θα έχουν γίνει στα support sections (δηλαδή οι δημοσιεύσεις στο Community Cafe δεν μετράνε). Τίποτα από αυτά δεν είναι προϋπόθεση , αλλά θα σας βοηθήσουν για μια πετυχημένη αίτηση.&lt;/p&gt;
+
+&lt;p&gt;Η διαδικασία έγκρισης μέσω των Forums , είναι διαφορετική. Καταρχήν δεν απαιτείται η παρουσία σας στο IRC την ημέρα της εξέτασης , ωστόσο καλό θα είναι να είστε εκεί. Πιθανότατα δεν θα σας ρωτήσουν τίποτα εκτός και αν το θεωρήσουν απαραίτητο.&lt;/p&gt;
+
+&lt;p&gt;Καλή Επιτυχία !&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -89,7 +427,73 @@
       <description>&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://i.imgur.com/6A7JEZml.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/6A7JEZml.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Υπάρχουν διάφοροι λόγοι όπου μπορεί να θέλουμε να επαναφέρουμε τον κωδικό μας στο Ubuntu.
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;Ξεχάσαμε τον κωδικό μας&lt;/li&gt;
+    &lt;li&gt;Θέσαμε κατά λάθος έναν κενό κωδικό και τώρα δεν μπορούμε να εγκαταστήσουμε τίποτα&lt;/li&gt;
+    &lt;li&gt;Αλλάξαμε τον κωδικό μας και πλέον δεν τον θυμόμαστε&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;span style=&#34;font-size:x-small;color:#ff0000;&#34;&gt;&lt;strong&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ! ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΙΣΧΥΕΙ ΠΛΕΟΝ.&lt;/strong&gt;&lt;/span&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Σε τέτοιες περιπτώσεις μπορούμε να ακολουθήσουμε την παρακάτω διαδικασία για να κάνουμε ένα reset (προσέξτε , δεν είναι επαναφορά του παλιού κωδικού , είναι reset) τον κωδικό μας στο Ubuntu. Δηλαδή να θέσουμε έναν καινούριο κωδικό που να τον θυμόμαστε.&lt;/p&gt;
+
+&lt;p&gt;Αν έχετε διπλό σύστημα εκκίνησης (dual-boot) τότε θα βλέπετε το μενού του grub-bootloader κατά την εκκίνηση του υπολογιστή σας. Αν έχετε μόνον Ubuntu , τότε θα πρέπει να κρατήσετε πατημένο το πλήκτρο [Shift] για να εμφανιστεί το μενού.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/8J4nxai.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/8J4nxai.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;484&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Επιλέξτε την εισαγωγή με το (Recovery mode)[Λειτουργία ανάκτησης].&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;span style=&#34;color:#ff0000;&#34;&gt;Σημείωση:&lt;/span&gt;&lt;/strong&gt; Εάν έχετε έκδοση Ubuntu 12.10 και νεότερη , τότε η παραπάνω εικόνα ενδέχεται να αλλάζει λίγο. Θα πρέπει να επιλέξετε πρώτα Advanced options for Ubuntu και μετά θα δείτε την επιλογή Recovery mode.&lt;/p&gt;
+
+&lt;p&gt;Έπειτα θα ανοίξει μια άλλη οθόνη με διάφορες επιλογές,&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/kMtXQ2f.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/kMtXQ2f.jpg&#34; alt=&#34;1349887811&#34; width=&#34;640&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;πρέπει να επιλέξετε root (Drop to root shell prompt).&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Έπειτα πρέπει να δώσετε κάποιες εντολές για να γίνει ο κωδικός σας reset.&lt;/p&gt;
+
+&lt;p&gt;Πρώτα δίνετε&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mount -o rw,remount
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;για να προσαρτηθεί το σύστημα αρχείων σε Read-Write. Η παραπάνω εντολή , αν εκτελεστεί σωστά , δεν πρέπει να σας επιστρέψει κάποιο αποτέλεσμα.&lt;/p&gt;
+
+&lt;p&gt;Η επόμενη εντολή είναι που θα κάνει reset τον κωδικό σας , βασιζόμενη στο username που έχετε . Οπότε αν το username σας είναι π.χ nikos , τότε δίνετε&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;passwd nikos
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Θα σας ζητήσει δυο φορές να γράψετε τον νέο κωδικό. Προσέξτε διότι δεν θα φαίνεται κάτι. Ούτε αστεράκια , ούτε τίποτα. Σαν να μην γράφετε καθόλου. Αυτό είναι φυσιολογικό.
+Αφού δώσετε δυο φορές τον νέο πλέον κωδικό και τον δεχτεί , είσαστε έτοιμοι να κάνετε ένα reboot και να μπείτε στο Λειτουργικό σύστημα με τον νέο κωδικό. Δώστε την εντολή&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;reboot
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;για να γίνει επανεκκίνηση.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/zme7RWe.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/zme7RWe.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;355&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Σε περίπτωση που δεν θυμάστε ούτε το όνομα χρήστη , μπορείτε να δώσετε την εντολή&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ls /home
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;και θα σας επιστρέψει το όνομα χρήστη (ή ονόματα χρηστών αν είναι παραπάνω από ένας).&lt;/p&gt;
+
+&lt;p&gt;Η παραπάνω διαδικασία ισχύει για όλα τα λειτουργικά συστήματα Ubuntu-based (Ubuntu , Xubuntu , Lubuntu , Kubuntu , Linux mint &amp;hellip; κλπ).&lt;/p&gt;
+
+&lt;p&gt;Παρακάτω μπορείτε να δείτε ένα βίντεο επαναφοράς κωδικού από το κανάλι της Ελληνικής κοινότητας Ubuntu στο youtube.&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/gGm_98-R9TY&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -2,15 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on NickTux</title>
-    <link>https://nicktux.github.io/topics/linux/</link>
+    <link>https://nicktux.github.io/topics/linux/index.xml</link>
     <description>Recent content in Linux on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <lastBuildDate>Sat, 22 Dec 2018 19:56:06 +0200</lastBuildDate>
-    
-	<atom:link href="https://nicktux.github.io/topics/linux/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://nicktux.github.io/topics/linux/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Εγκατάσταση του GIMP 2.10 σε Linux Mint</title>
@@ -19,7 +16,71 @@
       
       <guid>https://nicktux.github.io/post/gimp210-lm19/</guid>
       <description>&lt;p&gt;Σε αυτή τη δημοσίευση θα δούμε έναν τρόπο εγκατάστασης της νέας έκδοσης του GIMP 2.10 σε Linux Mint 19.1, την οποία έχω ήδη δοκιμάσει και λειτουργεί χωρίς προβλήματα.&lt;br&gt;
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;p&gt;Η νέα έκδοση του GIMP είναι αποτέλεσμα 6 ετών ανάπτυξης. Η αρχικός στόχος ήταν η μεταφορά (porting) του προγράμματος σε μια νέα μηχανή επεξεργασίας (processing engine), την &lt;a href=&#34;http://gegl.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GEGL&lt;/a&gt;. Εκτός αυτού βέβαια έχουν αναβαθμιστεί ακόμη πολλά χαρακτηριστικά και έχουν προστεθεί αρκετά νέα.&lt;br&gt;
+Για μια πλήρη παρουσίαση των νέων χαρακτηριστικών διαβάστε στην &lt;a href=&#34;https://www.gimp.org/release-notes/gimp-2.10.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;επίσημη σελίδα του GIMP&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Εγκατάσταση σε Linux Mint&lt;/h2&gt;
+
+&lt;p&gt;Την εγκατάσταση στο Linux Mint θα την κάνουμε με έναν, ίσως, ανορθόδοξο τρόπο αλλά ασφαλή. Τον χαρακτηρίζω ανορθόδοξο διότι το Mint στοχεύει περισσότερο στην υποστήριξη των πακέτων Flatpaks παρά των Snaps.&lt;br&gt;
+Από τα προαναφερόμενα καταλάβατε με ποιον τρόπο θα εγκαταστήσουμε το GIMP 2.10 στο Linux Mint 19.1. Τα Snaps τα θεωρώ ασφαλέστερα των προσωπικών αποθετηρίων (PPAs) και γενικότερα τα προτιμώ και από τα PPAs αλλά και από τα Flatpaks. Τα τελευταία λόγω όγκου αρχείων είναι κάπως απαγορευτικά. Σε ότι αφορά τα PPAs, επειδή είναι ένας άλλος τρόπος εγκατάστασης εφαρμογών που δεν υπάρχουν στα επίσημα αποθετήρια, τα χρησιμοποιώ μόνον όταν υπάρχει ανάγκη.&lt;/p&gt;
+
+&lt;p&gt;Μέσω ενός τερματικού εκτελούμε τις παρακάτω εντολές.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt update
+sudo apt install snapd
+sudo snap install gimp
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Το αρχείο είναι μεγέθους 177MB.&lt;/p&gt;
+
+&lt;p&gt;Με τις παραπάνω εντολές έχουμε κάνει εγκατάσταση τη τελευταία έκδοση του GIMP. Μη τρομάξετε με τη πρώτη εκκίνηση, εκεί γίνεται το initialization και ίσως αργήσει λίγο. Έπειτα θα είναι ΟΚ.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/yEQmycf.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://i.imgur.com/yEQmycf.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;342&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Το θέμα (theme) καθώς και τα εικονίδια τα αλλάζετε από το μενού Edit → Preferences.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/LsZdBaN.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://i.imgur.com/LsZdBaN.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;340&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;Troubleshooting&lt;/h3&gt;
+
+&lt;p&gt;Στη περίπτωση που δημιουργηθεί κάποιο πρόβλημα με τα δικαιώματα σε καταλόγους, δηλαδή θέλουμε να ανοίξουμε μια εικόνα και το GIMP επιστρέφει error του τύπου &lt;code&gt;Opening failed: Could not open &#39;/media/nicktux/pictures/.....&#39; for reading: Permission denied&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Τότε η παρακάτω εντολή πιθανόν να επιλύσει το πρόβλημα.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;snap connect gimp:removable-media :removable-media
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Αυτό συνήθως συμβαίνει όταν θελήσουμε να ανοίξουμε ένα αρχείο με το GIMP σε μια τοποθεσία εκτός του προσωπικού μας καταλόγου (Home) και η τοποθεσία αυτή βρίσκεται σε άλλο δίσκο/διαμέρισμα δίσκου ή USB stick το οποίο έχει προσαρτηθεί (mounted).
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;AppImage&lt;/h3&gt;
+
+&lt;p&gt;Μια άλλη εναλλακτική είναι τα λεγόμενα appimages. Ίσως ο πιο απλός τρόπος &amp;ldquo;εγκατάστασης&amp;rdquo; εφαρμογών στο Linux. Το &amp;ldquo;εγκατάστασης&amp;rdquo; είναι σε εισαγωγικά μιας και τα appimages στην ουσία τα εκτελείς(run) μόνο, δεν κάνεις κάτι άλλο.&lt;/p&gt;
+
+&lt;p&gt;Τα AppImages του GIMP τα βρίσκουμε στο GitHub σε &lt;a href=&#34;https://github.com/aferrero2707/gimp-appimage/releases/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;αυτό τον σύνδεσμο.&lt;/a&gt;. Δημιουργούνται και φιλοξενούνται εκεί από έναν χρήστη και κατασκευάζονται σε CentOS 7. Εκείνο που εγώ δοκίμασα είναι το &lt;strong&gt;GIMP_AppImage-release-2.10.8-x86_64.AppImage&lt;/strong&gt; στα 128MB, τελευταίο στη σειρά. Είναι και η τελευταία σταθερή έκδοση του GIMP καθώς γράφεται αυτή η δημοσίευση.&lt;/p&gt;
+
+&lt;p&gt;Το AppΙmage το κάνετε λήψη στον υπολογιστή σας, του δίνεται δικαιώματα εκτέλεσης και απλά το τρέχετε. Αν δεν λειτουργεί σωστά, απλά διαγράφετε το αρχείο AppImage.&lt;/p&gt;
+
+&lt;p&gt;Στη πρώτη εκτέλεση θα σας ρωτήσει για Integration με το Desktop, αυτό είναι για να δημιουργήσει τα κατάλληλα εικονίδια του GIMP. Είτε επιλέξετε ναι, είτε όχι το GIMP θα τρέξει.&lt;/p&gt;
+
+&lt;p&gt;Οπότε, αυτό που κάνουμε είναι να συνδεθούμε στον κατάλογο που έχουμε αποθηκεύσει το AppImage και να του δώσουμε δικαιώματα εκτέλεσης.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd Downloads ## υποθέτω ότι έχετε αποθηκεύσει εκεί το AppImage
+chmod 755 GIMP_AppImage-release-2.10.8-x86_64.AppImage
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Έπειτα με διπλό κλικ απολαμβάνουμε τη νέα έκδοση του GIMP.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Για πακέτο Flatpak, ο όγκος του αρχείου είναι απαγορευτικός.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/cqlxCIJ.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://i.imgur.com/cqlxCIJ.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;344&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -30,7 +91,100 @@
       <guid>https://nicktux.github.io/post/telegram-mint-tara/</guid>
       <description>&lt;p&gt;Σε αυτή τη δημοσίευση θα δούμε βήμα-βήμα πως κάνουμε λήψη και εγκατάσταση του Telegram Desktop App, στο λειτουργικό μας σύστημα.&lt;br&gt;
 Αν και φαντάζει απλό και εύκολο, θα κάνουμε τη διαδικασία με έναν διαφορετικό τρόπο και θα εξηγήσουμε το (τα) γιατί.
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;p&gt;To να κάνουμε εγκατάσταση πακέτα/προγράμματα/εφαρμογές οι οποίες έχουν ελεγχθεί και φιλοξενούνται στα επίσημα αποθετήρια της διανομής που χρησιμοποιούμε, είναι το σωστό. Αυτά τα πακέτα συνήθως τα βρίσκουμε στο(ν) Software Center/Manager. Είναι η πιο ασφαλής μέθοδος και εκτός αυτού αποφεύγουμε μπελάδες όπως ανικανοποίητες εξαρτήσεις κλπ.&lt;br&gt;
+&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;&lt;em&gt;Για να παραλείψετε τις επεξηγήσεις και να πάτε κατευθείαν στην εγκατάσταση, &lt;a href=&#34;#installation&#34;&gt;κλικ εδώ&lt;/a&gt;&lt;/em&gt;.&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Υπάρχουν όμως λίγες περιπτώσεις που η εγκατάσταση από το Official Site της εφαρμογής, δηλαδή με τον ΜΗ-προτεινόμενο τρόπο, είναι σε κάποια σημεία καλύτερη. Μια από αυτές τις περιπτώσεις είναι το Telegram και παρακάτω δείχνουμε το γιατί (σύμφωνα με τη προσωπική γνώμη του συντάκτη).&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Ανοίγουμε τον διαχειριστή λογισμικού και ψάχνουμε για το Telegram. Η αναζήτηση θα επιστρέψει δυο αποτελέσματα.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/8cL4BBW.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/8cL4BBW.jpg&#34; title=&#34;Telegram Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Ωραία. Ενστικτωδώς πηγαίνουμε στη πρώτη εφαρμογή της λίστας μιας και έχει βαθμολογία 4.2 και κάνοντας κλικ στο Install Button, βλέπουμε τη παρακάτω εικόνα.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/nBrURZ1.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/nBrURZ1.jpg&#34; title=&#34;Telegram Flatpack Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Εξωφρενικό ;&lt;/strong&gt;
+&lt;br&gt;
+Μια εφαρμογή σαν το Telegram, θα καταλάβει &lt;strong&gt;788,1 ΜΒ&lt;/strong&gt; , ενώ ζητάει τουλάχιστον &lt;strong&gt;2,5 GB&lt;/strong&gt; χώρο στο δίσκο. Μετά αναρωτιόμαστε γιατί δεν προχωράνε τα Flatpaks και δεν τα προτιμάει ο κόσμος. Θα τα προτιμήσει, όταν οι SSD δίσκοι του 1TB+ θα κοστίζουν 100€.&lt;br&gt;
+Το παραπάνω, για &amp;lsquo;μένα, είναι αρκετό για να προχωρήσω στη δεύτερη στη λίστα εφαρμογή. Εκεί, κάνοντας κλικ στο Install Button βλέπουμε το παρακάτω.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/x5aqIqf.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/x5aqIqf.jpg&#34; title=&#34;Telegram Deb Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Normal μέγεθος εφαρμογής, μόλις 30,3 MB. Τι γίνεται όμως με την έκδοση; Βλέπω αναφέρει την 2.17. Είναι άραγε αυτή η τελευταία έκδοση του Telegram; και αν όχι, πόσο παλιά είναι;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Πηγαίνοντας στο Official Site και κάνοντας κλικ στο Download βλέπουμε &amp;hellip;&lt;br&gt;
+&lt;a href=&#34;https://i.imgur.com/xRruJY0.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/xRruJY0.jpg&#34; title=&#34;Telegram Website Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Από την 2.17 στην 4.3 φαντάζομαι μεσολαβούν κάμποσες εκδόσεις. Αναζητώντας επιβεβαίωση πάμε στο Launchpad, μιας και το πακέτο αυτό αναπτύσσεται και φιλοξενείται στο universe αποθετήριο του Ubuntu 18.04.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/aqxbZam.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/aqxbZam.jpg&#34; title=&#34;Telegram Launchpad Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Το βρήκαμε. Αυτή είναι η έκδοση 2.17 λοιπόν, η οποία μεταφορτώθηκε στο αποθετήριο τον Απρίλιο του 2018. &lt;em&gt;Να υπενθυμίσω ότι κοντεύει να φύγει το 2018.&lt;/em&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Αυτόματα έρχεται στο μυαλό κάποιου χρήστη, ας το πούμε λίγο εξοικειωμένου με το Ubuntu/Mint, να ψάξει σε κάποιο προσωπικό αποθετήριο (PPA). Υπάρχει κάτι άραγε; κάτι Official όμως. Όχι του Νίκου, του Μήτσου ή του Κίτσου.&lt;br&gt;
+Ψάχνοντας με &amp;ldquo;Official Telegram PPA Ubuntu&amp;rdquo; εντόπισα το παρακάτω, το οποίο για την έκδοση Bionic (στην οποία βασίζεται το Tara) δεν βλέπω κάτι αξιόλογο.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/ek5Fss3.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/ek5Fss3.jpg&#34; title=&#34;Telegram PPA Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Έχουμε κάτι άλλο; ( πριν πάμε να τρέξουμε την έκδοση από το Website; ) ας σημειώσουμε εδώ ότι πρόκειται για μια εφαρμογή &lt;strong&gt;Ανοιχτού Κώδικα.&lt;/strong&gt;&lt;br&gt;
+Α, ναι. Έχουμε και τα Snaps. Αν και στο Mint η βάση δεν είναι καν εγκατεστημένη, αυτό είναι εύκολο. Δίνουμε σε ένα τερματικό τη παρακάτω εντολή:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt install snapd 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;και είμαστε έτοιμοι.&lt;/p&gt;
+
+&lt;p&gt;Τι έκδοση φιλοξενείται εκεί και πόσα MB είναι άραγε;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/sdWNENS.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/sdWNENS.jpg&#34; title=&#34;Telegram Snap Desktop App&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;265&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Πολύ καλύτερα από το Flatpak. Πάλι σε σχέση με την εφαρμογή στο Website είναι μεγαλύτερο σε όγκο, αλλά &amp;ldquo;τρώγεται&amp;rdquo;. Και η έκδοση είναι η τελευταία.&lt;br&gt;
+&lt;br&gt;
+&lt;a name=&#34;installation&#34;&gt;&lt;/a&gt;
+&lt;br&gt;
+Συμπεραίνουμε ότι, αν θέλουμε την τελευταία έκδοση του Telegram, η οποία να μη πιάσει περί τα 1000ΜΒ στο δίσκο μας, έχουμε δυο επιλογές. Website ή Snap.
+Θα δούμε την εγκατάσταση και με τους δυο τρόπους, κλείνοντας προς εκείνον του Website λόγω μικρότερου όγκου της εγκατάστασης.&lt;/p&gt;
+
+&lt;h3&gt;Snap&lt;/h3&gt;
+
+&lt;p&gt;Μέσω τερματικού εκτελούμε τις παρακάτω εντολές μια-μια&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt install snapd
+sudo snap install telegram-desktop
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Website&lt;/h3&gt;
+
+&lt;p&gt;Κάνουμε λήψη το αρχείο από την &lt;a href=&#34;https://desktop.telegram.org&#34; rel=&#34;noopener&#34; rel=&#34;noreferer&#34; target=&#34;_blank&#34;&gt;Official σελίδα&lt;/a&gt;.
+Ανοίγουμε τον Nemo (ή όποιον διαχειριστή αρχείων έχουμε) βρίσκουμε το αρχείο και με δεξί κλικ κάνουμε αποσυμπίεση (extract here).&lt;br&gt;
+Στον αποσυμπιεσμένο φάκελο, ο οποίος έχει το όνομα Telegram, θα βρούμε δυο εκτελέσιμα αρχεία. Το ένα ονομάζεται Telegram και το άλλο Updater.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/BkTxgs0.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/BkTxgs0.jpg&#34; title=&#34;Telegram Executable&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;436&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Με διπλό κλικ στο Telegram θα ανοίξει η εφαρμογή και είμαστε έτοιμοι να τη χρησιμοποιήσουμε. Τόσο απλά!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/5qq5qsd.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/5qq5qsd.jpg&#34; title=&#34;Telegram Ready&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;439&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Είδαμε λοιπόν ότι στη περίπτωση του Telegram, η καλύτερη (ίσως) αλλά σίγουρα η πιο συμφέρουσα λύση είναι η λήψη της εφαρμογής από την Official σελίδα. Αν και στο Linux γενικότερα αυτό είναι καλό να το αποφεύγουμε υπάρχουν περιπτώσεις σαν κι αυτή που μπορούμε να &amp;ldquo;παρακάμψουμε&amp;rdquo; τους προτεινόμενους τρόπους, και με το δίκιο μας.&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Μη ξεχνάμε και το κανάλι επικοινωνίας &lt;a href=&#34;https://t.me/joinchat/ErjrDU20N3dPzExUlHwenA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; rel=&#34;noreferrer&#34;&gt;της ελληνόφωνης κοινότητας του Linux Mint στο Telegram&lt;/a&gt;. Τώρα που κάναμε εγκατάσταση την εφαρμογή, το μόνο που έχουμε να κάνουμε είναι Join και να πούμε ένα γεια. &lt;em&gt;(εχμ, το &amp;ldquo;να πούμε ένα γεια&amp;rdquo; δεν το λέω έτσι. Σχεδόν επιβάλλεται. Διαφορετικά μπορεί να σας θεωρήσουν Bot και να φάτε Ban)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3&gt;Desktop Launcher;&lt;/h3&gt;
+
+&lt;p&gt;Πριν κλείσουμε να πούμε ότι το εκτελέσιμο αρχείο δημιουργεί και Desktop Launcher με Exec= την τοποθεσία από την οποία έτρεξε για πρώτη φορά.
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/UCQLmId.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/UCQLmId.jpg&#34; title=&#34;Telegram Launcher&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;344&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/INzLkD3.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/INzLkD3.jpg&#34; title=&#34;Telegram Menu Entry&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -42,7 +196,56 @@
       <description>&lt;p&gt;&lt;p&gt;Το Linux Mint 19 είναι μια έκδοση με υποστήριξη μακράς διάρκειας η οποία κυκλοφόρησε στις 29 Ιουνίου 2018. Αυτό σημαίνει ότι θα υποστηρίζεται μέχρι το &lt;strong&gt;2023&lt;/strong&gt;.&lt;br&gt;
 Είναι βασισμένο στο Ubuntu 18.04 LTS.&lt;br&gt;
 Δυο σημαντικά από τα νέα χαρακτηριστικά που φέρνει αυτή η έκδοση, αναφέρονται παρακάτω.
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/TY8nQ7j.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/TY8nQ7j.jpg&#34; title=&#34;Mint 19 Cinammon Edition&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;400&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;TimeShift&lt;/h3&gt;
+&lt;p&gt;Το TimeShift θα μπορούσαμε να πούμε ότι είναι ο πρωταγωνιστής αυτής της έκδοσης. Αν και έχει συμπεριληφθεί από την 18.3 και έχει γίνει backport σε όλες τις υποστηριζόμενες εκδόσεις του Mint, πλέον από την 19 έχει κυρίαρχο ρόλο στη στρατηγική αναβάθμισης του λειτουργικού συστήματος.
+&lt;br&gt;&lt;br&gt;
+Ανέκαθεν το Mint ακολουθούσε μια διαφορετική προσέγγιση σε ότι αφορά τις αναβαθμίσεις του συστήματος, σε σχέση με τις περισσότερες διανομές. Προκειμένου οι χρήστες του να έχουν πάντα ένα σταθερό σύστημα με όσο λιγότερα προβλήματα είναι δυνατόν, κρατούσε &amp;ldquo;παγωμένη&amp;rdquo; την αναβάθμιση του πυρήνα.&lt;br&gt;
+Ο χρήστης έπρεπε να επιλέξει μόνος του την αναβάθμιση του πυρήνα μέσω του διαχειριστή ενημερώσεων (update manager). Για όσους/ες έχουν ασχοληθεί λίγο με το Mint, είναι τα επίπεδα (levels) εκείνα που καθόριζαν πως θα αναβαθμιστεί το σύστημα. Τα επίπεδα εκείνα που θεωρούνταν critical για τη σταθερότητα ήταν απενεργοποιημένα.&lt;br&gt;&lt;br&gt;
+Αυτή η τακτική είχε δημιουργήσει τριβές στην κοινότητα του Linux καθώς είναι γενικώς αποδεκτό ότι ο πυρήνας θα πρέπει να βρίσκεται πάντα στην τελευταία έκδοσή του, έτσι όπως παρέχεται από τους προγραμματιστές του και με όποια patches προσθέτει (αν προσθέτει) η εκάστοτε διανομή. Αυτό διατηρεί σε σωστά επίπεδα και την ασφάλεια αλλά και τη σταθερότητα του συστήματος.&lt;br&gt;
+Επειδή όμως ο πυρήνας ως λογισμικό είναι το μεγαλύτερο ενιαίο κομμάτι του συστήματος, κατά τη διάρκεια της αναβάθμισης μπορεί να προκύψουν προβλήματα. Αν και αυτό σπάνια συμβαίνει, το Linux Mint θέλει να εξαλείψει ακόμη και αυτή τη μικρή περίπτωση που το σύστημα θα &amp;ldquo;σπάσει&amp;rdquo; λόγω αναβάθμισης του πυρήνα ή ακόμη και άλλων σημαντικών στοιχείων.&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;Από την έκδοση 19&lt;/strong&gt; αυτό το καταφέρνει με το TimeShift. &lt;strong&gt;Στον Update Manager πλέον είναι όλα τα επίπεδα ενεργοποιημένα από προεπιλογή&lt;/strong&gt;, δηλαδή δεν κρατάει πίσω ούτε τον πυρήνα αλλά ούτε και τίποτε άλλο. Εμφανίζεται όμως μια προειδοποίηση στον χρήστη να ρυθμίσει το TimeShift.&lt;br&gt;
+Έτσι, στη περίπτωση που κάτι δεν πάει καλά με την αναβάθμιση και ξαφνικά βρεθεί ο χρήστης με ένα μη-εκκινήσιμο σύστημα, μπορεί να κάνει επαναφορά σε προηγούμενη έκδοση. Η ρύθμιση του TimeShift είναι σχετικά εύκολη.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/F33l4ds.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/F33l4ds.jpg&#34; title=&#34;Διαχειριστής Ενημερώσεων&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;507&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;Ένα άλλο χαρακτηριστικό, πάλι σε σχέση με τον Update Manager, είναι οι αυτόματες αναβαθμίσεις. Αυτές, σε προηγούμενες εκδόσεις του Mint, ήταν προσπελάσιμες μόνον από πεπειραμένους χρήστες. Πλέον έχουν ενσωματωθεί στον Update Manager και με ένα κλικ μπορεί κάποιος να τις ενεργοποιήσει. &lt;em&gt;Πάλι το TimeShift &amp;ldquo;ευθύνεται&amp;rdquo; γι&amp;rsquo; αυτό.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/PSeXT3n.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/PSeXT3n.jpg&#34; title=&#34;Αυτόματες Ένημερώσεις&#34; alt=&#34;&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;Διαχειριστής Λογισμικού&lt;/h3&gt;
+&lt;p&gt;Ο διαχειριστής λογισμικού έχει δεχτεί αρκετές βελτιώσεις με τις σημαντικότερες από αυτές να είναι:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Η ταχύτερη αναζήτηση εφαρμογών&lt;/li&gt;
+&lt;li&gt;Η προσθήκη υποστήριξης .flatpakref και .flatpakrepo&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;em&gt;Το Linux Mint είναι υποστηρικτής περισσότερο των Flatpaks πακέτων, αντί των Snaps.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/z4ynqOG.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/z4ynqOG.jpg&#34; title=&#34;Διαχειριστής Λογισμικού&#34; alt=&#34;&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;Με την υποστήριξη .flatpakref και .flatpakrepo δίνεται η δυνατότητα στο χρήστη να κάνει εγκατάσταση πακέτων flatpak κάνοντας ένα κλικ στο αντίστοιχο κουμπί σε μια ιστοσελίδα.&lt;/p&gt;
+
+&lt;p&gt;Σε αυτή τη δημοσίευση αναφέρθηκαν δυο από τα πολλά νέα χαρακτηριστικά του Mint 19. Τουλάχιστον αυτά που θεώρησα ως τα πιο σημαντικά, με το σημαντικότερο απ&amp;rsquo; όλα την αλλαγή στην πολιτική των αναβαθμίσεων του συστήματος.&lt;br&gt;&lt;br&gt;
+Για να διαβάσετε όλα τα νεα χαρακτηριστικά, μεταβείτε στη σελίδα: &lt;a href=&#34;https://www.linuxmint.com/rel_tara_cinnamon_whatsnew.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; rel=&#34;noreferrer&#34;&gt;New features in Linux Mint 19 Cinnamon&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Για να κάνετε &lt;strong&gt;λήψη και εγκατάσταση&lt;/strong&gt; μεταβείτε στη &lt;a href=&#34;https://www.linuxmint.com/download.php&#34; rel=&#34;noreferrer&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;σελίδα λήψης&lt;/a&gt;.&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Για &lt;strong&gt;επικοινωνία&lt;/strong&gt; με την ελληνόφωνη κοινότητα του Linux Mint:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.facebook.com/groups/107979005927688&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; rel=&#34;noreferrer&#34;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://t.me/joinchat/ErjrDU20N3dPzExUlHwenA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; rel=&#34;noreferrer&#34;&gt;Telegram Group&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -52,7 +255,118 @@
       
       <guid>https://nicktux.github.io/post/which-kernel/</guid>
       <description>&lt;p&gt;Ένα εύλογο ερώτημα που προκύπτει σε όσους/ες ενδιαφέρονται για τη σωστή και ασφαλή λειτουργία του συστήματός τους. Ποιο πυρήνα πρέπει να χρησιμοποιώ ώστε να:
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Είναι το σύστημά μου σταθερό&lt;/li&gt;
+&lt;li&gt;Είναι το σύστημά μου ασφαλές (απειλές, επιθέσεις κλπ.)&lt;/li&gt;
+&lt;li&gt;Υποστηρίζονται νέες συσκευές, οδηγοί (drivers) κλπ.&lt;/li&gt;
+&lt;li&gt;Διαθέτει νέα χαρακτηριστικά και βελτιώσεις που θα κάνουν την εμπειρία χρήσης καλύτερη&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;κ.α.&lt;/p&gt;
+
+&lt;h3&gt;Σύντομη απάντηση&lt;/h3&gt;
+
+&lt;p&gt;Κατά σειρά προταιρεότητας από τη καλύτερη(απάντηση) στη χειρότερη:&lt;/p&gt;
+
+&lt;p&gt;α) Εκείνον που μας προσφέρει η διανομή που χρησιμοποιούμε, πλήν ίσως λίγων εξαιρέσεων.&lt;br&gt;
+β) Τον τελευταίο σταθερό πυρήνα που είναι διαθέσιμος στο kernel.org&lt;br&gt;
+γ) Τον τελευταίο LTS πυρήνα που είναι διαθέσιμος στο kernel.org&lt;br&gt;
+δ) Παλαιότερο, πλήν όμως υποστηριζόμενο, LTS πυρήνα που είναι διαθέσιμος στο kernel.org&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/3Jubs4f.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/3Jubs4f.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Στο παραπάνω στιγμιότυπο οθόνης, όπως αυτό τραβήχτηκε στις 25.08.2018, βλέπουμε ότι ο τελευταίος σταθερός πύρήνας είναι ο 4.18.5. Ο 4.14.67 είναι ο τελευταίος LTS πυρήνας.&lt;br&gt;
+Επίσης, οι 4.9.124 , 4.4.152 και 3.16.57 είναι παλαιότεροι LTS πυρήνες οι οποίοι συντηρούνται ακόμη για κάποιο λόγο.&lt;br&gt;
+Οι 4.17.19 και 3.18.119 έχουν χαρακτηριστεί EOL (End Of Life) και θα αποσυρθούν σε λίγες ημέρες.&lt;/p&gt;
+
+&lt;h3&gt;Πυρήνες διανομών&lt;/h3&gt;
+
+&lt;p&gt;Η καλύτερη λύση για όλους τους χρήστες Linux είναι να χρησιμοποιούν τον πυρήνα που διατίθεται από τη διανομή που χρησιμοποιούν. Υπάρχουν διανομές οι οποίες ακολουθούν το Latest Upstream Stable μοντέλο και διαθέτουν στους χρήστες τους πάντα τον τελευταίο σταθερό πυρήνα. Δοκιμασμένο, με ίσως κάποια λίγα patches/modifications τα οποία θεωρούνται απαραίτητα από τους developers της διανομής για τη σωστή λειτουργία της. Μερικές από αυτές είναι: Το Arch Linux, το Fedora, το openSUSE κα.&lt;/p&gt;
+
+&lt;p&gt;Κάποιες άλλες διανομές, όπως το Ubuntu και το Debian, προτιμούν να μένουν σε μια έκδοση πυρήνα καθ&amp;rsquo; όλη τη διάρκεια της υποστήριξης της έκδοσης του λειτουργικού συστήματος. Ειδικά οι εκδόσεις Stable του Debian και LTS του Ubuntu, μπορεί να χρησιμοποιούν μια έκδοση πυρήνα για πολλά χρόνια. Η δουλειά που κάνουν οι maintainers αυτών των διανομών είναι πραγματικά αξιοθαύμαστη καθώς καταφέρνουν να φέρουν bugfixes από νεότερους πυρήνες σε παλαιότερους, ενίοτε και νέα χαρακτηριστικά (backporting). Είναι εντάξει να χρησιμοποιούμε αυτούς τους πυρήνες.&lt;/p&gt;
+
+&lt;p&gt;Επομένως, κρατάμε ως τη καλύτερη απάντηση στο ερώτημα &amp;ldquo;Ποιον πυρήνα πρέπει να χρησιμοποιώ;&amp;rdquo; εκείνον που διατίθεται επίσημα από τη διανομή Linux που έχουμε εγκαταστήσει.&lt;/p&gt;
+
+&lt;h3&gt;Τελευταίος σταθερός πυρήνας&lt;/h3&gt;
+
+&lt;p&gt;Αυτός ο πυρήνας είναι ο τελευταίος ο οποίος διατίθεται από τη κοινότητα των προγραμματιστών του πυρήνα Linux και χαρακτηρίζεται ως σταθερός. Περίπου κάθε τρεις μήνες η κοινότητα διαθέτει έναν νέο σταθερό πυρήνα ο οποίος περιέχει νέα χαρακτηριστικά, υποστηρίζει νέο υλικό, εμπεριέχει όλες τις τελευταίες βελτιώσεις απόδοσης.&lt;br&gt;
+Σημαντικό είναι, ότι ο νέος σταθερός πυρήνας περιέχει και όλα εκείνα τα bugfixes που διοθώνουν λάθη και &amp;ldquo;τρύπες&amp;rdquo; ασφαλείας τα οποία εντοπίστικαν σε προηγούμενες εκδόσεις.&lt;/p&gt;
+
+&lt;p&gt;Αν έχουμε νέο υλικό το οποίο αγοράσαμε μετά την ημερομηνία του τελευταίου LTS πυρήνα, τότε προτείνεται να χρησιμοποιούμε τον τελευταίο σταθερό.&lt;br&gt;
+Ένας άτυπος κανόνας είναι ότι σε Desktops και Laptops, καθώς και Servers βασισμένους σε νέο υλικό μπορούμε να χρησιμοποιούμε αυτό τον πυρήνα.&lt;/p&gt;
+
+&lt;h3&gt;LTS πυρήνες&lt;/h3&gt;
+
+&lt;p&gt;Αν το υλικό είναι παλαιότερης γενιάς ή έχουμε κάποια embedded συσκευή , τότε ο επόμενος πυρήνας που προτείνεται να χρησιμοποιήσουμε είναι ο LTS. Ας σημειώσουμε εδώ ότι οι LTS πυρήνες δεν ενσωματώνουν (συνήθως) νέα χαρακτηριστικά. Λαμβάνουν όμως ενημερώσεις ασφαλείας. Επίσης, δεν τυγχάνουν μεγάλων αλλαγών πχ. έκδοσης (δηλ. από 4.14 σε 4.15).&lt;br&gt;
+Οπότε, όσοι/ες &amp;ldquo;φοβούνται&amp;rdquo; τις μεγάλες αλλαγές στις εκδόσεις του πυρήνα, μπορούν να προτιμήσουν μια τέτοια έκδοση η οποία θα υποστηρίζεται για κάμποσα χρόνια.&lt;/p&gt;
+
+&lt;h4&gt;Παλαιότεροι LTS&lt;/h4&gt;
+
+&lt;p&gt;Υπάρχουν κάποιοι παλαιότεροι πυρήνες οι οποίοι υποστηρίζονται ακόμη. Για παράδειγμα οι 4.9 , 4.4 , 3.16. Από τους κυριότερους λόγους που κρατάνε αυτούς τους πυρήνες ακόμη &amp;ldquo;εν ζωή&amp;rdquo; είναι οι εταιρίες λογισμικού οι οποίες τους χρειάζονται. Δυο παραδείγματα: Ubuntu , Android.
+Δεν υπάρχει λόγος για εμάς να χρησιμοποιούμε τόσο παλιό λογισμικό.&lt;/p&gt;
+
+&lt;h3&gt;Μη υποστηριζόμενοι&lt;/h3&gt;
+
+&lt;p&gt;Οι μη υποστηριζόμενοι είναι άλλη μια μεγάλη κατηγορία πυρήνων οι οποίοι βλέπουμε να χρησιμοποιούνται είτε από μεμονωμένους χρήστες, ακόμη όμως και από εταιρείες.&lt;br&gt;
+Σε αυτούς θα κατατάξουμε:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Εκείνους των οποίων ο χρόνος υποστήριξης έχεις παρέλθει (EOL)&lt;/li&gt;
+&lt;li&gt;Όσοι έχουν παρεμβάσεις με διάφορα patches ή configurations, τα οποία δεν έχουν γίνει αποδεκτά από την κοινότητα των Developers.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Για την πρώτη κατηγορία δεν χρειάζεται να συζητήσουμε πολλά. Απλά δεν τους χρησιμοποιούμε. Τέλος.&lt;br&gt;
+Για τη δεύτερη κατηγορία, μπορούμε να χρησιμοποιήσουμε κάποιον τέτοιο πυρήνα (custom), έχοντας όμως υπόψη μας πως την ευθύνη για ότι συμβεί την έχουμε αποκλειστικά εμείς.&lt;br&gt;
+Τι μπορεί να συμβεί;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Να μη λειτουργεί σωστά κάποιο υλικό, κάρτα δικτύου/γραφικών κλπ (ακόμη ίσως να πάθει ζημιά σε ακραίες περιπτώσεις)&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;Χαμηλή απόδοση λειτουργικού συστήματος&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;Κενά ασφαλείας (που να δημιουργεί το patch που έχει ενσωματωθεί)&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;Kernel Panics&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;Να μη μπορούμε να εκκινήσουμε το λειτουργικό σύστημα&lt;br&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;κ.α.&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Σε αυτούς τους πυρήνες εντάσω και εκείνους που πακετάρω και συντηρώ στα προσωπικά αποθετήρια (PPAs) που διατηρώ στο &lt;a href=&#34;https://launchpad.net/~nick-athens30&#34; target=&#34;_blank&#34;&gt;Launchpad&lt;/a&gt;.&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;Έχουν κυκλοφορήσει αρκετές εκδόσεις custom πυρήνων οι οποίοι υπόσχονται καλύτερη απόδοση συστήματος, λιγότερη κατανάλωση ενέργειας κλπ. Χρησιμοποιούν διάφορα patches, ναι μεν ανοιχτού κώδικα, αλλά αμφιβόλου ποιότητας, καθώς δεν έχουν δοκιμαστεί όσο δοκιμάζεται ο επίσημος πυρήνας και φυσικά (τα patches) δεν έχουν γίνει αποδεκτά από την κοινότητα προγραμματιστών του επίσημου πυρήνα.&lt;br&gt;
+Ας σκεφτούμε μόνο ότι στον επίσημο πυρήνα συνεισφέρουν άνω των 4000+ developers και 500+ εταιρίες.&lt;br&gt;&lt;br&gt;
+Ο πυρήνας Linux αποτελεί το μεγαλύτερο στον κόσμο συλλογικό λογισμικό.&lt;br&gt;
+&lt;br&gt;
+Ναι, ο πειραματισμός είναι καλός, αλλά με το σωστό τρόπο. Ο σωστός τρόπος συνήθως είναι και ο δύσκολος (πχ. συζήτηση με άλλους developers, ακολουθώντας συγκεκριμένα guidelines, timing, αλλαγή του κώδικά μας κλπ), μέχρι να γίνει αποδεκτό το όποιο patch έχουμε στείλει.&lt;br&gt;
+Εξάλλου τα patches ακολουθούν συγκεκριμένους κανόνες για να γίνουν αποδεκτά.&lt;br&gt; Ένα patch πρέπει:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;να είναι εμφανώς σωστό και να έχει δοκιμαστεί επαρκώς&lt;/li&gt;
+&lt;li&gt;να είναι το πολύ 100 γραμμές&lt;/li&gt;
+&lt;li&gt;να διορθώνει μόνον ένα πράγμα&lt;/li&gt;
+&lt;li&gt;να διορθώνει κάτι το οποίο έχει αναφερθεί ως πρόβλημα&lt;/li&gt;
+&lt;li&gt;να υποστηρίζει ένα νέο υλικό ή να προσθέτει μια νέα λειτουργία σε υφιστάμενο&lt;/li&gt;
+&lt;li&gt;να έχει ήδη ενσωματωθεί (merged) στο δένδρο του Linus&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Έπειτα θα εξεταστεί εκ νέου και εφόσον κριθεί &amp;lsquo;ΟΚ&amp;rsquo; από όσους φέρουν ευθύνη, τότε θα ενσωματωθεί στον σταθερό πυρήνα.&lt;/p&gt;
+
+&lt;h3&gt;Ανακεφαλεώνοντας&lt;/h3&gt;
+
+&lt;p&gt;Κατά προταιρεότητα χρησιμοποιούμε τον πυρήνα ο οποίος διατίθεται επίσημα από τη διανομή που χρησιμοποιούμε.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Laptop/Desktop: Τελευταία σταθερή έκδοση&lt;/li&gt;
+&lt;li&gt;Server: Τελευταία σταθερή έκδοση ή τελευταία LTS έκδοση&lt;/li&gt;
+&lt;li&gt;Embedded συσκευές: Τελευταία LTS έκδοση ή παλαιότερη υποστηριζόμενη LTS έκδοση&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Βασισμένο στη πρόσφατη &lt;a href=&#34;http://kroah.com/log/blog/2018/08/24/what-stable-kernel-should-i-use/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;δημοσίευση&lt;/a&gt; του Greg Kroah-Hartman&lt;/span&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -62,7 +376,54 @@
       
       <guid>https://nicktux.github.io/post/ubuntu-bionic-thunderbird-subject-emoji/</guid>
       <description>&lt;p&gt;Αναβαθμίζοντας στην έκδοση του Ubuntu 18.04 και χρησιμοποιώντας τον Thunderbird ως Email Client ίσως έρθετε αντιμέτωποι με αυτό το περίεργο σφάλμα, το οποίο δεν είμαι σίγουρος εάν οφείλεται στη γραμματοσειρά (.ttf) ή στον συνδυασμό γραμματοσειράς και Thunderbird.
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;h3&gt;Το πρόβλημα&lt;/h3&gt;
+
+&lt;p&gt;Η νέα μόδα Marketing και Sales είναι η ενσωμάτωση εικονιδίων στο Subject Line του Email. Προσωπικά το βρίσκω αχρείαστο, αλλά δεν είναι απαραίτητα και κακό. Πολλές εταιρίες επιλέγουν αυτό τον τρόπο για να ενθαρρύνουν τον χρήστη έστω να ανοίξει το Email.&lt;br&gt;
+Πολλοί χρήστες όταν αντιληφθούν Sales/Marketing μηνύματα η πρώτη τους ενέργεια είναι να τα στείλουν στον κάδο χωρίς καν να τα ανοίξουν ή στον φάκελο με τα ανεπιθύμητα.&lt;br&gt;
+Στον Thunderbird, στο Ubuntu 18.04, αυτά τα εικονίδια εμφανίζονται υπερβολικά μεγάλα με αποτέλεσμα να χαλάει εκτός από την αιθητική και το subject line του μηνύματος.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/D1sDbKy.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/D1sDbKy.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;1η Λύση&lt;/h3&gt;
+
+&lt;p&gt;Ίσως σας φανεί απλή και λίγο ακατανόητη, αλλά η συγκεκριμένη λύση δούλεψε σε Debian (Buster). Στο Ubuntu 18.04 δούλεψε η δεύτερη(παρακάτω) λύση, εσείς όμως μπορείτε να δοκιμάσετε και τις δυο με τη σειρά.&lt;br&gt;
+Απλά μεταφέρουμε το αρχείο της γραμματοσειράς εκτός τοποθεσίας, κάνουμε μια ενημέρωση των fonts του συστήματος, έπειτα μεταφέρουμε ξανά το αρχείο γραμματοσειράς στη θέση του και κάνουμε ξανά ενημέρωση των Fonts του συστήματος. Τόσο απλό και επιτυγχάνεται με τις παρακάτω εντολές σε ένα τερματικό και φυσικά τον Thunderbird κλειστό.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo mv /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf ~/
+sudo fc-cache -v 
+sudo mv NotoColorEmoji.ttf /usr/share/fonts/truetype/noto
+sudo fc-cache -v
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4&gt;Αποτέλεσμα&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/gSYAopD.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/gSYAopD.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;2η Λύση&lt;/h3&gt;
+
+&lt;p&gt;Η δεύτερη λύση έχει να κάνει με την αντικατάσταση της γραμματοσειράς με εκείνη που διατίθεται από την Google. Τη βρίσκουμε και την κάνουμε λήψη από το αποθετήριο&lt;br&gt;στο GitHub ⤏ &lt;a href=&#34;https://github.com/googlei18n/noto-emoji&#34;&gt;https://github.com/googlei18n/noto-emoji&lt;/a&gt;&lt;br&gt;
+Εάν γνωρίζουμε τη βασική χρήση του GitHub μπορούμε να χρησιμοποιήσουμε τις γνώσεις μας για τη λήψη του αποθετηρίου. Διαφορετικά κάνουμε κλικ στο &amp;ldquo;Clone or Download&amp;rdquo; και κάνουμε λήψη το αρχείο σε μορφή Zip που από προεπιλογή θα μεταφερθεί στον κατάλογο Downloads (ή Λήψεις) του υπολογιστή μας.&lt;br&gt;
+Λαμβάνοντας υπόψη τη δεύτερη μέθοδο βλέπουμε παρακάτω την αντικατάσταση της γραμματοσειράς.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd Downloads
+unzip noto-emoji-master.zip
+cd noto-emoji-master/fonts
+sudo mv * /usr/share/fonts/truetype/noto/
+sudo fc-cache -v
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/aehFlXk.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/aehFlXk.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;Αποτέλεσμα&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/yzNjNWz.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/yzNjNWz.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -72,7 +433,41 @@
       
       <guid>https://nicktux.github.io/post/ubuntu-bionic-wifi-status-icon/</guid>
       <description>&lt;p&gt;Είναι γνωστό σε όσους ασχολούνται λίγο περισσότερο με το λειτουργικό τους σύστημα πως κάθε νέα έκδοση ή πακέτο αναβαθμίσεων εκτός από νέα χαρακτηριστικά και βελτιώσεις, μπορεί να φέρει και νέα προβλήματα. Το Ubuntu δεν θα μπορούσε να αποτελεί εξαίρεση.
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;Το πρόβλημα&lt;/h3&gt;
+&lt;a href=&#34;https://i.imgur.com/HWikH7V.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/HWikH7V.jpg&#34; alt=&#34;&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Το συγκεκριμένο Laptop, στο οποίο αντιμετώπισα το ζήτημα με το WiFi, τρέχει Ubuntu από την ημέρα που αγοράστηκε χωρίς ιδιαίτερα προβλήματα.
+Μετά την εγκατάσταση του Ubuntu 18.04 εμφανίστηκε ένα θέμα με το εικονίδιο του WiFi (του Network Manager δηλαδή) όπου εμφανίζει ένα ερωτηματικό επάνω στο εικονίδιο.&lt;br&gt;
+Αλλες φορές το θέμα είναι μόνον &amp;ldquo;αισθητικό&amp;rdquo;, δηλαδή δεν επηρεάζει τη σύνδεση, άλλες φορές όμως την επηρεάζει. Αυτό συνήθως συμβαίνει μετά από suspend, όταν επανέρχεται δηλαδή το Laptop, αλλά αυτό δεν είναι απαραίτητο.&lt;br&gt;
+Λόγω και του γνωστού ζητήματος με το suspend σε αυτή την έκδοση δεν είναι λύση να απενεργοποιήσει κάποιος αυτή τη λειτουργία. Εκτός αυτού, το suspend, θεωρείται κρίσιμη λειτουργία για φορητούς υπολογιστές αφού συνεισφέρει στη διάρκεια της μπαταρίας&lt;br&gt;
+Το συγκεκριμένο πρόβλημα είναι ανεξάρτητο κάρτας δικτύου ή driver. Οφείλεται στη νέα έκδοση GNOME (Network Manager) με την οποία έρχεται πλέον το Ubuntu.&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;Η (προσωρινή) λύση&lt;/h3&gt;
+&lt;a href=&#34;https://i.imgur.com/2KLK6pl.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/2KLK6pl.png&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Όπως τα περισσότερα bugs έτσι κι αυτό θα διορθωθεί αργά ή γρήγορα. Μέχρι τότε όμως η λύση είναι να επεξεργαστούμε ένα αρχείο και να προσθέσουμε μια γραμμή.&lt;br&gt;
+Με τον αγαπημένο μας editor και με δικαιώματα root ανοίγουμε το αρχείο στη διαδρομή &lt;code&gt;/etc/NetworkManager/NetworkManager.conf&lt;/code&gt;.
+Έπειτα προσθέτουμε στην κατηγορία &lt;code&gt;[Main]&lt;/code&gt; την παρακάτω γραμμή:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;dns=default
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;και αποθηκεύουμε.&lt;br&gt;
+Κάνουμε επανεκκίνηση τον Network Manager και το συγκεκριμένο ζήτημα θα έχει διορθωθεί.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo systemctl restart NetworkManager
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Η Αναφορά σφάλματος και η λύση στα σχόλια ⇨ &lt;a href=&#34;https://bugs.launchpad.net/ubuntu/+source/gnome-shell/+bug/1722256&#34; target=&#34;_blank&#34;&gt;Bug 1722256&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -83,18 +478,209 @@
       <guid>https://nicktux.github.io/post/ubuntu-bionic-gksu-removed/</guid>
       <description>&lt;p&gt;Αυτή η μετάβαση, δηλαδή η πλήρης κατάργηση του gksu από το Ubuntu έχει ξεκινήσει κάμποσες εκδόσεις πριν. Συγκεκριμένα από τη 13.10 όπου το από προ-επιλογή εγκατεστημένο gksu έπαψε να υφίσταται. Μέχρι και σήμερα βέβαια οι χρήστες είχαν την επιλογή της εγκατάστασης από τα αποθετήρια, αφού εκεί ήταν και είναι ακόμη διαθέσιμο.&lt;br&gt;
 Στο άμεσο μέλλον όμως, προβλέπεται να αφαιρεθεί εντελώς από τα αποθετήρια. Επίσης, παρακάτω θα δούμε ποια είναι η προτεινόμενη από τους Developers εναλλακτική.&lt;br&gt;
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;h3 id=&#34;τι-είναι-το-gksu&#34;&gt;Τι είναι το gksu&lt;/h3&gt;
+
+&lt;p&gt;Το gksu είναι στην ουσία ένα Graphical Front-End του sudo. Το sudo είναι το πρόγραμμα εκείνο που μας δίνει προσωρινά και με ασφάλεια αυξημένα δικαιώματα (root) ώστε να επιτύχουμε διάφορα tasks που τα απαιτούν. Το πακέτο gksu περιλαμβάνει δυο Front-End, την &lt;code&gt;gksu&lt;/code&gt; και την &lt;code&gt;gksudo&lt;/code&gt;, με τη δεύτερη μέχρι πρωτίστως να ήταν η προτεινόμενη για όλες τις γραφικές εφαρμογές που ήθελε κάποιος χρήστης να τρέξει με αυξημένα δικαιώματα.&lt;br&gt;
+Με αυτό τον τρόπο, όταν ο χρήστης έτρεχε για παράδειγμα την εντολή&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gksudo gedit /etc/default/grub
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ένα παράθυρο διαλόγου άνοιγε ζητώντας του τον κωδικό, ώστε να του παραχωρήσει αυξημένα δικαιώματα για την επεξεργασία του συγκεκριμένου αρχείου.&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Παρακάτω βλέπουμε την έκδοση gksu που ακόμη είναι διαθέσιμη στο Ubuntu 18.04 (beta 2).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/2YH1SuO.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/2YH1SuO.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/JEytFLu.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/JEytFLu.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;gksu-με-policykit&#34;&gt;gksu με PolicyKit&lt;/h3&gt;
+
+&lt;p&gt;Εδώ και κάποια χρόνια (2-3 περίπου) &lt;a href=&#34;https://wiki.gnome.org/Attic/gksu&#34; _target=_blank&#34;&gt;&lt;strong&gt;το GNOME είχε προτείνει&lt;/strong&gt;&lt;/a&gt; την αλλαγή και αντικατάσταση του παραδοσιακού gksu με μια νεότερη έκδοση η οποία θα χρησιμοποιούσε το PolicyKit Framework. Το πρόβλημα ήταν ότι κάποιες εφαρμογές έπρεπε να γραφτούν ξανά ώστε να λειτουργούν σωστά με αυτή την αλλαγή.&lt;br&gt;
+Ωστόσο, αυτή η αλλαγή δεν προξένησε το ενδιαφέρον των χρηστών μιας και το gksu ως πακέτο ήταν και παραμένει διαθέσιμο για εγκατάσταση και χρήση.&lt;/p&gt;
+
+&lt;h3 id=&#34;pkexec-αντί-gksu&#34;&gt;pkexec αντί gksu&lt;/h3&gt;
+
+&lt;p&gt;Άλλη μια πρόταση για την αντικατάσταση του gksu και ως εναλλακτική ήταν το &lt;code&gt;pkexec&lt;/code&gt; . Δεν θα επεκταθώ εδώ περαιτέρω, μιας και τότε είχα γράψει σχετικό άρθρο το οποίο μπορείτε να βρείτε &lt;a href=&#34;https://nicktux.com/2014/06/09/pkexec-%CE%B1%CE%BD%CF%84%CE%AF-gksugksudokdesudo/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;εδώ&lt;/strong&gt;&lt;/a&gt;. Το συμπέρασμα είναι ότι η pkexec αποδείχτηκε πιο περίπλοκη και δύσκολη στην εφαρμογή.&lt;/p&gt;
+
+&lt;h3 id=&#34;γιατί-front-end-και-όχι-απευθείας-sudo&#34;&gt;Γιατί Front-End και όχι απευθείας sudo;&lt;/h3&gt;
+
+&lt;p&gt;Στο ίδιο άρθρο αναφέρω και για πιο λόγο κάποιος πρέπει να χρησιμοποιήσει gksudo/pkexec ή κάποια άλλη εναλλακτική μέθοδο αντί του παραδοσιακού &lt;code&gt;sudo&lt;/code&gt; σε ότι αφορά γραφικές εφαρμογές. Παραθέτω εδώ σχετικό quote και από το Ubuntu Documentation.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;You should &lt;strong&gt;never&lt;/strong&gt; use normal sudo to start graphical applications as root. You should use gksudo (kdesudo on Kubuntu) to run such programs. gksudo sets HOME=~root, and copies &lt;code&gt;.Xauthority&lt;/code&gt; to a tmp directory. This prevents files in your home directory becoming owned by root.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Σε απλά ελληνικά, υπάρχει η πιθανότητα εάν ανοίξουμε κάποια γραφική εφαρμογή με αυτό τον τρόπο όλα τα αρχεία που αυτή περιλαμβάνει να αλλάξουν ιδιοκτήτη, και ο νέος ιδιοκτήτης να είναι ο χρήστης root. Οι πιθανότητες είναι λιγότερες να συμβεί κάτι τέτοιο όταν μιλάμε για έναν απλό επεξεργαστή κειμένου, πχ gedit και περισσότερες όταν μιλάμε για έναν διαχειριστή αρχείων και φακέλων όπως ο nautilus.&lt;/p&gt;
+
+&lt;h3 id=&#34;από-το-ubuntu-18-04-θα-αφαιρεθεί-εντελώς-το-gksu&#34;&gt;Από το Ubuntu 18.04 θα αφαιρεθεί εντελώς το gksu&lt;/h3&gt;
+
+&lt;p&gt;Σε μια αναφορά σφάλματος &lt;a href=&#34;https://bugs.launchpad.net/ubuntu/+source/umit/+bug/1740618&#34; target=&#34;_blank&#34;&gt;[Bug 1740618]&lt;/a&gt; βλέπουμε τη διαδικασία αφαίρεσης του πακέτου gksu από το Ubuntu 18.04.&lt;/p&gt;
+
+&lt;h3 id=&#34;προτεινόμενος-εναλλακτικός-τρόπος&#34;&gt;Προτεινόμενος εναλλακτικός τρόπος&lt;/h3&gt;
+
+&lt;p&gt;Στην ίδια αναφορά σφάλματος αναφέρεται ο προτεινόμενος εναλλακτικός τρόπος για tasks που απαιτούν αυξημένα δικαιώματα. Μπορούμε να χρησιμοποιούμε τον Nautilus με το prefix &lt;code&gt;admin:///&lt;/code&gt; όποτε θελήσουμε αυξημένα δικαιώματα.&lt;br&gt;
+Παρακάτω βλέπουμε πως επιτυγχάνεται με αυτό τον τρόπο η επεξεργασία του αρχείου &lt;code&gt;grub&lt;/code&gt; στην τοποθεσία &lt;code&gt;/etc/default/&lt;/code&gt;
+&lt;br&gt;&lt;br&gt;
+Ανοίγωντας τον Nautilus επιλέγουμε &amp;ldquo;Other Locations&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/A27TEc2.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/A27TEc2.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Κάτω στο &amp;ldquo;Connect to server&amp;rdquo; γράφουμε την τοποθεσία με το prefix &lt;code&gt;admin:///&lt;/code&gt; . Στη συγκεκριμένη περίπτωση &lt;code&gt;admin:///etc/default&lt;/code&gt; διότι εκεί μέσα βρίσκεται το αρχείο &lt;code&gt;grub&lt;/code&gt; που θέλουμε να επεξεργαστούμε. Πατάμε Conect.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/92mCuMg.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/92mCuMg.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ένα παράθυρο διαλόγου θα απαιτήσει τον κωδικό μας ώστε να λάβουμε αυξημένα δικαιώματα στη συγκεκριμένη τοποθεσία.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/6p9FTjm.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/6p9FTjm.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Επιλέγουμε το αρχείο &lt;code&gt;grub&lt;/code&gt; και είτε πατάμε διπλό κλικ, είτε δεξί κλικ και Open With Text Editor.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/mlKMS8e.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/mlKMS8e.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ένα νέο παράθυρο διαλόγου μας ζητά εκ νέου τον κωδικό μας, ώστε να αποκτήσουμε το δικαίωμα επεξεργασίας του αρχείου.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/3uVxZxw.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/3uVxZxw.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Στο τέλος έχουμε το αρχείο έτοιμο προς επεξεργασία.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/c3IyyHR.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/c3IyyHR.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;δεν-μπορώ-απλά-να-δώσω-ένα-sudo-gedit-etc-default-grub-να-τελειώνουμε&#34;&gt;Δεν μπορώ απλά να δώσω ένα sudo gedit /etc/default/grub να τελειώνουμε;&lt;/h4&gt;
+
+&lt;p&gt;Φυσικά και μπορείς. Όπως άλλωστε αναφέρθηκε και παραπάνω η χρήση του παραδοσιακού sudo με έναν επεξεργαστή κειμένου πιθανότατα δεν θα δημιουργήσει κάποιο πρόβλημα. Αν όμως θελήσεις να διαγράψεις ή να δημιουργήσεις κάποιο αρχείο ή φάκελο, τότε είναι καλύτερα με τον παραπάνω τρόπο παρά με &lt;code&gt;sudo nautilus&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;πρέπει-να-πηγαίνω-τα-βήματα-ένα-ένα&#34;&gt;Πρέπει να πηγαίνω τα βήματα ένα-ένα;&lt;/h4&gt;
+
+&lt;p&gt;Όχι. Αυτό δείξαμε εδώ για να δούμε πως λειτουργεί. Μπορεί κάποιος να γράψει κατευθείαν&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;admin:///etc/default/grub
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;και θα ανοίξει το αρχείο με τον προ-επιλεγμένο editor (στο Ubuntu τον Gedit).&lt;/p&gt;
+
+&lt;h4 id=&#34;γιατί-ζητά-δυο-φορές-τον-κωδικό&#34;&gt;Γιατί ζητά δυο φορές τον κωδικό;&lt;/h4&gt;
+
+&lt;p&gt;Η πρώτη φορά είναι για να αποκτήσουμε δικαιώματα επεξεργασίας μέσα στον κατάλογο που βρισκόμαστε (στο παράδειμα /etc/default) και η δεύτερη για δικαιώματα επεξεργασίας του συγκεκριμένου αρχείου (στο παράδειγμα grub). &lt;br&gt;
+Αν χρησιμοποιήσετε τον απευθείας τρόπο(&lt;code&gt;admin:///etc/default/grub&lt;/code&gt;) , που αυτόν λογικά θα χρησιμοποιήσει κάποιος, τότε θα ζητήσει μια φορά τον κωδικό.&lt;/p&gt;
+
+&lt;h4 id=&#34;αν-θέλω-να-τρέξω-κάποια-άλλη-εφαρμογή-ως-root&#34;&gt;Αν θέλω να τρέξω κάποια άλλη εφαρμογή ως root;&lt;/h4&gt;
+
+&lt;p&gt;Δεν θέλεις και δεν χρειάζεται.
+Οι εφαρμογές που πρέπει να τρέχουν με αυξημένα δικαιώματα είναι κατασκευασμένες έτσι ώστε να εμφανίζουν το σχετικό παράθυρο διαλόγου με το που τις ανοίξει κάποιος.&lt;br&gt;
+Στη παραπάνω δημοσίευση δείξαμε δυο από τις βασικότερες και δημοφιλέστερες γραφικές εφαρμογές οι οποίες μπορούν να χρησιμοποιηθούν κι έτσι, κι αλλιώς. Δηλαδή και ως απλός χρήστης και ως root.&lt;br&gt;
+Μη σου μπαίνουν ιδέες να τρέξεις τον Firefox ή τον Chrome ως root ή το GIMP, δεν υπάρχει λόγος και το μόνο που θα δημιουργήσεις είναι πρόβλημα. Όμως, το Gparted για παράδειγμα το οποίο είναι κατασκευασμένο να λειτουργεί με αυξημένα δικαιώματα θα σου ζητήσει από μόνο του κωδικό.&lt;br&gt;
+Αν ωστόσο επιμένεις να πειραματίζεσαι τότε η γραφικού περιβάλλοντος λύση εδώ είναι το &lt;code&gt;Alt+F2&lt;/code&gt; και έπειτα πληκτρολογείς &lt;code&gt;pkexec ....&lt;/code&gt; και το όνομα της εφαρμογής που θέλεις.&lt;/p&gt;
+
+&lt;h4 id=&#34;από-το-τερματικό-είναι-πιο-εύκολο&#34;&gt;Από το τερματικό είναι πιο εύκολο.&lt;/h4&gt;
+
+&lt;p&gt;Το ξέρω.&lt;br&gt;
+Αυτή η δημοσίευση είναι για όσους/ες δεν θέλουν, δεν ξέρουν ή/και δεν γουστάρουν να μάθουν να χρησιμοποιούν γραμμή εντολών, αλλά γραφικές εφαρμογές.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[Ubuntu] 26 Απριλίου η νέα LTS έκδοση</title>
-      <link>https://nicktux.github.io/post/ubuntu-26_april_18_04_release/</link>
+      <link>https://nicktux.github.io/post/ubuntu-26_April_18_04_Release/</link>
       <pubDate>Mon, 09 Apr 2018 12:26:43 +0300</pubDate>
       
-      <guid>https://nicktux.github.io/post/ubuntu-26_april_18_04_release/</guid>
+      <guid>https://nicktux.github.io/post/ubuntu-26_April_18_04_Release/</guid>
       <description>&lt;p&gt;Σε λίγες ημέρες από σήμερα η νέα έκδοση του Ubuntu 18.04 προβλέπεται να κυκλοφορήσει ως η νέα σταθερή LTS έκδοση.&lt;br&gt;
 Παρακάτω θα δούμε τι νέο φέρνει, πως μπορούμε να αναβαθμίσουμε με ασφάλεια και πότε, καθώς και άλλες χρήσιμες πληροφορίες.
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;p&gt;Να υπενθυμίσουμε ότι οι εκδόσεις LTS (Long Term Support) υποστηρίζονται για 5 έτη από την ημερομηνία κυκλοφορίας τους, έτσι η 18.04 θα υποστηρίζεται με ενημερώσεις λογισμικού μέχρι και τον Απρίλιο του 2023.&lt;br&gt;
+Οι εκδόσεις LTS ανέκαθεν θεωρούταν(και τις περισσότερες φορές ήταν) πιο σταθερές από τις ενδιάμεσες(μη LTS), καθώς προορίζονται όχι μόνο για Home Users αλλά και για Enterprise/Business.&lt;br&gt;
+Αυτή τη στιγμή η 18.04 βρίσκεται σε Beta2 που σημαίνει ότι έχει μπει στη τελική ευθεία για κυκλοφορία. Σχεδόν τίποτα δεν θα αλλάξει σε σχέση με την τελική έκδοση, εκτός και αν αυτό χαρακτηριστεί ως &lt;span style=&#34;color:red&#34;&gt;Critical&lt;/span&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;γραφικό-περιβάλλον&#34;&gt;Γραφικό Περιβάλλον&lt;/h3&gt;
+
+&lt;p&gt;Η μεγαλύτερη αλλαγή που έρχεται με την 18.04 LTS είναι σίγουρα το γραφικό περιβάλλον. Όπως οι περισσότεροι γνωρίζουμε αυτό πλέον έχει αλλάξει από το κλασσικό Unity στο GNOME, έκδοσης 3.28. Αν και έχει παραμετροποιηθεί έτσι ώστε να θυμίζει Unity. Έχει προστεθεί ένα Extention ονόματι Ubuntu Dock στα αριστερά το οποίο θυμίζει, αν και δεν είναι, τον Launcher του Unity. &lt;i&gt;Γι&amp;rsquo; αυτό το λόγο, αλλά και για άλλους, προσωπικά προτείνω τη νέα εγκατάσταση ως τρόπο αναβάθμισης σε αυτή την έκδοση και όχι την αναβάθμιση μέσω του Update Manager ή άλλων προγραμμάτων τρίτων.&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/znuztjx.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/znuztjx.jpg&#34; alt=&#34;&#34; width=&#34;82&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://i.imgur.com/Ftt6mPH.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/Ftt6mPH.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignnone size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;minimal-εγκατάσταση&#34;&gt;Minimal Εγκατάσταση&lt;/h3&gt;
+
+&lt;p&gt;Το πρόγραμμα εγκατάστασης της 18.04 προσφέρει μια νέα μέθοδο εγκατάστασης που ονομάζει Minimal. Από το όνομα και μόνο ο χρήστης καταλαβαίνει ότι πρόκειται για το &amp;ldquo;κανονικό&amp;rdquo; Ubuntu, χωρίς όμως πρόσθετες εφαρμογές. Περιέχει έναν Browser, έναν Text Editor, λίγα βασικά εργαλεία και το Software Center. Από εκεί και πέρα ο χρήστης μπορεί να επιλέξει τις εφαρμογές που θα κάνει εγκατάσταση και θα χρησιμοποιήσει. &lt;i&gt;Κατά τη γνώμη μου ένα από τα καλύτερα χαρακτηριστικά αυτής της έκδοσης.&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/HG3Nnv2.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/HG3Nnv2.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;480&#34; class=&#34;alignnone size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;προσθήκη-αποθετηρίων-ppa&#34;&gt;Προσθήκη αποθετηρίων PPA&lt;/h3&gt;
+
+&lt;p&gt;Καιρός ήταν να αλλάξει και αυτό το χαρακτηριστικό. Η προσθήκη αποθετηρίων PPA από την 18.04 θα είναι λίγο ευκολότερη. Αυτό σημαίνει ότι χρησιμοποιώντας την εντολή &lt;code&gt;sudo add-apt-repositroy&lt;/code&gt; η ενημέρωση των πηγών λογισμικού &lt;code&gt;sudo apt-get update&lt;/code&gt; θα γίνεται αυτόματα. Έτσι ο χρήστης γλυτώνει ένα βήμα, μια εντολή, και μπορεί να προχωρήσει κατευθείαν στην εγκατάσταση του επιθυμητού πακέτου.&lt;/p&gt;
+
+&lt;h3 id=&#34;πυρήνας-linux-4-15&#34;&gt;Πυρήνας Linux 4.15&lt;/h3&gt;
+
+&lt;p&gt;Αν και οι συζητήσεις ήταν πολλές ως προς το ποια έκδοση πυρήνα θα χρησιμοποιηθεί σε αυτή την έκδοση, εν τέλει αποφασίστηκε για την 4.15.x. Η 4.14.x είναι αυτή τη στιγμή η επίσημη LTS έκδοση, από μεριάς Upstream Kernel, ωστόσο το Ubuntu διαθέτει μια ικανή ομάδα από δικούς του Kernel Developers/Maintainers οι οποίοι μπορούν να συντηρήσουν μια μη-LTS έκδοση με ενημερώσεις ασφαλείας ακόμη και όταν αυτή λήξει (upstream). Αυτό έχει συμβεί ξανά άλλωστε. Δεν είναι η πρώτη φορά.&lt;/p&gt;
+
+&lt;h3 id=&#34;xorg-default&#34;&gt;Xorg Default&lt;/h3&gt;
+
+&lt;p&gt;Και εδώ οι συζητήσεις ήταν πολλές και ενώ όλα έδειχναν τον Wayland ως Default Display Server, τελικά αποφασίστηκε ο παλιός αλλά σίγουρος και σταθερός Xorg. Και καλά έκαναν εδώ που τα λέμε, διότι ο Wayland αν και έχει φτάσει σε ένα πολύ καλό σημείο ανάπτυξης δεν είναι ακόμη έτοιμος να αντικαταστήσει τον Xorg σε ότι αφορά τη συμπεριφορά δημοφιλών εφαρμογών, ειδικά σε μια έκδοση που προορίζεται και για εταιρικούς πελάτες. Ο Wayland βέβαια υπάρχει και μπορεί να χρησιμοποιηθεί στο Ubuntu 18.04, μπορεί κάποιος να τον επιλέξει από τη Login Screen. Απλά δεν είναι ο προεπιλεγμένος.&lt;/p&gt;
+
+&lt;h3 id=&#34;συλλογή-δεδομένων-χρήσης-opt-in&#34;&gt;Συλλογή δεδομένων χρήσης (opt-in)&lt;/h3&gt;
+
+&lt;p&gt;Από αυτή την έκδοση του Ubuntu η Canonical αποφάσισε να συλλέγει δεδομένα χρήσης και hardware για λόγους ανάλυσης και χρήσης της διανομής. Τα δεδομένα αυτά θα αναρτούνται δημόσια και φυσικά δεν θα περιέχουν κανένα προσωπικό δεδομένο του χρήστη. Σχετικό &lt;a href=&#34;https://www.facebook.com/groups/ubuntugr/permalink/1557522900962203&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;FB Post&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/TiZF6xd.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/TiZF6xd.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignnone size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;νέο-πρόγραμμα-εγκατάστασης-ubuntu-server&#34;&gt;Νέο πρόγραμμα εγκατάστασης Ubuntu Server&lt;/h3&gt;
+
+&lt;p&gt;Από αυτή την έκδοση ένα νέο πρόγραμμα εγκατάστασης που αφορά μόνο τις Server εκδόσεις θα είναι διαθέσιμο. Σίγουρα είναι πιο όμορφο και θα διευκολύνει ακόμη περισσότερο τον νεοεισερχόμενο να κάνει εγκατάσταση το Ubuntu Server 18.04. Σχετικό &lt;a href=&#34;https://www.facebook.com/groups/ubuntugr/permalink/1564579826923177&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;FB Post&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/4XyDipt.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/4XyDipt.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;357&#34; class=&#34;alignnone size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;νέο-theme-και-icon-set-όχι-ακόμη&#34;&gt;Νέο theme και icon set. Όχι ακόμη.&lt;/h3&gt;
+
+&lt;p&gt;Αν και έχει προταθεί και έχει γίνει αποδεκτό, το νέο Theme και σετ εικονιδίων το οποίο έχει δημιουργηθεί από την κοινότητα δεν πρόλαβε να ενσωματωθεί στη 18.04 LTS καθώς δεν θεωρείται ακόμη έτοιμο.&lt;br&gt;
+Σε όλες τις εκδόσεις του Ubuntu, χρόνια τώρα, επικρατεί ένα και μόνο θέμα, το Ambiance. Ήρθε ο καιρός να αλλάξει και αυτό. Η πρόταση έγινε αποδεκτή και πλήθως χρηστών συνεισφέρουν στο νέο Θέμα και Εικονίδια για το Ubuntu. Για λεπτομέρειες δείτε στο &lt;a href=&#34;https://community.ubuntu.com/t/call-for-participation-an-ubuntu-default-theme-lead-by-the-community/1545&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Ubuntu Community&lt;/strong&gt;&lt;/a&gt;. Το νέο Θέμα και Εικονίδια αναμένεται πιθανότατα στη 18.10.&lt;/p&gt;
+
+&lt;h3 id=&#34;με-γυμνό-μάτι&#34;&gt;Με γυμνό μάτι&lt;/h3&gt;
+
+&lt;p&gt;Άλλες διαφορές που θα εντοπίσει ένας χρήστης άμεσα είναι το νέο Wallpaper, καθώς και ο Nautilus File Manager (Files). Αν και ο τελευταίος θα μείνει στην έκδοση 3.26.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/qBVPGXI.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/qBVPGXI.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignnone size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/ZdFzBBl.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/ZdFzBBl.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;503&#34; class=&#34;alignnone size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;γνωστά-σφάλματα-bugs&#34;&gt;Γνωστά σφάλματα (Bugs)&lt;/h3&gt;
+
+&lt;p&gt;Σφάλματα τα οποία έχουν αναφερθεί μπορούν να βρεθούν σε συγκεκριμένη σελίδα στο Launchpad. Δείτε &lt;a href=&#34;https://bugs.launchpad.net/ubuntu/bionic/+bugs?orderby=status&amp;start=0&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;εδώ&lt;/strong&gt;&lt;/a&gt;. Από όλα αυτά τα σφάλματα βέβαια θα γίνει εκαθάριση των duplicates, των λανθασμένων και εκείνα που πιθανόν να μη διοθρωθούν ποτέ. Οι διοθρώσεις σφαλμάτων ίσως να μη προλάβουν να γίνουν με τη κυκλοφορία της έκδοσης 18.04, αλλά στο πρώτο Point Release.&lt;br&gt;
+Σε κάθε περίπτωση δείτε τις &lt;a href=&#34;https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes#Known_issues&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;σημειώσεις έκδοσης&lt;/strong&gt;&lt;/a&gt; (Release Notes). Εκεί αναφέρονται τα πιο γνωστά σφάλματα τα οποία επηρεάζουν συνολικά το λειτουργικό σύστημα.&lt;br&gt;
+Ένα που θέλω να αναφέρω εδώ είναι κάτι που εντόπισα πρόσφατα (μόλις χθές) και κατά τη γνώμη μου είναι σημαντικό. Δείτε την αναφορά σε &lt;a href=&#34;https://bugs.launchpad.net/ubuntu/+source/meta-gnome3/+bug/1761995&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;αυτό το Link&lt;/strong&gt;&lt;/a&gt; και αν σας επηρεάζει πατήστε το κουμπί &lt;strong&gt;&amp;ldquo;Yes it affects me&amp;rdquo;&lt;/strong&gt; ώστε να ανέβει το Heat και να λάβει τη δέουσα προσοχή.&lt;/p&gt;
+
+&lt;h3 id=&#34;αναβάθμιση-ή-νέα-εγκατάσταση&#34;&gt;Αναβάθμιση ή Νέα Εγκατάσταση;&lt;/h3&gt;
+
+&lt;p&gt;Κι εδώ ερχόμαστε στα γνωστά ερωτήματα που απασχολούν σε κάθε νεά έκδοση. Να αναβαθμίσω ή όχι; Αν ναι, πότε; Και αν ναι, πως;
+Κάποιος κανόνας δεν υπάρχει, γι&amp;rsquo; αυτό σε αυτή τη παράγραφο γράφω τη γνώμη μου και μόνο.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Αν είστε Οικιακός χρήστης&lt;/strong&gt; (Home User) να αναβαθμίσετε στη νέα έκδοση. Ο τρόπος είναι δική σας επιλογή αλλά προσωπικά προτείνω τη νέα εγκατάσταση και αυτό λόγω της μεγάλης αλλαγής που φέρνει η 18.04, την αλλαγή γραφικού περιβάλλοντος. Βέβαια το πρόγραμμα αναβάθμισης λειτουργεί και θεωρητικά έχει ελεγχθεί. Θυμηθείτε όμως, ή οι νεότεροι μάθετε, ότι παλαιότερα κάποιες διανομές πρόσφεραν τη νέα εγκατάσταση ως τον μοναδικό τρόπο αναβάθμισης από μια έκδοση σε μια άλλη, και λειτουργούσε μια χαρά. Αυτό που έχει να κάνει ο χρήστης είναι να αποθηκεύσει τα προσωπικά του αρχεία σε ένα άλλο δίσκο και να τα επαναφέρει ξανά μετά την ολοκλήρωση της νέας εγκατάστασης.&lt;br&gt;
+Η αναβάθμιση μπορεί να επιτευχθεί και μέσω του προγράμματος εγκατάστασης του Ubuntu. Δηλαδή, θα εμφανιστεί εκεί η κατάλληλη επιλογή όταν το πρόγραμμα εγκατάστασης της 18.04 ανιχνεύσει παλαιότερη έκδοση.
+&lt;br&gt;
+&lt;br&gt;
+&lt;strong&gt;Αν είστε εταιρικός χρήστης&lt;/strong&gt; (Business/Enterprise) ή ακόμη και αν είστε Home User που δεν σας αρέσουν οι εκπλήξεις, δεν το συζητάμε καν. Μένουμε στη 16.04 LTS μέχρι να μας ειδοποιήσει ο Update Manager για τη διαθεσιμότητα νέας έκδοσης, χωρίς να τον &amp;ldquo;πιέσουμε&amp;rdquo;. Αυτό θα γίνει εφόσον έχουμε ενεργοποιημένη την επιλογή &amp;ldquo;ειδοποίηση για νέες εκδόσεις&amp;rdquo; και θα γίνει με τη κυκλοφορία του πρώτου Point Release (18.04.1). Τότε θεωρείται η διανομή σταθερή και με τα περισσότερα Critical/High Bugs διορθωμένα. Επίσης έχει δοκιμαστεί από πλήθος άλλων χρηστών οι οποίοι σπεύδουν να αναβαθμίσουν από την Ημέρα 0, οπότε παίρνουμε κάτι έτοιμο, δοκιμασμένο και σταθερότερο.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Αν δεν θέλετε να κάνετε αναβάθμιση&lt;/strong&gt; δεν υπάρχει κάποιο πρόβλημα σε ότι αφορά την υποστήριξη και τις ενημερώσεις. Αυτό ισχύει για όσους/ες διαθέτουν τη 16.04 LTS η οποία θα υποστηρίζεται έως τον Απρίλιο του 2021. Αν όμως έρχεστε από μια μη-LTS έκδοση, τότε σχεδόν επιβάλλεται να αναβαθμίσετε μιας και η υποστήριξη θα λήξει σχετικά γρήγορα. Η 17.10 θα υποστηρίζεται έως τον Ιούλιο 2018.&lt;/p&gt;
+
+&lt;h3 id=&#34;υποστήριξη-ερωτήσεις-επίλυση-προβλημάτων-κουβέντα-κλπ&#34;&gt;Υποστήριξη, Ερωτήσεις, Επίλυση Προβλημάτων, Κουβέντα &amp;hellip;κλπ&lt;/h3&gt;
+
+&lt;p&gt;Για όλα τα παραπάνω η Ελληνική Κοινότητα του Ubuntu είναι διαθέσιμη σε διάφορες τοποθεσίες. Παρακάτω παραθέτω τις γνωστότερες εξ&amp;rsquo; αυτών.&lt;br&gt;
+1. &lt;a href=&#34;https://forum.ubnutu-gr.org&#34; target=&#34;_blank&#34;&gt;Φόρουμ&lt;/a&gt;&lt;br&gt;
+2. &lt;a href=&#34;https://www.facebook.com/groups/ubuntugr&#34; target=&#34;_blank&#34;&gt;Facebook Group&lt;/a&gt;&lt;br&gt;
+3. &lt;a href=&#34;https://plus.google.com/communities/113489005803686865491&#34; target=&#34;_blank&#34;&gt;Google Group&lt;/a&gt;&lt;br&gt;
+4. &lt;a href=&#34;https://t.me/joinchat/AAAAAArxCH_ymENriw2uWA&#34; target=&#34;_blank&#34;&gt;Telegram Group&lt;/a&gt;&lt;br&gt;
+5. Για τους κλασσικούς, στο &lt;a href=&#34;https://webchat.freenode.net/?channels=ubuntu-gr&#34; target=&#34;_blank&#34;&gt;Freenode IRC&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -107,7 +693,33 @@
 Ίσως ο πιο συνηθισμένος από αυτούς να είναι η δημιουργία ενός απλού εκτελέσιμου script με sleep κλπ και η προσθήκη αυτού στις εφαρμογές εκκίνησης.
 &lt;br&gt;Εδώ θα δούμε έναν απλό τρόπο, με μια γραμμή κώδικα την οποία προσθέτουμε στο ήδη υπάρχον αρχείο με κατάληξη &lt;code&gt;.desktop&lt;/code&gt;.
 &lt;br&gt;
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+Ο παρακάτω τρόπος θα λειτουργήσει στο γραφικό περιβάλλον GNOME και σε όσα αναγνωρίζουν τις παραμέτρους του (πχ Unity). Σε άλλα DEs (πχ. XFCE, LXDE, KDE) ίσως να μη δουλέψει.
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;τοποθεσία-εφαρμογών-εκκίνησης&#34;&gt;Τοποθεσία Εφαρμογών Εκκίνησης&lt;/h3&gt;
+
+&lt;p&gt;Τις βρίσκουμε συνήθως σε μια από τις παρακάτω τοποθεσίες&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/etc/xdg/autostart #System Wide
+~/.config/autostart #Current User
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;x-gnome-autostart-delay&#34;&gt;X-GNOME-Autostart-Delay&lt;/h3&gt;
+
+&lt;p&gt;Βρίσκουμε το αρχείο εκκίνησης της εφαρμογής και ανοίγοντάς το με τον αγαπημένο μας editor (πχ. gedit) προσθέτουμε στο τέλος τη παρακάτω παράμετρο:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;X-GNOME-Autostart-Delay=SECONDS
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Αντικαθιστούμε το &lt;code&gt;SECONDS&lt;/code&gt; με τα δευτερόλεπτα που θέλουμε να καθυστερήσει να εκκινήσει η εφαρμογή, από τη στιγμή σύνδεσης (login).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -119,7 +731,40 @@
       <description>&lt;pre style=&#34;width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:&#39;Ubuntu&#39;;font-style:normal;font-size:medium;&#34;&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!&lt;/pre&gt;
 
 &lt;p&gt;Υπάρχουν πάρα πολλά προγράμματα κρυπτογράφησης. Εδώ θα δούμε ένα προ-εγκατεστημένο (στο Ubuntu και τις περισσότερες διανομές) εργαλείο, ονόματι OpenSSL. Μια εντολή σε τερματικό* είναι. Μια για κρυπτογράφηση και μια για αποκρυπτογράφηση. Εύκολα και γρήγορα. Το μόνο που πρέπει να φυλάξετε σε ασφαλές μέρος είναι  ο κωδικός αποκρυπτογράφησης.
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;h3 id=&#34;κρυπτογράφηση-αποκρυπτογράφηση-αρχείου&#34;&gt;Κρυπτογράφηση/αποκρυπτογράφηση αρχείου.&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;openssl aes-256-cbc -in file -out file.aes
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Θα σας ζητήσει να εισάγετε έναν κωδικό δυο φορές. Αυτόν φυλάξτε τον κάπου εκτός υπολογιστή.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;openssl aes-256-cbc -d -in file.aes -out file
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Θα σας ζητήσει να εισάγετε τον κωδικό αποκρυπτογράφησης.&lt;/p&gt;
+
+&lt;h3 id=&#34;κρυπτογράφηση-αποκρυπτογράφηση-φακέλου&#34;&gt;Κρυπτογράφηση/Αποκρυπτογράφηση Φακέλου&lt;/h3&gt;
+
+&lt;p&gt;Εδώ χρησιμοποιούμε το OpenSSL σε συνδυασμό με την tar.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;tar -zcf - directory | openssl aes-256-cbc -out directory.tar.gz.aes
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Θα σας ζητήσει να εισάγετε τον κωδικό δυο φορές. Όπου directory το αντικαθιστούμε με τον φάκελο που θέλουμε να κρυπτογραφήσουμε.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;openssl aes-256-cbc -d  -in directory.tar.gz.aes | tar -xz -f
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Θα σας ζητήσει τον κωδικό αποκρυπτογράφησης που δώσατε πριν.&lt;/p&gt;
+
+&lt;p&gt;Μην ξεχνάτε πως οι παραπάνω εντολές δεν διαγράφουν τα αρχικά αρχεία-φακέλους. Θα πρέπει να τα διαγράψετε μόνοι σας αν θέλετε.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -129,7 +774,43 @@
       
       <guid>https://nicktux.github.io/post/apg-strong-passwords/</guid>
       <description>&lt;p&gt;Το apg είναι ένα εργαλείο που μπορεί να μας βοηθήσει στην παραγωγή ισχυρών τυχαίων (random) κωδικών. Είναι προ-εγκατεστημένο σε Ubuntu. Αν χρειαζόμαστε ισχυρούς κωδικούς που σπάνε δύσκολα έως καθόλου (πρακτικά) τότε με μια απλή εντολή σε ένα τερματικό* μπορούμε να έχουμε το επιθυμητό αποτέλεσμα.
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;span style=&#34;font-size:x-small;color:#ff0000;&#34;&gt;&lt;strong&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ! ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΙΣΧΥΕΙ ΠΛΕΟΝ.&lt;/strong&gt;&lt;/span&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Το apg χρησιμοποιεί δύο αλγόριθμους για την παραγωγή κωδικών. Ο πρώτος (1) και προεπιλεγμένος, είναι εκείνος που παράγει τους λεγόμενους pronoucable passwords ή κωδικούς που μπορείτε να προφέρετε. Ο δεύτερος αλγόριθμος (2) είναι εκείνος της τυχαίας παραγωγής.&lt;/p&gt;
+
+&lt;p&gt;Παραδείγματα αποτελεσμάτων.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;orijipoytDezobUjSi
+)ge}wgl(k&amp;lt;:Q65)=V
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ποιον από τους παραπάνω θεωρείτε πιο ισχυρό και δύσκολα προβλέψιμο;&lt;/p&gt;
+
+&lt;p&gt;Η εντολή είναι μια γραμμή και είναι απλή και θα εξηγήσουμε τις παραμέτρους μια-μια.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apg -s -a 1 -m 12 -x 20 -n 4
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Θα σας ζητήσει να δώσετε κάποια τυχαία νούμερα - αριθμούς και σύμβολα έτσι  ώστε να πάρει ένα παράδειγμα για το τι κωδικός θέλετε να παραχθεί. Αν για παράδειγμα δώσετε μόνο νούμερα, θα δημιουργήσει κωδικό μόνο με αριθμούς.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Παράμετροι:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;-s : προτρέπει τον χρήστη να δώσει τυχαίο παράδειγμα κωδικού.&lt;/li&gt;
+    &lt;li&gt;-a: Ο αλγόριθμος που θα χρησιμοποιηθεί. Υπάρχει ο 0 (προεπιλογή - pronoucable) και ο 1 (random)&lt;/li&gt;
+    &lt;li&gt;-m: Ο αριθμός ελάχιστων χαρακτήρων του κωδικού.&lt;/li&gt;
+    &lt;li&gt;-x: Ο αριθμός μέγιστων χαρακτήρων του κωδικού.&lt;/li&gt;
+    &lt;li&gt;-n: Ο αριθμός των παραγόμενων κωδικών.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Η παραπάνω εντολή λοιπόν, θα δημιουργήσει 4 κωδικούς από 12 έως 20 χαρακτήρες με τον αλγόριθμο τυχαίας παραγωγής. &lt;em&gt;Οι χαρακτήρες εξαρτώνται από το τι θα εισάγουμε εμείς ως παράδειγμα.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -142,7 +823,60 @@
 
 &lt;p&gt;Τα προβλήματα στην ασύρματη σύνδεση μπορεί να ποικίλουν. Γι&amp;rsquo; αυτό δεν υπάρχει κάποιος γενικός κανόνας επίλυσης τέτοιων προβλημάτων.
 Το καλύτερο που μπορείτε να κάνετε είναι να ζητήσετε βοήθεια από ένα φόρουμ υποστήριξης και βοηθείας για το Ubuntu.
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;span style=&#34;font-size:x-small;color:#ff0000;&#34;&gt;&lt;strong&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ! ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΙΣΧΥΕΙ ΠΛΕΟΝ.&lt;/strong&gt;&lt;/span&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Παρακάτω θα παραθέσω κάποιες εντολές διάγνωσης. Οι εντολές αυτές περιέχονται σε ένα script , το οποίο έχει γραφτεί από χρήστες του &lt;a href=&#34;http://ubuntuforums.org/forum.php&#34;&gt;UbuntuForums.org&lt;/a&gt; και τα αποτελέσματα θα βοηθήσουν αρκετά όσους ασχολούνται με wireless troubleshooting.&lt;/p&gt;
+
+&lt;h3 style=&#34;text-align:center;&#34;&gt;Η παρακάτω διαδικασία απαιτεί ενεργή σύνδεση στο Internet.&lt;/h3&gt;
+
+&lt;p&gt;Συνδέστε τον υπολογιστή σας στο Internet μέσω καλωδίου Ethernet .&lt;/p&gt;
+
+&lt;p&gt;Ανοίξτε ένα τερματικό με τον συνδυασμό πλήκτρων CTRL+ALT+T και εκτελέστε τις παρακάτω εντολές μια-μια.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;wget -N -t 5 -T 10 &amp;quot;https://dl.dropboxusercontent.com/s/l93ifv397doyvil/wireless-script&amp;quot;
+chmod +x wireless-script
+./wireless-script
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Οι παραπάνω εντολές θα κατεβάσουν και θα εκτελέσουν το script ονόματι &lt;strong&gt;wireless-script&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Όταν εκτελεστεί η τελευταία εντολή θα δημιουργηθεί ένα αρχείο ονόματι &lt;strong&gt;wireless-info.txt&lt;/strong&gt; στον προσωπικό σας κατάλογο. Δώσε τον κωδικό σας όταν σας ζητηθεί.&lt;/p&gt;
+
+&lt;p&gt;Αυτό το αρχείο περιέχει όλες τις πληροφορίες που χρειάζεται ένας troubleshooter για να προσπαθήσει να λύσει το πρόβλημα σας.
+Μπορείτε να κάνετε αντιγραφή και επικόλληση όλα τα περιεχόμενα σε ένα &lt;a href=&#34;https://forum.ubuntu-gr.org/&#34; target=&#34;_blank&#34;&gt;φόρουμ&lt;/a&gt; υποστήριξης και βοήθειας για το Ubuntu ή σε κάποια υπηρεσία &lt;a href=&#34;http://termbin.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pastebin&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Σε περίπτωση που το script ανιχνεύσει το πρόγραμμα pastebinit εγκατεστημένο, θα σας προτείνει να ανεβάσει το περιεχόμενο στο προεπιλεγμένο paste site που είναι το &lt;a href=&#34;http://paste.ubuntu.com/&#34;&gt;http://paste.ubuntu.com/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;color:#ff0000;&#34;&gt;&lt;strong&gt;Σημείωση:&lt;/strong&gt;&lt;/span&gt; Όλα τα προσωπικά σας στοιχεία , όπως access point , ESSID κλπ , έχουν αφαιρεθεί από τα αποτελέσματα του script για λόγους ασφαλείας.&lt;/p&gt;
+
+&lt;p&gt;Το αρχείο &lt;strong&gt;wireless-info.txt&lt;/strong&gt; που περιέχει τα αποτελέσματα μπορείτε να το ανοίξετε με έναν κειμενογράφο. Στο Ubuntu ως προ-εγκατεστημένος κειμενογράφος είναι το gedit , οπότε αρκεί να δώσετε στο τερματικό σας την εντολή&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gedit wireless-info.txt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ή απλά να κάνετε ένα δεξί κλικ στο αρχείο wireless-info.txt και να πατήσετε άνοιγμα (θα ανοίξει με τον προ-επιλεγμένο κειμενογράφο)
+Έτσι θα μπορέσετε να δείτε και να κάνετε αντιγραφή - επικόλληση τα αποτελέσματα.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Αν θέλετε να δείτε τα περιεχόμενα του script, τις εντολές που περιέχει, ανοίξτε το αρχείο (wireless-script) με έναν κειμενογράφο&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 style=&#34;text-align:center;&#34;&gt;H παρακάτω διαδικασία δεν απαιτεί σύνδεση στο Internet.&lt;/h3&gt;
+
+&lt;p&gt;Σε περίπτωση που δεν έχετε την δυνατότητα ενσύρματης σύνδεσης στο Internet από το λειτουργικό σύστημα Ubuntu , τότε μπείτε από έναν υπολογιστή που διαθέτει σύνδεση στο Internet και κάνετε &lt;a href=&#34;https://dl.dropboxusercontent.com/s/l93ifv397doyvil/wireless-script&#34; target=&#34;_blank&#34;&gt;κλικ εδώ&lt;/a&gt; . Πατήστε &amp;ldquo;Save page as&amp;hellip;&amp;rdquo; , έτσι ώστε να κατέβει και να σωθεί το αρχείο με την ονομασία wireless-script.
+Έπειτα πρέπει να το μεταφέρετε (π.χ μέσω USB-stick) στο λειτουργικό σύστημα Ubuntu, το οποίο «πάσχει» από το πρόβλημα.
+Αφού το μεταφέρετε κάνετε δεξί κλικ στο αρχείο (wireless-script) και κλικ στο properties (Ιδιότητες) , στο παράθυρο που θα ανοίξει πάτε στην καρτέλα Permissions(δικαιώματα) και μαρκάρετε το κουτάκι &amp;ldquo;Allow executing file as program&amp;rdquo; (να επιτρέπεται η εκτέλεση του αρχείου ως πρόγραμμα).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/CmKmDKZl.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/CmKmDKZl.jpg&#34; alt=&#34;&#34; width=&#34;360&#34; height=&#34;326&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Τέλος κάνετε ένα διπλό κλικ επάνω στο αρχείο wireless-script και πατήστε Run (Εκτέλεση).&lt;/p&gt;
+
+&lt;p&gt;Έπειτα ισχύει η ίδια διαδικασία (όπως παραπάνω) προκειμένου να ανοίξετε και να δείτε τα περιεχόμενα του αρχείου wireless-info.txt που θα δημιουργηθεί.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -152,7 +886,45 @@
       
       <guid>https://nicktux.github.io/post/boot-repair/</guid>
       <description>&lt;p&gt;Το boot-repair είναι ένα πρόγραμμα που θα σας βοηθήσει να διορθώσετε τυχών προβλήματα εκκίνησης του λειτουργικού συστήματος Ubuntu. Τέτοια προβλήματα μπορεί να είναι:
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Δεν μπορώ να κάνω boot στα Windows αφού εγκατέστησα το Ubuntu&lt;/li&gt;
+    &lt;li&gt;Επιλέγω την εισαγωγή Ubuntu αλλά μου εμφανίζει μια μαύρη οθόνη που γράφει &#34;grub-rescue&#34;&lt;/li&gt;
+    &lt;li&gt;Ο grub-bootloader δεν εμφανίζεται καθόλου&lt;/li&gt;
+    &lt;li&gt;Βλέπω μόνο μια μαύρη οθόνη και τίποτε άλλο&lt;/li&gt;
+    &lt;li&gt;Πρόβλημα εκκίνησης σε UEFI/Secure Boot σύστημα&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;span style=&#34;font-size:x-small;color:#ff0000;&#34;&gt;&lt;strong&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ! ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΙΣΧΥΕΙ ΠΛΕΟΝ.&lt;/strong&gt;&lt;/span&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Τέτοια ζητήματα μπορεί να προκύψουν μετά την εγκατάσταση ενός νέου λειτουργικού συστήματος παράλληλα με το υπάρχον, είτε αυτό είναι τα Windows μετά το Ubuntu , είτε κάποιο άλλο λειτουργικό σύστημα Linux.&lt;/p&gt;
+
+&lt;h2&gt;Απλή διόρθωση&lt;/h2&gt;
+
+&lt;p&gt;Συνδέστε τον υπολογιστή σας στο Internet με ένα καλώδιο Ethernet.
+Εισάγετε το CD ή Usb που έχετε φτιάξει και κάνετε boot από αυτό. Όταν εγκαταστήσατε το Ubuntu για πρώτη φορά , πιθανότατα το κάνατε μέσω κάποιου CD ή Usb (εκτός της περίπτωσης wubi.exe) , αυτά ονομάζονται και Live CD ή Live Usb. Εισάγετε στον υπολογιστή σας αυτό το Live CD ή Usb και ρυθμίστε τον έτσι ώστε να κάνει boot από αυτό. Όπως όταν εγκαταστήσατε το Ubuntu.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;color:#ff0000;&#34;&gt;&lt;strong&gt;Προσοχή:&lt;/strong&gt;&lt;/span&gt; Η έκδοση Ubuntu πρέπει να είναι μια υποστηριζόμενη έκδοση και όχι EOL (End Of Life).&lt;/p&gt;
+
+&lt;p&gt;Πατήστε , αν σας ζητηθεί , Try Ubuntu (Δοκιμή). Δεν θέλουμε να εγκαταστήσουμε ξανά το Ubuntu. Έπειτα ανοίξτε ένα τερματικό με τον συνδυασμό πλήκτρων (CTRL+ALT+T) και εκτελέστε τις παρακάτω εντολές μια-μια.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo add-apt-repository ppa:yannubuntu/boot-repair &amp;amp;amp;&amp;amp;amp; sudo apt-get update
+sudo apt-get install -y boot-repair &amp;amp;amp;&amp;amp;amp; boot-repair
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Αυτό που θα κάνουν οι παραπάνω εντολές είναι να εγκαταστήσουν την εφαρμογή boot-repair και να την τρέξουν. Τελειώνοντας την εκτέλεση τους θα δείτε να ανοίγει ένα παράθυρο σαν το παρακάτω&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://i.imgur.com/6rzUrKH.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;https://i.imgur.com/6rzUrKH.jpg&#34; width=&#34;300&#34; height=&#34;194&#34; /&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Πατήστε το Recommended repair για να προσπαθήσει το πρόγραμμα να διορθώσει λάθη που θα βρει στην εκκίνηση του υπολογιστή σας.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;color:#ff0000;&#34;&gt;&lt;strong&gt;Σημαντικό&lt;/strong&gt;&lt;/span&gt;: Όταν τελειώσει η διόρθωση , τότε το πρόγραμμα θα σας δώσει ένα URL με διάφορα στοιχεία. Αυτό το URL κρατήστε το και σε περίπτωση που δεν διορθωθεί η εκκίνηση του υπολογιστή σας, δείξτε το σε ένα φόρουμ υποστήριξης για περαιτέρω βοήθεια.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -163,7 +935,37 @@
       <guid>https://nicktux.github.io/post/package-manager-troubleshooting-ubuntu/</guid>
       <description>&lt;p&gt;Όταν λέμε διαχειριστής πακέτων , εννοούμε οτιδήποτε έχει σχέση με την εγκατάσταση ή αναβάθμιση των πακέτων - προγραμμάτων του Ubuntu.
 Το πρόβλημα μπορεί να είναι , είτε &amp;ldquo;μη επιλυμένες εξαρτήσεις&amp;rdquo; (dependencies) , είτε αδυναμία αναβάθμισης , είτε κρατούμενα ελαττωματικά πακέτα &amp;hellip; κλπ.
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;span style=&#34;font-size:x-small;color:#ff0000;&#34;&gt;&lt;strong&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ! ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΙΣΧΥΕΙ ΠΛΕΟΝ.&lt;/strong&gt;&lt;/span&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Σε τέτοιες περιπτώσεις είναι καλό να κάνουμε μόνοι μας μια διάγνωση ή και προσπάθεια διόρθωσης , πριν ζητήσουμε βοήθεια από κάποιο φόρουμ.. κλπ. Έτσι σε περίπτωση μη επίλυσης του προβλήματος θα έχουμε τα αποτελέσματα της διαδικασίας που ακολουθήσαμε έτοιμα και διαθέσιμα για να τα κάνουμε ποστ.
+Τα αποτελέσματα της παρακάτω διαδικασίας είναι σημαντικά και εκτός του ότι η ίδια η διαδικασία μπορεί αυτόματα να λύσει το πρόβλημα σας , θα σας παρέχει και διαγνωστικές πληροφορίες σχετικά με το τι συμβαίνει.&lt;/p&gt;
+
+&lt;h3&gt;Αυτόματο Script&lt;/h3&gt;
+
+&lt;p&gt;Ανοίξτε ένα τερματικό (CTRL+ALT+T) και εκτελέστε τις παρακάτω εντολές με τη σειρά , μια-μια&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;wget &amp;quot;https://dl.dropboxusercontent.com/s/w8nw83qjw2khl08/fixpackage&amp;quot; -O ~/fixpackage
+chmod +x fixpackage
+sudo ./fixpackage
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Το παραπάνω script , ονόματι fixpackage , δεν είναι τίποτε άλλο από μια σειρά εντολών. Αντί να τις κάνετε copy-paste μια μια (είναι και πολλές) , απλά τρέχετε το script  και έτσι δεν υπάρχει και περίπτωση να κάνετε κάποιο λάθος ή να παραλείψετε κάποια εντολή.
+Αν θέλετε να δείτε τα περιεχόμενα του script , τρέξτε την εντολή&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;paste fixpackage
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;span style=&#34;color:#ff0000;&#34;&gt;Σημαντικό :&lt;/span&gt;&lt;/strong&gt; Ρυθμίστε το τερματικό σας έτσι ώστε η εκτύπωση γραμμών να είναι απεριόριστη. Αφού ανοίξετε το τερματικό , πατήστε Edit &lt;code&gt;→&lt;/code&gt; Profile Preferences . Στο παράθυρο που θα ανοίξει πηγαίνετε στο Scrolling και τικάρετε το κουτάκι που γράφει Unlimited. Έτσι το τερματικό δεν θα κόψει αποτελέσματα εντολών.&lt;/p&gt;
+
+&lt;p&gt;Αφού τρέξετε το παραπάνω script , πιθανών το πρόβλημα που είχατε να έχει διορθωθεί ήδη. Αν όχι , τότε όλα τα αποτελέσματα που έβγαλε στο τερματικό είναι διαγνωστικά για όσους λύνουν προβλήματα στο Ubuntu.
+Να τα παραθέσετε μαζί με το αίτημα σας για βοήθεια. Μια αντιγραφή - επικόλληση όλων των αποτελεσμάτων είναι αρκετή.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -173,41 +975,110 @@
       
       <guid>https://nicktux.github.io/post/how-to-become-ubuntu-member/</guid>
       <description>&lt;p&gt;Με το να γίνει κάποιος Ubuntu Member σημαίνει αναγνώριση, από την διεθνή κοινότητα, της σημαντικής και συνεχούς προσφοράς του στο Ubuntu και κατ&amp;rsquo; επέκταση στο Ανοιχτό Λογισμικό.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Επαναφορά κωδικού χρήστη</title>
-      <link>https://nicktux.github.io/post/reset-password-ubuntu/</link>
-      <pubDate>Tue, 02 Jul 2013 17:16:40 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/post/reset-password-ubuntu/</guid>
-      <description>&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://i.imgur.com/6A7JEZml.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/6A7JEZml.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;/p&gt;
 
-&lt;p&gt;Υπάρχουν διάφοροι λόγοι όπου μπορεί να θέλουμε να επαναφέρουμε τον κωδικό μας στο Ubuntu.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Fosscomm 2013</title>
-      <link>https://nicktux.github.io/post/fosscomm-2013/</link>
-      <pubDate>Tue, 02 Jul 2013 02:16:08 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/post/fosscomm-2013/</guid>
-      <description>&lt;p&gt;H Ελληνική κοινότητα Ubuntu (Ubuntu-gr) συμμετείχε και φέτος στην Fosscomm 2013, που πραγματοποιήθηκε στο Χαροκόπειο Πανεπιστήμιο Αθηνών με δικό της booth - καθώς και παρουσιάσεις.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Release Party Ubuntu 13.10 Athens 2013</title>
-      <link>https://nicktux.github.io/post/release-party-ubuntu-13-10-athens2013/</link>
-      <pubDate>Tue, 02 Jul 2013 02:05:25 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/post/release-party-ubuntu-13-10-athens2013/</guid>
-      <description>To release party για το Ubuntu 13.04 διεξήχθη με επιτυχία και φέτος στο καφέ Ηλιοστάσιο στο Θησείο. Ο κόσμος προσήλθε σε ικανοποιητικό αριθμό, η τούρτα όμορφη και εύγευστη και το κλίμα όπως πάντα φιλικό.
-  
-Περισσότερο φωτογραφικό υλικό στο φώτο-άλμπουμ της Ελληνικής κοινότητας.
-Until next time &amp;hellip; &amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;</description>
+&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://i.imgur.com/HBsmed7.png&#34;&gt;&lt;img alt=&#34;ubuntu-chievey&#34; src=&#34;https://i.imgur.com/HBsmed7.png&#34; width=&#34;300&#34; height=&#34;58&#34; /&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;span style=&#34;font-size:x-small;color:#ff0000;&#34;&gt;&lt;strong&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ! ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΙΣΧΥΕΙ ΠΛΕΟΝ.&lt;/strong&gt;&lt;/span&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align:center;&#34;&gt;Προϋποθέσεις&lt;/h2&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Πρέπει να έχετε λογαριασμό στο Launchpad και να έχετε υπογράψει το Ubuntu Code of Conduct&lt;/li&gt;
+    &lt;li&gt;Η συνεισφορά σε όλους τους τομείς είναι καλοδεχούμενη.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Η συνεισφορά είναι ένα προαπαιτούμενο , είναι η βασική προϋπόθεση για να μπορέσετε να γίνετε Ubuntu-Member. Υπάρχουν πολλοί και διαφορετικοί τρόποι συνεισφοράς στο Ubuntu και την κοινότητα του Ubuntu. Εκείνοι οι τρόποι που αξιολογούνται και αναγνωρίζονται μπορεί να είναι , συνεισφορά στην τέχνη (artwork , π.χ γραφίστας) , στις ομάδες Loco , στην τεκμηρίωση , στην υποστήριξη μελών μέσω των Forums , στις απαντήσεις στο Launchpad , υποστήριξη μέσω IRC, στην μετάφραση , προγραμματισμός και πακετάρισμα εφαρμογών , marketing and advocacy (διαφήμιση και υποστήριξη του Ubuntu) , στο Wiki &amp;hellip; κλπ.&lt;/p&gt;
+
+&lt;p&gt;Βέβαια όλα τα παραπάνω θα πρέπει να αποδειχθούν όταν θα βρίσκεστε ενώπιον του συμβουλίου έγκρισης. Σε αυτό θα βοηθήσει η σελίδα Wiki που θα φτιάξετε (θα το δούμε παρακάτω) , καθώς και η παρουσία χρηστών που θα σας υποστηρίξουν κατά την διάρκεια της εξέτασης. (μέσω IRC).&lt;/p&gt;
+
+&lt;p&gt;Η ιδέα πως μόνον οι τεχνικά καταρτισμένοι χρήστες (π.χ προγραμματιστές) , οι οποίοι ξέρουν κώδικα ή εκείνοι οι οποίοι έχουν το &amp;ldquo;κάρμα του Βούδα&amp;rdquo; στο Launchpad μπορούν να γίνουν Ubuntu Members , απλά δεν ισχύει.&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align:center;&#34;&gt;Πλεονεκτήματα ενός Ubuntu Member&lt;/h2&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Δικαίωμα ψήφου στην εκλογή των μελών του Ubuntu Community Council&lt;/li&gt;
+    &lt;li&gt;Ένα e-mail που θα τελειώνει σε .@ubuntu.com και θα γίνεται αυτόματα forward (θα προωθείται) στο πραγματικό σας e-mail . (αυτό που έχετε δηλώσει στο Launchpad)&lt;/li&gt;
+    &lt;li&gt;Ένα /ubuntu/member/&#34;το ψευδώνυμο σας&#34; , cloak στο IRC.&lt;/li&gt;
+    &lt;li&gt;Κοινοπραξία - συμμετοχή του blog σας στο Planet Ubuntu.&lt;/li&gt;
+    &lt;li&gt;Συνδρομή στο εβδομαδιαίο Linux Weekly News.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Διαβάστε περισσότερα για να πλεονεκτήματα &lt;a href=&#34;https://wiki.ubuntu.com/Membership&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;εδώ&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align:center;&#34;&gt;Διαδικασία για να γίνετε Ubuntu Member&lt;/h2&gt;
+
+&lt;p&gt;Όπως αναφέρθηκε και παραπάνω , θα πρέπει η συνεισφορά σας να είναι σημαντική και συνεχής. Αν και δεν υπάρχει κάποιο χρονικό όριο, συνήθως οι αιτήσεις για κάποιον ο οποίος συνεισφέρει στο Ubuntu και την κοινότητα λιγότερο από 6 μήνες δεν γίνονται δεκτές.&lt;/p&gt;
+
+&lt;p&gt;Ο συνήθης τρόπος για να κάνετε αίτηση είναι μέσω του Membership Board. Θα πρέπει να προσθέσετε το όνομα σας στην agenda για το επόμενο meeting και εκεί θα εξεταστεί η αίτηση σας. Άλλοι τρόποι όπου μπορείτε να αποκτήσετε αναγνώριση ως Ubuntu Member αναφέρονται παρακάτω.&lt;/p&gt;
+
+&lt;p&gt;Αν η συνεισφορά σας είναι περισσότερο:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Στο Edubuntu , τότε μέσω του &lt;a href=&#34;https://wiki.ubuntu.com/Edubuntu/Council&#34; target=&#34;_blank&#34;&gt;Edubuntu/Council&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Στο Kubuntu , τότε μέσω του &lt;a href=&#34;https://wiki.ubuntu.com/Kubuntu/Meetings&#34; target=&#34;_blank&#34;&gt;Kubuntu/Meetings&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Για χρήστες με τεχνική κατάρτιση (προγραμματισμός , bug fixes κλπ) που έχουν συνεισφέρει εκεί , μέσω των &lt;a href=&#34;https://wiki.ubuntu.com/UbuntuDevelopers&#34; target=&#34;_blank&#34;&gt;Ubuntu Developers&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Για χρήστες που έχουν προσφέρει περισσότερο στο IRC , μέσω του &lt;a href=&#34;https://wiki.ubuntu.com/IRC/IrcCouncil/MeetingAgenda&#34; target=&#34;_blank&#34;&gt;IRC/Membership&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Για συνεισφορά η οποία είναι περισσότερο στο UbuntuForums.org , μέσω του &lt;a href=&#34;https://wiki.ubuntu.com/Forums/Membership&#34; target=&#34;_blank&#34;&gt;Forums Membership&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 style=&#34;text-align:center;&#34;&gt;Προετοιμασία αίτησης&lt;/h2&gt;
+
+&lt;p&gt;Το πιο σημαντικό κομμάτι όλης της διαδικασίας είναι η σωστή προετοιμασία. Όπως αναφέρθηκε και παραπάνω θα πρέπει να έχετε έναν ενεργό λογαριασμό στο Launchpad και να έχετε υπογράψει το Ubuntu Code of Conduct , διαφορετικά δεν μπορείτε να κάνετε καν αίτηση.&lt;/p&gt;
+
+&lt;p&gt;Έπειτα, φτιάξτε μια σελίδα Ubuntu Wiki.&lt;/p&gt;
+
+&lt;p&gt;Πρέπει να φτιάξετε μια &lt;a href=&#34;https://wiki.ubuntu.com/MembershipTemplate&#34; target=&#34;_blank&#34;&gt;προσωπική σελίδα Wiki&lt;/a&gt; η οποία να περιέχει κάποια βασικά πράγματα όπως:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Μια περίληψη - σύνοψη για την συνεισφορά σας στο Ubuntu και την κοινότητα.&lt;/li&gt;
+    &lt;li&gt;Ένα Link(σύνδεσμο) που θα οδηγεί στον λογαριασμό σας στο Launchpad.&lt;/li&gt;
+    &lt;li&gt;Μια πλήρη αναφορά στις συνεισφορές που έχετε κάνει στο Ubuntu και την κοινότητα.&lt;/li&gt;
+    &lt;li&gt;Τις σκέψεις και τα σχέδια σας για το μέλλον. (σε ότι αφορά το Ubuntu βέβαια).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ως παράδειγμα, δείτε σελίδες Wiki που έχουν ήδη περάσει με επιτυχία την διαδικασία του Membership.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.ubuntu.com/DimitriosNtoulas&#34; target=&#34;_blank&#34;&gt;Ntoulas Dimitrios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.ubuntu.com/simosx&#34; target=&#34;_blank&#34;&gt;simosx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.ubuntu.com/medigeek&#34; target=&#34;_blank&#34;&gt;Medigeek&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 style=&#34;text-align:center;&#34;&gt;Tips &amp; Tricks για μια πετυχημένη αίτηση&lt;/h2&gt;
+
+&lt;h3&gt;Σωστή και πλήρης σελίδα στο Wiki&lt;/h3&gt;
+
+&lt;p&gt;Η σελίδα σας στο Wiki πρέπει να είναι όσο γίνεται πιο ολοκληρωμένη και &amp;ldquo;όμορφη&amp;rdquo;(να διαβάζεται εύκολα). Αν και δεν είναι προϋπόθεση , καλό είναι να είναι γραμμένη στην Αγγλική γλώσσα έτσι ώστε τα μέλη του συμβουλίου να την διαβάσουν εύκολα. Μη διστάσετε να ζητήσετε βοήθεια από κάποιο Ubuntu Member ώστε να σας διορθώσει τυχόν λάθη και παραλείψεις. Δεν πειράζει που θα επεξεργαστεί άλλος την σελίδα για εσάς. Όλες οι αλλαγές φαίνονται. Το μόνο που δεν πρέπει να πειράξετε είναι τα testimonials.&lt;/p&gt;
+
+&lt;h3&gt;Testimonials (μαρτυρίες/σχόλια)&lt;/h3&gt;
+
+&lt;p&gt;Αν κάνετε αίτηση μέσω την ευθείας οδού (direct Ubuntu Member) , τότε μαζέψτε όσα πιο πολλά testimonials μπορείτε. Είναι σημαντικά! &lt;em&gt;Δεν είναι ανάγκη να γίνουν από Ubuntu Members αλλά το Testimonial ενός ήδη Member μετράει περισσότερο.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Απλοί χρήστες που σας γνωρίζουν και ξέρουν την προσφορά σας μπορούν να γράψουν για εσάς. Αν και δεν είναι προϋπόθεση, είναι σημαντικό οι χρήστες αυτοί να υπογράφουν στο τέλος με τον λογαριασμό τους στο Launchpad ή στο Ubuntu Wiki ή τέλος πάντων με κάποιον λογαριασμό εμφανή και ενεργό.&lt;/p&gt;
+
+&lt;h3&gt;Κάνετε την αίτηση σας εμφανή/δημόσια&lt;/h3&gt;
+
+&lt;p&gt;Δημιουργείστε ένα θέμα στο φόρουμ της Ελληνικής κοινότητας Ubuntu, ή και κάπου αλλόυ (πχ Facebook Group), τουλάχιστον 2 εβδομάδες πριν εξεταστεί επίσημα η αίτηση σας,έτσι ώστε να μαζέψετε όσα πιο πολλά testimonials γίνεται.&lt;/p&gt;
+
+&lt;p&gt;Οι συντονιστές και διαχειριστές του φόρουμ, ή του εκάστοτε γκρούπ, θα φροντίσουν να σας βοηθήσουν κάνοντας την αίτηση σας sticky(έτσι ώστε να είναι πάνω από όλα τα άλλα θέματα) μέχρι την ημέρα της εξέτασης.&lt;/p&gt;
+
+&lt;h3&gt;Παρουσία μελών κατά την διάρκεια της εξέτασης&lt;/h3&gt;
+
+&lt;p&gt;Αν ακολουθήσετε τον direct δρόμο (μέσω IRC) , τότε θα είναι καλό την ώρα της εξέτασης να βρίσκονται όσο γίνεται περισσότερα μέλη εκεί. Τα μέλη αυτά θα δηλώσουν μόνο την παρουσία τους και θα επέμβουν όπου και αν χρειαστεί, για να επιβεβαιώσουν πως κάτι από αυτά που είπατε είναι αλήθεια.&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align:center;&#34;&gt;Μέσω Ubuntu Forums&lt;/h2&gt;
+
+&lt;p&gt;Το Ubuntu Forums είναι εξουσιοδοτημένο να δίνει μέσω του δικού του συμβουλίου Memberships. Αν πάτε μέσω αυτής της οδού, τότε φροντίστε να είστε πάνω από 6-8 μήνες μέλος στο φόρουμ και να έχετε πάνω από 1000 δημοσιεύσεις οι οποίες θα έχουν γίνει στα support sections (δηλαδή οι δημοσιεύσεις στο Community Cafe δεν μετράνε). Τίποτα από αυτά δεν είναι προϋπόθεση , αλλά θα σας βοηθήσουν για μια πετυχημένη αίτηση.&lt;/p&gt;
+
+&lt;p&gt;Η διαδικασία έγκρισης μέσω των Forums , είναι διαφορετική. Καταρχήν δεν απαιτείται η παρουσία σας στο IRC την ημέρα της εξέτασης , ωστόσο καλό θα είναι να είστε εκεί. Πιθανότατα δεν θα σας ρωτήσουν τίποτα εκτός και αν το θεωρήσουν απαραίτητο.&lt;/p&gt;
+
+&lt;p&gt;Καλή Επιτυχία !&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

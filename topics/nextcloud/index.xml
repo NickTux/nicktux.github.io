@@ -2,15 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nextcloud on NickTux</title>
-    <link>https://nicktux.github.io/topics/nextcloud/</link>
+    <link>https://nicktux.github.io/topics/nextcloud/index.xml</link>
     <description>Recent content in Nextcloud on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <lastBuildDate>Tue, 11 Dec 2018 14:13:46 -0500</lastBuildDate>
-    
-	<atom:link href="https://nicktux.github.io/topics/nextcloud/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://nicktux.github.io/topics/nextcloud/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Αναβάθμιση σε Nextcloud 14</title>
@@ -20,7 +17,70 @@
       <guid>https://nicktux.github.io/post/nextcloud-14-upgrade/</guid>
       <description>&lt;p&gt;Πρόσφατα αναβάθμισα στην έκδοση Nextcloud 14, από τη 13 που βρισκόμουν. Βλέπετε είμαι στο &amp;ldquo;Production Channel&amp;rdquo;, οπότε οι αναβαθμίσεις εκδόσεων έρχονται με λίγη καθυστέρηση για να εξασφαλιστεί η σταθερότητα. Αυτή τη στιγμή το Nextcloud βρίσκεται στη σταθερή έκδοση 15, οπότε φανταστείτε το Production Channel κάτι σαν LTS release.
 Παρόλαυτα τα προβληματάκια δεν έλλειψαν και λεω να τα παραθέσω παρακάτω, καθώς και τις λύσεις τους.
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;p&gt;Η αναβάθμιση ως διαδικασία πήγε Smooth που λένε. Δηλαδή, δεν υπήρξε κάποιο ουσιαστικό πρόβλημα και ολοκληρώθηκε σε λίγα λεπτά, ως συνήθως.&lt;/p&gt;
+
+&lt;h2&gt;Passman Problem&lt;/h2&gt;
+
+&lt;p&gt;Αν και ο Passman είναι μια εφαρμογή τρίτου, για ορισμένους ίσως είναι essential εαν τη χρησιμοποιούν για την αποθήκευση των κωδικών τους. Αν δεν γνωρίζετε τι είναι ο Passman, με απλά λόγια θα πούμε ότι πρόκειται για έναν Password Manager με Browser Integration και όλα τα καλούδια.&lt;br&gt;
+Δουλεύει εξαιρετικά και το βασικότερο απ&amp;rsquo; όλα είναι ότι εσείς έχετε τον έλεγχο, μιας και οι κωδικοί αποθηκεύονται (κρυπτογραφημένοι) στον Nextcloud Server σας.&lt;/p&gt;
+
+&lt;p&gt;Το πρόβλημα που αντιμετώπισα με τον Passman και το Nextcloud 14 είναι απλό και λιτό. Δεν είναι συμβατός! Τέλος.&lt;br&gt;
+Το Nextcloud δεν σε αφήνει να ενεργοποιήσεις την εφαρμογή και απλά δεν μπορείς να τη χρησιμοποιήσεις. Αν σε αυτό προσθέσουμε και το ενδεχόμενο να μην έχει κάποιος τους κωδικούς του και κάπου αλλού&amp;hellip;.. τη βάψαμε. Γι&amp;rsquo; αυτό, πάντα δυο πηγές τουλάχιστον και οπωσδήποτε backup.&lt;/p&gt;
+
+&lt;h3&gt;Πως επαναφέρουμε τον Passman&lt;/h3&gt;
+
+&lt;p&gt;Η διαδικασία είναι απλή, αλλά χρειάζεται πρόσβαση ssh ή τελοσπάντων κονσόλας στον server και φυσικά δικαιώματα root.&lt;br&gt;
+Μπαίνουμε στον κατάλογο που φιλοξενούνται οι εφαρμογές μας.&lt;br&gt;
+Πχ. &lt;strong&gt;/var/www/nextcloud/apps/&lt;/strong&gt; και τρέχουμε τις παρακάτω εντολές με δικαιώματα root.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd /var/www/nextcloud/apps/
+mv passman ~/ # εδώ θεωρούμε ότι υπάρχει ήδη ο φάκελος passman και τον μετακινούμε αλλού
+git clone https://github.com/nextcloud/passman.git
+cd passman
+git checkout fix_layout_for_14
+cd ..
+sudo su www-data chown -R passman
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Αν πάμε τώρα ξανά στις εφαρμογές μας, θα δούμε τον Passman έτοιμο για ενεργοποίηση. Ενεργοποιούμε την εφαρμογή και λειτουργεί μια χαρά. &lt;em&gt;Όλα αυτά μέχρι να διορθωθεί το πρόβλημα ασυμβατότητας.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/BfPjcSZ.jpg&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/BfPjcSZ.jpg&#34; width=&#34;640&#34; height=&#34;298&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;HTTP &#34;Referrer-Policy Warning&#34;&lt;/h2&gt;
+
+&lt;p&gt;Κάποιοι, αυτό δε συμβαίνει σε όλους και εδώ είναι το παράξενο, ίσως δουν μια προειδοποίηση στο Admin Overview όπως η παρακάτω:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/L9PRFhs.jpg&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/L9PRFhs.jpg&#34; width=&#34;640&#34; height=&#34;106&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The “Referrer-Policy” HTTP header is not set to “no-referrer”, “no-referrer-when-downgrade”, “strict-origin” or “strict-origin-when-cross-origin”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Αυτό διορθώνεται εαν επεξεργαστούμε το αρχείο &lt;strong&gt;.htaccess&lt;/strong&gt; το οποίο βρίσκεται στη διαδρομή &lt;strong&gt;/var/www/nextcloud/&lt;/strong&gt; και είναι κρυφό αρχείο.&lt;br&gt;
+Οπότε με έναν text editor ανοίγουμε το αρχείο και στο section &lt;code&gt;&amp;lt;IfModule mod_env.c&amp;gt;&lt;/code&gt;
+προσθέτουμε τη παρακάτω γραμμή:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Header set Referrer-Policy &amp;quot;no-referrer&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;κάνουμε reload τον apache2 / nginx και η προειδοποίηση πρέπει να εξαφανιστεί. Εαν δεν εξαφανιστεί, τότε δοκιμάζουμε αυτό που δούλεψε στη δική μου περίπτωση.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Header always set Referrer-Policy &amp;quot;no-referrer&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Προσέξτε εδώ τη διαφορά στο &lt;strong&gt;always&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/cUEUDmP.jpg&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/cUEUDmP.jpg&#34; width=&#34;640&#34; height=&#34;300&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Αυτά τα ολίγα.&lt;br&gt;
+Το Nextcloud συνεχίζει να λειτουργεί απρόσκοπτα and it feels good when you have your data under control!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -30,7 +90,36 @@
       
       <guid>https://nicktux.github.io/post/nextcloud-bionic-online-accounts/</guid>
       <description>&lt;p&gt;Με την έλευση του Ubuntu 18.04 LTS(Bionic Beaver) και την αλλαγή από Unity σε GNOME (3.28), οι ρυθμίσεις για Online Accounts εμπεριέχουν πλέον την επιλογή για Nextcloud.
-&lt;/p&gt;</description>
+&lt;/p&gt;
+
+&lt;p&gt;Λόγω του ότι το Ubuntu 18.04 βρίσκεται αυτή τη στιγμή σε έκδοση beta2 τα αποθετήρια του Nextcloud δεν περιέχουν ακόμη κάποια συμβατή έκδοση του Client για Desktop.&lt;br&gt;
+Έτσι κάποιος θα πρέπει να χρησιμοποιήσει άλλες μεθόδους για την εγκατάσταση του Client οι οποίες ίσως δουλέψουν, ίσως όχι. Ίσως όμως να δημιουργήσουν και προβλήματα στη λειτουργία του συστήματος. Είναι καλό να αποφεύγουμε πειράματα και &amp;ldquo;τύπου hackιες&amp;rdquo; οι οποίες δεν γνωρίζουμε εάν και πως θα δουλέψουν.&lt;br&gt;
+Για παράδειγμα, κάποιος μπορεί να δοκιμάσει να κάνει εγκατάσταση το πακέτο από το αποθετήριο του xenial (16.04) ή το AppImage που είναι διαθέσιμο από τη σελίδα του Nextcloud ή μπορεί να δοκιμάσει να μεταγλωττίσει και να χτίσει το πακέτο μόνος του (2018 έχουμε να υπενθυμίσω).&lt;br&gt;
+Σίγουρα κάποια στιγμή θα υπάρξει έκδοση του Client για το 18.04, μέχρι όμως να γίνει αυτό μπορούμε να χρησιμοποιήσουμε την ήδη υπάρχουσα και ενσωματωμένη επιλογή του Online Account.&lt;br&gt; Εν τέλει ίσως μας βολέψει καλύτερα από τον Nextcloud Client.&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;ρύθμιση-online-accounts-nextcloud&#34;&gt;Ρύθμιση Online Accounts (Nextcloud)&lt;/h3&gt;
+
+&lt;p&gt;Είναι αρκετά εύκολο να ρυθμίσουμε αυτό το λογαριασμό. Προϋποθέτει να έχουμε δημιουργήσει ένα App Password. Δεν θα δώσουμε το πραγματικό μας password, αυτό άλλωστε ποτέ δεν πρέπει να το κάνουμε.&lt;br&gt;
+Πηγαίνοντας στις ρυθμίσεις κάνουμε κλικ στο Online Accounts και στη συνέχεια στο Nextcloud. Θα μας ζητήσει server, username και password. Μόλις εισάγουμε τα σωστά στοιχεία θα ανοίξει το κουτί διαλόγου για τον Online συγχρονισμό, στο οποίο από προ-επιλογή είναι όλα On.&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/4boyzLr.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/4boyzLr.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/UviG1oM.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/UviG1oM.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/0RR2dan.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/0RR2dan.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Αφού ολοκληρώσουμε αυτή την απλή διαδικασία πλέον θα έχουμε πρόσβαση στα αρχεία μας μέσω του File Manager (Nautilus). Σημειώστε εδώ ότι αντίθετα με τον Nextcloud Client αυτή η μέθοδος δεν κάνει λήψη όλα τα αρχεία στον υπολογιστή μας, απλά έχουμε πρόσβαση σε αυτά. Το σημείο προσάρτησης σε αυτή τη περίπτωση είναι ο Nextcloud Server μας σε επίπεδο λογαριασμού χρήστη. Επίσης, δεν συγχρονίζει μόνον τα αρχεία μας αλλά και το Ημερολόγιο και τις Επαφές που διατηρούμε στο Nextcloud μας. Η σύνδεση επιτυγχάνεται με την επέκταση WebDAV.&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/LB6BHeG.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/LB6BHeG.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt; Αφού κάνουμε κλικ και προσαρτήσουμε το σημείο, μπορούμε να δημιουργήσουμε ένα Bookmark για δική μας ευκολία και να το μετονομάσουμε όπως μας βολεύει. Από εκεί και στο εξής κάνοντας κλικ στο Bookmark θα γίνεται αυτόματα η προσάρτηση του σημείου.&lt;/p&gt;
+
+&lt;p&gt;Είναι μια εύκολη μέθοδος η οποία βρίσκεται εκεί από την εγκατάσταση του λειτουργικού μας και απλά δουλεύει. Δοκιμάστε τη.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -39,8 +128,41 @@
       <pubDate>Tue, 27 Feb 2018 00:08:51 +0200</pubDate>
       
       <guid>https://nicktux.github.io/post/nextcloud-passwords-check/</guid>
-      <description>Σε πρόσφατη δημοσίευσή τους οι δημιουργοί του πλέον δημοφιλούς Nextcloud ανακοίνωσαν πως προτίθενται να ελέγχουν τους κωδικούς όσων τρέχουν κάποιο Nextcloud Instance με ένα built-in module, για τυχόν αδυναμίες.
-Γιατί; Λόγω του ότι οι χρήστες τείνουν να χρησιμοποιούν τους ίδιους κωδικούς σε πολλαπλές τοποθεσίες και επειδή αυτό δημιουργεί έναν σημαντικό κίνδυνο σε περίπτωση κλοπής του κωδικού, οι προγραμματιστές του Nextcloud αποφάσισαν να μειώσουν αυτό τον κίνδυνο με άλλo ένα χαρακτηριστικό ασφαλείας (Security Feature).</description>
+      <description>
+
+&lt;p&gt;Σε πρόσφατη δημοσίευσή τους οι δημιουργοί του πλέον δημοφιλούς Nextcloud ανακοίνωσαν πως προτίθενται να ελέγχουν τους κωδικούς όσων τρέχουν κάποιο Nextcloud Instance με ένα built-in module, για τυχόν αδυναμίες.&lt;/p&gt;
+
+&lt;h3 id=&#34;γιατί&#34;&gt;Γιατί;&lt;/h3&gt;
+
+&lt;p&gt;Λόγω του ότι οι χρήστες τείνουν να χρησιμοποιούν τους ίδιους κωδικούς σε πολλαπλές τοποθεσίες και επειδή αυτό δημιουργεί έναν σημαντικό κίνδυνο σε περίπτωση κλοπής του κωδικού, οι προγραμματιστές του Nextcloud αποφάσισαν να μειώσουν αυτό τον κίνδυνο με άλλo ένα χαρακτηριστικό ασφαλείας (Security Feature).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://nicktux.github.io/img/post/pwned.jpg&#34; alt=&#34;Pwned&#34; title=&#34;Have I Been Pwned?&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;have-i-been-pwned&#34;&gt;Have I Been Pwned?&lt;/h3&gt;
+
+&lt;p&gt;Ένα από τα πιο γνωστά sites συλλογής εκτεθιμένων/σπασμένων κωδικών είναι το &lt;code&gt;HaveIBeenPwned.com&lt;/code&gt;
+&lt;br&gt;Η βάση δεδομένων για τους κωδικούς φτάνει τα 500 εκατομμύρια, με όγκο αρχείου περί τα 8,8GB.&lt;/p&gt;
+
+&lt;h3 id=&#34;πως&#34;&gt;Πως;&lt;/h3&gt;
+
+&lt;p&gt;Μέσω ενός public API που διαθέτει το προαναφερόμενο site και ενός νέου security module το Nextcloud θα ελέγχει το hash των 5 πρώτων χαρακτήρων του κωδικού του χρήστη. Δηλαδή, θα το στέλνει για έλεγχο στο συγκεκριμένο site αναμένοντας τα αποτελέσματα.&lt;/p&gt;
+
+&lt;h3 id=&#34;και-θα-δώσω-τον-κωδικό-μου-ή-μέρος-αυτού-σε-κάποιο-site-για-έλεγχο&#34;&gt;Και θα δώσω τον κωδικό μου ή μέρος αυτού σε κάποιο site για έλεγχο;&lt;/h3&gt;
+
+&lt;p&gt;Όχι αν δεν θέλεις.
+Το Nextcloud είναι της φιλοσοφίας opt-in, οπότε το συγκεκριμένο χαρακτηριστικό θα είναι &lt;strong&gt;απενεργοποιημένο από προεπιλογή&lt;/strong&gt;. Μόνον οι Admin του εκάστοτε Nextcloud Instance θα μπορούν να το ενεργοποιήσουν.&lt;/p&gt;
+
+&lt;h3 id=&#34;πότε&#34;&gt;Πότε;&lt;/h3&gt;
+
+&lt;p&gt;Σύντομα. Στην αρχή είχαν αναφερθεί για την έκδοση 14, μιας και πρόκειται για ένα εντελώς νέο χαρακτηριστικό. Λόγω του ότι πρόκειται για χαρακτηριστικό ασφαλείας όμως, αποφάσισαν από την επόμενη μικρή έκδοση (point release) να το ενσωματώσουν. Οπότε, το αναμένουμε στη 13.0.1.&lt;/p&gt;
+
+&lt;p&gt;Διαβάστε όλο το άρθρο στο &lt;a href=&#34;https://nextcloud.com/blog/nextcloud-will-check-passwords-against-database-of-haveibeenpwned&#34;&gt;Nextcloud/blog&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -49,8 +171,30 @@
       <pubDate>Mon, 26 Feb 2018 20:28:39 +0200</pubDate>
       
       <guid>https://nicktux.github.io/post/nextcloud-apps-deck/</guid>
-      <description>Το Deck είναι μια εφαρμογή για το Nextcloud. Είναι ένα εργαλείο που επιτρέπει την οργάνωση της καθημερινότητάς μας, είτε και στην εργασία μας, με ομάδες που συμμετέχουν στο Nextcloud.
-Μια από τις πολλές και χρήσιμες εφαρμογές στο Nextcloud Store είναι και το Deck. Ένα εργαλείο οργάνωσης ομάδων και έργων σε Kanban Board Style. Ένα από τα πιο γνωστά τέτοια εργαλεία, για όσους δεν γνωρίζουν τι είναι ένα Kanban Board, είναι το Trello.</description>
+      <description>&lt;p&gt;Το Deck είναι μια εφαρμογή για το Nextcloud. Είναι ένα εργαλείο που επιτρέπει την οργάνωση της καθημερινότητάς μας, είτε και στην εργασία μας, με ομάδες που συμμετέχουν στο Nextcloud.&lt;/p&gt;
+
+&lt;p&gt;Μια από τις πολλές και χρήσιμες εφαρμογές στο Nextcloud Store είναι και το Deck. Ένα εργαλείο οργάνωσης ομάδων και έργων σε Kanban Board Style. Ένα από τα πιο γνωστά τέτοια εργαλεία, για όσους δεν γνωρίζουν τι είναι ένα Kanban Board, είναι το Trello. Επιτρέπει την οργάνωση εργασιών για ένα έργο σε μορφή πινάκων, με συμμετοχή, σχόλια, ToDo lists και γενικότερα ότι εξυπηρετεί την κάθε ομάδα. Δυστυχώς το Trello είναι κλειστού κώδικα και φυσικά τον έλεγχο της εφαρμογής την έχει το Trello και όχι εσείς.&lt;/p&gt;
+
+&lt;p&gt;Με το Nextcloud Deck φανταστείτε ένα δικό σας Trello, στον δικό σας Nextcloud Server. Για να μη τα παραλέμε, οι δυνατότητες δεν είναι ακριβώς οι ίδιες, τουλάχιστον όχι ακόμη. Όπως πολύ καλά γνωρίζουμε όμως, οι δυνατότητες στο Open Source είναι απεριόριστες. Αυτό που χρειάζεται είναι συνεργασία - συμμετοχή - συνεισφορά.
+Το αποθετήριο στο GitHub βρίσκεται στον παρακάτω σύνδεσμο:
+&lt;a href=&#34;https://github.com/nextcloud/deck&#34;&gt;https://github.com/nextcloud/deck&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Κάντε εγκατάσταση το Deck από τη κατηγορία &amp;ldquo;Εφαρμογές&amp;rdquo;(+Apps) και ξεκινήστε να το χρησιμοποιείτε ευθύς αμέσως.
+&lt;strong&gt;Προσέξτε ότι&lt;/strong&gt; βρίσκεται ακόμη σε &lt;strong&gt;Beta έκδοση&lt;/strong&gt; άρα σφάλματα (bugs) υπάρχουν.&lt;/p&gt;
+
+&lt;p&gt;Δείτε το και στο Nextcloud Apps: &lt;a href=&#34;https://apps.nextcloud.com/apps/deck&#34;&gt;https://apps.nextcloud.com/apps/deck&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Το ενεργοποιείτε από Apps → Organization → Deck&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://nicktux.files.wordpress.com/2018/02/deck11.jpg&#34;&gt;&lt;img src=&#34;https://nicktux.files.wordpress.com/2018/02/deck11.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;316&#34; class=&#34;alignnone size-full wp-image-6362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://nicktux.files.wordpress.com/2018/02/deck.jpg&#34;&gt;&lt;img src=&#34;https://nicktux.files.wordpress.com/2018/02/deck.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;332&#34; class=&#34;alignnone size-full wp-image-6364&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;
+&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
