@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gnome on NickTux</title>
-    <link>https://nicktux.github.io/tags/gnome/index.xml</link>
+    <link>https://nicktux.github.io/tags/gnome/</link>
     <description>Recent content in Gnome on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <atom:link href="https://nicktux.github.io/tags/gnome/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Apr 2018 22:46:06 +0300</lastBuildDate>
+    
+	<atom:link href="https://nicktux.github.io/tags/gnome/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>[Nextcloud] Απευθείας πρόσβαση από Online Accounts</title>
@@ -16,36 +19,7 @@
       
       <guid>https://nicktux.github.io/post/nextcloud-bionic-online-accounts/</guid>
       <description>&lt;p&gt;Με την έλευση του Ubuntu 18.04 LTS(Bionic Beaver) και την αλλαγή από Unity σε GNOME (3.28), οι ρυθμίσεις για Online Accounts εμπεριέχουν πλέον την επιλογή για Nextcloud.
-&lt;/p&gt;
-
-&lt;p&gt;Λόγω του ότι το Ubuntu 18.04 βρίσκεται αυτή τη στιγμή σε έκδοση beta2 τα αποθετήρια του Nextcloud δεν περιέχουν ακόμη κάποια συμβατή έκδοση του Client για Desktop.&lt;br&gt;
-Έτσι κάποιος θα πρέπει να χρησιμοποιήσει άλλες μεθόδους για την εγκατάσταση του Client οι οποίες ίσως δουλέψουν, ίσως όχι. Ίσως όμως να δημιουργήσουν και προβλήματα στη λειτουργία του συστήματος. Είναι καλό να αποφεύγουμε πειράματα και &amp;ldquo;τύπου hackιες&amp;rdquo; οι οποίες δεν γνωρίζουμε εάν και πως θα δουλέψουν.&lt;br&gt;
-Για παράδειγμα, κάποιος μπορεί να δοκιμάσει να κάνει εγκατάσταση το πακέτο από το αποθετήριο του xenial (16.04) ή το AppImage που είναι διαθέσιμο από τη σελίδα του Nextcloud ή μπορεί να δοκιμάσει να μεταγλωττίσει και να χτίσει το πακέτο μόνος του (2018 έχουμε να υπενθυμίσω).&lt;br&gt;
-Σίγουρα κάποια στιγμή θα υπάρξει έκδοση του Client για το 18.04, μέχρι όμως να γίνει αυτό μπορούμε να χρησιμοποιήσουμε την ήδη υπάρχουσα και ενσωματωμένη επιλογή του Online Account.&lt;br&gt; Εν τέλει ίσως μας βολέψει καλύτερα από τον Nextcloud Client.&lt;br&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;ρύθμιση-online-accounts-nextcloud&#34;&gt;Ρύθμιση Online Accounts (Nextcloud)&lt;/h3&gt;
-
-&lt;p&gt;Είναι αρκετά εύκολο να ρυθμίσουμε αυτό το λογαριασμό. Προϋποθέτει να έχουμε δημιουργήσει ένα App Password. Δεν θα δώσουμε το πραγματικό μας password, αυτό άλλωστε ποτέ δεν πρέπει να το κάνουμε.&lt;br&gt;
-Πηγαίνοντας στις ρυθμίσεις κάνουμε κλικ στο Online Accounts και στη συνέχεια στο Nextcloud. Θα μας ζητήσει server, username και password. Μόλις εισάγουμε τα σωστά στοιχεία θα ανοίξει το κουτί διαλόγου για τον Online συγχρονισμό, στο οποίο από προ-επιλογή είναι όλα On.&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/4boyzLr.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/4boyzLr.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/UviG1oM.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/UviG1oM.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/0RR2dan.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/0RR2dan.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Αφού ολοκληρώσουμε αυτή την απλή διαδικασία πλέον θα έχουμε πρόσβαση στα αρχεία μας μέσω του File Manager (Nautilus). Σημειώστε εδώ ότι αντίθετα με τον Nextcloud Client αυτή η μέθοδος δεν κάνει λήψη όλα τα αρχεία στον υπολογιστή μας, απλά έχουμε πρόσβαση σε αυτά. Το σημείο προσάρτησης σε αυτή τη περίπτωση είναι ο Nextcloud Server μας σε επίπεδο λογαριασμού χρήστη. Επίσης, δεν συγχρονίζει μόνον τα αρχεία μας αλλά και το Ημερολόγιο και τις Επαφές που διατηρούμε στο Nextcloud μας. Η σύνδεση επιτυγχάνεται με την επέκταση WebDAV.&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/LB6BHeG.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/LB6BHeG.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt; Αφού κάνουμε κλικ και προσαρτήσουμε το σημείο, μπορούμε να δημιουργήσουμε ένα Bookmark για δική μας ευκολία και να το μετονομάσουμε όπως μας βολεύει. Από εκεί και στο εξής κάνοντας κλικ στο Bookmark θα γίνεται αυτόματα η προσάρτηση του σημείου.&lt;/p&gt;
-
-&lt;p&gt;Είναι μια εύκολη μέθοδος η οποία βρίσκεται εκεί από την εγκατάσταση του λειτουργικού μας και απλά δουλεύει. Δοκιμάστε τη.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;
-&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
   </channel>

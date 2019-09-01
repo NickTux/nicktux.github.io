@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fosscomm on NickTux</title>
-    <link>https://nicktux.github.io/tags/fosscomm/index.xml</link>
+    <link>https://nicktux.github.io/tags/fosscomm/</link>
     <description>Recent content in Fosscomm on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <atom:link href="https://nicktux.github.io/tags/fosscomm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jul 2013 02:16:08 +0200</lastBuildDate>
+    
+	<atom:link href="https://nicktux.github.io/tags/fosscomm/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Fosscomm 2013</title>
@@ -16,18 +19,7 @@
       
       <guid>https://nicktux.github.io/post/fosscomm-2013/</guid>
       <description>&lt;p&gt;H Ελληνική κοινότητα Ubuntu (Ubuntu-gr) συμμετείχε και φέτος στην Fosscomm 2013, που πραγματοποιήθηκε στο Χαροκόπειο Πανεπιστήμιο Αθηνών με δικό της booth - καθώς και παρουσιάσεις.
-&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/3NhTcid.jpg&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/3NhTcid.jpg&#34; alt=&#34;DSC0014&#34; width=&#34;640&#34; height=&#34;359&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/sW7M8rN.jpg&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/sW7M8rN.jpg&#34; alt=&#34;DSC0019&#34; width=&#34;640&#34; height=&#34;359&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Περισσότερες φωτογραφίες μπορείτε να δείτε στο &lt;a href=&#34;http://www.ubuntu-gr.org/content/fosscomm-2013-ubuntu-gr&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;φώτο-άλμπουμ&lt;/a&gt; της Ελληνικής κοινότητας Ubuntu-gr&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;
-&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
   </channel>

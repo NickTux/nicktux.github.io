@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gimp on NickTux</title>
-    <link>https://nicktux.github.io/tags/gimp/index.xml</link>
+    <link>https://nicktux.github.io/tags/gimp/</link>
     <description>Recent content in Gimp on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <atom:link href="https://nicktux.github.io/tags/gimp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Dec 2018 19:56:06 +0200</lastBuildDate>
+    
+	<atom:link href="https://nicktux.github.io/tags/gimp/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Εγκατάσταση του GIMP 2.10 σε Linux Mint</title>
@@ -16,71 +19,7 @@
       
       <guid>https://nicktux.github.io/post/gimp210-lm19/</guid>
       <description>&lt;p&gt;Σε αυτή τη δημοσίευση θα δούμε έναν τρόπο εγκατάστασης της νέας έκδοσης του GIMP 2.10 σε Linux Mint 19.1, την οποία έχω ήδη δοκιμάσει και λειτουργεί χωρίς προβλήματα.&lt;br&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Η νέα έκδοση του GIMP είναι αποτέλεσμα 6 ετών ανάπτυξης. Η αρχικός στόχος ήταν η μεταφορά (porting) του προγράμματος σε μια νέα μηχανή επεξεργασίας (processing engine), την &lt;a href=&#34;http://gegl.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GEGL&lt;/a&gt;. Εκτός αυτού βέβαια έχουν αναβαθμιστεί ακόμη πολλά χαρακτηριστικά και έχουν προστεθεί αρκετά νέα.&lt;br&gt;
-Για μια πλήρη παρουσίαση των νέων χαρακτηριστικών διαβάστε στην &lt;a href=&#34;https://www.gimp.org/release-notes/gimp-2.10.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;επίσημη σελίδα του GIMP&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Εγκατάσταση σε Linux Mint&lt;/h2&gt;
-
-&lt;p&gt;Την εγκατάσταση στο Linux Mint θα την κάνουμε με έναν, ίσως, ανορθόδοξο τρόπο αλλά ασφαλή. Τον χαρακτηρίζω ανορθόδοξο διότι το Mint στοχεύει περισσότερο στην υποστήριξη των πακέτων Flatpaks παρά των Snaps.&lt;br&gt;
-Από τα προαναφερόμενα καταλάβατε με ποιον τρόπο θα εγκαταστήσουμε το GIMP 2.10 στο Linux Mint 19.1. Τα Snaps τα θεωρώ ασφαλέστερα των προσωπικών αποθετηρίων (PPAs) και γενικότερα τα προτιμώ και από τα PPAs αλλά και από τα Flatpaks. Τα τελευταία λόγω όγκου αρχείων είναι κάπως απαγορευτικά. Σε ότι αφορά τα PPAs, επειδή είναι ένας άλλος τρόπος εγκατάστασης εφαρμογών που δεν υπάρχουν στα επίσημα αποθετήρια, τα χρησιμοποιώ μόνον όταν υπάρχει ανάγκη.&lt;/p&gt;
-
-&lt;p&gt;Μέσω ενός τερματικού εκτελούμε τις παρακάτω εντολές.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo apt update
-sudo apt install snapd
-sudo snap install gimp
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Το αρχείο είναι μεγέθους 177MB.&lt;/p&gt;
-
-&lt;p&gt;Με τις παραπάνω εντολές έχουμε κάνει εγκατάσταση τη τελευταία έκδοση του GIMP. Μη τρομάξετε με τη πρώτη εκκίνηση, εκεί γίνεται το initialization και ίσως αργήσει λίγο. Έπειτα θα είναι ΟΚ.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/yEQmycf.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://i.imgur.com/yEQmycf.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;342&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;Το θέμα (theme) καθώς και τα εικονίδια τα αλλάζετε από το μενού Edit → Preferences.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/LsZdBaN.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://i.imgur.com/LsZdBaN.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;340&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h3&gt;Troubleshooting&lt;/h3&gt;
-
-&lt;p&gt;Στη περίπτωση που δημιουργηθεί κάποιο πρόβλημα με τα δικαιώματα σε καταλόγους, δηλαδή θέλουμε να ανοίξουμε μια εικόνα και το GIMP επιστρέφει error του τύπου &lt;code&gt;Opening failed: Could not open &#39;/media/nicktux/pictures/.....&#39; for reading: Permission denied&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Τότε η παρακάτω εντολή πιθανόν να επιλύσει το πρόβλημα.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;snap connect gimp:removable-media :removable-media
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Αυτό συνήθως συμβαίνει όταν θελήσουμε να ανοίξουμε ένα αρχείο με το GIMP σε μια τοποθεσία εκτός του προσωπικού μας καταλόγου (Home) και η τοποθεσία αυτή βρίσκεται σε άλλο δίσκο/διαμέρισμα δίσκου ή USB stick το οποίο έχει προσαρτηθεί (mounted).
-&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h3&gt;AppImage&lt;/h3&gt;
-
-&lt;p&gt;Μια άλλη εναλλακτική είναι τα λεγόμενα appimages. Ίσως ο πιο απλός τρόπος &amp;ldquo;εγκατάστασης&amp;rdquo; εφαρμογών στο Linux. Το &amp;ldquo;εγκατάστασης&amp;rdquo; είναι σε εισαγωγικά μιας και τα appimages στην ουσία τα εκτελείς(run) μόνο, δεν κάνεις κάτι άλλο.&lt;/p&gt;
-
-&lt;p&gt;Τα AppImages του GIMP τα βρίσκουμε στο GitHub σε &lt;a href=&#34;https://github.com/aferrero2707/gimp-appimage/releases/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;αυτό τον σύνδεσμο.&lt;/a&gt;. Δημιουργούνται και φιλοξενούνται εκεί από έναν χρήστη και κατασκευάζονται σε CentOS 7. Εκείνο που εγώ δοκίμασα είναι το &lt;strong&gt;GIMP_AppImage-release-2.10.8-x86_64.AppImage&lt;/strong&gt; στα 128MB, τελευταίο στη σειρά. Είναι και η τελευταία σταθερή έκδοση του GIMP καθώς γράφεται αυτή η δημοσίευση.&lt;/p&gt;
-
-&lt;p&gt;Το AppΙmage το κάνετε λήψη στον υπολογιστή σας, του δίνεται δικαιώματα εκτέλεσης και απλά το τρέχετε. Αν δεν λειτουργεί σωστά, απλά διαγράφετε το αρχείο AppImage.&lt;/p&gt;
-
-&lt;p&gt;Στη πρώτη εκτέλεση θα σας ρωτήσει για Integration με το Desktop, αυτό είναι για να δημιουργήσει τα κατάλληλα εικονίδια του GIMP. Είτε επιλέξετε ναι, είτε όχι το GIMP θα τρέξει.&lt;/p&gt;
-
-&lt;p&gt;Οπότε, αυτό που κάνουμε είναι να συνδεθούμε στον κατάλογο που έχουμε αποθηκεύσει το AppImage και να του δώσουμε δικαιώματα εκτέλεσης.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd Downloads ## υποθέτω ότι έχετε αποθηκεύσει εκεί το AppImage
-chmod 755 GIMP_AppImage-release-2.10.8-x86_64.AppImage
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Έπειτα με διπλό κλικ απολαμβάνουμε τη νέα έκδοση του GIMP.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Για πακέτο Flatpak, ο όγκος του αρχείου είναι απαγορευτικός.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/cqlxCIJ.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://i.imgur.com/cqlxCIJ.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;344&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
-&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
   </channel>

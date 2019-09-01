@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Password on NickTux</title>
-    <link>https://nicktux.github.io/tags/password/index.xml</link>
+    <link>https://nicktux.github.io/tags/password/</link>
     <description>Recent content in Password on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <atom:link href="https://nicktux.github.io/tags/password/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jul 2013 17:16:40 +0200</lastBuildDate>
+    
+	<atom:link href="https://nicktux.github.io/tags/password/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Επαναφορά κωδικού χρήστη</title>
@@ -18,73 +21,7 @@
       <description>&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://i.imgur.com/6A7JEZml.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/6A7JEZml.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Υπάρχουν διάφοροι λόγοι όπου μπορεί να θέλουμε να επαναφέρουμε τον κωδικό μας στο Ubuntu.
-&lt;/p&gt;
-
-&lt;ol&gt;
-    &lt;li&gt;Ξεχάσαμε τον κωδικό μας&lt;/li&gt;
-    &lt;li&gt;Θέσαμε κατά λάθος έναν κενό κωδικό και τώρα δεν μπορούμε να εγκαταστήσουμε τίποτα&lt;/li&gt;
-    &lt;li&gt;Αλλάξαμε τον κωδικό μας και πλέον δεν τον θυμόμαστε&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;span style=&#34;font-size:x-small;color:#ff0000;&#34;&gt;&lt;strong&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ! ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΙΣΧΥΕΙ ΠΛΕΟΝ.&lt;/strong&gt;&lt;/span&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Σε τέτοιες περιπτώσεις μπορούμε να ακολουθήσουμε την παρακάτω διαδικασία για να κάνουμε ένα reset (προσέξτε , δεν είναι επαναφορά του παλιού κωδικού , είναι reset) τον κωδικό μας στο Ubuntu. Δηλαδή να θέσουμε έναν καινούριο κωδικό που να τον θυμόμαστε.&lt;/p&gt;
-
-&lt;p&gt;Αν έχετε διπλό σύστημα εκκίνησης (dual-boot) τότε θα βλέπετε το μενού του grub-bootloader κατά την εκκίνηση του υπολογιστή σας. Αν έχετε μόνον Ubuntu , τότε θα πρέπει να κρατήσετε πατημένο το πλήκτρο [Shift] για να εμφανιστεί το μενού.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/8J4nxai.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/8J4nxai.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;484&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Επιλέξτε την εισαγωγή με το (Recovery mode)[Λειτουργία ανάκτησης].&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;span style=&#34;color:#ff0000;&#34;&gt;Σημείωση:&lt;/span&gt;&lt;/strong&gt; Εάν έχετε έκδοση Ubuntu 12.10 και νεότερη , τότε η παραπάνω εικόνα ενδέχεται να αλλάζει λίγο. Θα πρέπει να επιλέξετε πρώτα Advanced options for Ubuntu και μετά θα δείτε την επιλογή Recovery mode.&lt;/p&gt;
-
-&lt;p&gt;Έπειτα θα ανοίξει μια άλλη οθόνη με διάφορες επιλογές,&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/kMtXQ2f.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/kMtXQ2f.jpg&#34; alt=&#34;1349887811&#34; width=&#34;640&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;πρέπει να επιλέξετε root (Drop to root shell prompt).&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Έπειτα πρέπει να δώσετε κάποιες εντολές για να γίνει ο κωδικός σας reset.&lt;/p&gt;
-
-&lt;p&gt;Πρώτα δίνετε&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;mount -o rw,remount
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;για να προσαρτηθεί το σύστημα αρχείων σε Read-Write. Η παραπάνω εντολή , αν εκτελεστεί σωστά , δεν πρέπει να σας επιστρέψει κάποιο αποτέλεσμα.&lt;/p&gt;
-
-&lt;p&gt;Η επόμενη εντολή είναι που θα κάνει reset τον κωδικό σας , βασιζόμενη στο username που έχετε . Οπότε αν το username σας είναι π.χ nikos , τότε δίνετε&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;passwd nikos
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Θα σας ζητήσει δυο φορές να γράψετε τον νέο κωδικό. Προσέξτε διότι δεν θα φαίνεται κάτι. Ούτε αστεράκια , ούτε τίποτα. Σαν να μην γράφετε καθόλου. Αυτό είναι φυσιολογικό.
-Αφού δώσετε δυο φορές τον νέο πλέον κωδικό και τον δεχτεί , είσαστε έτοιμοι να κάνετε ένα reboot και να μπείτε στο Λειτουργικό σύστημα με τον νέο κωδικό. Δώστε την εντολή&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;reboot
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;για να γίνει επανεκκίνηση.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/zme7RWe.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/zme7RWe.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;355&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Σε περίπτωση που δεν θυμάστε ούτε το όνομα χρήστη , μπορείτε να δώσετε την εντολή&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;ls /home
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;και θα σας επιστρέψει το όνομα χρήστη (ή ονόματα χρηστών αν είναι παραπάνω από ένας).&lt;/p&gt;
-
-&lt;p&gt;Η παραπάνω διαδικασία ισχύει για όλα τα λειτουργικά συστήματα Ubuntu-based (Ubuntu , Xubuntu , Lubuntu , Kubuntu , Linux mint &amp;hellip; κλπ).&lt;/p&gt;
-
-&lt;p&gt;Παρακάτω μπορείτε να δείτε ένα βίντεο επαναφοράς κωδικού από το κανάλι της Ελληνικής κοινότητας Ubuntu στο youtube.&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/gGm_98-R9TY&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
-&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
   </channel>

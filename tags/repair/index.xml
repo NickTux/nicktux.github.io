@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Repair on NickTux</title>
-    <link>https://nicktux.github.io/tags/repair/index.xml</link>
+    <link>https://nicktux.github.io/tags/repair/</link>
     <description>Recent content in Repair on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <atom:link href="https://nicktux.github.io/tags/repair/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Jul 2013 00:47:27 +0200</lastBuildDate>
+    
+	<atom:link href="https://nicktux.github.io/tags/repair/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Διόρθωση Εκκίνησης</title>
@@ -16,45 +19,7 @@
       
       <guid>https://nicktux.github.io/post/boot-repair/</guid>
       <description>&lt;p&gt;Το boot-repair είναι ένα πρόγραμμα που θα σας βοηθήσει να διορθώσετε τυχών προβλήματα εκκίνησης του λειτουργικού συστήματος Ubuntu. Τέτοια προβλήματα μπορεί να είναι:
-&lt;/p&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;Δεν μπορώ να κάνω boot στα Windows αφού εγκατέστησα το Ubuntu&lt;/li&gt;
-    &lt;li&gt;Επιλέγω την εισαγωγή Ubuntu αλλά μου εμφανίζει μια μαύρη οθόνη που γράφει &#34;grub-rescue&#34;&lt;/li&gt;
-    &lt;li&gt;Ο grub-bootloader δεν εμφανίζεται καθόλου&lt;/li&gt;
-    &lt;li&gt;Βλέπω μόνο μια μαύρη οθόνη και τίποτε άλλο&lt;/li&gt;
-    &lt;li&gt;Πρόβλημα εκκίνησης σε UEFI/Secure Boot σύστημα&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;span style=&#34;font-size:x-small;color:#ff0000;&#34;&gt;&lt;strong&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ! ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΙΣΧΥΕΙ ΠΛΕΟΝ.&lt;/strong&gt;&lt;/span&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Τέτοια ζητήματα μπορεί να προκύψουν μετά την εγκατάσταση ενός νέου λειτουργικού συστήματος παράλληλα με το υπάρχον, είτε αυτό είναι τα Windows μετά το Ubuntu , είτε κάποιο άλλο λειτουργικό σύστημα Linux.&lt;/p&gt;
-
-&lt;h2&gt;Απλή διόρθωση&lt;/h2&gt;
-
-&lt;p&gt;Συνδέστε τον υπολογιστή σας στο Internet με ένα καλώδιο Ethernet.
-Εισάγετε το CD ή Usb που έχετε φτιάξει και κάνετε boot από αυτό. Όταν εγκαταστήσατε το Ubuntu για πρώτη φορά , πιθανότατα το κάνατε μέσω κάποιου CD ή Usb (εκτός της περίπτωσης wubi.exe) , αυτά ονομάζονται και Live CD ή Live Usb. Εισάγετε στον υπολογιστή σας αυτό το Live CD ή Usb και ρυθμίστε τον έτσι ώστε να κάνει boot από αυτό. Όπως όταν εγκαταστήσατε το Ubuntu.&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:#ff0000;&#34;&gt;&lt;strong&gt;Προσοχή:&lt;/strong&gt;&lt;/span&gt; Η έκδοση Ubuntu πρέπει να είναι μια υποστηριζόμενη έκδοση και όχι EOL (End Of Life).&lt;/p&gt;
-
-&lt;p&gt;Πατήστε , αν σας ζητηθεί , Try Ubuntu (Δοκιμή). Δεν θέλουμε να εγκαταστήσουμε ξανά το Ubuntu. Έπειτα ανοίξτε ένα τερματικό με τον συνδυασμό πλήκτρων (CTRL+ALT+T) και εκτελέστε τις παρακάτω εντολές μια-μια.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo add-apt-repository ppa:yannubuntu/boot-repair &amp;amp;amp;&amp;amp;amp; sudo apt-get update
-sudo apt-get install -y boot-repair &amp;amp;amp;&amp;amp;amp; boot-repair
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Αυτό που θα κάνουν οι παραπάνω εντολές είναι να εγκαταστήσουν την εφαρμογή boot-repair και να την τρέξουν. Τελειώνοντας την εκτέλεση τους θα δείτε να ανοίγει ένα παράθυρο σαν το παρακάτω&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://i.imgur.com/6rzUrKH.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;https://i.imgur.com/6rzUrKH.jpg&#34; width=&#34;300&#34; height=&#34;194&#34; /&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Πατήστε το Recommended repair για να προσπαθήσει το πρόγραμμα να διορθώσει λάθη που θα βρει στην εκκίνηση του υπολογιστή σας.&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:#ff0000;&#34;&gt;&lt;strong&gt;Σημαντικό&lt;/strong&gt;&lt;/span&gt;: Όταν τελειώσει η διόρθωση , τότε το πρόγραμμα θα σας δώσει ένα URL με διάφορα στοιχεία. Αυτό το URL κρατήστε το και σε περίπτωση που δεν διορθωθεί η εκκίνηση του υπολογιστή σας, δείξτε το σε ένα φόρουμ υποστήριξης για περαιτέρω βοήθεια.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
-&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
   </channel>

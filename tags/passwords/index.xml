@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Passwords on NickTux</title>
-    <link>https://nicktux.github.io/tags/passwords/index.xml</link>
+    <link>https://nicktux.github.io/tags/passwords/</link>
     <description>Recent content in Passwords on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <atom:link href="https://nicktux.github.io/tags/passwords/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Feb 2018 00:08:51 +0200</lastBuildDate>
+    
+	<atom:link href="https://nicktux.github.io/tags/passwords/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Nextcloud: Έλεγχος Κωδικών Χρηστών</title>
@@ -15,41 +18,8 @@
       <pubDate>Tue, 27 Feb 2018 00:08:51 +0200</pubDate>
       
       <guid>https://nicktux.github.io/post/nextcloud-passwords-check/</guid>
-      <description>
-
-&lt;p&gt;Σε πρόσφατη δημοσίευσή τους οι δημιουργοί του πλέον δημοφιλούς Nextcloud ανακοίνωσαν πως προτίθενται να ελέγχουν τους κωδικούς όσων τρέχουν κάποιο Nextcloud Instance με ένα built-in module, για τυχόν αδυναμίες.&lt;/p&gt;
-
-&lt;h3 id=&#34;γιατί&#34;&gt;Γιατί;&lt;/h3&gt;
-
-&lt;p&gt;Λόγω του ότι οι χρήστες τείνουν να χρησιμοποιούν τους ίδιους κωδικούς σε πολλαπλές τοποθεσίες και επειδή αυτό δημιουργεί έναν σημαντικό κίνδυνο σε περίπτωση κλοπής του κωδικού, οι προγραμματιστές του Nextcloud αποφάσισαν να μειώσουν αυτό τον κίνδυνο με άλλo ένα χαρακτηριστικό ασφαλείας (Security Feature).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://nicktux.github.io/img/post/pwned.jpg&#34; alt=&#34;Pwned&#34; title=&#34;Have I Been Pwned?&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;have-i-been-pwned&#34;&gt;Have I Been Pwned?&lt;/h3&gt;
-
-&lt;p&gt;Ένα από τα πιο γνωστά sites συλλογής εκτεθιμένων/σπασμένων κωδικών είναι το &lt;code&gt;HaveIBeenPwned.com&lt;/code&gt;
-&lt;br&gt;Η βάση δεδομένων για τους κωδικούς φτάνει τα 500 εκατομμύρια, με όγκο αρχείου περί τα 8,8GB.&lt;/p&gt;
-
-&lt;h3 id=&#34;πως&#34;&gt;Πως;&lt;/h3&gt;
-
-&lt;p&gt;Μέσω ενός public API που διαθέτει το προαναφερόμενο site και ενός νέου security module το Nextcloud θα ελέγχει το hash των 5 πρώτων χαρακτήρων του κωδικού του χρήστη. Δηλαδή, θα το στέλνει για έλεγχο στο συγκεκριμένο site αναμένοντας τα αποτελέσματα.&lt;/p&gt;
-
-&lt;h3 id=&#34;και-θα-δώσω-τον-κωδικό-μου-ή-μέρος-αυτού-σε-κάποιο-site-για-έλεγχο&#34;&gt;Και θα δώσω τον κωδικό μου ή μέρος αυτού σε κάποιο site για έλεγχο;&lt;/h3&gt;
-
-&lt;p&gt;Όχι αν δεν θέλεις.
-Το Nextcloud είναι της φιλοσοφίας opt-in, οπότε το συγκεκριμένο χαρακτηριστικό θα είναι &lt;strong&gt;απενεργοποιημένο από προεπιλογή&lt;/strong&gt;. Μόνον οι Admin του εκάστοτε Nextcloud Instance θα μπορούν να το ενεργοποιήσουν.&lt;/p&gt;
-
-&lt;h3 id=&#34;πότε&#34;&gt;Πότε;&lt;/h3&gt;
-
-&lt;p&gt;Σύντομα. Στην αρχή είχαν αναφερθεί για την έκδοση 14, μιας και πρόκειται για ένα εντελώς νέο χαρακτηριστικό. Λόγω του ότι πρόκειται για χαρακτηριστικό ασφαλείας όμως, αποφάσισαν από την επόμενη μικρή έκδοση (point release) να το ενσωματώσουν. Οπότε, το αναμένουμε στη 13.0.1.&lt;/p&gt;
-
-&lt;p&gt;Διαβάστε όλο το άρθρο στο &lt;a href=&#34;https://nextcloud.com/blog/nextcloud-will-check-passwords-against-database-of-haveibeenpwned&#34;&gt;Nextcloud/blog&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;
-&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;
-</description>
+      <description>Σε πρόσφατη δημοσίευσή τους οι δημιουργοί του πλέον δημοφιλούς Nextcloud ανακοίνωσαν πως προτίθενται να ελέγχουν τους κωδικούς όσων τρέχουν κάποιο Nextcloud Instance με ένα built-in module, για τυχόν αδυναμίες.
+Γιατί; Λόγω του ότι οι χρήστες τείνουν να χρησιμοποιούν τους ίδιους κωδικούς σε πολλαπλές τοποθεσίες και επειδή αυτό δημιουργεί έναν σημαντικό κίνδυνο σε περίπτωση κλοπής του κωδικού, οι προγραμματιστές του Nextcloud αποφάσισαν να μειώσουν αυτό τον κίνδυνο με άλλo ένα χαρακτηριστικό ασφαλείας (Security Feature).</description>
     </item>
     
     <item>
@@ -59,43 +29,7 @@
       
       <guid>https://nicktux.github.io/post/apg-strong-passwords/</guid>
       <description>&lt;p&gt;Το apg είναι ένα εργαλείο που μπορεί να μας βοηθήσει στην παραγωγή ισχυρών τυχαίων (random) κωδικών. Είναι προ-εγκατεστημένο σε Ubuntu. Αν χρειαζόμαστε ισχυρούς κωδικούς που σπάνε δύσκολα έως καθόλου (πρακτικά) τότε με μια απλή εντολή σε ένα τερματικό* μπορούμε να έχουμε το επιθυμητό αποτέλεσμα.
-&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;span style=&#34;font-size:x-small;color:#ff0000;&#34;&gt;&lt;strong&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ! ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΙΣΧΥΕΙ ΠΛΕΟΝ.&lt;/strong&gt;&lt;/span&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Το apg χρησιμοποιεί δύο αλγόριθμους για την παραγωγή κωδικών. Ο πρώτος (1) και προεπιλεγμένος, είναι εκείνος που παράγει τους λεγόμενους pronoucable passwords ή κωδικούς που μπορείτε να προφέρετε. Ο δεύτερος αλγόριθμος (2) είναι εκείνος της τυχαίας παραγωγής.&lt;/p&gt;
-
-&lt;p&gt;Παραδείγματα αποτελεσμάτων.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;orijipoytDezobUjSi
-)ge}wgl(k&amp;lt;:Q65)=V
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Ποιον από τους παραπάνω θεωρείτε πιο ισχυρό και δύσκολα προβλέψιμο;&lt;/p&gt;
-
-&lt;p&gt;Η εντολή είναι μια γραμμή και είναι απλή και θα εξηγήσουμε τις παραμέτρους μια-μια.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;apg -s -a 1 -m 12 -x 20 -n 4
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Θα σας ζητήσει να δώσετε κάποια τυχαία νούμερα - αριθμούς και σύμβολα έτσι  ώστε να πάρει ένα παράδειγμα για το τι κωδικός θέλετε να παραχθεί. Αν για παράδειγμα δώσετε μόνο νούμερα, θα δημιουργήσει κωδικό μόνο με αριθμούς.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Παράμετροι:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;-s : προτρέπει τον χρήστη να δώσει τυχαίο παράδειγμα κωδικού.&lt;/li&gt;
-    &lt;li&gt;-a: Ο αλγόριθμος που θα χρησιμοποιηθεί. Υπάρχει ο 0 (προεπιλογή - pronoucable) και ο 1 (random)&lt;/li&gt;
-    &lt;li&gt;-m: Ο αριθμός ελάχιστων χαρακτήρων του κωδικού.&lt;/li&gt;
-    &lt;li&gt;-x: Ο αριθμός μέγιστων χαρακτήρων του κωδικού.&lt;/li&gt;
-    &lt;li&gt;-n: Ο αριθμός των παραγόμενων κωδικών.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Η παραπάνω εντολή λοιπόν, θα δημιουργήσει 4 κωδικούς από 12 έως 20 χαρακτήρες με τον αλγόριθμο τυχαίας παραγωγής. &lt;em&gt;Οι χαρακτήρες εξαρτώνται από το τι θα εισάγουμε εμείς ως παράδειγμα.&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
-&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://nicktux.github.io/post/two-usb-mics/</loc>
@@ -62,7 +63,7 @@
   </url>
   
   <url>
-    <loc>https://nicktux.github.io/post/ubuntu-26_April_18_04_Release/</loc>
+    <loc>https://nicktux.github.io/post/ubuntu-26_april_18_04_release/</loc>
     <lastmod>2018-04-09T12:26:43+03:00</lastmod>
   </url>
   
@@ -437,6 +438,7 @@
   
   <url>
     <loc>https://nicktux.github.io/tags/</loc>
+    <lastmod>2013-07-04T22:42:11+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -454,6 +456,7 @@
   
   <url>
     <loc>https://nicktux.github.io/topics/</loc>
+    <lastmod>2018-03-01T02:46:56+02:00</lastmod>
     <priority>0</priority>
   </url>
   

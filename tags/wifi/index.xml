@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wifi on NickTux</title>
-    <link>https://nicktux.github.io/tags/wifi/index.xml</link>
+    <link>https://nicktux.github.io/tags/wifi/</link>
     <description>Recent content in Wifi on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <atom:link href="https://nicktux.github.io/tags/wifi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 May 2018 21:25:02 +0300</lastBuildDate>
+    
+	<atom:link href="https://nicktux.github.io/tags/wifi/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>[Ubuntu 18.04] Εικονίδιο WiFi με ερωτηματικό (?)</title>
@@ -16,41 +19,7 @@
       
       <guid>https://nicktux.github.io/post/ubuntu-bionic-wifi-status-icon/</guid>
       <description>&lt;p&gt;Είναι γνωστό σε όσους ασχολούνται λίγο περισσότερο με το λειτουργικό τους σύστημα πως κάθε νέα έκδοση ή πακέτο αναβαθμίσεων εκτός από νέα χαρακτηριστικά και βελτιώσεις, μπορεί να φέρει και νέα προβλήματα. Το Ubuntu δεν θα μπορούσε να αποτελεί εξαίρεση.
-&lt;/p&gt;
-
-&lt;p&gt;&lt;h3&gt;Το πρόβλημα&lt;/h3&gt;
-&lt;a href=&#34;https://i.imgur.com/HWikH7V.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/HWikH7V.jpg&#34; alt=&#34;&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;Το συγκεκριμένο Laptop, στο οποίο αντιμετώπισα το ζήτημα με το WiFi, τρέχει Ubuntu από την ημέρα που αγοράστηκε χωρίς ιδιαίτερα προβλήματα.
-Μετά την εγκατάσταση του Ubuntu 18.04 εμφανίστηκε ένα θέμα με το εικονίδιο του WiFi (του Network Manager δηλαδή) όπου εμφανίζει ένα ερωτηματικό επάνω στο εικονίδιο.&lt;br&gt;
-Αλλες φορές το θέμα είναι μόνον &amp;ldquo;αισθητικό&amp;rdquo;, δηλαδή δεν επηρεάζει τη σύνδεση, άλλες φορές όμως την επηρεάζει. Αυτό συνήθως συμβαίνει μετά από suspend, όταν επανέρχεται δηλαδή το Laptop, αλλά αυτό δεν είναι απαραίτητο.&lt;br&gt;
-Λόγω και του γνωστού ζητήματος με το suspend σε αυτή την έκδοση δεν είναι λύση να απενεργοποιήσει κάποιος αυτή τη λειτουργία. Εκτός αυτού, το suspend, θεωρείται κρίσιμη λειτουργία για φορητούς υπολογιστές αφού συνεισφέρει στη διάρκεια της μπαταρίας&lt;br&gt;
-Το συγκεκριμένο πρόβλημα είναι ανεξάρτητο κάρτας δικτύου ή driver. Οφείλεται στη νέα έκδοση GNOME (Network Manager) με την οποία έρχεται πλέον το Ubuntu.&lt;/p&gt;
-
-&lt;p&gt;&lt;h3&gt;Η (προσωρινή) λύση&lt;/h3&gt;
-&lt;a href=&#34;https://i.imgur.com/2KLK6pl.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/2KLK6pl.png&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;Όπως τα περισσότερα bugs έτσι κι αυτό θα διορθωθεί αργά ή γρήγορα. Μέχρι τότε όμως η λύση είναι να επεξεργαστούμε ένα αρχείο και να προσθέσουμε μια γραμμή.&lt;br&gt;
-Με τον αγαπημένο μας editor και με δικαιώματα root ανοίγουμε το αρχείο στη διαδρομή &lt;code&gt;/etc/NetworkManager/NetworkManager.conf&lt;/code&gt;.
-Έπειτα προσθέτουμε στην κατηγορία &lt;code&gt;[Main]&lt;/code&gt; την παρακάτω γραμμή:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;dns=default
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;και αποθηκεύουμε.&lt;br&gt;
-Κάνουμε επανεκκίνηση τον Network Manager και το συγκεκριμένο ζήτημα θα έχει διορθωθεί.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo systemctl restart NetworkManager
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Η Αναφορά σφάλματος και η λύση στα σχόλια ⇨ &lt;a href=&#34;https://bugs.launchpad.net/ubuntu/+source/gnome-shell/+bug/1722256&#34; target=&#34;_blank&#34;&gt;Bug 1722256&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;
-&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
   </channel>

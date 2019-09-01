@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Package Manager on NickTux</title>
-    <link>https://nicktux.github.io/tags/package-manager/index.xml</link>
+    <link>https://nicktux.github.io/tags/package-manager/</link>
     <description>Recent content in Package Manager on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <atom:link href="https://nicktux.github.io/tags/package-manager/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jul 2013 14:50:44 -0500</lastBuildDate>
+    
+	<atom:link href="https://nicktux.github.io/tags/package-manager/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Επιδόρθωση στο διαχειριστή πακέτων</title>
@@ -17,37 +20,7 @@
       <guid>https://nicktux.github.io/post/package-manager-troubleshooting-ubuntu/</guid>
       <description>&lt;p&gt;Όταν λέμε διαχειριστής πακέτων , εννοούμε οτιδήποτε έχει σχέση με την εγκατάσταση ή αναβάθμιση των πακέτων - προγραμμάτων του Ubuntu.
 Το πρόβλημα μπορεί να είναι , είτε &amp;ldquo;μη επιλυμένες εξαρτήσεις&amp;rdquo; (dependencies) , είτε αδυναμία αναβάθμισης , είτε κρατούμενα ελαττωματικά πακέτα &amp;hellip; κλπ.
-&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;span style=&#34;font-size:x-small;color:#ff0000;&#34;&gt;&lt;strong&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ! ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΙΣΧΥΕΙ ΠΛΕΟΝ.&lt;/strong&gt;&lt;/span&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Σε τέτοιες περιπτώσεις είναι καλό να κάνουμε μόνοι μας μια διάγνωση ή και προσπάθεια διόρθωσης , πριν ζητήσουμε βοήθεια από κάποιο φόρουμ.. κλπ. Έτσι σε περίπτωση μη επίλυσης του προβλήματος θα έχουμε τα αποτελέσματα της διαδικασίας που ακολουθήσαμε έτοιμα και διαθέσιμα για να τα κάνουμε ποστ.
-Τα αποτελέσματα της παρακάτω διαδικασίας είναι σημαντικά και εκτός του ότι η ίδια η διαδικασία μπορεί αυτόματα να λύσει το πρόβλημα σας , θα σας παρέχει και διαγνωστικές πληροφορίες σχετικά με το τι συμβαίνει.&lt;/p&gt;
-
-&lt;h3&gt;Αυτόματο Script&lt;/h3&gt;
-
-&lt;p&gt;Ανοίξτε ένα τερματικό (CTRL+ALT+T) και εκτελέστε τις παρακάτω εντολές με τη σειρά , μια-μια&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;wget &amp;quot;https://dl.dropboxusercontent.com/s/w8nw83qjw2khl08/fixpackage&amp;quot; -O ~/fixpackage
-chmod +x fixpackage
-sudo ./fixpackage
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Το παραπάνω script , ονόματι fixpackage , δεν είναι τίποτε άλλο από μια σειρά εντολών. Αντί να τις κάνετε copy-paste μια μια (είναι και πολλές) , απλά τρέχετε το script  και έτσι δεν υπάρχει και περίπτωση να κάνετε κάποιο λάθος ή να παραλείψετε κάποια εντολή.
-Αν θέλετε να δείτε τα περιεχόμενα του script , τρέξτε την εντολή&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;paste fixpackage
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;span style=&#34;color:#ff0000;&#34;&gt;Σημαντικό :&lt;/span&gt;&lt;/strong&gt; Ρυθμίστε το τερματικό σας έτσι ώστε η εκτύπωση γραμμών να είναι απεριόριστη. Αφού ανοίξετε το τερματικό , πατήστε Edit &lt;code&gt;→&lt;/code&gt; Profile Preferences . Στο παράθυρο που θα ανοίξει πηγαίνετε στο Scrolling και τικάρετε το κουτάκι που γράφει Unlimited. Έτσι το τερματικό δεν θα κόψει αποτελέσματα εντολών.&lt;/p&gt;
-
-&lt;p&gt;Αφού τρέξετε το παραπάνω script , πιθανών το πρόβλημα που είχατε να έχει διορθωθεί ήδη. Αν όχι , τότε όλα τα αποτελέσματα που έβγαλε στο τερματικό είναι διαγνωστικά για όσους λύνουν προβλήματα στο Ubuntu.
-Να τα παραθέσετε μαζί με το αίτημα σας για βοήθεια. Μια αντιγραφή - επικόλληση όλων των αποτελεσμάτων είναι αρκετή.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
-&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Distro Changes on NickTux</title>
-    <link>https://nicktux.github.io/tags/distro-changes/index.xml</link>
+    <link>https://nicktux.github.io/tags/distro-changes/</link>
     <description>Recent content in Distro Changes on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <atom:link href="https://nicktux.github.io/tags/distro-changes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Apr 2018 22:29:19 +0300</lastBuildDate>
+    
+	<atom:link href="https://nicktux.github.io/tags/distro-changes/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>[Ubuntu] Αφαίρεση του gksu από τη 18.04 LTS</title>
@@ -17,111 +20,7 @@
       <guid>https://nicktux.github.io/post/ubuntu-bionic-gksu-removed/</guid>
       <description>&lt;p&gt;Αυτή η μετάβαση, δηλαδή η πλήρης κατάργηση του gksu από το Ubuntu έχει ξεκινήσει κάμποσες εκδόσεις πριν. Συγκεκριμένα από τη 13.10 όπου το από προ-επιλογή εγκατεστημένο gksu έπαψε να υφίσταται. Μέχρι και σήμερα βέβαια οι χρήστες είχαν την επιλογή της εγκατάστασης από τα αποθετήρια, αφού εκεί ήταν και είναι ακόμη διαθέσιμο.&lt;br&gt;
 Στο άμεσο μέλλον όμως, προβλέπεται να αφαιρεθεί εντελώς από τα αποθετήρια. Επίσης, παρακάτω θα δούμε ποια είναι η προτεινόμενη από τους Developers εναλλακτική.&lt;br&gt;
-&lt;/p&gt;
-
-&lt;h3 id=&#34;τι-είναι-το-gksu&#34;&gt;Τι είναι το gksu&lt;/h3&gt;
-
-&lt;p&gt;Το gksu είναι στην ουσία ένα Graphical Front-End του sudo. Το sudo είναι το πρόγραμμα εκείνο που μας δίνει προσωρινά και με ασφάλεια αυξημένα δικαιώματα (root) ώστε να επιτύχουμε διάφορα tasks που τα απαιτούν. Το πακέτο gksu περιλαμβάνει δυο Front-End, την &lt;code&gt;gksu&lt;/code&gt; και την &lt;code&gt;gksudo&lt;/code&gt;, με τη δεύτερη μέχρι πρωτίστως να ήταν η προτεινόμενη για όλες τις γραφικές εφαρμογές που ήθελε κάποιος χρήστης να τρέξει με αυξημένα δικαιώματα.&lt;br&gt;
-Με αυτό τον τρόπο, όταν ο χρήστης έτρεχε για παράδειγμα την εντολή&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;gksudo gedit /etc/default/grub
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;ένα παράθυρο διαλόγου άνοιγε ζητώντας του τον κωδικό, ώστε να του παραχωρήσει αυξημένα δικαιώματα για την επεξεργασία του συγκεκριμένου αρχείου.&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;Παρακάτω βλέπουμε την έκδοση gksu που ακόμη είναι διαθέσιμη στο Ubuntu 18.04 (beta 2).&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/2YH1SuO.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/2YH1SuO.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/JEytFLu.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/JEytFLu.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;gksu-με-policykit&#34;&gt;gksu με PolicyKit&lt;/h3&gt;
-
-&lt;p&gt;Εδώ και κάποια χρόνια (2-3 περίπου) &lt;a href=&#34;https://wiki.gnome.org/Attic/gksu&#34; _target=_blank&#34;&gt;&lt;strong&gt;το GNOME είχε προτείνει&lt;/strong&gt;&lt;/a&gt; την αλλαγή και αντικατάσταση του παραδοσιακού gksu με μια νεότερη έκδοση η οποία θα χρησιμοποιούσε το PolicyKit Framework. Το πρόβλημα ήταν ότι κάποιες εφαρμογές έπρεπε να γραφτούν ξανά ώστε να λειτουργούν σωστά με αυτή την αλλαγή.&lt;br&gt;
-Ωστόσο, αυτή η αλλαγή δεν προξένησε το ενδιαφέρον των χρηστών μιας και το gksu ως πακέτο ήταν και παραμένει διαθέσιμο για εγκατάσταση και χρήση.&lt;/p&gt;
-
-&lt;h3 id=&#34;pkexec-αντί-gksu&#34;&gt;pkexec αντί gksu&lt;/h3&gt;
-
-&lt;p&gt;Άλλη μια πρόταση για την αντικατάσταση του gksu και ως εναλλακτική ήταν το &lt;code&gt;pkexec&lt;/code&gt; . Δεν θα επεκταθώ εδώ περαιτέρω, μιας και τότε είχα γράψει σχετικό άρθρο το οποίο μπορείτε να βρείτε &lt;a href=&#34;https://nicktux.com/2014/06/09/pkexec-%CE%B1%CE%BD%CF%84%CE%AF-gksugksudokdesudo/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;εδώ&lt;/strong&gt;&lt;/a&gt;. Το συμπέρασμα είναι ότι η pkexec αποδείχτηκε πιο περίπλοκη και δύσκολη στην εφαρμογή.&lt;/p&gt;
-
-&lt;h3 id=&#34;γιατί-front-end-και-όχι-απευθείας-sudo&#34;&gt;Γιατί Front-End και όχι απευθείας sudo;&lt;/h3&gt;
-
-&lt;p&gt;Στο ίδιο άρθρο αναφέρω και για πιο λόγο κάποιος πρέπει να χρησιμοποιήσει gksudo/pkexec ή κάποια άλλη εναλλακτική μέθοδο αντί του παραδοσιακού &lt;code&gt;sudo&lt;/code&gt; σε ότι αφορά γραφικές εφαρμογές. Παραθέτω εδώ σχετικό quote και από το Ubuntu Documentation.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;You should &lt;strong&gt;never&lt;/strong&gt; use normal sudo to start graphical applications as root. You should use gksudo (kdesudo on Kubuntu) to run such programs. gksudo sets HOME=~root, and copies &lt;code&gt;.Xauthority&lt;/code&gt; to a tmp directory. This prevents files in your home directory becoming owned by root.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Σε απλά ελληνικά, υπάρχει η πιθανότητα εάν ανοίξουμε κάποια γραφική εφαρμογή με αυτό τον τρόπο όλα τα αρχεία που αυτή περιλαμβάνει να αλλάξουν ιδιοκτήτη, και ο νέος ιδιοκτήτης να είναι ο χρήστης root. Οι πιθανότητες είναι λιγότερες να συμβεί κάτι τέτοιο όταν μιλάμε για έναν απλό επεξεργαστή κειμένου, πχ gedit και περισσότερες όταν μιλάμε για έναν διαχειριστή αρχείων και φακέλων όπως ο nautilus.&lt;/p&gt;
-
-&lt;h3 id=&#34;από-το-ubuntu-18-04-θα-αφαιρεθεί-εντελώς-το-gksu&#34;&gt;Από το Ubuntu 18.04 θα αφαιρεθεί εντελώς το gksu&lt;/h3&gt;
-
-&lt;p&gt;Σε μια αναφορά σφάλματος &lt;a href=&#34;https://bugs.launchpad.net/ubuntu/+source/umit/+bug/1740618&#34; target=&#34;_blank&#34;&gt;[Bug 1740618]&lt;/a&gt; βλέπουμε τη διαδικασία αφαίρεσης του πακέτου gksu από το Ubuntu 18.04.&lt;/p&gt;
-
-&lt;h3 id=&#34;προτεινόμενος-εναλλακτικός-τρόπος&#34;&gt;Προτεινόμενος εναλλακτικός τρόπος&lt;/h3&gt;
-
-&lt;p&gt;Στην ίδια αναφορά σφάλματος αναφέρεται ο προτεινόμενος εναλλακτικός τρόπος για tasks που απαιτούν αυξημένα δικαιώματα. Μπορούμε να χρησιμοποιούμε τον Nautilus με το prefix &lt;code&gt;admin:///&lt;/code&gt; όποτε θελήσουμε αυξημένα δικαιώματα.&lt;br&gt;
-Παρακάτω βλέπουμε πως επιτυγχάνεται με αυτό τον τρόπο η επεξεργασία του αρχείου &lt;code&gt;grub&lt;/code&gt; στην τοποθεσία &lt;code&gt;/etc/default/&lt;/code&gt;
-&lt;br&gt;&lt;br&gt;
-Ανοίγωντας τον Nautilus επιλέγουμε &amp;ldquo;Other Locations&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/A27TEc2.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/A27TEc2.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Κάτω στο &amp;ldquo;Connect to server&amp;rdquo; γράφουμε την τοποθεσία με το prefix &lt;code&gt;admin:///&lt;/code&gt; . Στη συγκεκριμένη περίπτωση &lt;code&gt;admin:///etc/default&lt;/code&gt; διότι εκεί μέσα βρίσκεται το αρχείο &lt;code&gt;grub&lt;/code&gt; που θέλουμε να επεξεργαστούμε. Πατάμε Conect.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/92mCuMg.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/92mCuMg.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Ένα παράθυρο διαλόγου θα απαιτήσει τον κωδικό μας ώστε να λάβουμε αυξημένα δικαιώματα στη συγκεκριμένη τοποθεσία.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/6p9FTjm.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/6p9FTjm.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Επιλέγουμε το αρχείο &lt;code&gt;grub&lt;/code&gt; και είτε πατάμε διπλό κλικ, είτε δεξί κλικ και Open With Text Editor.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/mlKMS8e.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/mlKMS8e.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Ένα νέο παράθυρο διαλόγου μας ζητά εκ νέου τον κωδικό μας, ώστε να αποκτήσουμε το δικαίωμα επεξεργασίας του αρχείου.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/3uVxZxw.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/3uVxZxw.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Στο τέλος έχουμε το αρχείο έτοιμο προς επεξεργασία.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/c3IyyHR.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/c3IyyHR.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;δεν-μπορώ-απλά-να-δώσω-ένα-sudo-gedit-etc-default-grub-να-τελειώνουμε&#34;&gt;Δεν μπορώ απλά να δώσω ένα sudo gedit /etc/default/grub να τελειώνουμε;&lt;/h4&gt;
-
-&lt;p&gt;Φυσικά και μπορείς. Όπως άλλωστε αναφέρθηκε και παραπάνω η χρήση του παραδοσιακού sudo με έναν επεξεργαστή κειμένου πιθανότατα δεν θα δημιουργήσει κάποιο πρόβλημα. Αν όμως θελήσεις να διαγράψεις ή να δημιουργήσεις κάποιο αρχείο ή φάκελο, τότε είναι καλύτερα με τον παραπάνω τρόπο παρά με &lt;code&gt;sudo nautilus&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h4 id=&#34;πρέπει-να-πηγαίνω-τα-βήματα-ένα-ένα&#34;&gt;Πρέπει να πηγαίνω τα βήματα ένα-ένα;&lt;/h4&gt;
-
-&lt;p&gt;Όχι. Αυτό δείξαμε εδώ για να δούμε πως λειτουργεί. Μπορεί κάποιος να γράψει κατευθείαν&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;admin:///etc/default/grub
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;και θα ανοίξει το αρχείο με τον προ-επιλεγμένο editor (στο Ubuntu τον Gedit).&lt;/p&gt;
-
-&lt;h4 id=&#34;γιατί-ζητά-δυο-φορές-τον-κωδικό&#34;&gt;Γιατί ζητά δυο φορές τον κωδικό;&lt;/h4&gt;
-
-&lt;p&gt;Η πρώτη φορά είναι για να αποκτήσουμε δικαιώματα επεξεργασίας μέσα στον κατάλογο που βρισκόμαστε (στο παράδειμα /etc/default) και η δεύτερη για δικαιώματα επεξεργασίας του συγκεκριμένου αρχείου (στο παράδειγμα grub). &lt;br&gt;
-Αν χρησιμοποιήσετε τον απευθείας τρόπο(&lt;code&gt;admin:///etc/default/grub&lt;/code&gt;) , που αυτόν λογικά θα χρησιμοποιήσει κάποιος, τότε θα ζητήσει μια φορά τον κωδικό.&lt;/p&gt;
-
-&lt;h4 id=&#34;αν-θέλω-να-τρέξω-κάποια-άλλη-εφαρμογή-ως-root&#34;&gt;Αν θέλω να τρέξω κάποια άλλη εφαρμογή ως root;&lt;/h4&gt;
-
-&lt;p&gt;Δεν θέλεις και δεν χρειάζεται.
-Οι εφαρμογές που πρέπει να τρέχουν με αυξημένα δικαιώματα είναι κατασκευασμένες έτσι ώστε να εμφανίζουν το σχετικό παράθυρο διαλόγου με το που τις ανοίξει κάποιος.&lt;br&gt;
-Στη παραπάνω δημοσίευση δείξαμε δυο από τις βασικότερες και δημοφιλέστερες γραφικές εφαρμογές οι οποίες μπορούν να χρησιμοποιηθούν κι έτσι, κι αλλιώς. Δηλαδή και ως απλός χρήστης και ως root.&lt;br&gt;
-Μη σου μπαίνουν ιδέες να τρέξεις τον Firefox ή τον Chrome ως root ή το GIMP, δεν υπάρχει λόγος και το μόνο που θα δημιουργήσεις είναι πρόβλημα. Όμως, το Gparted για παράδειγμα το οποίο είναι κατασκευασμένο να λειτουργεί με αυξημένα δικαιώματα θα σου ζητήσει από μόνο του κωδικό.&lt;br&gt;
-Αν ωστόσο επιμένεις να πειραματίζεσαι τότε η γραφικού περιβάλλοντος λύση εδώ είναι το &lt;code&gt;Alt+F2&lt;/code&gt; και έπειτα πληκτρολογείς &lt;code&gt;pkexec ....&lt;/code&gt; και το όνομα της εφαρμογής που θέλεις.&lt;/p&gt;
-
-&lt;h4 id=&#34;από-το-τερματικό-είναι-πιο-εύκολο&#34;&gt;Από το τερματικό είναι πιο εύκολο.&lt;/h4&gt;
-
-&lt;p&gt;Το ξέρω.&lt;br&gt;
-Αυτή η δημοσίευση είναι για όσους/ες δεν θέλουν, δεν ξέρουν ή/και δεν γουστάρουν να μάθουν να χρησιμοποιούν γραμμή εντολών, αλλά γραφικές εφαρμογές.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;
-&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
   </channel>

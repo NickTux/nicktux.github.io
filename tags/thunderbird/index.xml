@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thunderbird on NickTux</title>
-    <link>https://nicktux.github.io/tags/thunderbird/index.xml</link>
+    <link>https://nicktux.github.io/tags/thunderbird/</link>
     <description>Recent content in Thunderbird on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <atom:link href="https://nicktux.github.io/tags/thunderbird/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 May 2018 22:30:51 +0300</lastBuildDate>
+    
+	<atom:link href="https://nicktux.github.io/tags/thunderbird/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>[Ubuntu 18.04] Thunderbird και Emoji</title>
@@ -16,54 +19,7 @@
       
       <guid>https://nicktux.github.io/post/ubuntu-bionic-thunderbird-subject-emoji/</guid>
       <description>&lt;p&gt;Αναβαθμίζοντας στην έκδοση του Ubuntu 18.04 και χρησιμοποιώντας τον Thunderbird ως Email Client ίσως έρθετε αντιμέτωποι με αυτό το περίεργο σφάλμα, το οποίο δεν είμαι σίγουρος εάν οφείλεται στη γραμματοσειρά (.ttf) ή στον συνδυασμό γραμματοσειράς και Thunderbird.
-&lt;/p&gt;
-
-&lt;h3&gt;Το πρόβλημα&lt;/h3&gt;
-
-&lt;p&gt;Η νέα μόδα Marketing και Sales είναι η ενσωμάτωση εικονιδίων στο Subject Line του Email. Προσωπικά το βρίσκω αχρείαστο, αλλά δεν είναι απαραίτητα και κακό. Πολλές εταιρίες επιλέγουν αυτό τον τρόπο για να ενθαρρύνουν τον χρήστη έστω να ανοίξει το Email.&lt;br&gt;
-Πολλοί χρήστες όταν αντιληφθούν Sales/Marketing μηνύματα η πρώτη τους ενέργεια είναι να τα στείλουν στον κάδο χωρίς καν να τα ανοίξουν ή στον φάκελο με τα ανεπιθύμητα.&lt;br&gt;
-Στον Thunderbird, στο Ubuntu 18.04, αυτά τα εικονίδια εμφανίζονται υπερβολικά μεγάλα με αποτέλεσμα να χαλάει εκτός από την αιθητική και το subject line του μηνύματος.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/D1sDbKy.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/D1sDbKy.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h3&gt;1η Λύση&lt;/h3&gt;
-
-&lt;p&gt;Ίσως σας φανεί απλή και λίγο ακατανόητη, αλλά η συγκεκριμένη λύση δούλεψε σε Debian (Buster). Στο Ubuntu 18.04 δούλεψε η δεύτερη(παρακάτω) λύση, εσείς όμως μπορείτε να δοκιμάσετε και τις δυο με τη σειρά.&lt;br&gt;
-Απλά μεταφέρουμε το αρχείο της γραμματοσειράς εκτός τοποθεσίας, κάνουμε μια ενημέρωση των fonts του συστήματος, έπειτα μεταφέρουμε ξανά το αρχείο γραμματοσειράς στη θέση του και κάνουμε ξανά ενημέρωση των Fonts του συστήματος. Τόσο απλό και επιτυγχάνεται με τις παρακάτω εντολές σε ένα τερματικό και φυσικά τον Thunderbird κλειστό.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo mv /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf ~/
-sudo fc-cache -v 
-sudo mv NotoColorEmoji.ttf /usr/share/fonts/truetype/noto
-sudo fc-cache -v
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4&gt;Αποτέλεσμα&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/gSYAopD.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/gSYAopD.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h3&gt;2η Λύση&lt;/h3&gt;
-
-&lt;p&gt;Η δεύτερη λύση έχει να κάνει με την αντικατάσταση της γραμματοσειράς με εκείνη που διατίθεται από την Google. Τη βρίσκουμε και την κάνουμε λήψη από το αποθετήριο&lt;br&gt;στο GitHub ⤏ &lt;a href=&#34;https://github.com/googlei18n/noto-emoji&#34;&gt;https://github.com/googlei18n/noto-emoji&lt;/a&gt;&lt;br&gt;
-Εάν γνωρίζουμε τη βασική χρήση του GitHub μπορούμε να χρησιμοποιήσουμε τις γνώσεις μας για τη λήψη του αποθετηρίου. Διαφορετικά κάνουμε κλικ στο &amp;ldquo;Clone or Download&amp;rdquo; και κάνουμε λήψη το αρχείο σε μορφή Zip που από προεπιλογή θα μεταφερθεί στον κατάλογο Downloads (ή Λήψεις) του υπολογιστή μας.&lt;br&gt;
-Λαμβάνοντας υπόψη τη δεύτερη μέθοδο βλέπουμε παρακάτω την αντικατάσταση της γραμματοσειράς.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd Downloads
-unzip noto-emoji-master.zip
-cd noto-emoji-master/fonts
-sudo mv * /usr/share/fonts/truetype/noto/
-sudo fc-cache -v
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/aehFlXk.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/aehFlXk.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h4&gt;Αποτέλεσμα&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/yzNjNWz.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/yzNjNWz.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;
-&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
   </channel>

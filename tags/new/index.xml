@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>New on NickTux</title>
-    <link>https://nicktux.github.io/tags/new/index.xml</link>
+    <link>https://nicktux.github.io/tags/new/</link>
     <description>Recent content in New on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <atom:link href="https://nicktux.github.io/tags/new/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Nov 2018 20:19:02 +0200</lastBuildDate>
+    
+	<atom:link href="https://nicktux.github.io/tags/new/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Νέα χαρακτηριστικά στο Linux Mint 19</title>
@@ -18,154 +21,18 @@
       <description>&lt;p&gt;&lt;p&gt;Το Linux Mint 19 είναι μια έκδοση με υποστήριξη μακράς διάρκειας η οποία κυκλοφόρησε στις 29 Ιουνίου 2018. Αυτό σημαίνει ότι θα υποστηρίζεται μέχρι το &lt;strong&gt;2023&lt;/strong&gt;.&lt;br&gt;
 Είναι βασισμένο στο Ubuntu 18.04 LTS.&lt;br&gt;
 Δυο σημαντικά από τα νέα χαρακτηριστικά που φέρνει αυτή η έκδοση, αναφέρονται παρακάτω.
-&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/TY8nQ7j.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/TY8nQ7j.jpg&#34; title=&#34;Mint 19 Cinammon Edition&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;400&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;h3&gt;TimeShift&lt;/h3&gt;
-&lt;p&gt;Το TimeShift θα μπορούσαμε να πούμε ότι είναι ο πρωταγωνιστής αυτής της έκδοσης. Αν και έχει συμπεριληφθεί από την 18.3 και έχει γίνει backport σε όλες τις υποστηριζόμενες εκδόσεις του Mint, πλέον από την 19 έχει κυρίαρχο ρόλο στη στρατηγική αναβάθμισης του λειτουργικού συστήματος.
-&lt;br&gt;&lt;br&gt;
-Ανέκαθεν το Mint ακολουθούσε μια διαφορετική προσέγγιση σε ότι αφορά τις αναβαθμίσεις του συστήματος, σε σχέση με τις περισσότερες διανομές. Προκειμένου οι χρήστες του να έχουν πάντα ένα σταθερό σύστημα με όσο λιγότερα προβλήματα είναι δυνατόν, κρατούσε &amp;ldquo;παγωμένη&amp;rdquo; την αναβάθμιση του πυρήνα.&lt;br&gt;
-Ο χρήστης έπρεπε να επιλέξει μόνος του την αναβάθμιση του πυρήνα μέσω του διαχειριστή ενημερώσεων (update manager). Για όσους/ες έχουν ασχοληθεί λίγο με το Mint, είναι τα επίπεδα (levels) εκείνα που καθόριζαν πως θα αναβαθμιστεί το σύστημα. Τα επίπεδα εκείνα που θεωρούνταν critical για τη σταθερότητα ήταν απενεργοποιημένα.&lt;br&gt;&lt;br&gt;
-Αυτή η τακτική είχε δημιουργήσει τριβές στην κοινότητα του Linux καθώς είναι γενικώς αποδεκτό ότι ο πυρήνας θα πρέπει να βρίσκεται πάντα στην τελευταία έκδοσή του, έτσι όπως παρέχεται από τους προγραμματιστές του και με όποια patches προσθέτει (αν προσθέτει) η εκάστοτε διανομή. Αυτό διατηρεί σε σωστά επίπεδα και την ασφάλεια αλλά και τη σταθερότητα του συστήματος.&lt;br&gt;
-Επειδή όμως ο πυρήνας ως λογισμικό είναι το μεγαλύτερο ενιαίο κομμάτι του συστήματος, κατά τη διάρκεια της αναβάθμισης μπορεί να προκύψουν προβλήματα. Αν και αυτό σπάνια συμβαίνει, το Linux Mint θέλει να εξαλείψει ακόμη και αυτή τη μικρή περίπτωση που το σύστημα θα &amp;ldquo;σπάσει&amp;rdquo; λόγω αναβάθμισης του πυρήνα ή ακόμη και άλλων σημαντικών στοιχείων.&lt;br&gt;&lt;br&gt;
-&lt;strong&gt;Από την έκδοση 19&lt;/strong&gt; αυτό το καταφέρνει με το TimeShift. &lt;strong&gt;Στον Update Manager πλέον είναι όλα τα επίπεδα ενεργοποιημένα από προεπιλογή&lt;/strong&gt;, δηλαδή δεν κρατάει πίσω ούτε τον πυρήνα αλλά ούτε και τίποτε άλλο. Εμφανίζεται όμως μια προειδοποίηση στον χρήστη να ρυθμίσει το TimeShift.&lt;br&gt;
-Έτσι, στη περίπτωση που κάτι δεν πάει καλά με την αναβάθμιση και ξαφνικά βρεθεί ο χρήστης με ένα μη-εκκινήσιμο σύστημα, μπορεί να κάνει επαναφορά σε προηγούμενη έκδοση. Η ρύθμιση του TimeShift είναι σχετικά εύκολη.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/F33l4ds.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/F33l4ds.jpg&#34; title=&#34;Διαχειριστής Ενημερώσεων&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;507&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;Ένα άλλο χαρακτηριστικό, πάλι σε σχέση με τον Update Manager, είναι οι αυτόματες αναβαθμίσεις. Αυτές, σε προηγούμενες εκδόσεις του Mint, ήταν προσπελάσιμες μόνον από πεπειραμένους χρήστες. Πλέον έχουν ενσωματωθεί στον Update Manager και με ένα κλικ μπορεί κάποιος να τις ενεργοποιήσει. &lt;em&gt;Πάλι το TimeShift &amp;ldquo;ευθύνεται&amp;rdquo; γι&amp;rsquo; αυτό.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/PSeXT3n.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/PSeXT3n.jpg&#34; title=&#34;Αυτόματες Ένημερώσεις&#34; alt=&#34;&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;h3&gt;Διαχειριστής Λογισμικού&lt;/h3&gt;
-&lt;p&gt;Ο διαχειριστής λογισμικού έχει δεχτεί αρκετές βελτιώσεις με τις σημαντικότερες από αυτές να είναι:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Η ταχύτερη αναζήτηση εφαρμογών&lt;/li&gt;
-&lt;li&gt;Η προσθήκη υποστήριξης .flatpakref και .flatpakrepo&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;em&gt;Το Linux Mint είναι υποστηρικτής περισσότερο των Flatpaks πακέτων, αντί των Snaps.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/z4ynqOG.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/z4ynqOG.jpg&#34; title=&#34;Διαχειριστής Λογισμικού&#34; alt=&#34;&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;Με την υποστήριξη .flatpakref και .flatpakrepo δίνεται η δυνατότητα στο χρήστη να κάνει εγκατάσταση πακέτων flatpak κάνοντας ένα κλικ στο αντίστοιχο κουμπί σε μια ιστοσελίδα.&lt;/p&gt;
-
-&lt;p&gt;Σε αυτή τη δημοσίευση αναφέρθηκαν δυο από τα πολλά νέα χαρακτηριστικά του Mint 19. Τουλάχιστον αυτά που θεώρησα ως τα πιο σημαντικά, με το σημαντικότερο απ&amp;rsquo; όλα την αλλαγή στην πολιτική των αναβαθμίσεων του συστήματος.&lt;br&gt;&lt;br&gt;
-Για να διαβάσετε όλα τα νεα χαρακτηριστικά, μεταβείτε στη σελίδα: &lt;a href=&#34;https://www.linuxmint.com/rel_tara_cinnamon_whatsnew.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; rel=&#34;noreferrer&#34;&gt;New features in Linux Mint 19 Cinnamon&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;Για να κάνετε &lt;strong&gt;λήψη και εγκατάσταση&lt;/strong&gt; μεταβείτε στη &lt;a href=&#34;https://www.linuxmint.com/download.php&#34; rel=&#34;noreferrer&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;σελίδα λήψης&lt;/a&gt;.&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;Για &lt;strong&gt;επικοινωνία&lt;/strong&gt; με την ελληνόφωνη κοινότητα του Linux Mint:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.facebook.com/groups/107979005927688&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; rel=&#34;noreferrer&#34;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://t.me/joinchat/ErjrDU20N3dPzExUlHwenA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; rel=&#34;noreferrer&#34;&gt;Telegram Group&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;
-&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[Ubuntu] 26 Απριλίου η νέα LTS έκδοση</title>
-      <link>https://nicktux.github.io/post/ubuntu-26_April_18_04_Release/</link>
+      <link>https://nicktux.github.io/post/ubuntu-26_april_18_04_release/</link>
       <pubDate>Mon, 09 Apr 2018 12:26:43 +0300</pubDate>
       
-      <guid>https://nicktux.github.io/post/ubuntu-26_April_18_04_Release/</guid>
+      <guid>https://nicktux.github.io/post/ubuntu-26_april_18_04_release/</guid>
       <description>&lt;p&gt;Σε λίγες ημέρες από σήμερα η νέα έκδοση του Ubuntu 18.04 προβλέπεται να κυκλοφορήσει ως η νέα σταθερή LTS έκδοση.&lt;br&gt;
 Παρακάτω θα δούμε τι νέο φέρνει, πως μπορούμε να αναβαθμίσουμε με ασφάλεια και πότε, καθώς και άλλες χρήσιμες πληροφορίες.
-&lt;/p&gt;
-
-&lt;p&gt;Να υπενθυμίσουμε ότι οι εκδόσεις LTS (Long Term Support) υποστηρίζονται για 5 έτη από την ημερομηνία κυκλοφορίας τους, έτσι η 18.04 θα υποστηρίζεται με ενημερώσεις λογισμικού μέχρι και τον Απρίλιο του 2023.&lt;br&gt;
-Οι εκδόσεις LTS ανέκαθεν θεωρούταν(και τις περισσότερες φορές ήταν) πιο σταθερές από τις ενδιάμεσες(μη LTS), καθώς προορίζονται όχι μόνο για Home Users αλλά και για Enterprise/Business.&lt;br&gt;
-Αυτή τη στιγμή η 18.04 βρίσκεται σε Beta2 που σημαίνει ότι έχει μπει στη τελική ευθεία για κυκλοφορία. Σχεδόν τίποτα δεν θα αλλάξει σε σχέση με την τελική έκδοση, εκτός και αν αυτό χαρακτηριστεί ως &lt;span style=&#34;color:red&#34;&gt;Critical&lt;/span&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;γραφικό-περιβάλλον&#34;&gt;Γραφικό Περιβάλλον&lt;/h3&gt;
-
-&lt;p&gt;Η μεγαλύτερη αλλαγή που έρχεται με την 18.04 LTS είναι σίγουρα το γραφικό περιβάλλον. Όπως οι περισσότεροι γνωρίζουμε αυτό πλέον έχει αλλάξει από το κλασσικό Unity στο GNOME, έκδοσης 3.28. Αν και έχει παραμετροποιηθεί έτσι ώστε να θυμίζει Unity. Έχει προστεθεί ένα Extention ονόματι Ubuntu Dock στα αριστερά το οποίο θυμίζει, αν και δεν είναι, τον Launcher του Unity. &lt;i&gt;Γι&amp;rsquo; αυτό το λόγο, αλλά και για άλλους, προσωπικά προτείνω τη νέα εγκατάσταση ως τρόπο αναβάθμισης σε αυτή την έκδοση και όχι την αναβάθμιση μέσω του Update Manager ή άλλων προγραμμάτων τρίτων.&lt;/i&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/znuztjx.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/znuztjx.jpg&#34; alt=&#34;&#34; width=&#34;82&#34; height=&#34;360&#34; class=&#34;alignleft size-full&#34; /&gt;&lt;/a&gt;
-&lt;a href=&#34;https://i.imgur.com/Ftt6mPH.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/Ftt6mPH.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignnone size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;minimal-εγκατάσταση&#34;&gt;Minimal Εγκατάσταση&lt;/h3&gt;
-
-&lt;p&gt;Το πρόγραμμα εγκατάστασης της 18.04 προσφέρει μια νέα μέθοδο εγκατάστασης που ονομάζει Minimal. Από το όνομα και μόνο ο χρήστης καταλαβαίνει ότι πρόκειται για το &amp;ldquo;κανονικό&amp;rdquo; Ubuntu, χωρίς όμως πρόσθετες εφαρμογές. Περιέχει έναν Browser, έναν Text Editor, λίγα βασικά εργαλεία και το Software Center. Από εκεί και πέρα ο χρήστης μπορεί να επιλέξει τις εφαρμογές που θα κάνει εγκατάσταση και θα χρησιμοποιήσει. &lt;i&gt;Κατά τη γνώμη μου ένα από τα καλύτερα χαρακτηριστικά αυτής της έκδοσης.&lt;/i&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/HG3Nnv2.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/HG3Nnv2.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;480&#34; class=&#34;alignnone size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;προσθήκη-αποθετηρίων-ppa&#34;&gt;Προσθήκη αποθετηρίων PPA&lt;/h3&gt;
-
-&lt;p&gt;Καιρός ήταν να αλλάξει και αυτό το χαρακτηριστικό. Η προσθήκη αποθετηρίων PPA από την 18.04 θα είναι λίγο ευκολότερη. Αυτό σημαίνει ότι χρησιμοποιώντας την εντολή &lt;code&gt;sudo add-apt-repositroy&lt;/code&gt; η ενημέρωση των πηγών λογισμικού &lt;code&gt;sudo apt-get update&lt;/code&gt; θα γίνεται αυτόματα. Έτσι ο χρήστης γλυτώνει ένα βήμα, μια εντολή, και μπορεί να προχωρήσει κατευθείαν στην εγκατάσταση του επιθυμητού πακέτου.&lt;/p&gt;
-
-&lt;h3 id=&#34;πυρήνας-linux-4-15&#34;&gt;Πυρήνας Linux 4.15&lt;/h3&gt;
-
-&lt;p&gt;Αν και οι συζητήσεις ήταν πολλές ως προς το ποια έκδοση πυρήνα θα χρησιμοποιηθεί σε αυτή την έκδοση, εν τέλει αποφασίστηκε για την 4.15.x. Η 4.14.x είναι αυτή τη στιγμή η επίσημη LTS έκδοση, από μεριάς Upstream Kernel, ωστόσο το Ubuntu διαθέτει μια ικανή ομάδα από δικούς του Kernel Developers/Maintainers οι οποίοι μπορούν να συντηρήσουν μια μη-LTS έκδοση με ενημερώσεις ασφαλείας ακόμη και όταν αυτή λήξει (upstream). Αυτό έχει συμβεί ξανά άλλωστε. Δεν είναι η πρώτη φορά.&lt;/p&gt;
-
-&lt;h3 id=&#34;xorg-default&#34;&gt;Xorg Default&lt;/h3&gt;
-
-&lt;p&gt;Και εδώ οι συζητήσεις ήταν πολλές και ενώ όλα έδειχναν τον Wayland ως Default Display Server, τελικά αποφασίστηκε ο παλιός αλλά σίγουρος και σταθερός Xorg. Και καλά έκαναν εδώ που τα λέμε, διότι ο Wayland αν και έχει φτάσει σε ένα πολύ καλό σημείο ανάπτυξης δεν είναι ακόμη έτοιμος να αντικαταστήσει τον Xorg σε ότι αφορά τη συμπεριφορά δημοφιλών εφαρμογών, ειδικά σε μια έκδοση που προορίζεται και για εταιρικούς πελάτες. Ο Wayland βέβαια υπάρχει και μπορεί να χρησιμοποιηθεί στο Ubuntu 18.04, μπορεί κάποιος να τον επιλέξει από τη Login Screen. Απλά δεν είναι ο προεπιλεγμένος.&lt;/p&gt;
-
-&lt;h3 id=&#34;συλλογή-δεδομένων-χρήσης-opt-in&#34;&gt;Συλλογή δεδομένων χρήσης (opt-in)&lt;/h3&gt;
-
-&lt;p&gt;Από αυτή την έκδοση του Ubuntu η Canonical αποφάσισε να συλλέγει δεδομένα χρήσης και hardware για λόγους ανάλυσης και χρήσης της διανομής. Τα δεδομένα αυτά θα αναρτούνται δημόσια και φυσικά δεν θα περιέχουν κανένα προσωπικό δεδομένο του χρήστη. Σχετικό &lt;a href=&#34;https://www.facebook.com/groups/ubuntugr/permalink/1557522900962203&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;FB Post&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/TiZF6xd.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/TiZF6xd.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignnone size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;νέο-πρόγραμμα-εγκατάστασης-ubuntu-server&#34;&gt;Νέο πρόγραμμα εγκατάστασης Ubuntu Server&lt;/h3&gt;
-
-&lt;p&gt;Από αυτή την έκδοση ένα νέο πρόγραμμα εγκατάστασης που αφορά μόνο τις Server εκδόσεις θα είναι διαθέσιμο. Σίγουρα είναι πιο όμορφο και θα διευκολύνει ακόμη περισσότερο τον νεοεισερχόμενο να κάνει εγκατάσταση το Ubuntu Server 18.04. Σχετικό &lt;a href=&#34;https://www.facebook.com/groups/ubuntugr/permalink/1564579826923177&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;FB Post&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/4XyDipt.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/4XyDipt.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;357&#34; class=&#34;alignnone size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;νέο-theme-και-icon-set-όχι-ακόμη&#34;&gt;Νέο theme και icon set. Όχι ακόμη.&lt;/h3&gt;
-
-&lt;p&gt;Αν και έχει προταθεί και έχει γίνει αποδεκτό, το νέο Theme και σετ εικονιδίων το οποίο έχει δημιουργηθεί από την κοινότητα δεν πρόλαβε να ενσωματωθεί στη 18.04 LTS καθώς δεν θεωρείται ακόμη έτοιμο.&lt;br&gt;
-Σε όλες τις εκδόσεις του Ubuntu, χρόνια τώρα, επικρατεί ένα και μόνο θέμα, το Ambiance. Ήρθε ο καιρός να αλλάξει και αυτό. Η πρόταση έγινε αποδεκτή και πλήθως χρηστών συνεισφέρουν στο νέο Θέμα και Εικονίδια για το Ubuntu. Για λεπτομέρειες δείτε στο &lt;a href=&#34;https://community.ubuntu.com/t/call-for-participation-an-ubuntu-default-theme-lead-by-the-community/1545&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Ubuntu Community&lt;/strong&gt;&lt;/a&gt;. Το νέο Θέμα και Εικονίδια αναμένεται πιθανότατα στη 18.10.&lt;/p&gt;
-
-&lt;h3 id=&#34;με-γυμνό-μάτι&#34;&gt;Με γυμνό μάτι&lt;/h3&gt;
-
-&lt;p&gt;Άλλες διαφορές που θα εντοπίσει ένας χρήστης άμεσα είναι το νέο Wallpaper, καθώς και ο Nautilus File Manager (Files). Αν και ο τελευταίος θα μείνει στην έκδοση 3.26.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/qBVPGXI.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/qBVPGXI.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;360&#34; class=&#34;alignnone size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/ZdFzBBl.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/ZdFzBBl.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;503&#34; class=&#34;alignnone size-full&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;γνωστά-σφάλματα-bugs&#34;&gt;Γνωστά σφάλματα (Bugs)&lt;/h3&gt;
-
-&lt;p&gt;Σφάλματα τα οποία έχουν αναφερθεί μπορούν να βρεθούν σε συγκεκριμένη σελίδα στο Launchpad. Δείτε &lt;a href=&#34;https://bugs.launchpad.net/ubuntu/bionic/+bugs?orderby=status&amp;start=0&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;εδώ&lt;/strong&gt;&lt;/a&gt;. Από όλα αυτά τα σφάλματα βέβαια θα γίνει εκαθάριση των duplicates, των λανθασμένων και εκείνα που πιθανόν να μη διοθρωθούν ποτέ. Οι διοθρώσεις σφαλμάτων ίσως να μη προλάβουν να γίνουν με τη κυκλοφορία της έκδοσης 18.04, αλλά στο πρώτο Point Release.&lt;br&gt;
-Σε κάθε περίπτωση δείτε τις &lt;a href=&#34;https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes#Known_issues&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;σημειώσεις έκδοσης&lt;/strong&gt;&lt;/a&gt; (Release Notes). Εκεί αναφέρονται τα πιο γνωστά σφάλματα τα οποία επηρεάζουν συνολικά το λειτουργικό σύστημα.&lt;br&gt;
-Ένα που θέλω να αναφέρω εδώ είναι κάτι που εντόπισα πρόσφατα (μόλις χθές) και κατά τη γνώμη μου είναι σημαντικό. Δείτε την αναφορά σε &lt;a href=&#34;https://bugs.launchpad.net/ubuntu/+source/meta-gnome3/+bug/1761995&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;αυτό το Link&lt;/strong&gt;&lt;/a&gt; και αν σας επηρεάζει πατήστε το κουμπί &lt;strong&gt;&amp;ldquo;Yes it affects me&amp;rdquo;&lt;/strong&gt; ώστε να ανέβει το Heat και να λάβει τη δέουσα προσοχή.&lt;/p&gt;
-
-&lt;h3 id=&#34;αναβάθμιση-ή-νέα-εγκατάσταση&#34;&gt;Αναβάθμιση ή Νέα Εγκατάσταση;&lt;/h3&gt;
-
-&lt;p&gt;Κι εδώ ερχόμαστε στα γνωστά ερωτήματα που απασχολούν σε κάθε νεά έκδοση. Να αναβαθμίσω ή όχι; Αν ναι, πότε; Και αν ναι, πως;
-Κάποιος κανόνας δεν υπάρχει, γι&amp;rsquo; αυτό σε αυτή τη παράγραφο γράφω τη γνώμη μου και μόνο.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Αν είστε Οικιακός χρήστης&lt;/strong&gt; (Home User) να αναβαθμίσετε στη νέα έκδοση. Ο τρόπος είναι δική σας επιλογή αλλά προσωπικά προτείνω τη νέα εγκατάσταση και αυτό λόγω της μεγάλης αλλαγής που φέρνει η 18.04, την αλλαγή γραφικού περιβάλλοντος. Βέβαια το πρόγραμμα αναβάθμισης λειτουργεί και θεωρητικά έχει ελεγχθεί. Θυμηθείτε όμως, ή οι νεότεροι μάθετε, ότι παλαιότερα κάποιες διανομές πρόσφεραν τη νέα εγκατάσταση ως τον μοναδικό τρόπο αναβάθμισης από μια έκδοση σε μια άλλη, και λειτουργούσε μια χαρά. Αυτό που έχει να κάνει ο χρήστης είναι να αποθηκεύσει τα προσωπικά του αρχεία σε ένα άλλο δίσκο και να τα επαναφέρει ξανά μετά την ολοκλήρωση της νέας εγκατάστασης.&lt;br&gt;
-Η αναβάθμιση μπορεί να επιτευχθεί και μέσω του προγράμματος εγκατάστασης του Ubuntu. Δηλαδή, θα εμφανιστεί εκεί η κατάλληλη επιλογή όταν το πρόγραμμα εγκατάστασης της 18.04 ανιχνεύσει παλαιότερη έκδοση.
-&lt;br&gt;
-&lt;br&gt;
-&lt;strong&gt;Αν είστε εταιρικός χρήστης&lt;/strong&gt; (Business/Enterprise) ή ακόμη και αν είστε Home User που δεν σας αρέσουν οι εκπλήξεις, δεν το συζητάμε καν. Μένουμε στη 16.04 LTS μέχρι να μας ειδοποιήσει ο Update Manager για τη διαθεσιμότητα νέας έκδοσης, χωρίς να τον &amp;ldquo;πιέσουμε&amp;rdquo;. Αυτό θα γίνει εφόσον έχουμε ενεργοποιημένη την επιλογή &amp;ldquo;ειδοποίηση για νέες εκδόσεις&amp;rdquo; και θα γίνει με τη κυκλοφορία του πρώτου Point Release (18.04.1). Τότε θεωρείται η διανομή σταθερή και με τα περισσότερα Critical/High Bugs διορθωμένα. Επίσης έχει δοκιμαστεί από πλήθος άλλων χρηστών οι οποίοι σπεύδουν να αναβαθμίσουν από την Ημέρα 0, οπότε παίρνουμε κάτι έτοιμο, δοκιμασμένο και σταθερότερο.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Αν δεν θέλετε να κάνετε αναβάθμιση&lt;/strong&gt; δεν υπάρχει κάποιο πρόβλημα σε ότι αφορά την υποστήριξη και τις ενημερώσεις. Αυτό ισχύει για όσους/ες διαθέτουν τη 16.04 LTS η οποία θα υποστηρίζεται έως τον Απρίλιο του 2021. Αν όμως έρχεστε από μια μη-LTS έκδοση, τότε σχεδόν επιβάλλεται να αναβαθμίσετε μιας και η υποστήριξη θα λήξει σχετικά γρήγορα. Η 17.10 θα υποστηρίζεται έως τον Ιούλιο 2018.&lt;/p&gt;
-
-&lt;h3 id=&#34;υποστήριξη-ερωτήσεις-επίλυση-προβλημάτων-κουβέντα-κλπ&#34;&gt;Υποστήριξη, Ερωτήσεις, Επίλυση Προβλημάτων, Κουβέντα &amp;hellip;κλπ&lt;/h3&gt;
-
-&lt;p&gt;Για όλα τα παραπάνω η Ελληνική Κοινότητα του Ubuntu είναι διαθέσιμη σε διάφορες τοποθεσίες. Παρακάτω παραθέτω τις γνωστότερες εξ&amp;rsquo; αυτών.&lt;br&gt;
-1. &lt;a href=&#34;https://forum.ubnutu-gr.org&#34; target=&#34;_blank&#34;&gt;Φόρουμ&lt;/a&gt;&lt;br&gt;
-2. &lt;a href=&#34;https://www.facebook.com/groups/ubuntugr&#34; target=&#34;_blank&#34;&gt;Facebook Group&lt;/a&gt;&lt;br&gt;
-3. &lt;a href=&#34;https://plus.google.com/communities/113489005803686865491&#34; target=&#34;_blank&#34;&gt;Google Group&lt;/a&gt;&lt;br&gt;
-4. &lt;a href=&#34;https://t.me/joinchat/AAAAAArxCH_ymENriw2uWA&#34; target=&#34;_blank&#34;&gt;Telegram Group&lt;/a&gt;&lt;br&gt;
-5. Για τους κλασσικούς, στο &lt;a href=&#34;https://webchat.freenode.net/?channels=ubuntu-gr&#34; target=&#34;_blank&#34;&gt;Freenode IRC&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;
-&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contirbution on NickTux</title>
-    <link>https://nicktux.github.io/tags/contirbution/index.xml</link>
+    <link>https://nicktux.github.io/tags/contirbution/</link>
     <description>Recent content in Contirbution on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <atom:link href="https://nicktux.github.io/tags/contirbution/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jul 2013 18:54:28 +0200</lastBuildDate>
+    
+	<atom:link href="https://nicktux.github.io/tags/contirbution/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Πως να γίνετε Ubuntu Member</title>
@@ -16,110 +19,7 @@
       
       <guid>https://nicktux.github.io/post/how-to-become-ubuntu-member/</guid>
       <description>&lt;p&gt;Με το να γίνει κάποιος Ubuntu Member σημαίνει αναγνώριση, από την διεθνή κοινότητα, της σημαντικής και συνεχούς προσφοράς του στο Ubuntu και κατ&amp;rsquo; επέκταση στο Ανοιχτό Λογισμικό.
-&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://i.imgur.com/HBsmed7.png&#34;&gt;&lt;img alt=&#34;ubuntu-chievey&#34; src=&#34;https://i.imgur.com/HBsmed7.png&#34; width=&#34;300&#34; height=&#34;58&#34; /&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;span style=&#34;font-size:x-small;color:#ff0000;&#34;&gt;&lt;strong&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ! ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΙΣΧΥΕΙ ΠΛΕΟΝ.&lt;/strong&gt;&lt;/span&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;h2 style=&#34;text-align:center;&#34;&gt;Προϋποθέσεις&lt;/h2&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;Πρέπει να έχετε λογαριασμό στο Launchpad και να έχετε υπογράψει το Ubuntu Code of Conduct&lt;/li&gt;
-    &lt;li&gt;Η συνεισφορά σε όλους τους τομείς είναι καλοδεχούμενη.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Η συνεισφορά είναι ένα προαπαιτούμενο , είναι η βασική προϋπόθεση για να μπορέσετε να γίνετε Ubuntu-Member. Υπάρχουν πολλοί και διαφορετικοί τρόποι συνεισφοράς στο Ubuntu και την κοινότητα του Ubuntu. Εκείνοι οι τρόποι που αξιολογούνται και αναγνωρίζονται μπορεί να είναι , συνεισφορά στην τέχνη (artwork , π.χ γραφίστας) , στις ομάδες Loco , στην τεκμηρίωση , στην υποστήριξη μελών μέσω των Forums , στις απαντήσεις στο Launchpad , υποστήριξη μέσω IRC, στην μετάφραση , προγραμματισμός και πακετάρισμα εφαρμογών , marketing and advocacy (διαφήμιση και υποστήριξη του Ubuntu) , στο Wiki &amp;hellip; κλπ.&lt;/p&gt;
-
-&lt;p&gt;Βέβαια όλα τα παραπάνω θα πρέπει να αποδειχθούν όταν θα βρίσκεστε ενώπιον του συμβουλίου έγκρισης. Σε αυτό θα βοηθήσει η σελίδα Wiki που θα φτιάξετε (θα το δούμε παρακάτω) , καθώς και η παρουσία χρηστών που θα σας υποστηρίξουν κατά την διάρκεια της εξέτασης. (μέσω IRC).&lt;/p&gt;
-
-&lt;p&gt;Η ιδέα πως μόνον οι τεχνικά καταρτισμένοι χρήστες (π.χ προγραμματιστές) , οι οποίοι ξέρουν κώδικα ή εκείνοι οι οποίοι έχουν το &amp;ldquo;κάρμα του Βούδα&amp;rdquo; στο Launchpad μπορούν να γίνουν Ubuntu Members , απλά δεν ισχύει.&lt;/p&gt;
-
-&lt;h2 style=&#34;text-align:center;&#34;&gt;Πλεονεκτήματα ενός Ubuntu Member&lt;/h2&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;Δικαίωμα ψήφου στην εκλογή των μελών του Ubuntu Community Council&lt;/li&gt;
-    &lt;li&gt;Ένα e-mail που θα τελειώνει σε .@ubuntu.com και θα γίνεται αυτόματα forward (θα προωθείται) στο πραγματικό σας e-mail . (αυτό που έχετε δηλώσει στο Launchpad)&lt;/li&gt;
-    &lt;li&gt;Ένα /ubuntu/member/&#34;το ψευδώνυμο σας&#34; , cloak στο IRC.&lt;/li&gt;
-    &lt;li&gt;Κοινοπραξία - συμμετοχή του blog σας στο Planet Ubuntu.&lt;/li&gt;
-    &lt;li&gt;Συνδρομή στο εβδομαδιαίο Linux Weekly News.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Διαβάστε περισσότερα για να πλεονεκτήματα &lt;a href=&#34;https://wiki.ubuntu.com/Membership&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;εδώ&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 style=&#34;text-align:center;&#34;&gt;Διαδικασία για να γίνετε Ubuntu Member&lt;/h2&gt;
-
-&lt;p&gt;Όπως αναφέρθηκε και παραπάνω , θα πρέπει η συνεισφορά σας να είναι σημαντική και συνεχής. Αν και δεν υπάρχει κάποιο χρονικό όριο, συνήθως οι αιτήσεις για κάποιον ο οποίος συνεισφέρει στο Ubuntu και την κοινότητα λιγότερο από 6 μήνες δεν γίνονται δεκτές.&lt;/p&gt;
-
-&lt;p&gt;Ο συνήθης τρόπος για να κάνετε αίτηση είναι μέσω του Membership Board. Θα πρέπει να προσθέσετε το όνομα σας στην agenda για το επόμενο meeting και εκεί θα εξεταστεί η αίτηση σας. Άλλοι τρόποι όπου μπορείτε να αποκτήσετε αναγνώριση ως Ubuntu Member αναφέρονται παρακάτω.&lt;/p&gt;
-
-&lt;p&gt;Αν η συνεισφορά σας είναι περισσότερο:&lt;/p&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;Στο Edubuntu , τότε μέσω του &lt;a href=&#34;https://wiki.ubuntu.com/Edubuntu/Council&#34; target=&#34;_blank&#34;&gt;Edubuntu/Council&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;Στο Kubuntu , τότε μέσω του &lt;a href=&#34;https://wiki.ubuntu.com/Kubuntu/Meetings&#34; target=&#34;_blank&#34;&gt;Kubuntu/Meetings&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;Για χρήστες με τεχνική κατάρτιση (προγραμματισμός , bug fixes κλπ) που έχουν συνεισφέρει εκεί , μέσω των &lt;a href=&#34;https://wiki.ubuntu.com/UbuntuDevelopers&#34; target=&#34;_blank&#34;&gt;Ubuntu Developers&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;Για χρήστες που έχουν προσφέρει περισσότερο στο IRC , μέσω του &lt;a href=&#34;https://wiki.ubuntu.com/IRC/IrcCouncil/MeetingAgenda&#34; target=&#34;_blank&#34;&gt;IRC/Membership&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;Για συνεισφορά η οποία είναι περισσότερο στο UbuntuForums.org , μέσω του &lt;a href=&#34;https://wiki.ubuntu.com/Forums/Membership&#34; target=&#34;_blank&#34;&gt;Forums Membership&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 style=&#34;text-align:center;&#34;&gt;Προετοιμασία αίτησης&lt;/h2&gt;
-
-&lt;p&gt;Το πιο σημαντικό κομμάτι όλης της διαδικασίας είναι η σωστή προετοιμασία. Όπως αναφέρθηκε και παραπάνω θα πρέπει να έχετε έναν ενεργό λογαριασμό στο Launchpad και να έχετε υπογράψει το Ubuntu Code of Conduct , διαφορετικά δεν μπορείτε να κάνετε καν αίτηση.&lt;/p&gt;
-
-&lt;p&gt;Έπειτα, φτιάξτε μια σελίδα Ubuntu Wiki.&lt;/p&gt;
-
-&lt;p&gt;Πρέπει να φτιάξετε μια &lt;a href=&#34;https://wiki.ubuntu.com/MembershipTemplate&#34; target=&#34;_blank&#34;&gt;προσωπική σελίδα Wiki&lt;/a&gt; η οποία να περιέχει κάποια βασικά πράγματα όπως:&lt;/p&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;Μια περίληψη - σύνοψη για την συνεισφορά σας στο Ubuntu και την κοινότητα.&lt;/li&gt;
-    &lt;li&gt;Ένα Link(σύνδεσμο) που θα οδηγεί στον λογαριασμό σας στο Launchpad.&lt;/li&gt;
-    &lt;li&gt;Μια πλήρη αναφορά στις συνεισφορές που έχετε κάνει στο Ubuntu και την κοινότητα.&lt;/li&gt;
-    &lt;li&gt;Τις σκέψεις και τα σχέδια σας για το μέλλον. (σε ότι αφορά το Ubuntu βέβαια).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ως παράδειγμα, δείτε σελίδες Wiki που έχουν ήδη περάσει με επιτυχία την διαδικασία του Membership.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://wiki.ubuntu.com/DimitriosNtoulas&#34; target=&#34;_blank&#34;&gt;Ntoulas Dimitrios&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://wiki.ubuntu.com/simosx&#34; target=&#34;_blank&#34;&gt;simosx&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://wiki.ubuntu.com/medigeek&#34; target=&#34;_blank&#34;&gt;Medigeek&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 style=&#34;text-align:center;&#34;&gt;Tips &amp; Tricks για μια πετυχημένη αίτηση&lt;/h2&gt;
-
-&lt;h3&gt;Σωστή και πλήρης σελίδα στο Wiki&lt;/h3&gt;
-
-&lt;p&gt;Η σελίδα σας στο Wiki πρέπει να είναι όσο γίνεται πιο ολοκληρωμένη και &amp;ldquo;όμορφη&amp;rdquo;(να διαβάζεται εύκολα). Αν και δεν είναι προϋπόθεση , καλό είναι να είναι γραμμένη στην Αγγλική γλώσσα έτσι ώστε τα μέλη του συμβουλίου να την διαβάσουν εύκολα. Μη διστάσετε να ζητήσετε βοήθεια από κάποιο Ubuntu Member ώστε να σας διορθώσει τυχόν λάθη και παραλείψεις. Δεν πειράζει που θα επεξεργαστεί άλλος την σελίδα για εσάς. Όλες οι αλλαγές φαίνονται. Το μόνο που δεν πρέπει να πειράξετε είναι τα testimonials.&lt;/p&gt;
-
-&lt;h3&gt;Testimonials (μαρτυρίες/σχόλια)&lt;/h3&gt;
-
-&lt;p&gt;Αν κάνετε αίτηση μέσω την ευθείας οδού (direct Ubuntu Member) , τότε μαζέψτε όσα πιο πολλά testimonials μπορείτε. Είναι σημαντικά! &lt;em&gt;Δεν είναι ανάγκη να γίνουν από Ubuntu Members αλλά το Testimonial ενός ήδη Member μετράει περισσότερο.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Απλοί χρήστες που σας γνωρίζουν και ξέρουν την προσφορά σας μπορούν να γράψουν για εσάς. Αν και δεν είναι προϋπόθεση, είναι σημαντικό οι χρήστες αυτοί να υπογράφουν στο τέλος με τον λογαριασμό τους στο Launchpad ή στο Ubuntu Wiki ή τέλος πάντων με κάποιον λογαριασμό εμφανή και ενεργό.&lt;/p&gt;
-
-&lt;h3&gt;Κάνετε την αίτηση σας εμφανή/δημόσια&lt;/h3&gt;
-
-&lt;p&gt;Δημιουργείστε ένα θέμα στο φόρουμ της Ελληνικής κοινότητας Ubuntu, ή και κάπου αλλόυ (πχ Facebook Group), τουλάχιστον 2 εβδομάδες πριν εξεταστεί επίσημα η αίτηση σας,έτσι ώστε να μαζέψετε όσα πιο πολλά testimonials γίνεται.&lt;/p&gt;
-
-&lt;p&gt;Οι συντονιστές και διαχειριστές του φόρουμ, ή του εκάστοτε γκρούπ, θα φροντίσουν να σας βοηθήσουν κάνοντας την αίτηση σας sticky(έτσι ώστε να είναι πάνω από όλα τα άλλα θέματα) μέχρι την ημέρα της εξέτασης.&lt;/p&gt;
-
-&lt;h3&gt;Παρουσία μελών κατά την διάρκεια της εξέτασης&lt;/h3&gt;
-
-&lt;p&gt;Αν ακολουθήσετε τον direct δρόμο (μέσω IRC) , τότε θα είναι καλό την ώρα της εξέτασης να βρίσκονται όσο γίνεται περισσότερα μέλη εκεί. Τα μέλη αυτά θα δηλώσουν μόνο την παρουσία τους και θα επέμβουν όπου και αν χρειαστεί, για να επιβεβαιώσουν πως κάτι από αυτά που είπατε είναι αλήθεια.&lt;/p&gt;
-
-&lt;h2 style=&#34;text-align:center;&#34;&gt;Μέσω Ubuntu Forums&lt;/h2&gt;
-
-&lt;p&gt;Το Ubuntu Forums είναι εξουσιοδοτημένο να δίνει μέσω του δικού του συμβουλίου Memberships. Αν πάτε μέσω αυτής της οδού, τότε φροντίστε να είστε πάνω από 6-8 μήνες μέλος στο φόρουμ και να έχετε πάνω από 1000 δημοσιεύσεις οι οποίες θα έχουν γίνει στα support sections (δηλαδή οι δημοσιεύσεις στο Community Cafe δεν μετράνε). Τίποτα από αυτά δεν είναι προϋπόθεση , αλλά θα σας βοηθήσουν για μια πετυχημένη αίτηση.&lt;/p&gt;
-
-&lt;p&gt;Η διαδικασία έγκρισης μέσω των Forums , είναι διαφορετική. Καταρχήν δεν απαιτείται η παρουσία σας στο IRC την ημέρα της εξέτασης , ωστόσο καλό θα είναι να είστε εκεί. Πιθανότατα δεν θα σας ρωτήσουν τίποτα εκτός και αν το θεωρήσουν απαραίτητο.&lt;/p&gt;
-
-&lt;p&gt;Καλή Επιτυχία !&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
-&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
   </channel>

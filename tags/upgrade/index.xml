@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Upgrade on NickTux</title>
-    <link>https://nicktux.github.io/tags/upgrade/index.xml</link>
+    <link>https://nicktux.github.io/tags/upgrade/</link>
     <description>Recent content in Upgrade on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2018.&lt;br&gt; No rights reserved.</copyright>
-    <atom:link href="https://nicktux.github.io/tags/upgrade/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Dec 2018 14:13:46 -0500</lastBuildDate>
+    
+	<atom:link href="https://nicktux.github.io/tags/upgrade/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Αναβάθμιση σε Nextcloud 14</title>
@@ -17,70 +20,7 @@
       <guid>https://nicktux.github.io/post/nextcloud-14-upgrade/</guid>
       <description>&lt;p&gt;Πρόσφατα αναβάθμισα στην έκδοση Nextcloud 14, από τη 13 που βρισκόμουν. Βλέπετε είμαι στο &amp;ldquo;Production Channel&amp;rdquo;, οπότε οι αναβαθμίσεις εκδόσεων έρχονται με λίγη καθυστέρηση για να εξασφαλιστεί η σταθερότητα. Αυτή τη στιγμή το Nextcloud βρίσκεται στη σταθερή έκδοση 15, οπότε φανταστείτε το Production Channel κάτι σαν LTS release.
 Παρόλαυτα τα προβληματάκια δεν έλλειψαν και λεω να τα παραθέσω παρακάτω, καθώς και τις λύσεις τους.
-&lt;/p&gt;
-
-&lt;p&gt;Η αναβάθμιση ως διαδικασία πήγε Smooth που λένε. Δηλαδή, δεν υπήρξε κάποιο ουσιαστικό πρόβλημα και ολοκληρώθηκε σε λίγα λεπτά, ως συνήθως.&lt;/p&gt;
-
-&lt;h2&gt;Passman Problem&lt;/h2&gt;
-
-&lt;p&gt;Αν και ο Passman είναι μια εφαρμογή τρίτου, για ορισμένους ίσως είναι essential εαν τη χρησιμοποιούν για την αποθήκευση των κωδικών τους. Αν δεν γνωρίζετε τι είναι ο Passman, με απλά λόγια θα πούμε ότι πρόκειται για έναν Password Manager με Browser Integration και όλα τα καλούδια.&lt;br&gt;
-Δουλεύει εξαιρετικά και το βασικότερο απ&amp;rsquo; όλα είναι ότι εσείς έχετε τον έλεγχο, μιας και οι κωδικοί αποθηκεύονται (κρυπτογραφημένοι) στον Nextcloud Server σας.&lt;/p&gt;
-
-&lt;p&gt;Το πρόβλημα που αντιμετώπισα με τον Passman και το Nextcloud 14 είναι απλό και λιτό. Δεν είναι συμβατός! Τέλος.&lt;br&gt;
-Το Nextcloud δεν σε αφήνει να ενεργοποιήσεις την εφαρμογή και απλά δεν μπορείς να τη χρησιμοποιήσεις. Αν σε αυτό προσθέσουμε και το ενδεχόμενο να μην έχει κάποιος τους κωδικούς του και κάπου αλλού&amp;hellip;.. τη βάψαμε. Γι&amp;rsquo; αυτό, πάντα δυο πηγές τουλάχιστον και οπωσδήποτε backup.&lt;/p&gt;
-
-&lt;h3&gt;Πως επαναφέρουμε τον Passman&lt;/h3&gt;
-
-&lt;p&gt;Η διαδικασία είναι απλή, αλλά χρειάζεται πρόσβαση ssh ή τελοσπάντων κονσόλας στον server και φυσικά δικαιώματα root.&lt;br&gt;
-Μπαίνουμε στον κατάλογο που φιλοξενούνται οι εφαρμογές μας.&lt;br&gt;
-Πχ. &lt;strong&gt;/var/www/nextcloud/apps/&lt;/strong&gt; και τρέχουμε τις παρακάτω εντολές με δικαιώματα root.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd /var/www/nextcloud/apps/
-mv passman ~/ # εδώ θεωρούμε ότι υπάρχει ήδη ο φάκελος passman και τον μετακινούμε αλλού
-git clone https://github.com/nextcloud/passman.git
-cd passman
-git checkout fix_layout_for_14
-cd ..
-sudo su www-data chown -R passman
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Αν πάμε τώρα ξανά στις εφαρμογές μας, θα δούμε τον Passman έτοιμο για ενεργοποίηση. Ενεργοποιούμε την εφαρμογή και λειτουργεί μια χαρά. &lt;em&gt;Όλα αυτά μέχρι να διορθωθεί το πρόβλημα ασυμβατότητας.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/BfPjcSZ.jpg&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/BfPjcSZ.jpg&#34; width=&#34;640&#34; height=&#34;298&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2&gt;HTTP &#34;Referrer-Policy Warning&#34;&lt;/h2&gt;
-
-&lt;p&gt;Κάποιοι, αυτό δε συμβαίνει σε όλους και εδώ είναι το παράξενο, ίσως δουν μια προειδοποίηση στο Admin Overview όπως η παρακάτω:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/L9PRFhs.jpg&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/L9PRFhs.jpg&#34; width=&#34;640&#34; height=&#34;106&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The “Referrer-Policy” HTTP header is not set to “no-referrer”, “no-referrer-when-downgrade”, “strict-origin” or “strict-origin-when-cross-origin”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Αυτό διορθώνεται εαν επεξεργαστούμε το αρχείο &lt;strong&gt;.htaccess&lt;/strong&gt; το οποίο βρίσκεται στη διαδρομή &lt;strong&gt;/var/www/nextcloud/&lt;/strong&gt; και είναι κρυφό αρχείο.&lt;br&gt;
-Οπότε με έναν text editor ανοίγουμε το αρχείο και στο section &lt;code&gt;&amp;lt;IfModule mod_env.c&amp;gt;&lt;/code&gt;
-προσθέτουμε τη παρακάτω γραμμή:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Header set Referrer-Policy &amp;quot;no-referrer&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;κάνουμε reload τον apache2 / nginx και η προειδοποίηση πρέπει να εξαφανιστεί. Εαν δεν εξαφανιστεί, τότε δοκιμάζουμε αυτό που δούλεψε στη δική μου περίπτωση.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Header always set Referrer-Policy &amp;quot;no-referrer&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Προσέξτε εδώ τη διαφορά στο &lt;strong&gt;always&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/cUEUDmP.jpg&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/cUEUDmP.jpg&#34; width=&#34;640&#34; height=&#34;300&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Αυτά τα ολίγα.&lt;br&gt;
-Το Nextcloud συνεχίζει να λειτουργεί απρόσκοπτα and it feels good when you have your data under control!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time &amp;hellip;&lt;br&gt;
-&amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;&lt;/span&gt;&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
   </channel>
