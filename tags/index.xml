@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2019.&lt;br&gt; No rights reserved.</copyright>
-    <lastBuildDate>Thu, 04 Jul 2013 22:42:11 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2013 06:09:44 -0500</lastBuildDate>
     
 	<atom:link href="https://nicktux.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Announce</title>
+      <link>https://nicktux.github.io/tags/announce/</link>
+      <pubDate>Tue, 11 Jun 2013 06:09:44 -0500</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/announce/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Apg</title>
@@ -27,6 +36,24 @@
       <pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate>
       
       <guid>https://nicktux.github.io/tags/apps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arch Linux</title>
+      <link>https://nicktux.github.io/tags/arch-linux/</link>
+      <pubDate>Sat, 14 Dec 2013 10:25:28 +0300</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/arch-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arch Wiki</title>
+      <link>https://nicktux.github.io/tags/arch-wiki/</link>
+      <pubDate>Fri, 15 Nov 2013 14:26:59 +0300</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/arch-wiki/</guid>
       <description></description>
     </item>
     
@@ -81,6 +108,15 @@
       <pubDate>Fri, 05 Jul 2013 14:32:35 +0100</pubDate>
       
       <guid>https://nicktux.github.io/tags/cryptography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Custom Kernel</title>
+      <link>https://nicktux.github.io/tags/custom-kernel/</link>
+      <pubDate>Sat, 14 Dec 2013 10:25:28 +0300</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/custom-kernel/</guid>
       <description></description>
     </item>
     
@@ -175,6 +211,15 @@
     </item>
     
     <item>
+      <title>Linux Mint</title>
+      <link>https://nicktux.github.io/tags/linux-mint/</link>
+      <pubDate>Thu, 07 Nov 2013 17:44:19 +0300</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/linux-mint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mastodon</title>
       <link>https://nicktux.github.io/tags/mastodon/</link>
       <pubDate>Sat, 29 Dec 2018 13:10:23 +0200</pubDate>
@@ -231,7 +276,7 @@
     <item>
       <title>Over_a_year_old</title>
       <link>https://nicktux.github.io/tags/over_a_year_old/</link>
-      <pubDate>Thu, 04 Jul 2013 22:42:11 +0200</pubDate>
+      <pubDate>Sat, 14 Dec 2013 10:25:28 +0300</pubDate>
       
       <guid>https://nicktux.github.io/tags/over_a_year_old/</guid>
       <description></description>
@@ -391,6 +436,15 @@
     </item>
     
     <item>
+      <title>Translation</title>
+      <link>https://nicktux.github.io/tags/translation/</link>
+      <pubDate>Fri, 15 Nov 2013 14:26:59 +0300</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/translation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Troubleshooting</title>
       <link>https://nicktux.github.io/tags/troubleshooting/</link>
       <pubDate>Tue, 11 Dec 2018 14:13:46 -0500</pubDate>
@@ -436,11 +490,29 @@
     </item>
     
     <item>
+      <title>Windows Installer</title>
+      <link>https://nicktux.github.io/tags/windows-installer/</link>
+      <pubDate>Tue, 11 Jun 2013 06:09:44 -0500</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/windows-installer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Wireless</title>
       <link>https://nicktux.github.io/tags/wireless/</link>
       <pubDate>Wed, 03 Jul 2013 17:18:12 +0200</pubDate>
       
       <guid>https://nicktux.github.io/tags/wireless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wubi</title>
+      <link>https://nicktux.github.io/tags/wubi/</link>
+      <pubDate>Tue, 11 Jun 2013 06:09:44 -0500</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/wubi/</guid>
       <description></description>
     </item>
     

@@ -103,6 +103,21 @@
   </url>
   
   <url>
+    <loc>https://nicktux.github.io/post/arch-linux-custom-kernel/</loc>
+    <lastmod>2013-12-14T10:25:28+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicktux.github.io/post/arch-wiki-greek-team/</loc>
+    <lastmod>2013-11-15T14:26:59+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicktux.github.io/post/linux-mint-oliver-grawert/</loc>
+    <lastmod>2013-11-07T17:44:19+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nicktux.github.io/post/encrypt-with-openssl/</loc>
     <lastmod>2013-07-05T14:32:35+01:00</lastmod>
   </url>
@@ -148,8 +163,19 @@
   </url>
   
   <url>
+    <loc>https://nicktux.github.io/post/wubi/</loc>
+    <lastmod>2013-06-11T06:09:44-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nicktux.github.io/post/</loc>
     <lastmod>2019-09-30T18:55:30+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nicktux.github.io/tags/announce/</loc>
+    <lastmod>2013-06-11T06:09:44-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -162,6 +188,18 @@
   <url>
     <loc>https://nicktux.github.io/tags/apps/</loc>
     <lastmod>2018-11-25T21:54:28+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nicktux.github.io/tags/arch-linux/</loc>
+    <lastmod>2013-12-14T10:25:28+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nicktux.github.io/tags/arch-wiki/</loc>
+    <lastmod>2013-11-15T14:26:59+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -198,6 +236,12 @@
   <url>
     <loc>https://nicktux.github.io/tags/cryptography/</loc>
     <lastmod>2013-07-05T14:32:35+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nicktux.github.io/tags/custom-kernel/</loc>
+    <lastmod>2013-12-14T10:25:28+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -286,6 +330,12 @@
   </url>
   
   <url>
+    <loc>https://nicktux.github.io/tags/linux-mint/</loc>
+    <lastmod>2013-11-07T17:44:19+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://nicktux.github.io/topics/linux-mint/</loc>
     <lastmod>2019-04-05T18:55:56+03:00</lastmod>
     <priority>0</priority>
@@ -341,7 +391,7 @@
   
   <url>
     <loc>https://nicktux.github.io/tags/over_a_year_old/</loc>
-    <lastmod>2013-07-04T22:42:11+02:00</lastmod>
+    <lastmod>2013-12-14T10:25:28+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -443,7 +493,7 @@
   
   <url>
     <loc>https://nicktux.github.io/tags/</loc>
-    <lastmod>2013-07-04T22:42:11+02:00</lastmod>
+    <lastmod>2013-06-11T06:09:44-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -462,6 +512,12 @@
   <url>
     <loc>https://nicktux.github.io/topics/</loc>
     <lastmod>2018-03-01T02:46:56+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nicktux.github.io/tags/translation/</loc>
+    <lastmod>2013-11-15T14:26:59+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -502,8 +558,20 @@
   </url>
   
   <url>
+    <loc>https://nicktux.github.io/tags/windows-installer/</loc>
+    <lastmod>2013-06-11T06:09:44-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://nicktux.github.io/tags/wireless/</loc>
     <lastmod>2013-07-03T17:18:12+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nicktux.github.io/tags/wubi/</loc>
+    <lastmod>2013-06-11T06:09:44-05:00</lastmod>
     <priority>0</priority>
   </url>
   
