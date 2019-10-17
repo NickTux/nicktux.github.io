@@ -1,9 +1,9 @@
 .header {
-  font-family: 'Font Awesome 5 Free', 'Noto Sans', Ubuntu, Helvetica, Arial, sans-serif;
+  font-family: 'Font Awesome 5 Free', 'Open Sans' , 'Noto Sans' , Helvetica, sans-serif;
 }
 
 p {
-   font-family: 'Noto Sans', sans-serif;
+   font-family: 'Noto Sans', 'Open Sans' , sans-serif;
    font-size: 105%;
    color: #333333
 }
@@ -91,7 +91,7 @@ i {
 }
 
 blockquote {
-  font-family: Ubuntu, Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans' , 'Noto Sans' , Helvetica, Arial, sans-serif;
   font-size: normal;
   font-style: italic;
   content: "\"";
