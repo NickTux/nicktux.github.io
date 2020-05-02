@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/nicktux
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nicktux.gr
+  * I am nicktux (https://keybase.io/nicktux) on keybase.
+  * I have a public key ASByr7TNVe3H-d1prxkg8P1ZAFIOmk1PBqaEU3OwWORhwwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120017a1e84d447325fbb5f71a95f1ae40b9aae0f3c0c09670deb5684c42865111d0a",
+      "host": "keybase.io",
+      "kid": "012072afb4cd55edc7f9dd69af1920f0fd5900520e9a4d4f06a6845373b058e461c30a",
+      "uid": "a89727c2cb26924a2fd0e8c511393019",
+      "username": "nicktux"
+    },
+    "merkle_root": {
+      "ctime": 1588425394,
+      "hash": "b706e37d728eb6f8584e5ac5a0214191a1bfe0f03f975feac8861db53dc9933350dd5c2d1393ed7515557af167905122f0a1987cc11b61c60bcecd4f4cd75a6b",
+      "hash_meta": "56edeb26ef006f2460300e49bdac62c03b4f94c63691f8cd5d004ce953536e53",
+      "seqno": 16131947
+    },
+    "service": {
+      "entropy": "l9egv4jomjttb/KOBrY9N5At",
+      "hostname": "nicktux.gr",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.2"
+  },
+  "ctime": 1588425500,
+  "expire_in": 504576000,
+  "prev": "bb03fa0dbdee699a38569fccb234bd328c039f1f41f764ab3c82c9ead66582ca",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgcq+0zVXtx/ndaa8ZIPD9WQBSDppNTwamhFNzsFjkYcMKp3BheWxvYWTESpcCDcQguwP6Db3uaZo4Vp/MsjS9MowDnx9B92SrPILJ6tZlgsrEIAm3tXRAVhe3ysRZuvq8STyjrv+2ThERCtFnmDiiL/uiAgHCo3NpZ8RA8/v0MteK75B8xE+Cvt409bPbM9RFLzhOryTNUmD1ZmoPTKqZ7UD4FoWPLbJmrBdH+6vNn38pG+Z1WSMvVm2aDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICkGDA5TDK///aShGxtBNXm7wZ9RWYtvrGLMPcScftzIo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nicktux
+
+==================================================================
