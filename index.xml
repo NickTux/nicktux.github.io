@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2019.&lt;br&gt; No rights reserved.</copyright>
-    <lastBuildDate>Mon, 30 Sep 2019 18:55:30 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2020 16:17:57 +0300</lastBuildDate>
     
 	<atom:link href="https://nicktux.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Keybase</title>
+      <link>https://nicktux.github.io/keybase/</link>
+      <pubDate>Sat, 02 May 2020 16:17:57 +0300</pubDate>
+      
+      <guid>https://nicktux.github.io/keybase/</guid>
+      <description>==================================================================
+https://keybase.io/nicktux I hereby claim:
+ I am an admin of https://nicktux.gr I am nicktux (https://keybase.io/nicktux) on keybase. I have a public key ASByr7TNVe3H-d1prxkg8P1ZAFIOmk1PBqaEU3OwWORhwwo  To do so, I am signing this object:
+{ &amp;ldquo;body&amp;rdquo;: { &amp;ldquo;key&amp;rdquo;: { &amp;ldquo;eldest_kid&amp;rdquo;: &amp;ldquo;0120017a1e84d447325fbb5f71a95f1ae40b9aae0f3c0c09670deb5684c42865111d0a&amp;rdquo;, &amp;ldquo;host&amp;rdquo;: &amp;ldquo;keybase.io&amp;rdquo;, &amp;ldquo;kid&amp;rdquo;: &amp;ldquo;012072afb4cd55edc7f9dd69af1920f0fd5900520e9a4d4f06a6845373b058e461c30a&amp;rdquo;, &amp;ldquo;uid&amp;rdquo;: &amp;ldquo;a89727c2cb26924a2fd0e8c511393019&amp;rdquo;, &amp;ldquo;username&amp;rdquo;: &amp;ldquo;nicktux&amp;rdquo; }, &amp;ldquo;merkle_root&amp;rdquo;: { &amp;ldquo;ctime&amp;rdquo;: 1588425394, &amp;ldquo;hash&amp;rdquo;: &amp;ldquo;b706e37d728eb6f8584e5ac5a0214191a1bfe0f03f975feac8861db53dc9933350dd5c2d1393ed7515557af167905122f0a1987cc11b61c60bcecd4f4cd75a6b&amp;rdquo;, &amp;ldquo;hash_meta&amp;rdquo;: &amp;ldquo;56edeb26ef006f2460300e49bdac62c03b4f94c63691f8cd5d004ce953536e53&amp;rdquo;, &amp;ldquo;seqno&amp;rdquo;: 16131947 }, &amp;ldquo;service&amp;rdquo;: { &amp;ldquo;entropy&amp;rdquo;: &amp;ldquo;l9egv4jomjttb/KOBrY9N5At&amp;rdquo;, &amp;ldquo;hostname&amp;rdquo;: &amp;ldquo;nicktux.gr&amp;rdquo;, &amp;ldquo;protocol&amp;rdquo;: &amp;ldquo;https:&amp;rdquo; }, &amp;ldquo;type&amp;rdquo;: &amp;ldquo;web_service_binding&amp;rdquo;, &amp;ldquo;version&amp;rdquo;: 2 }, &amp;ldquo;client&amp;rdquo;: { &amp;ldquo;name&amp;rdquo;: &amp;ldquo;keybase.</description>
+    </item>
     
     <item>
       <title>Bitwarden Password Manager</title>
