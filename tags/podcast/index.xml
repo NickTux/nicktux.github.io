@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>podcast on NickTux</title>
-    <link>https://nicktux.github.io/tags/podcast/</link>
+    <link>https://nicktux.gr/tags/podcast/</link>
     <description>Recent content in podcast on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2020.&lt;br&gt; No rights reserved.</copyright>
     <lastBuildDate>Fri, 05 Apr 2019 18:55:56 +0300</lastBuildDate>
     
-	<atom:link href="https://nicktux.github.io/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nicktux.gr/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Δύο USB μικρόφωνα σε Linux</title>
-      <link>https://nicktux.github.io/post/two-usb-mics/</link>
+      <link>https://nicktux.gr/post/two-usb-mics/</link>
       <pubDate>Fri, 05 Apr 2019 18:55:56 +0300</pubDate>
       
-      <guid>https://nicktux.github.io/post/two-usb-mics/</guid>
+      <guid>https://nicktux.gr/post/two-usb-mics/</guid>
       <description>&lt;p&gt;Καλή Χρονιά είπαμε;&lt;!-- raw HTML omitted --&gt;
 Νομίζω είναι η πρώτη δημοσίευση του 2019. Ξέρετε, επειδή δεν είμαι επαγγελματίας αρθρογράφος και επειδή είμαι ένθερμος υποστηρικτής της άποψης &amp;ldquo;Γράψε, όταν έχεις κάτι να γράψεις&amp;rdquo;, επιπροσθέτως ότι ο ελεύθερος χρόνος είναι πλέον λίγος, το αποτέλεσμα είναι ακριβώς αυτό.&lt;!-- raw HTML omitted --&gt;
 Αυτή τη φορά έχω να δημοσιεύσω κάτι όμως, το οποίο ίσως βοηθήσει άλλους που θα ήθελαν να πάρουν μια απόφαση στην αγορά ξεχωριστού/αποκλειστικού μικροφώνου πχ. για podcasts, youtube, live chatting, gaming κλπ.&lt;/p&gt;</description>
