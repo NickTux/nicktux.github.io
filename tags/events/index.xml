@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>events on NickTux</title>
-    <link>https://nicktux.gr/tags/events/</link>
+    <link>https://nicktux.gitlab.io/tags/events/</link>
     <description>Recent content in events on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2020.&lt;br&gt; No rights reserved.</copyright>
     <lastBuildDate>Tue, 02 Jul 2013 02:16:08 +0200</lastBuildDate>
     
-	<atom:link href="https://nicktux.gr/tags/events/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nicktux.gitlab.io/tags/events/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fosscomm 2013</title>
-      <link>https://nicktux.gr/post/fosscomm-2013/</link>
+      <link>https://nicktux.gitlab.io/post/fosscomm-2013/</link>
       <pubDate>Tue, 02 Jul 2013 02:16:08 +0200</pubDate>
       
-      <guid>https://nicktux.gr/post/fosscomm-2013/</guid>
+      <guid>https://nicktux.gitlab.io/post/fosscomm-2013/</guid>
       <description>&lt;p&gt;H Ελληνική κοινότητα Ubuntu (Ubuntu-gr) συμμετείχε και φέτος στην Fosscomm 2013, που πραγματοποιήθηκε στο Χαροκόπειο Πανεπιστήμιο Αθηνών με δικό της booth - καθώς και παρουσιάσεις.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Release Party Ubuntu 13.10 Athens 2013</title>
-      <link>https://nicktux.gr/post/release-party-ubuntu-13-10-athens2013/</link>
+      <link>https://nicktux.gitlab.io/post/release-party-ubuntu-13-10-athens2013/</link>
       <pubDate>Tue, 02 Jul 2013 02:05:25 +0200</pubDate>
       
-      <guid>https://nicktux.gr/post/release-party-ubuntu-13-10-athens2013/</guid>
+      <guid>https://nicktux.gitlab.io/post/release-party-ubuntu-13-10-athens2013/</guid>
       <description>To release party για το Ubuntu 13.04 διεξήχθη με επιτυχία και φέτος στο καφέ Ηλιοστάσιο στο Θησείο. Ο κόσμος προσήλθε σε ικανοποιητικό αριθμό, η τούρτα όμορφη και εύγευστη και το κλίμα όπως πάντα φιλικό.
   
 Περισσότερο φωτογραφικό υλικό στο φώτο-άλμπουμ της Ελληνικής κοινότητας.

@@ -2,544 +2,544 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on NickTux</title>
-    <link>https://nicktux.gr/tags/</link>
+    <link>https://nicktux.gitlab.io/tags/</link>
     <description>Recent content in Tags on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2020.&lt;br&gt; No rights reserved.</copyright>
     <lastBuildDate>Sat, 09 May 2020 12:30:11 +0300</lastBuildDate>
     
-	<atom:link href="https://nicktux.gr/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nicktux.gitlab.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Desktop</title>
-      <link>https://nicktux.gr/tags/desktop/</link>
+      <link>https://nicktux.gitlab.io/tags/desktop/</link>
       <pubDate>Sat, 09 May 2020 12:30:11 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/desktop/</guid>
+      <guid>https://nicktux.gitlab.io/tags/desktop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Time</title>
-      <link>https://nicktux.gr/tags/time/</link>
+      <link>https://nicktux.gitlab.io/tags/time/</link>
       <pubDate>Sat, 09 May 2020 12:30:11 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/time/</guid>
+      <guid>https://nicktux.gitlab.io/tags/time/</guid>
       <description></description>
     </item>
     
     <item>
       <title>troubleshooting</title>
-      <link>https://nicktux.gr/tags/troubleshooting/</link>
+      <link>https://nicktux.gitlab.io/tags/troubleshooting/</link>
       <pubDate>Sat, 09 May 2020 12:30:11 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/troubleshooting/</guid>
+      <guid>https://nicktux.gitlab.io/tags/troubleshooting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ubuntu 20.04</title>
-      <link>https://nicktux.gr/tags/ubuntu-20.04/</link>
+      <link>https://nicktux.gitlab.io/tags/ubuntu-20.04/</link>
       <pubDate>Sat, 09 May 2020 12:30:11 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/ubuntu-20.04/</guid>
+      <guid>https://nicktux.gitlab.io/tags/ubuntu-20.04/</guid>
       <description></description>
     </item>
     
     <item>
       <title>UTC</title>
-      <link>https://nicktux.gr/tags/utc/</link>
+      <link>https://nicktux.gitlab.io/tags/utc/</link>
       <pubDate>Sat, 09 May 2020 12:30:11 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/utc/</guid>
+      <guid>https://nicktux.gitlab.io/tags/utc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>password</title>
-      <link>https://nicktux.gr/tags/password/</link>
+      <link>https://nicktux.gitlab.io/tags/password/</link>
       <pubDate>Mon, 30 Sep 2019 18:55:30 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/password/</guid>
+      <guid>https://nicktux.gitlab.io/tags/password/</guid>
       <description></description>
     </item>
     
     <item>
       <title>security</title>
-      <link>https://nicktux.gr/tags/security/</link>
+      <link>https://nicktux.gitlab.io/tags/security/</link>
       <pubDate>Mon, 30 Sep 2019 18:55:30 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/security/</guid>
+      <guid>https://nicktux.gitlab.io/tags/security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mic</title>
-      <link>https://nicktux.gr/tags/mic/</link>
+      <link>https://nicktux.gitlab.io/tags/mic/</link>
       <pubDate>Fri, 05 Apr 2019 18:55:56 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/mic/</guid>
+      <guid>https://nicktux.gitlab.io/tags/mic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>podcast</title>
-      <link>https://nicktux.gr/tags/podcast/</link>
+      <link>https://nicktux.gitlab.io/tags/podcast/</link>
       <pubDate>Fri, 05 Apr 2019 18:55:56 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/podcast/</guid>
+      <guid>https://nicktux.gitlab.io/tags/podcast/</guid>
       <description></description>
     </item>
     
     <item>
       <title>usb</title>
-      <link>https://nicktux.gr/tags/usb/</link>
+      <link>https://nicktux.gitlab.io/tags/usb/</link>
       <pubDate>Fri, 05 Apr 2019 18:55:56 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/usb/</guid>
+      <guid>https://nicktux.gitlab.io/tags/usb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mastodon</title>
-      <link>https://nicktux.gr/tags/mastodon/</link>
+      <link>https://nicktux.gitlab.io/tags/mastodon/</link>
       <pubDate>Sat, 29 Dec 2018 13:10:23 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/mastodon/</guid>
+      <guid>https://nicktux.gitlab.io/tags/mastodon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PeerTube</title>
-      <link>https://nicktux.gr/tags/peertube/</link>
+      <link>https://nicktux.gitlab.io/tags/peertube/</link>
       <pubDate>Sat, 29 Dec 2018 13:10:23 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/peertube/</guid>
+      <guid>https://nicktux.gitlab.io/tags/peertube/</guid>
       <description></description>
     </item>
     
     <item>
       <title>privacy</title>
-      <link>https://nicktux.gr/tags/privacy/</link>
+      <link>https://nicktux.gitlab.io/tags/privacy/</link>
       <pubDate>Sat, 29 Dec 2018 13:10:23 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/privacy/</guid>
+      <guid>https://nicktux.gitlab.io/tags/privacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GIMP</title>
-      <link>https://nicktux.gr/tags/gimp/</link>
+      <link>https://nicktux.gitlab.io/tags/gimp/</link>
       <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/gimp/</guid>
+      <guid>https://nicktux.gitlab.io/tags/gimp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>install</title>
-      <link>https://nicktux.gr/tags/install/</link>
+      <link>https://nicktux.gitlab.io/tags/install/</link>
       <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/install/</guid>
+      <guid>https://nicktux.gitlab.io/tags/install/</guid>
       <description></description>
     </item>
     
     <item>
       <title>new</title>
-      <link>https://nicktux.gr/tags/new/</link>
+      <link>https://nicktux.gitlab.io/tags/new/</link>
       <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/new/</guid>
+      <guid>https://nicktux.gitlab.io/tags/new/</guid>
       <description></description>
     </item>
     
     <item>
       <title>new version</title>
-      <link>https://nicktux.gr/tags/new-version/</link>
+      <link>https://nicktux.gitlab.io/tags/new-version/</link>
       <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/new-version/</guid>
+      <guid>https://nicktux.gitlab.io/tags/new-version/</guid>
       <description></description>
     </item>
     
     <item>
       <title>snap</title>
-      <link>https://nicktux.gr/tags/snap/</link>
+      <link>https://nicktux.gitlab.io/tags/snap/</link>
       <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/snap/</guid>
+      <guid>https://nicktux.gitlab.io/tags/snap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>release</title>
-      <link>https://nicktux.gr/tags/release/</link>
+      <link>https://nicktux.gitlab.io/tags/release/</link>
       <pubDate>Tue, 11 Dec 2018 14:13:46 -0500</pubDate>
       
-      <guid>https://nicktux.gr/tags/release/</guid>
+      <guid>https://nicktux.gitlab.io/tags/release/</guid>
       <description></description>
     </item>
     
     <item>
       <title>upgrade</title>
-      <link>https://nicktux.gr/tags/upgrade/</link>
+      <link>https://nicktux.gitlab.io/tags/upgrade/</link>
       <pubDate>Tue, 11 Dec 2018 14:13:46 -0500</pubDate>
       
-      <guid>https://nicktux.gr/tags/upgrade/</guid>
+      <guid>https://nicktux.gitlab.io/tags/upgrade/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Apps</title>
-      <link>https://nicktux.gr/tags/apps/</link>
+      <link>https://nicktux.gitlab.io/tags/apps/</link>
       <pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/apps/</guid>
+      <guid>https://nicktux.gitlab.io/tags/apps/</guid>
       <description></description>
     </item>
     
     <item>
       <title>packages</title>
-      <link>https://nicktux.gr/tags/packages/</link>
+      <link>https://nicktux.gitlab.io/tags/packages/</link>
       <pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/packages/</guid>
+      <guid>https://nicktux.gitlab.io/tags/packages/</guid>
       <description></description>
     </item>
     
     <item>
       <title>telegram</title>
-      <link>https://nicktux.gr/tags/telegram/</link>
+      <link>https://nicktux.gitlab.io/tags/telegram/</link>
       <pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/telegram/</guid>
+      <guid>https://nicktux.gitlab.io/tags/telegram/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tutorials</title>
-      <link>https://nicktux.gr/tags/tutorials/</link>
+      <link>https://nicktux.gitlab.io/tags/tutorials/</link>
       <pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/tutorials/</guid>
+      <guid>https://nicktux.gitlab.io/tags/tutorials/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kernel</title>
-      <link>https://nicktux.gr/tags/kernel/</link>
+      <link>https://nicktux.gitlab.io/tags/kernel/</link>
       <pubDate>Sat, 25 Aug 2018 14:52:27 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/kernel/</guid>
+      <guid>https://nicktux.gitlab.io/tags/kernel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>stable</title>
-      <link>https://nicktux.gr/tags/stable/</link>
+      <link>https://nicktux.gitlab.io/tags/stable/</link>
       <pubDate>Sat, 25 Aug 2018 14:52:27 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/stable/</guid>
+      <guid>https://nicktux.gitlab.io/tags/stable/</guid>
       <description></description>
     </item>
     
     <item>
       <title>suggestion</title>
-      <link>https://nicktux.gr/tags/suggestion/</link>
+      <link>https://nicktux.gitlab.io/tags/suggestion/</link>
       <pubDate>Sat, 25 Aug 2018 14:52:27 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/suggestion/</guid>
+      <guid>https://nicktux.gitlab.io/tags/suggestion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>thunderbird</title>
-      <link>https://nicktux.gr/tags/thunderbird/</link>
+      <link>https://nicktux.gitlab.io/tags/thunderbird/</link>
       <pubDate>Thu, 03 May 2018 22:30:51 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/thunderbird/</guid>
+      <guid>https://nicktux.gitlab.io/tags/thunderbird/</guid>
       <description></description>
     </item>
     
     <item>
       <title>wifi</title>
-      <link>https://nicktux.gr/tags/wifi/</link>
+      <link>https://nicktux.gitlab.io/tags/wifi/</link>
       <pubDate>Tue, 01 May 2018 21:25:02 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/wifi/</guid>
+      <guid>https://nicktux.gitlab.io/tags/wifi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>distro changes</title>
-      <link>https://nicktux.gr/tags/distro-changes/</link>
+      <link>https://nicktux.gitlab.io/tags/distro-changes/</link>
       <pubDate>Mon, 16 Apr 2018 22:29:19 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/distro-changes/</guid>
+      <guid>https://nicktux.gitlab.io/tags/distro-changes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>client</title>
-      <link>https://nicktux.gr/tags/client/</link>
+      <link>https://nicktux.gitlab.io/tags/client/</link>
       <pubDate>Wed, 11 Apr 2018 22:46:06 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/client/</guid>
+      <guid>https://nicktux.gitlab.io/tags/client/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cloud</title>
-      <link>https://nicktux.gr/tags/cloud/</link>
+      <link>https://nicktux.gitlab.io/tags/cloud/</link>
       <pubDate>Wed, 11 Apr 2018 22:46:06 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/cloud/</guid>
+      <guid>https://nicktux.gitlab.io/tags/cloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gnome</title>
-      <link>https://nicktux.gr/tags/gnome/</link>
+      <link>https://nicktux.gitlab.io/tags/gnome/</link>
       <pubDate>Wed, 11 Apr 2018 22:46:06 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/gnome/</guid>
+      <guid>https://nicktux.gitlab.io/tags/gnome/</guid>
       <description></description>
     </item>
     
     <item>
       <title>startup</title>
-      <link>https://nicktux.gr/tags/startup/</link>
+      <link>https://nicktux.gitlab.io/tags/startup/</link>
       <pubDate>Thu, 01 Mar 2018 02:46:56 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/startup/</guid>
+      <guid>https://nicktux.gitlab.io/tags/startup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>passwords</title>
-      <link>https://nicktux.gr/tags/passwords/</link>
+      <link>https://nicktux.gitlab.io/tags/passwords/</link>
       <pubDate>Tue, 27 Feb 2018 00:08:51 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/passwords/</guid>
+      <guid>https://nicktux.gitlab.io/tags/passwords/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pwned</title>
-      <link>https://nicktux.gr/tags/pwned/</link>
+      <link>https://nicktux.gitlab.io/tags/pwned/</link>
       <pubDate>Tue, 27 Feb 2018 00:08:51 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/pwned/</guid>
+      <guid>https://nicktux.gitlab.io/tags/pwned/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deck</title>
-      <link>https://nicktux.gr/tags/deck/</link>
+      <link>https://nicktux.gitlab.io/tags/deck/</link>
       <pubDate>Mon, 26 Feb 2018 20:28:39 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/deck/</guid>
+      <guid>https://nicktux.gitlab.io/tags/deck/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kanban</title>
-      <link>https://nicktux.gr/tags/kanban/</link>
+      <link>https://nicktux.gitlab.io/tags/kanban/</link>
       <pubDate>Mon, 26 Feb 2018 20:28:39 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/kanban/</guid>
+      <guid>https://nicktux.gitlab.io/tags/kanban/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Organization</title>
-      <link>https://nicktux.gr/tags/organization/</link>
+      <link>https://nicktux.gitlab.io/tags/organization/</link>
       <pubDate>Mon, 26 Feb 2018 20:28:39 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/organization/</guid>
+      <guid>https://nicktux.gitlab.io/tags/organization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Arch Linux</title>
-      <link>https://nicktux.gr/tags/arch-linux/</link>
+      <link>https://nicktux.gitlab.io/tags/arch-linux/</link>
       <pubDate>Sat, 14 Dec 2013 10:25:28 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/arch-linux/</guid>
+      <guid>https://nicktux.gitlab.io/tags/arch-linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Custom Kernel</title>
-      <link>https://nicktux.gr/tags/custom-kernel/</link>
+      <link>https://nicktux.gitlab.io/tags/custom-kernel/</link>
       <pubDate>Sat, 14 Dec 2013 10:25:28 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/custom-kernel/</guid>
+      <guid>https://nicktux.gitlab.io/tags/custom-kernel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>over_a_year_old</title>
-      <link>https://nicktux.gr/tags/over_a_year_old/</link>
+      <link>https://nicktux.gitlab.io/tags/over_a_year_old/</link>
       <pubDate>Sat, 14 Dec 2013 10:25:28 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/over_a_year_old/</guid>
+      <guid>https://nicktux.gitlab.io/tags/over_a_year_old/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Arch Wiki</title>
-      <link>https://nicktux.gr/tags/arch-wiki/</link>
+      <link>https://nicktux.gitlab.io/tags/arch-wiki/</link>
       <pubDate>Fri, 15 Nov 2013 14:26:59 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/arch-wiki/</guid>
+      <guid>https://nicktux.gitlab.io/tags/arch-wiki/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Translation</title>
-      <link>https://nicktux.gr/tags/translation/</link>
+      <link>https://nicktux.gitlab.io/tags/translation/</link>
       <pubDate>Fri, 15 Nov 2013 14:26:59 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/translation/</guid>
+      <guid>https://nicktux.gitlab.io/tags/translation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux Mint</title>
-      <link>https://nicktux.gr/tags/linux-mint/</link>
+      <link>https://nicktux.gitlab.io/tags/linux-mint/</link>
       <pubDate>Thu, 07 Nov 2013 17:44:19 +0300</pubDate>
       
-      <guid>https://nicktux.gr/tags/linux-mint/</guid>
+      <guid>https://nicktux.gitlab.io/tags/linux-mint/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cryptography</title>
-      <link>https://nicktux.gr/tags/cryptography/</link>
+      <link>https://nicktux.gitlab.io/tags/cryptography/</link>
       <pubDate>Fri, 05 Jul 2013 14:32:35 +0100</pubDate>
       
-      <guid>https://nicktux.gr/tags/cryptography/</guid>
+      <guid>https://nicktux.gitlab.io/tags/cryptography/</guid>
       <description></description>
     </item>
     
     <item>
       <title>apg</title>
-      <link>https://nicktux.gr/tags/apg/</link>
+      <link>https://nicktux.gitlab.io/tags/apg/</link>
       <pubDate>Thu, 04 Jul 2013 22:42:11 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/apg/</guid>
+      <guid>https://nicktux.gitlab.io/tags/apg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>wireless</title>
-      <link>https://nicktux.gr/tags/wireless/</link>
+      <link>https://nicktux.gitlab.io/tags/wireless/</link>
       <pubDate>Wed, 03 Jul 2013 17:18:12 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/wireless/</guid>
+      <guid>https://nicktux.gitlab.io/tags/wireless/</guid>
       <description></description>
     </item>
     
     <item>
       <title>boot</title>
-      <link>https://nicktux.gr/tags/boot/</link>
+      <link>https://nicktux.gitlab.io/tags/boot/</link>
       <pubDate>Wed, 03 Jul 2013 00:47:27 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/boot/</guid>
+      <guid>https://nicktux.gitlab.io/tags/boot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>repair</title>
-      <link>https://nicktux.gr/tags/repair/</link>
+      <link>https://nicktux.gitlab.io/tags/repair/</link>
       <pubDate>Wed, 03 Jul 2013 00:47:27 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/repair/</guid>
+      <guid>https://nicktux.gitlab.io/tags/repair/</guid>
       <description></description>
     </item>
     
     <item>
       <title>package manager</title>
-      <link>https://nicktux.gr/tags/package-manager/</link>
+      <link>https://nicktux.gitlab.io/tags/package-manager/</link>
       <pubDate>Tue, 02 Jul 2013 14:50:44 -0500</pubDate>
       
-      <guid>https://nicktux.gr/tags/package-manager/</guid>
+      <guid>https://nicktux.gitlab.io/tags/package-manager/</guid>
       <description></description>
     </item>
     
     <item>
       <title>community</title>
-      <link>https://nicktux.gr/tags/community/</link>
+      <link>https://nicktux.gitlab.io/tags/community/</link>
       <pubDate>Tue, 02 Jul 2013 18:54:28 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/community/</guid>
+      <guid>https://nicktux.gitlab.io/tags/community/</guid>
       <description></description>
     </item>
     
     <item>
       <title>contirbution</title>
-      <link>https://nicktux.gr/tags/contirbution/</link>
+      <link>https://nicktux.gitlab.io/tags/contirbution/</link>
       <pubDate>Tue, 02 Jul 2013 18:54:28 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/contirbution/</guid>
+      <guid>https://nicktux.gitlab.io/tags/contirbution/</guid>
       <description></description>
     </item>
     
     <item>
       <title>member</title>
-      <link>https://nicktux.gr/tags/member/</link>
+      <link>https://nicktux.gitlab.io/tags/member/</link>
       <pubDate>Tue, 02 Jul 2013 18:54:28 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/member/</guid>
+      <guid>https://nicktux.gitlab.io/tags/member/</guid>
       <description></description>
     </item>
     
     <item>
       <title>events</title>
-      <link>https://nicktux.gr/tags/events/</link>
+      <link>https://nicktux.gitlab.io/tags/events/</link>
       <pubDate>Tue, 02 Jul 2013 02:16:08 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/events/</guid>
+      <guid>https://nicktux.gitlab.io/tags/events/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fosscomm</title>
-      <link>https://nicktux.gr/tags/fosscomm/</link>
+      <link>https://nicktux.gitlab.io/tags/fosscomm/</link>
       <pubDate>Tue, 02 Jul 2013 02:16:08 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/fosscomm/</guid>
+      <guid>https://nicktux.gitlab.io/tags/fosscomm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>announce</title>
-      <link>https://nicktux.gr/tags/announce/</link>
+      <link>https://nicktux.gitlab.io/tags/announce/</link>
       <pubDate>Tue, 11 Jun 2013 06:09:44 -0500</pubDate>
       
-      <guid>https://nicktux.gr/tags/announce/</guid>
+      <guid>https://nicktux.gitlab.io/tags/announce/</guid>
       <description></description>
     </item>
     
     <item>
       <title>windows installer</title>
-      <link>https://nicktux.gr/tags/windows-installer/</link>
+      <link>https://nicktux.gitlab.io/tags/windows-installer/</link>
       <pubDate>Tue, 11 Jun 2013 06:09:44 -0500</pubDate>
       
-      <guid>https://nicktux.gr/tags/windows-installer/</guid>
+      <guid>https://nicktux.gitlab.io/tags/windows-installer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>wubi</title>
-      <link>https://nicktux.gr/tags/wubi/</link>
+      <link>https://nicktux.gitlab.io/tags/wubi/</link>
       <pubDate>Tue, 11 Jun 2013 06:09:44 -0500</pubDate>
       
-      <guid>https://nicktux.gr/tags/wubi/</guid>
+      <guid>https://nicktux.gitlab.io/tags/wubi/</guid>
       <description></description>
     </item>
     
