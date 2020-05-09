@@ -4,11 +4,12 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="ocs-site-verification" content="e2c5622b648e93874896c7ec27f1907f" />
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.40.1" />
+  <meta name="generator" content="Hugo 0.68.3" />
 
   <title>Arch Linux - Χτίσιμο και εγκατάσταση custom πυρήνα(ABS) &middot; NickTux</title>
+
+    
 
   
   
@@ -31,15 +32,16 @@
   <link rel="stylesheet" href="https://nicktux.github.io/css/blackburn.css">
 
   
-  <link rel="stylesheet" href="https://nicktux.github.io/css/all.css">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
 
   
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 
-
   
-   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
 
   
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
@@ -54,7 +56,6 @@
   
 
 </head>
-
 
 <body>
 <div id="layout">
@@ -140,10 +141,6 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
-   
-
-    
-
     
     <li class="pure-menu-item">
 	    <a class="pure-menu-link" href="https://librenet.gr/people/9cf6700052fd01321c2d515647245e7c" target="_blank"><i class="fab fa-diaspora fa-fw"></i>Diaspora</a>
@@ -174,11 +171,10 @@
 
   <div>
   <div class="small-print">
-    <small>Copyleft (ɔ) 2019.<br> No rights reserved.</small>
+    <small>Copyleft (ɔ) 2020.<br> No rights reserved.</small>
   </div>
   <div class="small-print">
     <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
-    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
   </div>
 </div>
 
@@ -233,87 +229,52 @@
 
 </div>
 
-  <pre style="width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:'Ubuntu';font-style:normal;font-size:medium;">ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!</pre>
-
-<p>Τώρα λογικά θα περιμένετε ένα τεράστιο ποστ με πολύ configuration και διάφορες εντολές, όσοι τουλάχιστον έχετε στο παρελθόν κάποια εμπειρία με χτίσιμο πυρήνα.
-</p>
-
+  <!-- raw HTML omitted -->
+<p>Τώρα λογικά θα περιμένετε ένα τεράστιο ποστ με πολύ configuration και διάφορες εντολές, όσοι τουλάχιστον έχετε στο παρελθόν κάποια εμπειρία με χτίσιμο πυρήνα.</p>
 <p>Δεν θα επεκταθώ εδώ στο γιατί να χτίσουμε έναν δικό μας πυρήνα, το μόνο που θα πω είναι πως δεν έχουμε να χάσουμε κάτι αν το δοκιμάσουμε.</p>
-
 <p>Σε αυτό το άρθρο θα δούμε τον Arch τρόπο χτισίματος(ABS=Archlinux Build System) ενός custom πυρήνα. Είναι τόσο εύκολο που ακόμη και νέοι arch χρήστες μπορούν να δοκιμάσουν.
 Σημειώστε εδώ πως ένας νέος archlinux χρήστης δεν είναι ο ίδιος χρήστης με έναν αρχάριο χρήστη Linux. Αν έχετε εγκαταστήσει και δουλεύετε archlinux δεν θεωρείστε πλέον αρχάριος στο Linux γενικότερα.
 Αρχάριος στο archlinux ίσως, μιας και πρέπει να μάθετε τον λεγόμενο και arch way καθώς και κάποιες έννοιες - ή/και φιλοσοφίες - που άλλα Linux λειτουργικά συστήματα που πιθανών χρησιμοποιούσατε στο παρελθόν, είτε τις κρύβουν (χάριν του user-friendly) , είτε δεν τις ακολουθούν καν. Άλλωστε «το archlinux απευθύνεται σε ικανούς χρήστες του GNU/Linux» (έτσι τουλάχιστον όπως το γράφει και το ArchWiki).</p>
-
 <p>Ας ανοίξουμε ένα τερματικό λοιπόν και ας ξεκινήσουμε.</p>
-
-<h2>Εγκατάσταση απαραίτητων πακέτων</h2> 
-
+<!-- raw HTML omitted -->
 <pre><code>pacman -S abs base-devel
-</code></pre>
-
-<h2>Πηγαίος κώδικας</h2> 
-
+</code></pre><!-- raw HTML omitted -->
 <p>Ο πηγαίος κώδικας του πυρήνα φιλοξενείται στα αποθετήρια του Archlinux καθώς και στο Official αποθετήριο του Linus Torvalds (git). Για να πάρετε τον πηγαίο κώδικα χρησιμοποιώντας το ABS, δώστε την παρακάτω εντολή</p>
-
 <pre><code>ABSROOT=. abs core/linux
-</code></pre>
-
-<p>Αυτό θα δημιουργήσει έναν φάκελο core μέσα στον οποίο θα υπάρχει άλλος ένας φάκελος ονόματι linux. Εκεί θα υπάρχουν κάποια patches (που κάνει apply το arch στον πυρήνα), καθώς και ο γνήσιος πηγαίος κώδικας του πυρήνα. Φυσικά και το λεγόμενο PKGBUILD. Εκεί μέσα γίνονται όλα, άλλωστε.</p>
-
-<h2>Ρυθμίσεις - Configuration</h2>
-
+</code></pre><p>Αυτό θα δημιουργήσει έναν φάκελο core μέσα στον οποίο θα υπάρχει άλλος ένας φάκελος ονόματι linux. Εκεί θα υπάρχουν κάποια patches (που κάνει apply το arch στον πυρήνα), καθώς και ο γνήσιος πηγαίος κώδικας του πυρήνα. Φυσικά και το λεγόμενο PKGBUILD. Εκεί μέσα γίνονται όλα, άλλωστε.</p>
+<!-- raw HTML omitted -->
 <p>Ότι αλλαγές θέλετε να κάνετε, είτε να κάνετε apply κάποια δικά σας patches, είτε να αλλάξετε το configuration του πυρήνα, μπορείτε να το κάνετε μέσω του PKGBUILD. Δείτε το αρχείο πως είναι κατασκευασμένο και θα καταλάβετε τι πρέπει να κάνετε.
 Μην ξεχάσετε να κάνετε uncomment το κατάλληλο pkgbase, έτσι ώστε να χτίσετε έναν πυρήνα με διαφορετικό όνομα από τον Official.</p>
-
-<p><strong>TIP:</strong> Αν αλλάξετε το source, για να κάνετε π.χ apply κάποιο patch , μην ξεχάσετε να εκτελέσετε την εντολή</p>
-
+<p><!-- raw HTML omitted -->TIP:<!-- raw HTML omitted --> Αν αλλάξετε το source, για να κάνετε π.χ apply κάποιο patch , μην ξεχάσετε να εκτελέσετε την εντολή</p>
 <pre><code>makepkg -g
-</code></pre>
-
-<p>έτσι ώστε να παραχθεί το νέο md5sum.</p>
-
+</code></pre><p>έτσι ώστε να παραχθεί το νέο md5sum.</p>
 <p>Αν θέλετε να κάνετε edit στον ίδιο τον πυρήνα, κάντε Uncomment όποιο από τα εργαλεία configuration θέλετε (προτείνω nconfig).</p>
-
-<h3>localmodconfig</h3>
-
+<!-- raw HTML omitted -->
 <p>Το localmodconfig μπορούμε να το χρησιμοποιήσουμε αν θέλουμε να χτίσουμε έναν πυρήνα μόνον για τον υπολογιστή μας. Αυτό που μας εξασφαλίζει το localmodconfig είναι το αρκετά γρήγορο χτίσιμο του πυρήνα. Ενδεικτικά θα αναφέρω πως στο δικό μου laptop το χτίσιμο του πυρήνα διήρκεσε 8 λεπτά σε HDD δίσκο και με Intel core i3 πρώτης γενιάς.
 Αυτό που σε γενικές γραμμές κάνει το localmodconfig είναι να χτίζει τα modules στον πυρήνα, μόνον εκείνα που είναι εκείνη την στιγμή φορτωμένα στο λειτουργικό σύστημα.
-Όπως προτείνει και το Arch Wiki, θα προτείνω κι εγώ, πριν κάνετε localmodconfig να φροντίσετε για τα παρακάτω.
-1) Να έχετε συνδέσει όλες σας τις συσκευές τις οποίες θα χρησιμοποιήσετε στον συγκεκριμένο υπολογιστή (π.χ usb sticks, εξωτερικούς δίσκους, εξωτερικές κάμερες..)
-2) Φορτώστε ότι προγράμματα θέλετε, τα οποία απαιτούν να φορτωθεί κάποιο module για να λειτουργήσουν σωστά.
-3) Κάντε mount αν έχετε κάποιο iso image ή κάποιο σύστημα αρχείων που απαιτεί κάποιο module για να δουλέψει σωστά.</p>
-
-<p>Στο archlinux τα πράγματα είναι ακόμη πιο απλά αν χρησιμοποιήσετε ένα εργαλείο ονόματι modprobed-db. Όπως και από το όνομα θα καταλάβατε πρόκειται για ένα εργαλείο που δημιουργεί μια βάση δεδομένων όλων των modules που έχουν φορτωθεί στον υπολογιστή σας. Με την κατάλληλη εντολή μπορείτε να φορτώσετε(recall) αυτά τα modules, χωρίς να χρειάζεται να συνδέετε κάθε φορά όλες τις συσκευές. Δείτε περισσότερα στο <a href="https://wiki.archlinux.org/index.php/Modprobed-db" target="_blank">arch wiki</a></p>
-
-<h2>Εγκατάσταση πυρήνα</h2>
-
+Όπως προτείνει και το Arch Wiki, θα προτείνω κι εγώ, πριν κάνετε localmodconfig να φροντίσετε για τα παρακάτω.</p>
+<ol>
+<li>Να έχετε συνδέσει όλες σας τις συσκευές τις οποίες θα χρησιμοποιήσετε στον συγκεκριμένο υπολογιστή (π.χ usb sticks, εξωτερικούς δίσκους, εξωτερικές κάμερες..)</li>
+<li>Φορτώστε ότι προγράμματα θέλετε, τα οποία απαιτούν να φορτωθεί κάποιο module για να λειτουργήσουν σωστά.</li>
+<li>Κάντε mount αν έχετε κάποιο iso image ή κάποιο σύστημα αρχείων που απαιτεί κάποιο module για να δουλέψει σωστά.</li>
+</ol>
+<p>Στο archlinux τα πράγματα είναι ακόμη πιο απλά αν χρησιμοποιήσετε ένα εργαλείο ονόματι modprobed-db. Όπως και από το όνομα θα καταλάβατε πρόκειται για ένα εργαλείο που δημιουργεί μια βάση δεδομένων όλων των modules που έχουν φορτωθεί στον υπολογιστή σας. Με την κατάλληλη εντολή μπορείτε να φορτώσετε(recall) αυτά τα modules, χωρίς να χρειάζεται να συνδέετε κάθε φορά όλες τις συσκευές. Δείτε περισσότερα στο <!-- raw HTML omitted -->arch wiki<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
 <p>Αφού τελειώσει η διαδικασία χτισίματος, μπορούμε να εγκαταστήσουμε τον πυρήνα με την γνωστή εντολή</p>
-
 <pre><code>pacman -U όνομα πυρήνα όνομα headers πυρήνα
-</code></pre>
-
-<p>Μην ξεχάσετε να επεξεργαστείτε κατάλληλα τον bootloader που έχετε, έτσι ώστε να κάνετε boot από τον πυρήνα που μόλις χτίσατε για να δείτε αν δουλεύει όπως θα περιμένετε.</p>
-
+</code></pre><p>Μην ξεχάσετε να επεξεργαστείτε κατάλληλα τον bootloader που έχετε, έτσι ώστε να κάνετε boot από τον πυρήνα που μόλις χτίσατε για να δείτε αν δουλεύει όπως θα περιμένετε.</p>
 <p>Αυτά τα ολίγα και απλά.
 Καλά χτισίματα.</p>
-
-<hr />
-
-<p><span style="font-size:small;color:#999999;">Until next time &hellip;<br>
-&ldquo;Keep Your Mind in a Constant State of Openness&rdquo;</span></p>
+<hr>
+<p><!-- raw HTML omitted -->Until next time &hellip;<!-- raw HTML omitted -->
+&ldquo;Keep Your Mind in a Constant State of Openness&quot;<!-- raw HTML omitted --></p>
 
   
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://nicktux.github.io/post/arch-wiki-greek-team/"><i class="fa fa-chevron-left"></i></a>
-    
   </div>
   <div class="pure-u-10-24">
-    
-    <nav class="prev">
-      <a href="https://nicktux.github.io/post/arch-wiki-greek-team/">ArchWiki Translation Team (Ελληνικά)</a>
-    </nav>
     
   </div>
   <div class="pure-u-2-24">
@@ -321,14 +282,8 @@
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://nicktux.github.io/post/nextcloud-apps-deck/">Nextcloud Apps Deck</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://nicktux.github.io/post/nextcloud-apps-deck/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>

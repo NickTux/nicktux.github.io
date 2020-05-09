@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Over_a_year_old on NickTux</title>
+    <title>over_a_year_old on NickTux</title>
     <link>https://nicktux.github.io/tags/over_a_year_old/</link>
-    <description>Recent content in Over_a_year_old on NickTux</description>
+    <description>Recent content in over_a_year_old on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <copyright>Copyleft (ɔ) 2019.&lt;br&gt; No rights reserved.</copyright>
+    <copyright>Copyleft (ɔ) 2020.&lt;br&gt; No rights reserved.</copyright>
     <lastBuildDate>Sat, 14 Dec 2013 10:25:28 +0300</lastBuildDate>
     
 	<atom:link href="https://nicktux.github.io/tags/over_a_year_old/index.xml" rel="self" type="application/rss+xml" />
@@ -18,10 +18,8 @@
       <pubDate>Sat, 14 Dec 2013 10:25:28 +0300</pubDate>
       
       <guid>https://nicktux.github.io/post/arch-linux-custom-kernel/</guid>
-      <description>&lt;pre style=&#34;width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:&#39;Ubuntu&#39;;font-style:normal;font-size:medium;&#34;&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!&lt;/pre&gt;
-
-&lt;p&gt;Τώρα λογικά θα περιμένετε ένα τεράστιο ποστ με πολύ configuration και διάφορες εντολές, όσοι τουλάχιστον έχετε στο παρελθόν κάποια εμπειρία με χτίσιμο πυρήνα.
-&lt;/p&gt;</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Τώρα λογικά θα περιμένετε ένα τεράστιο ποστ με πολύ configuration και διάφορες εντολές, όσοι τουλάχιστον έχετε στο παρελθόν κάποια εμπειρία με χτίσιμο πυρήνα.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -30,10 +28,8 @@
       <pubDate>Fri, 15 Nov 2013 14:26:59 +0300</pubDate>
       
       <guid>https://nicktux.github.io/post/arch-wiki-greek-team/</guid>
-      <description>&lt;pre style=&#34;width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:&#39;Ubuntu&#39;;font-style:normal;font-size:medium;&#34;&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!&lt;/pre&gt;
-
-&lt;p&gt;Πριν από μερικές ημέρες γεννήθηκε η ιδέα. Να μαζευτούμε λέει και να μεταφράσουμε το Arch Wiki. Να το συμμαζέψουμε (καλλωπίσουμε λέει ο Πάνος, μ&amp;rsquo; αρέσει αυτή λέξη) και να μεταφράσουμε ότι (σημαντικό τουλάχιστον) υπάρχει αμετάφραστο.
-&lt;/p&gt;</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Πριν από μερικές ημέρες γεννήθηκε η ιδέα. Να μαζευτούμε λέει και να μεταφράσουμε το Arch Wiki. Να το συμμαζέψουμε (καλλωπίσουμε λέει ο Πάνος, μ&amp;rsquo; αρέσει αυτή λέξη) και να μεταφράσουμε ότι (σημαντικό τουλάχιστον) υπάρχει αμετάφραστο.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -42,10 +38,8 @@
       <pubDate>Thu, 07 Nov 2013 17:44:19 +0300</pubDate>
       
       <guid>https://nicktux.github.io/post/linux-mint-oliver-grawert/</guid>
-      <description>&lt;pre style=&#34;width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:&#39;Ubuntu&#39;;font-style:normal;font-size:medium;&#34;&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!&lt;/pre&gt;
-
-&lt;p&gt;Φαντάζομαι όλοι γνωρίζετε το Linux Mint, σωστά; Τουλάχιστον όσοι γνωρίζετε το Ubuntu θα γνωρίζετε και το Linux Mint. Κάποια στιγμή είχε φτάσει να ξεπερνά κατά πολύ το Ubuntu σε δημοτικότητα(δεν ξέρω αν ισχύει ακόμη το ίδιο).
-&lt;/p&gt;</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Φαντάζομαι όλοι γνωρίζετε το Linux Mint, σωστά; Τουλάχιστον όσοι γνωρίζετε το Ubuntu θα γνωρίζετε και το Linux Mint. Κάποια στιγμή είχε φτάσει να ξεπερνά κατά πολύ το Ubuntu σε δημοτικότητα(δεν ξέρω αν ισχύει ακόμη το ίδιο).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -54,8 +48,7 @@
       <pubDate>Thu, 04 Jul 2013 22:42:11 +0200</pubDate>
       
       <guid>https://nicktux.github.io/post/apg-strong-passwords/</guid>
-      <description>&lt;p&gt;Το apg είναι ένα εργαλείο που μπορεί να μας βοηθήσει στην παραγωγή ισχυρών τυχαίων (random) κωδικών. Είναι προ-εγκατεστημένο σε Ubuntu. Αν χρειαζόμαστε ισχυρούς κωδικούς που σπάνε δύσκολα έως καθόλου (πρακτικά) τότε με μια απλή εντολή σε ένα τερματικό* μπορούμε να έχουμε το επιθυμητό αποτέλεσμα.
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;Το apg είναι ένα εργαλείο που μπορεί να μας βοηθήσει στην παραγωγή ισχυρών τυχαίων (random) κωδικών. Είναι προ-εγκατεστημένο σε Ubuntu. Αν χρειαζόμαστε ισχυρούς κωδικούς που σπάνε δύσκολα έως καθόλου (πρακτικά) τότε με μια απλή εντολή σε ένα τερματικό* μπορούμε να έχουμε το επιθυμητό αποτέλεσμα.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -64,11 +57,9 @@
       <pubDate>Wed, 03 Jul 2013 17:18:12 +0200</pubDate>
       
       <guid>https://nicktux.github.io/post/problems-wireless-ubuntu/</guid>
-      <description>&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://i.imgur.com/WP294Er.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/WP294Erl.jpg&#34; alt=&#34;&#34; class=&#34;aligncenter&#34; /&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
+      <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Τα προβλήματα στην ασύρματη σύνδεση μπορεί να ποικίλουν. Γι&amp;rsquo; αυτό δεν υπάρχει κάποιος γενικός κανόνας επίλυσης τέτοιων προβλημάτων.
-Το καλύτερο που μπορείτε να κάνετε είναι να ζητήσετε βοήθεια από ένα φόρουμ υποστήριξης και βοηθείας για το Ubuntu.
-&lt;/p&gt;</description>
+Το καλύτερο που μπορείτε να κάνετε είναι να ζητήσετε βοήθεια από ένα φόρουμ υποστήριξης και βοηθείας για το Ubuntu.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -77,8 +68,7 @@
       <pubDate>Wed, 03 Jul 2013 00:47:27 +0200</pubDate>
       
       <guid>https://nicktux.github.io/post/boot-repair/</guid>
-      <description>&lt;p&gt;Το boot-repair είναι ένα πρόγραμμα που θα σας βοηθήσει να διορθώσετε τυχών προβλήματα εκκίνησης του λειτουργικού συστήματος Ubuntu. Τέτοια προβλήματα μπορεί να είναι:
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;Το boot-repair είναι ένα πρόγραμμα που θα σας βοηθήσει να διορθώσετε τυχών προβλήματα εκκίνησης του λειτουργικού συστήματος Ubuntu. Τέτοια προβλήματα μπορεί να είναι:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -88,8 +78,7 @@
       
       <guid>https://nicktux.github.io/post/package-manager-troubleshooting-ubuntu/</guid>
       <description>&lt;p&gt;Όταν λέμε διαχειριστής πακέτων , εννοούμε οτιδήποτε έχει σχέση με την εγκατάσταση ή αναβάθμιση των πακέτων - προγραμμάτων του Ubuntu.
-Το πρόβλημα μπορεί να είναι , είτε &amp;ldquo;μη επιλυμένες εξαρτήσεις&amp;rdquo; (dependencies) , είτε αδυναμία αναβάθμισης , είτε κρατούμενα ελαττωματικά πακέτα &amp;hellip; κλπ.
-&lt;/p&gt;</description>
+Το πρόβλημα μπορεί να είναι , είτε &amp;ldquo;μη επιλυμένες εξαρτήσεις&amp;rdquo; (dependencies) , είτε αδυναμία αναβάθμισης , είτε κρατούμενα ελαττωματικά πακέτα &amp;hellip; κλπ.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -98,8 +87,7 @@
       <pubDate>Tue, 02 Jul 2013 18:54:28 +0200</pubDate>
       
       <guid>https://nicktux.github.io/post/how-to-become-ubuntu-member/</guid>
-      <description>&lt;p&gt;Με το να γίνει κάποιος Ubuntu Member σημαίνει αναγνώριση, από την διεθνή κοινότητα, της σημαντικής και συνεχούς προσφοράς του στο Ubuntu και κατ&amp;rsquo; επέκταση στο Ανοιχτό Λογισμικό.
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;Με το να γίνει κάποιος Ubuntu Member σημαίνει αναγνώριση, από την διεθνή κοινότητα, της σημαντικής και συνεχούς προσφοράς του στο Ubuntu και κατ&amp;rsquo; επέκταση στο Ανοιχτό Λογισμικό.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -108,10 +96,8 @@
       <pubDate>Tue, 02 Jul 2013 17:16:40 +0200</pubDate>
       
       <guid>https://nicktux.github.io/post/reset-password-ubuntu/</guid>
-      <description>&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://i.imgur.com/6A7JEZml.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/6A7JEZml.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Υπάρχουν διάφοροι λόγοι όπου μπορεί να θέλουμε να επαναφέρουμε τον κωδικό μας στο Ubuntu.
-&lt;/p&gt;</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Υπάρχουν διάφοροι λόγοι όπου μπορεί να θέλουμε να επαναφέρουμε τον κωδικό μας στο Ubuntu.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -120,8 +106,7 @@
       <pubDate>Tue, 02 Jul 2013 02:16:08 +0200</pubDate>
       
       <guid>https://nicktux.github.io/post/fosscomm-2013/</guid>
-      <description>&lt;p&gt;H Ελληνική κοινότητα Ubuntu (Ubuntu-gr) συμμετείχε και φέτος στην Fosscomm 2013, που πραγματοποιήθηκε στο Χαροκόπειο Πανεπιστήμιο Αθηνών με δικό της booth - καθώς και παρουσιάσεις.
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;H Ελληνική κοινότητα Ubuntu (Ubuntu-gr) συμμετείχε και φέτος στην Fosscomm 2013, που πραγματοποιήθηκε στο Χαροκόπειο Πανεπιστήμιο Αθηνών με δικό της booth - καθώς και παρουσιάσεις.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -131,9 +116,7 @@
       
       <guid>https://nicktux.github.io/post/release-party-ubuntu-13-10-athens2013/</guid>
       <description>To release party για το Ubuntu 13.04 διεξήχθη με επιτυχία και φέτος στο καφέ Ηλιοστάσιο στο Θησείο. Ο κόσμος προσήλθε σε ικανοποιητικό αριθμό, η τούρτα όμορφη και εύγευστη και το κλίμα όπως πάντα φιλικό.
-  
-Περισσότερο φωτογραφικό υλικό στο φώτο-άλμπουμ της Ελληνικής κοινότητας.
-Until next time &amp;hellip; &amp;ldquo;Keep Your Mind in a Constant State of Openness&amp;rdquo;</description>
+Περισσότερο φωτογραφικό υλικό στο φώτο-άλμπουμτης Ελληνικής κοινότητας.</description>
     </item>
     
     <item>
@@ -142,10 +125,8 @@ Until next time &amp;hellip; &amp;ldquo;Keep Your Mind in a Constant State of Op
       <pubDate>Tue, 11 Jun 2013 06:09:44 -0500</pubDate>
       
       <guid>https://nicktux.github.io/post/wubi/</guid>
-      <description>&lt;pre style=&#34;width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:&#39;Ubuntu&#39;;font-style:normal;font-size:medium;&#34;&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!&lt;/pre&gt;
-
-&lt;p&gt;Το wubi.exe (&lt;strong&gt;W&lt;/strong&gt;indows &lt;strong&gt;Ub&lt;/strong&gt;untu &lt;strong&gt;I&lt;/strong&gt;nstaller) όταν ξεκίνησε ήταν ένα από τα πιο δημοφιλή projects ου Ubuntu.
-&lt;/p&gt;</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Το wubi.exe (&lt;!-- raw HTML omitted --&gt;W&lt;!-- raw HTML omitted --&gt;indows &lt;!-- raw HTML omitted --&gt;Ub&lt;!-- raw HTML omitted --&gt;untu &lt;!-- raw HTML omitted --&gt;I&lt;!-- raw HTML omitted --&gt;nstaller) όταν ξεκίνησε ήταν ένα από τα πιο δημοφιλή projects ου Ubuntu.&lt;/p&gt;</description>
     </item>
     
   </channel>

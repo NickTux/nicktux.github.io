@@ -4,11 +4,12 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="ocs-site-verification" content="e2c5622b648e93874896c7ec27f1907f" />
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.40.1" />
+  <meta name="generator" content="Hugo 0.68.3" />
 
   <title>NickTux</title>
+
+    
 
   
   
@@ -31,17 +32,19 @@
   <link rel="stylesheet" href="https://nicktux.github.io/css/blackburn.css">
 
   
-  <link rel="stylesheet" href="https://nicktux.github.io/css/all.css">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
 
   
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
+ 
   
+  <link rel="alternate" type="application/rss+xml" title="NickTux"
+    href='https://nicktux.github.io/index.xml' />
   
-  <link rel="alternate" type="application/rss+xml" title="NickTux" href="https://nicktux.github.io/index.xml" />
-   
 
   
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
@@ -56,7 +59,6 @@
   
 
 </head>
-
 
 <body>
 <div id="layout">
@@ -142,10 +144,6 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
-   
-
-    
-
     
     <li class="pure-menu-item">
 	    <a class="pure-menu-link" href="https://librenet.gr/people/9cf6700052fd01321c2d515647245e7c" target="_blank"><i class="fab fa-diaspora fa-fw"></i>Diaspora</a>
@@ -176,11 +174,10 @@
 
   <div>
   <div class="small-print">
-    <small>Copyleft (ɔ) 2019.<br> No rights reserved.</small>
+    <small>Copyleft (ɔ) 2020.<br> No rights reserved.</small>
   </div>
   <div class="small-print">
     <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
-    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
   </div>
 </div>
 
@@ -196,6 +193,65 @@
 </div>
 
 <div class="content">
+  
+    <article>
+  <header>
+    <h2><a href="https://nicktux.github.io/post/ubuntu-bionic-wifi-status-icon/">[Ubuntu 18.04] Εικονίδιο WiFi με ερωτηματικό (?)</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>01 May 2018</time>
+  </div>
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-folder fa-fw"></i>
+    
+      <a class="post-taxonomy-topic" href="https://nicktux.github.io/topics/ubuntu">Ubuntu</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-topic" href="https://nicktux.github.io/topics/linux">Linux</a>
+    
+  </div>
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/desktop">desktop</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/wifi">wifi</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/troubleshooting">troubleshooting</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>Είναι γνωστό σε όσους ασχολούνται λίγο περισσότερο με το λειτουργικό τους σύστημα πως κάθε νέα έκδοση ή πακέτο αναβαθμίσεων εκτός από νέα χαρακτηριστικά και βελτιώσεις, μπορεί να φέρει και νέα προβλήματα. Το Ubuntu δεν θα μπορούσε να αποτελεί εξαίρεση.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://nicktux.github.io/post/ubuntu-bionic-wifi-status-icon/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
   
     <article>
   <header>
@@ -243,9 +299,8 @@
   </header>
 
   <p>
-  <p>Αυτή η μετάβαση, δηλαδή η πλήρης κατάργηση του gksu από το Ubuntu έχει ξεκινήσει κάμποσες εκδόσεις πριν. Συγκεκριμένα από τη 13.10 όπου το από προ-επιλογή εγκατεστημένο gksu έπαψε να υφίσταται. Μέχρι και σήμερα βέβαια οι χρήστες είχαν την επιλογή της εγκατάστασης από τα αποθετήρια, αφού εκεί ήταν και είναι ακόμη διαθέσιμο.<br>
-Στο άμεσο μέλλον όμως, προβλέπεται να αφαιρεθεί εντελώς από τα αποθετήρια. Επίσης, παρακάτω θα δούμε ποια είναι η προτεινόμενη από τους Developers εναλλακτική.<br>
-</p>
+  <p>Αυτή η μετάβαση, δηλαδή η πλήρης κατάργηση του gksu από το Ubuntu έχει ξεκινήσει κάμποσες εκδόσεις πριν. Συγκεκριμένα από τη 13.10 όπου το από προ-επιλογή εγκατεστημένο gksu έπαψε να υφίσταται. Μέχρι και σήμερα βέβαια οι χρήστες είχαν την επιλογή της εγκατάστασης από τα αποθετήρια, αφού εκεί ήταν και είναι ακόμη διαθέσιμο.<!-- raw HTML omitted -->
+Στο άμεσο μέλλον όμως, προβλέπεται να αφαιρεθεί εντελώς από τα αποθετήρια. Επίσης, παρακάτω θα δούμε ποια είναι η προτεινόμενη από τους Developers εναλλακτική.<!-- raw HTML omitted --></p>
   </p>
 
   
@@ -306,8 +361,7 @@
   </header>
 
   <p>
-  <p>Με την έλευση του Ubuntu 18.04 LTS(Bionic Beaver) και την αλλαγή από Unity σε GNOME (3.28), οι ρυθμίσεις για Online Accounts εμπεριέχουν πλέον την επιλογή για Nextcloud.
-</p>
+  <p>Με την έλευση του Ubuntu 18.04 LTS(Bionic Beaver) και την αλλαγή από Unity σε GNOME (3.28), οι ρυθμίσεις για Online Accounts εμπεριέχουν πλέον την επιλογή για Nextcloud.</p>
   </p>
 
   
@@ -366,9 +420,8 @@
   </header>
 
   <p>
-  <p>Σε λίγες ημέρες από σήμερα η νέα έκδοση του Ubuntu 18.04 προβλέπεται να κυκλοφορήσει ως η νέα σταθερή LTS έκδοση.<br>
-Παρακάτω θα δούμε τι νέο φέρνει, πως μπορούμε να αναβαθμίσουμε με ασφάλεια και πότε, καθώς και άλλες χρήσιμες πληροφορίες.
-</p>
+  <p>Σε λίγες ημέρες από σήμερα η νέα έκδοση του Ubuntu 18.04 προβλέπεται να κυκλοφορήσει ως η νέα σταθερή LTS έκδοση.<!-- raw HTML omitted -->
+Παρακάτω θα δούμε τι νέο φέρνει, πως μπορούμε να αναβαθμίσουμε με ασφάλεια και πότε, καθώς και άλλες χρήσιμες πληροφορίες.</p>
   </p>
 
   
@@ -431,9 +484,8 @@
   <p>
   <p>Υπάρχουν πολλοί και διάφοροι τρόποι για να πετύχει κάποιος την καθυστέρηση εκκίνησης μιας εφαρμογής.
 Ίσως ο πιο συνηθισμένος από αυτούς να είναι η δημιουργία ενός απλού εκτελέσιμου script με sleep κλπ και η προσθήκη αυτού στις εφαρμογές εκκίνησης.
-<br>Εδώ θα δούμε έναν απλό τρόπο, με μια γραμμή κώδικα την οποία προσθέτουμε στο ήδη υπάρχον αρχείο με κατάληξη <code>.desktop</code>.
-<br>
-</p>
+<!-- raw HTML omitted -->Εδώ θα δούμε έναν απλό τρόπο, με μια γραμμή κώδικα την οποία προσθέτουμε στο ήδη υπάρχον αρχείο με κατάληξη <code>.desktop</code>.
+<!-- raw HTML omitted --></p>
   </p>
 
   
@@ -608,10 +660,8 @@
   </header>
 
   <p>
-  <pre style="width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:'Ubuntu';font-style:normal;font-size:medium;">ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!</pre>
-
-<p>Τώρα λογικά θα περιμένετε ένα τεράστιο ποστ με πολύ configuration και διάφορες εντολές, όσοι τουλάχιστον έχετε στο παρελθόν κάποια εμπειρία με χτίσιμο πυρήνα.
-</p>
+  <!-- raw HTML omitted -->
+<p>Τώρα λογικά θα περιμένετε ένα τεράστιο ποστ με πολύ configuration και διάφορες εντολές, όσοι τουλάχιστον έχετε στο παρελθόν κάποια εμπειρία με χτίσιμο πυρήνα.</p>
   </p>
 
   
@@ -670,10 +720,8 @@
   </header>
 
   <p>
-  <pre style="width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:'Ubuntu';font-style:normal;font-size:medium;">ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!</pre>
-
-<p>Πριν από μερικές ημέρες γεννήθηκε η ιδέα. Να μαζευτούμε λέει και να μεταφράσουμε το Arch Wiki. Να το συμμαζέψουμε (καλλωπίσουμε λέει ο Πάνος, μ&rsquo; αρέσει αυτή λέξη) και να μεταφράσουμε ότι (σημαντικό τουλάχιστον) υπάρχει αμετάφραστο.
-</p>
+  <!-- raw HTML omitted -->
+<p>Πριν από μερικές ημέρες γεννήθηκε η ιδέα. Να μαζευτούμε λέει και να μεταφράσουμε το Arch Wiki. Να το συμμαζέψουμε (καλλωπίσουμε λέει ο Πάνος, μ&rsquo; αρέσει αυτή λέξη) και να μεταφράσουμε ότι (σημαντικό τουλάχιστον) υπάρχει αμετάφραστο.</p>
   </p>
 
   
@@ -730,75 +778,13 @@
   </header>
 
   <p>
-  <pre style="width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:'Ubuntu';font-style:normal;font-size:medium;">ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!</pre>
-
-<p>Φαντάζομαι όλοι γνωρίζετε το Linux Mint, σωστά; Τουλάχιστον όσοι γνωρίζετε το Ubuntu θα γνωρίζετε και το Linux Mint. Κάποια στιγμή είχε φτάσει να ξεπερνά κατά πολύ το Ubuntu σε δημοτικότητα(δεν ξέρω αν ισχύει ακόμη το ίδιο).
-</p>
+  <!-- raw HTML omitted -->
+<p>Φαντάζομαι όλοι γνωρίζετε το Linux Mint, σωστά; Τουλάχιστον όσοι γνωρίζετε το Ubuntu θα γνωρίζετε και το Linux Mint. Κάποια στιγμή είχε φτάσει να ξεπερνά κατά πολύ το Ubuntu σε δημοτικότητα(δεν ξέρω αν ισχύει ακόμη το ίδιο).</p>
   </p>
 
   
   <footer>
     <a href="https://nicktux.github.io/post/linux-mint-oliver-grawert/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://nicktux.github.io/post/encrypt-with-openssl/">Κρυπτογράφηση αρχείων και φακέλων με το OpenSSL</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>05 Jul 2013</time>
-  </div>
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-folder fa-fw"></i>
-    
-      <a class="post-taxonomy-topic" href="https://nicktux.github.io/topics/ubuntu">Ubuntu</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-topic" href="https://nicktux.github.io/topics/linux">Linux</a>
-    
-  </div>
-  
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/security">security</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.github.io/tags/cryptography">cryptography</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  <pre style="width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:'Ubuntu';font-style:normal;font-size:medium;">ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!</pre>
-
-<p>Υπάρχουν πάρα πολλά προγράμματα κρυπτογράφησης. Εδώ θα δούμε ένα προ-εγκατεστημένο (στο Ubuntu και τις περισσότερες διανομές) εργαλείο, ονόματι OpenSSL. Μια εντολή σε τερματικό* είναι. Μια για κρυπτογράφηση και μια για αποκρυπτογράφηση. Εύκολα και γρήγορα. Το μόνο που πρέπει να φυλάξετε σε ασφαλές μέρος είναι  ο κωδικός αποκρυπτογράφησης.
-</p>
-  </p>
-
-  
-  <footer>
-    <a href="https://nicktux.github.io/post/encrypt-with-openssl/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
   </footer>
   
 </article>

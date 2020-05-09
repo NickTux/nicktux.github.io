@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Apg on NickTux</title>
+    <title>apg on NickTux</title>
     <link>https://nicktux.github.io/tags/apg/</link>
-    <description>Recent content in Apg on NickTux</description>
+    <description>Recent content in apg on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <copyright>Copyleft (ɔ) 2019.&lt;br&gt; No rights reserved.</copyright>
+    <copyright>Copyleft (ɔ) 2020.&lt;br&gt; No rights reserved.</copyright>
     <lastBuildDate>Thu, 04 Jul 2013 22:42:11 +0200</lastBuildDate>
     
 	<atom:link href="https://nicktux.github.io/tags/apg/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +18,7 @@
       <pubDate>Thu, 04 Jul 2013 22:42:11 +0200</pubDate>
       
       <guid>https://nicktux.github.io/post/apg-strong-passwords/</guid>
-      <description>&lt;p&gt;Το apg είναι ένα εργαλείο που μπορεί να μας βοηθήσει στην παραγωγή ισχυρών τυχαίων (random) κωδικών. Είναι προ-εγκατεστημένο σε Ubuntu. Αν χρειαζόμαστε ισχυρούς κωδικούς που σπάνε δύσκολα έως καθόλου (πρακτικά) τότε με μια απλή εντολή σε ένα τερματικό* μπορούμε να έχουμε το επιθυμητό αποτέλεσμα.
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;Το apg είναι ένα εργαλείο που μπορεί να μας βοηθήσει στην παραγωγή ισχυρών τυχαίων (random) κωδικών. Είναι προ-εγκατεστημένο σε Ubuntu. Αν χρειαζόμαστε ισχυρούς κωδικούς που σπάνε δύσκολα έως καθόλου (πρακτικά) τότε με μια απλή εντολή σε ένα τερματικό* μπορούμε να έχουμε το επιθυμητό αποτέλεσμα.&lt;/p&gt;</description>
     </item>
     
   </channel>

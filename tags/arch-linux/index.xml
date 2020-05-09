@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arch Linux on NickTux</title>
@@ -6,7 +6,7 @@
     <description>Recent content in Arch Linux on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <copyright>Copyleft (ɔ) 2019.&lt;br&gt; No rights reserved.</copyright>
+    <copyright>Copyleft (ɔ) 2020.&lt;br&gt; No rights reserved.</copyright>
     <lastBuildDate>Sat, 14 Dec 2013 10:25:28 +0300</lastBuildDate>
     
 	<atom:link href="https://nicktux.github.io/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
@@ -18,10 +18,8 @@
       <pubDate>Sat, 14 Dec 2013 10:25:28 +0300</pubDate>
       
       <guid>https://nicktux.github.io/post/arch-linux-custom-kernel/</guid>
-      <description>&lt;pre style=&#34;width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:&#39;Ubuntu&#39;;font-style:normal;font-size:medium;&#34;&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!&lt;/pre&gt;
-
-&lt;p&gt;Τώρα λογικά θα περιμένετε ένα τεράστιο ποστ με πολύ configuration και διάφορες εντολές, όσοι τουλάχιστον έχετε στο παρελθόν κάποια εμπειρία με χτίσιμο πυρήνα.
-&lt;/p&gt;</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Τώρα λογικά θα περιμένετε ένα τεράστιο ποστ με πολύ configuration και διάφορες εντολές, όσοι τουλάχιστον έχετε στο παρελθόν κάποια εμπειρία με χτίσιμο πυρήνα.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -30,10 +28,8 @@
       <pubDate>Fri, 15 Nov 2013 14:26:59 +0300</pubDate>
       
       <guid>https://nicktux.github.io/post/arch-wiki-greek-team/</guid>
-      <description>&lt;pre style=&#34;width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:&#39;Ubuntu&#39;;font-style:normal;font-size:medium;&#34;&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!&lt;/pre&gt;
-
-&lt;p&gt;Πριν από μερικές ημέρες γεννήθηκε η ιδέα. Να μαζευτούμε λέει και να μεταφράσουμε το Arch Wiki. Να το συμμαζέψουμε (καλλωπίσουμε λέει ο Πάνος, μ&amp;rsquo; αρέσει αυτή λέξη) και να μεταφράσουμε ότι (σημαντικό τουλάχιστον) υπάρχει αμετάφραστο.
-&lt;/p&gt;</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Πριν από μερικές ημέρες γεννήθηκε η ιδέα. Να μαζευτούμε λέει και να μεταφράσουμε το Arch Wiki. Να το συμμαζέψουμε (καλλωπίσουμε λέει ο Πάνος, μ&amp;rsquo; αρέσει αυτή λέξη) και να μεταφράσουμε ότι (σημαντικό τουλάχιστον) υπάρχει αμετάφραστο.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -4,11 +4,12 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="ocs-site-verification" content="e2c5622b648e93874896c7ec27f1907f" />
   <meta name="description" content="Προβλήματα και Λύσεις">
-  <meta name="generator" content="Hugo 0.40.1" />
+  <meta name="generator" content="Hugo 0.68.3" />
 
   <title>Αναβάθμιση σε Nextcloud 14 &middot; NickTux</title>
+
+    
 
   
   
@@ -31,15 +32,16 @@
   <link rel="stylesheet" href="https://nicktux.github.io/css/blackburn.css">
 
   
-  <link rel="stylesheet" href="https://nicktux.github.io/css/all.css">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
 
   
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 
-
   
-   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
 
   
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
@@ -54,7 +56,6 @@
   
 
 </head>
-
 
 <body>
 <div id="layout">
@@ -140,10 +141,6 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
-   
-
-    
-
     
     <li class="pure-menu-item">
 	    <a class="pure-menu-link" href="https://librenet.gr/people/9cf6700052fd01321c2d515647245e7c" target="_blank"><i class="fab fa-diaspora fa-fw"></i>Diaspora</a>
@@ -174,11 +171,10 @@
 
   <div>
   <div class="small-print">
-    <small>Copyleft (ɔ) 2019.<br> No rights reserved.</small>
+    <small>Copyleft (ɔ) 2020.<br> No rights reserved.</small>
   </div>
   <div class="small-print">
     <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
-    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
   </div>
 </div>
 
@@ -234,25 +230,17 @@
 </div>
 
   <p>Πρόσφατα αναβάθμισα στην έκδοση Nextcloud 14, από τη 13 που βρισκόμουν. Βλέπετε είμαι στο &ldquo;Production Channel&rdquo;, οπότε οι αναβαθμίσεις εκδόσεων έρχονται με λίγη καθυστέρηση για να εξασφαλιστεί η σταθερότητα. Αυτή τη στιγμή το Nextcloud βρίσκεται στη σταθερή έκδοση 15, οπότε φανταστείτε το Production Channel κάτι σαν LTS release.
-Παρόλαυτα τα προβληματάκια δεν έλλειψαν και λεω να τα παραθέσω παρακάτω, καθώς και τις λύσεις τους.
-</p>
-
+Παρόλαυτα τα προβληματάκια δεν έλλειψαν και λεω να τα παραθέσω παρακάτω, καθώς και τις λύσεις τους.</p>
 <p>Η αναβάθμιση ως διαδικασία πήγε Smooth που λένε. Δηλαδή, δεν υπήρξε κάποιο ουσιαστικό πρόβλημα και ολοκληρώθηκε σε λίγα λεπτά, ως συνήθως.</p>
-
-<h2>Passman Problem</h2>
-
-<p>Αν και ο Passman είναι μια εφαρμογή τρίτου, για ορισμένους ίσως είναι essential εαν τη χρησιμοποιούν για την αποθήκευση των κωδικών τους. Αν δεν γνωρίζετε τι είναι ο Passman, με απλά λόγια θα πούμε ότι πρόκειται για έναν Password Manager με Browser Integration και όλα τα καλούδια.<br>
+<!-- raw HTML omitted -->
+<p>Αν και ο Passman είναι μια εφαρμογή τρίτου, για ορισμένους ίσως είναι essential εαν τη χρησιμοποιούν για την αποθήκευση των κωδικών τους. Αν δεν γνωρίζετε τι είναι ο Passman, με απλά λόγια θα πούμε ότι πρόκειται για έναν Password Manager με Browser Integration και όλα τα καλούδια.<!-- raw HTML omitted -->
 Δουλεύει εξαιρετικά και το βασικότερο απ&rsquo; όλα είναι ότι εσείς έχετε τον έλεγχο, μιας και οι κωδικοί αποθηκεύονται (κρυπτογραφημένοι) στον Nextcloud Server σας.</p>
-
-<p>Το πρόβλημα που αντιμετώπισα με τον Passman και το Nextcloud 14 είναι απλό και λιτό. Δεν είναι συμβατός! Τέλος.<br>
+<p>Το πρόβλημα που αντιμετώπισα με τον Passman και το Nextcloud 14 είναι απλό και λιτό. Δεν είναι συμβατός! Τέλος.<!-- raw HTML omitted -->
 Το Nextcloud δεν σε αφήνει να ενεργοποιήσεις την εφαρμογή και απλά δεν μπορείς να τη χρησιμοποιήσεις. Αν σε αυτό προσθέσουμε και το ενδεχόμενο να μην έχει κάποιος τους κωδικούς του και κάπου αλλού&hellip;.. τη βάψαμε. Γι&rsquo; αυτό, πάντα δυο πηγές τουλάχιστον και οπωσδήποτε backup.</p>
-
-<h3>Πως επαναφέρουμε τον Passman</h3>
-
-<p>Η διαδικασία είναι απλή, αλλά χρειάζεται πρόσβαση ssh ή τελοσπάντων κονσόλας στον server και φυσικά δικαιώματα root.<br>
-Μπαίνουμε στον κατάλογο που φιλοξενούνται οι εφαρμογές μας.<br>
+<!-- raw HTML omitted -->
+<p>Η διαδικασία είναι απλή, αλλά χρειάζεται πρόσβαση ssh ή τελοσπάντων κονσόλας στον server και φυσικά δικαιώματα root.<!-- raw HTML omitted -->
+Μπαίνουμε στον κατάλογο που φιλοξενούνται οι εφαρμογές μας.<!-- raw HTML omitted -->
 Πχ. <strong>/var/www/nextcloud/apps/</strong> και τρέχουμε τις παρακάτω εντολές με δικαιώματα root.</p>
-
 <pre><code>cd /var/www/nextcloud/apps/
 mv passman ~/ # εδώ θεωρούμε ότι υπάρχει ήδη ο φάκελος passman και τον μετακινούμε αλλού
 git clone https://github.com/nextcloud/passman.git
@@ -260,58 +248,36 @@ cd passman
 git checkout fix_layout_for_14
 cd ..
 sudo su www-data chown -R passman
-</code></pre>
-
-<p>Αν πάμε τώρα ξανά στις εφαρμογές μας, θα δούμε τον Passman έτοιμο για ενεργοποίηση. Ενεργοποιούμε την εφαρμογή και λειτουργεί μια χαρά. <em>Όλα αυτά μέχρι να διορθωθεί το πρόβλημα ασυμβατότητας.</em></p>
-
-<p><a href="https://i.imgur.com/BfPjcSZ.jpg" rel="noopener" target="_blank"><img src="https://i.imgur.com/BfPjcSZ.jpg" width="640" height="298"></a></p>
-
-<h2>HTTP "Referrer-Policy Warning"</h2>
-
+</code></pre><p>Αν πάμε τώρα ξανά στις εφαρμογές μας, θα δούμε τον Passman έτοιμο για ενεργοποίηση. Ενεργοποιούμε την εφαρμογή και λειτουργεί μια χαρά. <em>Όλα αυτά μέχρι να διορθωθεί το πρόβλημα ασυμβατότητας.</em></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
 <p>Κάποιοι, αυτό δε συμβαίνει σε όλους και εδώ είναι το παράξενο, ίσως δουν μια προειδοποίηση στο Admin Overview όπως η παρακάτω:</p>
-
-<p><a href="https://i.imgur.com/L9PRFhs.jpg" rel="noopener" target="_blank"><img src="https://i.imgur.com/L9PRFhs.jpg" width="640" height="106"></a></p>
-
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <blockquote>
 <p>The “Referrer-Policy” HTTP header is not set to “no-referrer”, “no-referrer-when-downgrade”, “strict-origin” or “strict-origin-when-cross-origin”</p>
 </blockquote>
-
-<p>Αυτό διορθώνεται εαν επεξεργαστούμε το αρχείο <strong>.htaccess</strong> το οποίο βρίσκεται στη διαδρομή <strong>/var/www/nextcloud/</strong> και είναι κρυφό αρχείο.<br>
+<p>Αυτό διορθώνεται εαν επεξεργαστούμε το αρχείο <strong>.htaccess</strong> το οποίο βρίσκεται στη διαδρομή <strong>/var/www/nextcloud/</strong> και είναι κρυφό αρχείο.<!-- raw HTML omitted -->
 Οπότε με έναν text editor ανοίγουμε το αρχείο και στο section <code>&lt;IfModule mod_env.c&gt;</code>
 προσθέτουμε τη παρακάτω γραμμή:</p>
-
 <pre><code>Header set Referrer-Policy &quot;no-referrer&quot;
 </code></pre>
-
 <p>κάνουμε reload τον apache2 / nginx και η προειδοποίηση πρέπει να εξαφανιστεί. Εαν δεν εξαφανιστεί, τότε δοκιμάζουμε αυτό που δούλεψε στη δική μου περίπτωση.</p>
-
 <pre><code>Header always set Referrer-Policy &quot;no-referrer&quot;
 </code></pre>
-
 <p>Προσέξτε εδώ τη διαφορά στο <strong>always</strong>.</p>
-
-<p><a href="https://i.imgur.com/cUEUDmP.jpg" rel="noopener" target="_blank"><img src="https://i.imgur.com/cUEUDmP.jpg" width="640" height="300"></a></p>
-
-<p>Αυτά τα ολίγα.<br>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>Αυτά τα ολίγα.<!-- raw HTML omitted -->
 Το Nextcloud συνεχίζει να λειτουργεί απρόσκοπτα and it feels good when you have your data under control!</p>
-
-<hr />
-
-<p><span style="font-size:small;color:#999999;">Until next time &hellip;<br>
-&ldquo;Keep Your Mind in a Constant State of Openness&rdquo;</span></p>
+<hr>
+<p><!-- raw HTML omitted -->Until next time &hellip;<!-- raw HTML omitted -->
+&ldquo;Keep Your Mind in a Constant State of Openness&quot;<!-- raw HTML omitted --></p>
 
   
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://nicktux.github.io/post/telegram-mint-tara/"><i class="fa fa-chevron-left"></i></a>
-    
   </div>
   <div class="pure-u-10-24">
-    
-    <nav class="prev">
-      <a href="https://nicktux.github.io/post/telegram-mint-tara/">Εγκατάσταση του Telegram Desktop σε Linux Mint</a>
-    </nav>
     
   </div>
   <div class="pure-u-2-24">
@@ -319,14 +285,8 @@ sudo su www-data chown -R passman
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://nicktux.github.io/post/gimp210-lm19/">Εγκατάσταση του GIMP 2.10 σε Linux Mint</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://nicktux.github.io/post/gimp210-lm19/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>

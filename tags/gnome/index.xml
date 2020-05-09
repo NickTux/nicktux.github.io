@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gnome on NickTux</title>
+    <title>gnome on NickTux</title>
     <link>https://nicktux.github.io/tags/gnome/</link>
-    <description>Recent content in Gnome on NickTux</description>
+    <description>Recent content in gnome on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <copyright>Copyleft (ɔ) 2019.&lt;br&gt; No rights reserved.</copyright>
+    <copyright>Copyleft (ɔ) 2020.&lt;br&gt; No rights reserved.</copyright>
     <lastBuildDate>Wed, 11 Apr 2018 22:46:06 +0300</lastBuildDate>
     
 	<atom:link href="https://nicktux.github.io/tags/gnome/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +18,7 @@
       <pubDate>Wed, 11 Apr 2018 22:46:06 +0300</pubDate>
       
       <guid>https://nicktux.github.io/post/nextcloud-bionic-online-accounts/</guid>
-      <description>&lt;p&gt;Με την έλευση του Ubuntu 18.04 LTS(Bionic Beaver) και την αλλαγή από Unity σε GNOME (3.28), οι ρυθμίσεις για Online Accounts εμπεριέχουν πλέον την επιλογή για Nextcloud.
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;Με την έλευση του Ubuntu 18.04 LTS(Bionic Beaver) και την αλλαγή από Unity σε GNOME (3.28), οι ρυθμίσεις για Online Accounts εμπεριέχουν πλέον την επιλογή για Nextcloud.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -4,11 +4,12 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="ocs-site-verification" content="e2c5622b648e93874896c7ec27f1907f" />
   <meta name="description" content="Tara, Cinammon Edition">
-  <meta name="generator" content="Hugo 0.40.1" />
+  <meta name="generator" content="Hugo 0.68.3" />
 
   <title>Νέα χαρακτηριστικά στο Linux Mint 19 &middot; NickTux</title>
+
+    
 
   
   
@@ -31,15 +32,16 @@
   <link rel="stylesheet" href="https://nicktux.github.io/css/blackburn.css">
 
   
-  <link rel="stylesheet" href="https://nicktux.github.io/css/all.css">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
 
   
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 
-
   
-   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
 
   
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
@@ -54,7 +56,6 @@
   
 
 </head>
-
 
 <body>
 <div id="layout">
@@ -140,10 +141,6 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
-   
-
-    
-
     
     <li class="pure-menu-item">
 	    <a class="pure-menu-link" href="https://librenet.gr/people/9cf6700052fd01321c2d515647245e7c" target="_blank"><i class="fab fa-diaspora fa-fw"></i>Diaspora</a>
@@ -174,11 +171,10 @@
 
   <div>
   <div class="small-print">
-    <small>Copyleft (ɔ) 2019.<br> No rights reserved.</small>
+    <small>Copyleft (ɔ) 2020.<br> No rights reserved.</small>
   </div>
   <div class="small-print">
     <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
-    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
   </div>
 </div>
 
@@ -233,72 +229,36 @@
 
 </div>
 
-  <p><p>Το Linux Mint 19 είναι μια έκδοση με υποστήριξη μακράς διάρκειας η οποία κυκλοφόρησε στις 29 Ιουνίου 2018. Αυτό σημαίνει ότι θα υποστηρίζεται μέχρι το <strong>2023</strong>.<br>
-Είναι βασισμένο στο Ubuntu 18.04 LTS.<br>
-Δυο σημαντικά από τα νέα χαρακτηριστικά που φέρνει αυτή η έκδοση, αναφέρονται παρακάτω.
-</p>
-
-<p><a href="https://i.imgur.com/TY8nQ7j.jpg" target="_blank"><img src="https://i.imgur.com/TY8nQ7j.jpg" title="Mint 19 Cinammon Edition" alt="" width="640" height="400" class="alignleft size-full" /></a><br></p>
-
-<p><h3>TimeShift</h3>
-<p>Το TimeShift θα μπορούσαμε να πούμε ότι είναι ο πρωταγωνιστής αυτής της έκδοσης. Αν και έχει συμπεριληφθεί από την 18.3 και έχει γίνει backport σε όλες τις υποστηριζόμενες εκδόσεις του Mint, πλέον από την 19 έχει κυρίαρχο ρόλο στη στρατηγική αναβάθμισης του λειτουργικού συστήματος.
-<br><br>
-Ανέκαθεν το Mint ακολουθούσε μια διαφορετική προσέγγιση σε ότι αφορά τις αναβαθμίσεις του συστήματος, σε σχέση με τις περισσότερες διανομές. Προκειμένου οι χρήστες του να έχουν πάντα ένα σταθερό σύστημα με όσο λιγότερα προβλήματα είναι δυνατόν, κρατούσε &ldquo;παγωμένη&rdquo; την αναβάθμιση του πυρήνα.<br>
-Ο χρήστης έπρεπε να επιλέξει μόνος του την αναβάθμιση του πυρήνα μέσω του διαχειριστή ενημερώσεων (update manager). Για όσους/ες έχουν ασχοληθεί λίγο με το Mint, είναι τα επίπεδα (levels) εκείνα που καθόριζαν πως θα αναβαθμιστεί το σύστημα. Τα επίπεδα εκείνα που θεωρούνταν critical για τη σταθερότητα ήταν απενεργοποιημένα.<br><br>
-Αυτή η τακτική είχε δημιουργήσει τριβές στην κοινότητα του Linux καθώς είναι γενικώς αποδεκτό ότι ο πυρήνας θα πρέπει να βρίσκεται πάντα στην τελευταία έκδοσή του, έτσι όπως παρέχεται από τους προγραμματιστές του και με όποια patches προσθέτει (αν προσθέτει) η εκάστοτε διανομή. Αυτό διατηρεί σε σωστά επίπεδα και την ασφάλεια αλλά και τη σταθερότητα του συστήματος.<br>
-Επειδή όμως ο πυρήνας ως λογισμικό είναι το μεγαλύτερο ενιαίο κομμάτι του συστήματος, κατά τη διάρκεια της αναβάθμισης μπορεί να προκύψουν προβλήματα. Αν και αυτό σπάνια συμβαίνει, το Linux Mint θέλει να εξαλείψει ακόμη και αυτή τη μικρή περίπτωση που το σύστημα θα &ldquo;σπάσει&rdquo; λόγω αναβάθμισης του πυρήνα ή ακόμη και άλλων σημαντικών στοιχείων.<br><br>
-<strong>Από την έκδοση 19</strong> αυτό το καταφέρνει με το TimeShift. <strong>Στον Update Manager πλέον είναι όλα τα επίπεδα ενεργοποιημένα από προεπιλογή</strong>, δηλαδή δεν κρατάει πίσω ούτε τον πυρήνα αλλά ούτε και τίποτε άλλο. Εμφανίζεται όμως μια προειδοποίηση στον χρήστη να ρυθμίσει το TimeShift.<br>
-Έτσι, στη περίπτωση που κάτι δεν πάει καλά με την αναβάθμιση και ξαφνικά βρεθεί ο χρήστης με ένα μη-εκκινήσιμο σύστημα, μπορεί να κάνει επαναφορά σε προηγούμενη έκδοση. Η ρύθμιση του TimeShift είναι σχετικά εύκολη.</p>
-
-<p><a href="https://i.imgur.com/F33l4ds.jpg" target="_blank"><img src="https://i.imgur.com/F33l4ds.jpg" title="Διαχειριστής Ενημερώσεων" alt="" width="640" height="507" class="alignleft size-full" /></a><br></p>
-
-<p><p>Ένα άλλο χαρακτηριστικό, πάλι σε σχέση με τον Update Manager, είναι οι αυτόματες αναβαθμίσεις. Αυτές, σε προηγούμενες εκδόσεις του Mint, ήταν προσπελάσιμες μόνον από πεπειραμένους χρήστες. Πλέον έχουν ενσωματωθεί στον Update Manager και με ένα κλικ μπορεί κάποιος να τις ενεργοποιήσει. <em>Πάλι το TimeShift &ldquo;ευθύνεται&rdquo; γι&rsquo; αυτό.</em></p>
-
-<p><a href="https://i.imgur.com/PSeXT3n.jpg" target="_blank"><img src="https://i.imgur.com/PSeXT3n.jpg" title="Αυτόματες Ένημερώσεις" alt="" class="alignleft size-full" /></a><br></p>
-
-<p><h3>Διαχειριστής Λογισμικού</h3>
-<p>Ο διαχειριστής λογισμικού έχει δεχτεί αρκετές βελτιώσεις με τις σημαντικότερες από αυτές να είναι:</p>
-
+  <!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
 <ol>
 <li>Η ταχύτερη αναζήτηση εφαρμογών</li>
 <li>Η προσθήκη υποστήριξης .flatpakref και .flatpakrepo</li>
 </ol>
-
 <p><em>Το Linux Mint είναι υποστηρικτής περισσότερο των Flatpaks πακέτων, αντί των Snaps.</em></p>
-
-<p><a href="https://i.imgur.com/z4ynqOG.jpg" target="_blank"><img src="https://i.imgur.com/z4ynqOG.jpg" title="Διαχειριστής Λογισμικού" alt="" class="alignleft size-full" /></a><br></p>
-
-<p><p>Με την υποστήριξη .flatpakref και .flatpakrepo δίνεται η δυνατότητα στο χρήστη να κάνει εγκατάσταση πακέτων flatpak κάνοντας ένα κλικ στο αντίστοιχο κουμπί σε μια ιστοσελίδα.</p>
-
-<p>Σε αυτή τη δημοσίευση αναφέρθηκαν δυο από τα πολλά νέα χαρακτηριστικά του Mint 19. Τουλάχιστον αυτά που θεώρησα ως τα πιο σημαντικά, με το σημαντικότερο απ&rsquo; όλα την αλλαγή στην πολιτική των αναβαθμίσεων του συστήματος.<br><br>
-Για να διαβάσετε όλα τα νεα χαρακτηριστικά, μεταβείτε στη σελίδα: <a href="https://www.linuxmint.com/rel_tara_cinnamon_whatsnew.php" target="_blank" rel="noopener" rel="noreferrer">New features in Linux Mint 19 Cinnamon</a><br></p>
-
-<p>Για να κάνετε <strong>λήψη και εγκατάσταση</strong> μεταβείτε στη <a href="https://www.linuxmint.com/download.php" rel="noreferrer" rel="noopener" target="_blank">σελίδα λήψης</a>.<br></p>
-
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p>Σε αυτή τη δημοσίευση αναφέρθηκαν δυο από τα πολλά νέα χαρακτηριστικά του Mint 19. Τουλάχιστον αυτά που θεώρησα ως τα πιο σημαντικά, με το σημαντικότερο απ&rsquo; όλα την αλλαγή στην πολιτική των αναβαθμίσεων του συστήματος.<!-- raw HTML omitted --><!-- raw HTML omitted -->
+Για να διαβάσετε όλα τα νεα χαρακτηριστικά, μεταβείτε στη σελίδα: <!-- raw HTML omitted -->New features in Linux Mint 19 Cinnamon<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>Για να κάνετε <strong>λήψη και εγκατάσταση</strong> μεταβείτε στη <!-- raw HTML omitted -->σελίδα λήψης<!-- raw HTML omitted -->.<!-- raw HTML omitted --></p>
 <p>Για <strong>επικοινωνία</strong> με την ελληνόφωνη κοινότητα του Linux Mint:</p>
-
 <ol>
-<li><a href="https://www.facebook.com/groups/107979005927688" target="_blank" rel="noopener" rel="noreferrer">Facebook</a></li>
-<li><a href="https://t.me/joinchat/ErjrDU20N3dPzExUlHwenA" target="_blank" rel="noopener" rel="noreferrer">Telegram Group</a></li>
+<li><!-- raw HTML omitted -->Facebook<!-- raw HTML omitted --></li>
+<li><!-- raw HTML omitted -->Telegram Group<!-- raw HTML omitted --></li>
 </ol>
-
-<hr />
-
-<p><span style="font-size:small;color:#999999;">Until next time &hellip;
-&ldquo;Keep Your Mind in a Constant State of Openness&rdquo;</span></p>
+<!-- raw HTML omitted -->
 
   
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://nicktux.github.io/post/which-kernel/"><i class="fa fa-chevron-left"></i></a>
-    
   </div>
   <div class="pure-u-10-24">
-    
-    <nav class="prev">
-      <a href="https://nicktux.github.io/post/which-kernel/">Ποιόν σταθερό πυρήνα</a>
-    </nav>
     
   </div>
   <div class="pure-u-2-24">
@@ -306,14 +266,8 @@
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://nicktux.github.io/post/telegram-mint-tara/">Εγκατάσταση του Telegram Desktop σε Linux Mint</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://nicktux.github.io/post/telegram-mint-tara/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>

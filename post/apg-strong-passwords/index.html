@@ -4,11 +4,12 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="ocs-site-verification" content="e2c5622b648e93874896c7ec27f1907f" />
   <meta name="description" content="με το apg">
-  <meta name="generator" content="Hugo 0.40.1" />
+  <meta name="generator" content="Hugo 0.68.3" />
 
   <title>Παραγωγή ισχυρών κωδικών &middot; NickTux</title>
+
+    
 
   
   
@@ -31,15 +32,16 @@
   <link rel="stylesheet" href="https://nicktux.github.io/css/blackburn.css">
 
   
-  <link rel="stylesheet" href="https://nicktux.github.io/css/all.css">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
 
   
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 
-
   
-   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
 
   
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
@@ -54,7 +56,6 @@
   
 
 </head>
-
 
 <body>
 <div id="layout">
@@ -140,10 +141,6 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
-   
-
-    
-
     
     <li class="pure-menu-item">
 	    <a class="pure-menu-link" href="https://librenet.gr/people/9cf6700052fd01321c2d515647245e7c" target="_blank"><i class="fab fa-diaspora fa-fw"></i>Diaspora</a>
@@ -174,11 +171,10 @@
 
   <div>
   <div class="small-print">
-    <small>Copyleft (ɔ) 2019.<br> No rights reserved.</small>
+    <small>Copyleft (ɔ) 2020.<br> No rights reserved.</small>
   </div>
   <div class="small-print">
     <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
-    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
   </div>
 </div>
 
@@ -239,57 +235,29 @@
 
 </div>
 
-  <p>Το apg είναι ένα εργαλείο που μπορεί να μας βοηθήσει στην παραγωγή ισχυρών τυχαίων (random) κωδικών. Είναι προ-εγκατεστημένο σε Ubuntu. Αν χρειαζόμαστε ισχυρούς κωδικούς που σπάνε δύσκολα έως καθόλου (πρακτικά) τότε με μια απλή εντολή σε ένα τερματικό* μπορούμε να έχουμε το επιθυμητό αποτέλεσμα.
-</p>
-
-<p><center><span style="font-size:x-small;color:#ff0000;"><strong>ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ! ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΙΣΧΥΕΙ ΠΛΕΟΝ.</strong></span></center></p>
-
+  <p>Το apg είναι ένα εργαλείο που μπορεί να μας βοηθήσει στην παραγωγή ισχυρών τυχαίων (random) κωδικών. Είναι προ-εγκατεστημένο σε Ubuntu. Αν χρειαζόμαστε ισχυρούς κωδικούς που σπάνε δύσκολα έως καθόλου (πρακτικά) τότε με μια απλή εντολή σε ένα τερματικό* μπορούμε να έχουμε το επιθυμητό αποτέλεσμα.</p>
+<!-- raw HTML omitted -->
 <p>Το apg χρησιμοποιεί δύο αλγόριθμους για την παραγωγή κωδικών. Ο πρώτος (1) και προεπιλεγμένος, είναι εκείνος που παράγει τους λεγόμενους pronoucable passwords ή κωδικούς που μπορείτε να προφέρετε. Ο δεύτερος αλγόριθμος (2) είναι εκείνος της τυχαίας παραγωγής.</p>
-
 <p>Παραδείγματα αποτελεσμάτων.</p>
-
 <pre><code>orijipoytDezobUjSi
 )ge}wgl(k&lt;:Q65)=V
-</code></pre>
-
-<p>Ποιον από τους παραπάνω θεωρείτε πιο ισχυρό και δύσκολα προβλέψιμο;</p>
-
+</code></pre><p>Ποιον από τους παραπάνω θεωρείτε πιο ισχυρό και δύσκολα προβλέψιμο;</p>
 <p>Η εντολή είναι μια γραμμή και είναι απλή και θα εξηγήσουμε τις παραμέτρους μια-μια.</p>
-
 <pre><code>apg -s -a 1 -m 12 -x 20 -n 4
-</code></pre>
-
-<p>Θα σας ζητήσει να δώσετε κάποια τυχαία νούμερα - αριθμούς και σύμβολα έτσι  ώστε να πάρει ένα παράδειγμα για το τι κωδικός θέλετε να παραχθεί. Αν για παράδειγμα δώσετε μόνο νούμερα, θα δημιουργήσει κωδικό μόνο με αριθμούς.</p>
-
+</code></pre><p>Θα σας ζητήσει να δώσετε κάποια τυχαία νούμερα - αριθμούς και σύμβολα έτσι  ώστε να πάρει ένα παράδειγμα για το τι κωδικός θέλετε να παραχθεί. Αν για παράδειγμα δώσετε μόνο νούμερα, θα δημιουργήσει κωδικό μόνο με αριθμούς.</p>
 <p><strong>Παράμετροι:</strong></p>
-
-<ul>
-    <li>-s : προτρέπει τον χρήστη να δώσει τυχαίο παράδειγμα κωδικού.</li>
-    <li>-a: Ο αλγόριθμος που θα χρησιμοποιηθεί. Υπάρχει ο 0 (προεπιλογή - pronoucable) και ο 1 (random)</li>
-    <li>-m: Ο αριθμός ελάχιστων χαρακτήρων του κωδικού.</li>
-    <li>-x: Ο αριθμός μέγιστων χαρακτήρων του κωδικού.</li>
-    <li>-n: Ο αριθμός των παραγόμενων κωδικών.</li>
-</ul>
-
+<!-- raw HTML omitted -->
 <p>Η παραπάνω εντολή λοιπόν, θα δημιουργήσει 4 κωδικούς από 12 έως 20 χαρακτήρες με τον αλγόριθμο τυχαίας παραγωγής. <em>Οι χαρακτήρες εξαρτώνται από το τι θα εισάγουμε εμείς ως παράδειγμα.</em></p>
-
-<hr />
-
-<p><span style="font-size:small;color:#999999;">Until next time &hellip;<br>
-&ldquo;Keep Your Mind in a Constant State of Openness&rdquo;</span></p>
+<hr>
+<p><!-- raw HTML omitted -->Until next time &hellip;<!-- raw HTML omitted -->
+&ldquo;Keep Your Mind in a Constant State of Openness&quot;<!-- raw HTML omitted --></p>
 
   
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://nicktux.github.io/post/problems-wireless-ubuntu/"><i class="fa fa-chevron-left"></i></a>
-    
   </div>
   <div class="pure-u-10-24">
-    
-    <nav class="prev">
-      <a href="https://nicktux.github.io/post/problems-wireless-ubuntu/">Προβλήματα στην ασύρματη σύνδεση</a>
-    </nav>
     
   </div>
   <div class="pure-u-2-24">
@@ -297,14 +265,8 @@
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://nicktux.github.io/post/encrypt-with-openssl/">Κρυπτογράφηση αρχείων και φακέλων με το OpenSSL</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://nicktux.github.io/post/encrypt-with-openssl/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>

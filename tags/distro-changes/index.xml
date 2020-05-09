@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Distro Changes on NickTux</title>
+    <title>distro changes on NickTux</title>
     <link>https://nicktux.github.io/tags/distro-changes/</link>
-    <description>Recent content in Distro Changes on NickTux</description>
+    <description>Recent content in distro changes on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <copyright>Copyleft (ɔ) 2019.&lt;br&gt; No rights reserved.</copyright>
+    <copyright>Copyleft (ɔ) 2020.&lt;br&gt; No rights reserved.</copyright>
     <lastBuildDate>Mon, 16 Apr 2018 22:29:19 +0300</lastBuildDate>
     
 	<atom:link href="https://nicktux.github.io/tags/distro-changes/index.xml" rel="self" type="application/rss+xml" />
@@ -18,9 +18,8 @@
       <pubDate>Mon, 16 Apr 2018 22:29:19 +0300</pubDate>
       
       <guid>https://nicktux.github.io/post/ubuntu-bionic-gksu-removed/</guid>
-      <description>&lt;p&gt;Αυτή η μετάβαση, δηλαδή η πλήρης κατάργηση του gksu από το Ubuntu έχει ξεκινήσει κάμποσες εκδόσεις πριν. Συγκεκριμένα από τη 13.10 όπου το από προ-επιλογή εγκατεστημένο gksu έπαψε να υφίσταται. Μέχρι και σήμερα βέβαια οι χρήστες είχαν την επιλογή της εγκατάστασης από τα αποθετήρια, αφού εκεί ήταν και είναι ακόμη διαθέσιμο.&lt;br&gt;
-Στο άμεσο μέλλον όμως, προβλέπεται να αφαιρεθεί εντελώς από τα αποθετήρια. Επίσης, παρακάτω θα δούμε ποια είναι η προτεινόμενη από τους Developers εναλλακτική.&lt;br&gt;
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;Αυτή η μετάβαση, δηλαδή η πλήρης κατάργηση του gksu από το Ubuntu έχει ξεκινήσει κάμποσες εκδόσεις πριν. Συγκεκριμένα από τη 13.10 όπου το από προ-επιλογή εγκατεστημένο gksu έπαψε να υφίσταται. Μέχρι και σήμερα βέβαια οι χρήστες είχαν την επιλογή της εγκατάστασης από τα αποθετήρια, αφού εκεί ήταν και είναι ακόμη διαθέσιμο.&lt;!-- raw HTML omitted --&gt;
+Στο άμεσο μέλλον όμως, προβλέπεται να αφαιρεθεί εντελώς από τα αποθετήρια. Επίσης, παρακάτω θα δούμε ποια είναι η προτεινόμενη από τους Developers εναλλακτική.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

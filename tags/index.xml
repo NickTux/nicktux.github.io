@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on NickTux</title>
@@ -6,216 +6,99 @@
     <description>Recent content in Tags on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <copyright>Copyleft (ɔ) 2019.&lt;br&gt; No rights reserved.</copyright>
-    <lastBuildDate>Tue, 11 Jun 2013 06:09:44 -0500</lastBuildDate>
+    <copyright>Copyleft (ɔ) 2020.&lt;br&gt; No rights reserved.</copyright>
+    <lastBuildDate>Sat, 09 May 2020 12:30:11 +0300</lastBuildDate>
     
 	<atom:link href="https://nicktux.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Announce</title>
-      <link>https://nicktux.github.io/tags/announce/</link>
-      <pubDate>Tue, 11 Jun 2013 06:09:44 -0500</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/announce/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Apg</title>
-      <link>https://nicktux.github.io/tags/apg/</link>
-      <pubDate>Thu, 04 Jul 2013 22:42:11 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/apg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Apps</title>
-      <link>https://nicktux.github.io/tags/apps/</link>
-      <pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/apps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Arch Linux</title>
-      <link>https://nicktux.github.io/tags/arch-linux/</link>
-      <pubDate>Sat, 14 Dec 2013 10:25:28 +0300</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/arch-linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Arch Wiki</title>
-      <link>https://nicktux.github.io/tags/arch-wiki/</link>
-      <pubDate>Fri, 15 Nov 2013 14:26:59 +0300</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/arch-wiki/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Boot</title>
-      <link>https://nicktux.github.io/tags/boot/</link>
-      <pubDate>Wed, 03 Jul 2013 00:47:27 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/boot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Client</title>
-      <link>https://nicktux.github.io/tags/client/</link>
-      <pubDate>Wed, 11 Apr 2018 22:46:06 +0300</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/client/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloud</title>
-      <link>https://nicktux.github.io/tags/cloud/</link>
-      <pubDate>Wed, 11 Apr 2018 22:46:06 +0300</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/cloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Community</title>
-      <link>https://nicktux.github.io/tags/community/</link>
-      <pubDate>Tue, 02 Jul 2013 18:54:28 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/community/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Contirbution</title>
-      <link>https://nicktux.github.io/tags/contirbution/</link>
-      <pubDate>Tue, 02 Jul 2013 18:54:28 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/contirbution/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cryptography</title>
-      <link>https://nicktux.github.io/tags/cryptography/</link>
-      <pubDate>Fri, 05 Jul 2013 14:32:35 +0100</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/cryptography/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Custom Kernel</title>
-      <link>https://nicktux.github.io/tags/custom-kernel/</link>
-      <pubDate>Sat, 14 Dec 2013 10:25:28 +0300</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/custom-kernel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deck</title>
-      <link>https://nicktux.github.io/tags/deck/</link>
-      <pubDate>Mon, 26 Feb 2018 20:28:39 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/deck/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Desktop</title>
       <link>https://nicktux.github.io/tags/desktop/</link>
-      <pubDate>Thu, 03 May 2018 22:30:51 +0300</pubDate>
+      <pubDate>Sat, 09 May 2020 12:30:11 +0300</pubDate>
       
       <guid>https://nicktux.github.io/tags/desktop/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Distro Changes</title>
-      <link>https://nicktux.github.io/tags/distro-changes/</link>
-      <pubDate>Mon, 16 Apr 2018 22:29:19 +0300</pubDate>
+      <title>Time</title>
+      <link>https://nicktux.github.io/tags/time/</link>
+      <pubDate>Sat, 09 May 2020 12:30:11 +0300</pubDate>
       
-      <guid>https://nicktux.github.io/tags/distro-changes/</guid>
+      <guid>https://nicktux.github.io/tags/time/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Events</title>
-      <link>https://nicktux.github.io/tags/events/</link>
-      <pubDate>Tue, 02 Jul 2013 02:16:08 +0200</pubDate>
+      <title>troubleshooting</title>
+      <link>https://nicktux.github.io/tags/troubleshooting/</link>
+      <pubDate>Sat, 09 May 2020 12:30:11 +0300</pubDate>
       
-      <guid>https://nicktux.github.io/tags/events/</guid>
+      <guid>https://nicktux.github.io/tags/troubleshooting/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Fosscomm</title>
-      <link>https://nicktux.github.io/tags/fosscomm/</link>
-      <pubDate>Tue, 02 Jul 2013 02:16:08 +0200</pubDate>
+      <title>Ubuntu 20.04</title>
+      <link>https://nicktux.github.io/tags/ubuntu-20.04/</link>
+      <pubDate>Sat, 09 May 2020 12:30:11 +0300</pubDate>
       
-      <guid>https://nicktux.github.io/tags/fosscomm/</guid>
+      <guid>https://nicktux.github.io/tags/ubuntu-20.04/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Gimp</title>
-      <link>https://nicktux.github.io/tags/gimp/</link>
-      <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
+      <title>UTC</title>
+      <link>https://nicktux.github.io/tags/utc/</link>
+      <pubDate>Sat, 09 May 2020 12:30:11 +0300</pubDate>
       
-      <guid>https://nicktux.github.io/tags/gimp/</guid>
+      <guid>https://nicktux.github.io/tags/utc/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Gnome</title>
-      <link>https://nicktux.github.io/tags/gnome/</link>
-      <pubDate>Wed, 11 Apr 2018 22:46:06 +0300</pubDate>
+      <title>password</title>
+      <link>https://nicktux.github.io/tags/password/</link>
+      <pubDate>Mon, 30 Sep 2019 18:55:30 +0300</pubDate>
       
-      <guid>https://nicktux.github.io/tags/gnome/</guid>
+      <guid>https://nicktux.github.io/tags/password/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Install</title>
-      <link>https://nicktux.github.io/tags/install/</link>
-      <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
+      <title>security</title>
+      <link>https://nicktux.github.io/tags/security/</link>
+      <pubDate>Mon, 30 Sep 2019 18:55:30 +0300</pubDate>
       
-      <guid>https://nicktux.github.io/tags/install/</guid>
+      <guid>https://nicktux.github.io/tags/security/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Kanban</title>
-      <link>https://nicktux.github.io/tags/kanban/</link>
-      <pubDate>Mon, 26 Feb 2018 20:28:39 +0200</pubDate>
+      <title>mic</title>
+      <link>https://nicktux.github.io/tags/mic/</link>
+      <pubDate>Fri, 05 Apr 2019 18:55:56 +0300</pubDate>
       
-      <guid>https://nicktux.github.io/tags/kanban/</guid>
+      <guid>https://nicktux.github.io/tags/mic/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Kernel</title>
-      <link>https://nicktux.github.io/tags/kernel/</link>
-      <pubDate>Sat, 25 Aug 2018 14:52:27 +0300</pubDate>
+      <title>podcast</title>
+      <link>https://nicktux.github.io/tags/podcast/</link>
+      <pubDate>Fri, 05 Apr 2019 18:55:56 +0300</pubDate>
       
-      <guid>https://nicktux.github.io/tags/kernel/</guid>
+      <guid>https://nicktux.github.io/tags/podcast/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Linux Mint</title>
-      <link>https://nicktux.github.io/tags/linux-mint/</link>
-      <pubDate>Thu, 07 Nov 2013 17:44:19 +0300</pubDate>
+      <title>usb</title>
+      <link>https://nicktux.github.io/tags/usb/</link>
+      <pubDate>Fri, 05 Apr 2019 18:55:56 +0300</pubDate>
       
-      <guid>https://nicktux.github.io/tags/linux-mint/</guid>
+      <guid>https://nicktux.github.io/tags/usb/</guid>
       <description></description>
     </item>
     
@@ -229,38 +112,245 @@
     </item>
     
     <item>
-      <title>Member</title>
-      <link>https://nicktux.github.io/tags/member/</link>
-      <pubDate>Tue, 02 Jul 2013 18:54:28 +0200</pubDate>
+      <title>PeerTube</title>
+      <link>https://nicktux.github.io/tags/peertube/</link>
+      <pubDate>Sat, 29 Dec 2018 13:10:23 +0200</pubDate>
       
-      <guid>https://nicktux.github.io/tags/member/</guid>
+      <guid>https://nicktux.github.io/tags/peertube/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Mic</title>
-      <link>https://nicktux.github.io/tags/mic/</link>
-      <pubDate>Fri, 05 Apr 2019 18:55:56 +0300</pubDate>
+      <title>privacy</title>
+      <link>https://nicktux.github.io/tags/privacy/</link>
+      <pubDate>Sat, 29 Dec 2018 13:10:23 +0200</pubDate>
       
-      <guid>https://nicktux.github.io/tags/mic/</guid>
+      <guid>https://nicktux.github.io/tags/privacy/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>New</title>
+      <title>GIMP</title>
+      <link>https://nicktux.github.io/tags/gimp/</link>
+      <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/gimp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>install</title>
+      <link>https://nicktux.github.io/tags/install/</link>
+      <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/install/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>new</title>
       <link>https://nicktux.github.io/tags/new/</link>
-      <pubDate>Sat, 24 Nov 2018 20:19:02 +0200</pubDate>
+      <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
       
       <guid>https://nicktux.github.io/tags/new/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>New Version</title>
+      <title>new version</title>
       <link>https://nicktux.github.io/tags/new-version/</link>
       <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
       
       <guid>https://nicktux.github.io/tags/new-version/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>snap</title>
+      <link>https://nicktux.github.io/tags/snap/</link>
+      <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/snap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>release</title>
+      <link>https://nicktux.github.io/tags/release/</link>
+      <pubDate>Tue, 11 Dec 2018 14:13:46 -0500</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/release/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>upgrade</title>
+      <link>https://nicktux.github.io/tags/upgrade/</link>
+      <pubDate>Tue, 11 Dec 2018 14:13:46 -0500</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/upgrade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apps</title>
+      <link>https://nicktux.github.io/tags/apps/</link>
+      <pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/apps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>packages</title>
+      <link>https://nicktux.github.io/tags/packages/</link>
+      <pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/packages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>telegram</title>
+      <link>https://nicktux.github.io/tags/telegram/</link>
+      <pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/telegram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorials</title>
+      <link>https://nicktux.github.io/tags/tutorials/</link>
+      <pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/tutorials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kernel</title>
+      <link>https://nicktux.github.io/tags/kernel/</link>
+      <pubDate>Sat, 25 Aug 2018 14:52:27 +0300</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/kernel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stable</title>
+      <link>https://nicktux.github.io/tags/stable/</link>
+      <pubDate>Sat, 25 Aug 2018 14:52:27 +0300</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/stable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>suggestion</title>
+      <link>https://nicktux.github.io/tags/suggestion/</link>
+      <pubDate>Sat, 25 Aug 2018 14:52:27 +0300</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/suggestion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thunderbird</title>
+      <link>https://nicktux.github.io/tags/thunderbird/</link>
+      <pubDate>Thu, 03 May 2018 22:30:51 +0300</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/thunderbird/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wifi</title>
+      <link>https://nicktux.github.io/tags/wifi/</link>
+      <pubDate>Tue, 01 May 2018 21:25:02 +0300</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/wifi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>distro changes</title>
+      <link>https://nicktux.github.io/tags/distro-changes/</link>
+      <pubDate>Mon, 16 Apr 2018 22:29:19 +0300</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/distro-changes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>client</title>
+      <link>https://nicktux.github.io/tags/client/</link>
+      <pubDate>Wed, 11 Apr 2018 22:46:06 +0300</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/client/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud</title>
+      <link>https://nicktux.github.io/tags/cloud/</link>
+      <pubDate>Wed, 11 Apr 2018 22:46:06 +0300</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gnome</title>
+      <link>https://nicktux.github.io/tags/gnome/</link>
+      <pubDate>Wed, 11 Apr 2018 22:46:06 +0300</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/gnome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>startup</title>
+      <link>https://nicktux.github.io/tags/startup/</link>
+      <pubDate>Thu, 01 Mar 2018 02:46:56 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/startup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>passwords</title>
+      <link>https://nicktux.github.io/tags/passwords/</link>
+      <pubDate>Tue, 27 Feb 2018 00:08:51 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/passwords/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pwned</title>
+      <link>https://nicktux.github.io/tags/pwned/</link>
+      <pubDate>Tue, 27 Feb 2018 00:08:51 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/pwned/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deck</title>
+      <link>https://nicktux.github.io/tags/deck/</link>
+      <pubDate>Mon, 26 Feb 2018 20:28:39 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/deck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kanban</title>
+      <link>https://nicktux.github.io/tags/kanban/</link>
+      <pubDate>Mon, 26 Feb 2018 20:28:39 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/kanban/</guid>
       <description></description>
     </item>
     
@@ -274,7 +364,25 @@
     </item>
     
     <item>
-      <title>Over_a_year_old</title>
+      <title>Arch Linux</title>
+      <link>https://nicktux.github.io/tags/arch-linux/</link>
+      <pubDate>Sat, 14 Dec 2013 10:25:28 +0300</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/arch-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Custom Kernel</title>
+      <link>https://nicktux.github.io/tags/custom-kernel/</link>
+      <pubDate>Sat, 14 Dec 2013 10:25:28 +0300</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/custom-kernel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>over_a_year_old</title>
       <link>https://nicktux.github.io/tags/over_a_year_old/</link>
       <pubDate>Sat, 14 Dec 2013 10:25:28 +0300</pubDate>
       
@@ -283,155 +391,11 @@
     </item>
     
     <item>
-      <title>Package Manager</title>
-      <link>https://nicktux.github.io/tags/package-manager/</link>
-      <pubDate>Tue, 02 Jul 2013 14:50:44 -0500</pubDate>
+      <title>Arch Wiki</title>
+      <link>https://nicktux.github.io/tags/arch-wiki/</link>
+      <pubDate>Fri, 15 Nov 2013 14:26:59 +0300</pubDate>
       
-      <guid>https://nicktux.github.io/tags/package-manager/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Packages</title>
-      <link>https://nicktux.github.io/tags/packages/</link>
-      <pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/packages/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Password</title>
-      <link>https://nicktux.github.io/tags/password/</link>
-      <pubDate>Mon, 30 Sep 2019 18:55:30 +0300</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/password/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Passwords</title>
-      <link>https://nicktux.github.io/tags/passwords/</link>
-      <pubDate>Tue, 27 Feb 2018 00:08:51 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/passwords/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Peertube</title>
-      <link>https://nicktux.github.io/tags/peertube/</link>
-      <pubDate>Sat, 29 Dec 2018 13:10:23 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/peertube/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Podcast</title>
-      <link>https://nicktux.github.io/tags/podcast/</link>
-      <pubDate>Fri, 05 Apr 2019 18:55:56 +0300</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/podcast/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Privacy</title>
-      <link>https://nicktux.github.io/tags/privacy/</link>
-      <pubDate>Sat, 29 Dec 2018 13:10:23 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pwned</title>
-      <link>https://nicktux.github.io/tags/pwned/</link>
-      <pubDate>Tue, 27 Feb 2018 00:08:51 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/pwned/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Release</title>
-      <link>https://nicktux.github.io/tags/release/</link>
-      <pubDate>Tue, 11 Dec 2018 14:13:46 -0500</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/release/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Repair</title>
-      <link>https://nicktux.github.io/tags/repair/</link>
-      <pubDate>Wed, 03 Jul 2013 00:47:27 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/repair/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Security</title>
-      <link>https://nicktux.github.io/tags/security/</link>
-      <pubDate>Mon, 30 Sep 2019 18:55:30 +0300</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/security/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Snap</title>
-      <link>https://nicktux.github.io/tags/snap/</link>
-      <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/snap/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stable</title>
-      <link>https://nicktux.github.io/tags/stable/</link>
-      <pubDate>Sat, 25 Aug 2018 14:52:27 +0300</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/stable/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Startup</title>
-      <link>https://nicktux.github.io/tags/startup/</link>
-      <pubDate>Thu, 01 Mar 2018 02:46:56 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/startup/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Suggestion</title>
-      <link>https://nicktux.github.io/tags/suggestion/</link>
-      <pubDate>Sat, 25 Aug 2018 14:52:27 +0300</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/suggestion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Telegram</title>
-      <link>https://nicktux.github.io/tags/telegram/</link>
-      <pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/telegram/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Thunderbird</title>
-      <link>https://nicktux.github.io/tags/thunderbird/</link>
-      <pubDate>Thu, 03 May 2018 22:30:51 +0300</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/thunderbird/</guid>
+      <guid>https://nicktux.github.io/tags/arch-wiki/</guid>
       <description></description>
     </item>
     
@@ -445,61 +409,34 @@
     </item>
     
     <item>
-      <title>Troubleshooting</title>
-      <link>https://nicktux.github.io/tags/troubleshooting/</link>
-      <pubDate>Tue, 11 Dec 2018 14:13:46 -0500</pubDate>
+      <title>Linux Mint</title>
+      <link>https://nicktux.github.io/tags/linux-mint/</link>
+      <pubDate>Thu, 07 Nov 2013 17:44:19 +0300</pubDate>
       
-      <guid>https://nicktux.github.io/tags/troubleshooting/</guid>
+      <guid>https://nicktux.github.io/tags/linux-mint/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tutorials</title>
-      <link>https://nicktux.github.io/tags/tutorials/</link>
-      <pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate>
+      <title>cryptography</title>
+      <link>https://nicktux.github.io/tags/cryptography/</link>
+      <pubDate>Fri, 05 Jul 2013 14:32:35 +0100</pubDate>
       
-      <guid>https://nicktux.github.io/tags/tutorials/</guid>
+      <guid>https://nicktux.github.io/tags/cryptography/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Upgrade</title>
-      <link>https://nicktux.github.io/tags/upgrade/</link>
-      <pubDate>Tue, 11 Dec 2018 14:13:46 -0500</pubDate>
+      <title>apg</title>
+      <link>https://nicktux.github.io/tags/apg/</link>
+      <pubDate>Thu, 04 Jul 2013 22:42:11 +0200</pubDate>
       
-      <guid>https://nicktux.github.io/tags/upgrade/</guid>
+      <guid>https://nicktux.github.io/tags/apg/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Usb</title>
-      <link>https://nicktux.github.io/tags/usb/</link>
-      <pubDate>Fri, 05 Apr 2019 18:55:56 +0300</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/usb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wifi</title>
-      <link>https://nicktux.github.io/tags/wifi/</link>
-      <pubDate>Tue, 01 May 2018 21:25:02 +0300</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/wifi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Windows Installer</title>
-      <link>https://nicktux.github.io/tags/windows-installer/</link>
-      <pubDate>Tue, 11 Jun 2013 06:09:44 -0500</pubDate>
-      
-      <guid>https://nicktux.github.io/tags/windows-installer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wireless</title>
+      <title>wireless</title>
       <link>https://nicktux.github.io/tags/wireless/</link>
       <pubDate>Wed, 03 Jul 2013 17:18:12 +0200</pubDate>
       
@@ -508,7 +445,97 @@
     </item>
     
     <item>
-      <title>Wubi</title>
+      <title>boot</title>
+      <link>https://nicktux.github.io/tags/boot/</link>
+      <pubDate>Wed, 03 Jul 2013 00:47:27 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/boot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>repair</title>
+      <link>https://nicktux.github.io/tags/repair/</link>
+      <pubDate>Wed, 03 Jul 2013 00:47:27 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/repair/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>package manager</title>
+      <link>https://nicktux.github.io/tags/package-manager/</link>
+      <pubDate>Tue, 02 Jul 2013 14:50:44 -0500</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/package-manager/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>community</title>
+      <link>https://nicktux.github.io/tags/community/</link>
+      <pubDate>Tue, 02 Jul 2013 18:54:28 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>contirbution</title>
+      <link>https://nicktux.github.io/tags/contirbution/</link>
+      <pubDate>Tue, 02 Jul 2013 18:54:28 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/contirbution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>member</title>
+      <link>https://nicktux.github.io/tags/member/</link>
+      <pubDate>Tue, 02 Jul 2013 18:54:28 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/member/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>events</title>
+      <link>https://nicktux.github.io/tags/events/</link>
+      <pubDate>Tue, 02 Jul 2013 02:16:08 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fosscomm</title>
+      <link>https://nicktux.github.io/tags/fosscomm/</link>
+      <pubDate>Tue, 02 Jul 2013 02:16:08 +0200</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/fosscomm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>announce</title>
+      <link>https://nicktux.github.io/tags/announce/</link>
+      <pubDate>Tue, 11 Jun 2013 06:09:44 -0500</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/announce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows installer</title>
+      <link>https://nicktux.github.io/tags/windows-installer/</link>
+      <pubDate>Tue, 11 Jun 2013 06:09:44 -0500</pubDate>
+      
+      <guid>https://nicktux.github.io/tags/windows-installer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wubi</title>
       <link>https://nicktux.github.io/tags/wubi/</link>
       <pubDate>Tue, 11 Jun 2013 06:09:44 -0500</pubDate>
       

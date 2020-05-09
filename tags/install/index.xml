@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Install on NickTux</title>
+    <title>install on NickTux</title>
     <link>https://nicktux.github.io/tags/install/</link>
-    <description>Recent content in Install on NickTux</description>
+    <description>Recent content in install on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <copyright>Copyleft (ɔ) 2019.&lt;br&gt; No rights reserved.</copyright>
+    <copyright>Copyleft (ɔ) 2020.&lt;br&gt; No rights reserved.</copyright>
     <lastBuildDate>Sat, 22 Dec 2018 19:56:06 +0200</lastBuildDate>
     
 	<atom:link href="https://nicktux.github.io/tags/install/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +18,7 @@
       <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
       
       <guid>https://nicktux.github.io/post/gimp210-lm19/</guid>
-      <description>&lt;p&gt;Σε αυτή τη δημοσίευση θα δούμε έναν τρόπο εγκατάστασης της νέας έκδοσης του GIMP 2.10 σε Linux Mint 19.1, την οποία έχω ήδη δοκιμάσει και λειτουργεί χωρίς προβλήματα.&lt;br&gt;
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;Σε αυτή τη δημοσίευση θα δούμε έναν τρόπο εγκατάστασης της νέας έκδοσης του GIMP 2.10 σε Linux Mint 19.1, την οποία έχω ήδη δοκιμάσει και λειτουργεί χωρίς προβλήματα.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

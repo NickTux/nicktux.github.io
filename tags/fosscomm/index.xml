@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fosscomm on NickTux</title>
+    <title>fosscomm on NickTux</title>
     <link>https://nicktux.github.io/tags/fosscomm/</link>
-    <description>Recent content in Fosscomm on NickTux</description>
+    <description>Recent content in fosscomm on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <copyright>Copyleft (ɔ) 2019.&lt;br&gt; No rights reserved.</copyright>
+    <copyright>Copyleft (ɔ) 2020.&lt;br&gt; No rights reserved.</copyright>
     <lastBuildDate>Tue, 02 Jul 2013 02:16:08 +0200</lastBuildDate>
     
 	<atom:link href="https://nicktux.github.io/tags/fosscomm/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +18,7 @@
       <pubDate>Tue, 02 Jul 2013 02:16:08 +0200</pubDate>
       
       <guid>https://nicktux.github.io/post/fosscomm-2013/</guid>
-      <description>&lt;p&gt;H Ελληνική κοινότητα Ubuntu (Ubuntu-gr) συμμετείχε και φέτος στην Fosscomm 2013, που πραγματοποιήθηκε στο Χαροκόπειο Πανεπιστήμιο Αθηνών με δικό της booth - καθώς και παρουσιάσεις.
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;H Ελληνική κοινότητα Ubuntu (Ubuntu-gr) συμμετείχε και φέτος στην Fosscomm 2013, που πραγματοποιήθηκε στο Χαροκόπειο Πανεπιστήμιο Αθηνών με δικό της booth - καθώς και παρουσιάσεις.&lt;/p&gt;</description>
     </item>
     
   </channel>

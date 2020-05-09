@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Thunderbird on NickTux</title>
+    <title>thunderbird on NickTux</title>
     <link>https://nicktux.github.io/tags/thunderbird/</link>
-    <description>Recent content in Thunderbird on NickTux</description>
+    <description>Recent content in thunderbird on NickTux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <copyright>Copyleft (ɔ) 2019.&lt;br&gt; No rights reserved.</copyright>
+    <copyright>Copyleft (ɔ) 2020.&lt;br&gt; No rights reserved.</copyright>
     <lastBuildDate>Thu, 03 May 2018 22:30:51 +0300</lastBuildDate>
     
 	<atom:link href="https://nicktux.github.io/tags/thunderbird/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +18,7 @@
       <pubDate>Thu, 03 May 2018 22:30:51 +0300</pubDate>
       
       <guid>https://nicktux.github.io/post/ubuntu-bionic-thunderbird-subject-emoji/</guid>
-      <description>&lt;p&gt;Αναβαθμίζοντας στην έκδοση του Ubuntu 18.04 και χρησιμοποιώντας τον Thunderbird ως Email Client ίσως έρθετε αντιμέτωποι με αυτό το περίεργο σφάλμα, το οποίο δεν είμαι σίγουρος εάν οφείλεται στη γραμματοσειρά (.ttf) ή στον συνδυασμό γραμματοσειράς και Thunderbird.
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;Αναβαθμίζοντας στην έκδοση του Ubuntu 18.04 και χρησιμοποιώντας τον Thunderbird ως Email Client ίσως έρθετε αντιμέτωποι με αυτό το περίεργο σφάλμα, το οποίο δεν είμαι σίγουρος εάν οφείλεται στη γραμματοσειρά (.ttf) ή στον συνδυασμό γραμματοσειράς και Thunderbird.&lt;/p&gt;</description>
     </item>
     
   </channel>

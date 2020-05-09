@@ -4,11 +4,12 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="ocs-site-verification" content="e2c5622b648e93874896c7ec27f1907f" />
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.40.1" />
+  <meta name="generator" content="Hugo 0.68.3" />
 
   <title>Κρυπτογράφηση αρχείων και φακέλων με το OpenSSL &middot; NickTux</title>
+
+    
 
   
   
@@ -31,15 +32,16 @@
   <link rel="stylesheet" href="https://nicktux.github.io/css/blackburn.css">
 
   
-  <link rel="stylesheet" href="https://nicktux.github.io/css/all.css">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
 
   
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 
-
   
-   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
 
   
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
@@ -54,7 +56,6 @@
   
 
 </head>
-
 
 <body>
 <div id="layout">
@@ -140,10 +141,6 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
-   
-
-    
-
     
     <li class="pure-menu-item">
 	    <a class="pure-menu-link" href="https://librenet.gr/people/9cf6700052fd01321c2d515647245e7c" target="_blank"><i class="fab fa-diaspora fa-fw"></i>Diaspora</a>
@@ -174,11 +171,10 @@
 
   <div>
   <div class="small-print">
-    <small>Copyleft (ɔ) 2019.<br> No rights reserved.</small>
+    <small>Copyleft (ɔ) 2020.<br> No rights reserved.</small>
   </div>
   <div class="small-print">
     <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
-    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
   </div>
 </div>
 
@@ -233,56 +229,30 @@
 
 </div>
 
-  <pre style="width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:'Ubuntu';font-style:normal;font-size:medium;">ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!</pre>
-
-<p>Υπάρχουν πάρα πολλά προγράμματα κρυπτογράφησης. Εδώ θα δούμε ένα προ-εγκατεστημένο (στο Ubuntu και τις περισσότερες διανομές) εργαλείο, ονόματι OpenSSL. Μια εντολή σε τερματικό* είναι. Μια για κρυπτογράφηση και μια για αποκρυπτογράφηση. Εύκολα και γρήγορα. Το μόνο που πρέπει να φυλάξετε σε ασφαλές μέρος είναι  ο κωδικός αποκρυπτογράφησης.
-</p>
-
-<h3 id="κρυπτογράφηση-αποκρυπτογράφηση-αρχείου">Κρυπτογράφηση/αποκρυπτογράφηση αρχείου.</h3>
-
+  <!-- raw HTML omitted -->
+<p>Υπάρχουν πάρα πολλά προγράμματα κρυπτογράφησης. Εδώ θα δούμε ένα προ-εγκατεστημένο (στο Ubuntu και τις περισσότερες διανομές) εργαλείο, ονόματι OpenSSL. Μια εντολή σε τερματικό* είναι. Μια για κρυπτογράφηση και μια για αποκρυπτογράφηση. Εύκολα και γρήγορα. Το μόνο που πρέπει να φυλάξετε σε ασφαλές μέρος είναι  ο κωδικός αποκρυπτογράφησης.</p>
+<h3 id="κρυπτογράφησηαποκρυπτογράφηση-αρχείου">Κρυπτογράφηση/αποκρυπτογράφηση αρχείου.</h3>
 <pre><code>openssl aes-256-cbc -in file -out file.aes
-</code></pre>
-
-<p>Θα σας ζητήσει να εισάγετε έναν κωδικό δυο φορές. Αυτόν φυλάξτε τον κάπου εκτός υπολογιστή.</p>
-
+</code></pre><p>Θα σας ζητήσει να εισάγετε έναν κωδικό δυο φορές. Αυτόν φυλάξτε τον κάπου εκτός υπολογιστή.</p>
 <pre><code>openssl aes-256-cbc -d -in file.aes -out file
-</code></pre>
-
-<p>Θα σας ζητήσει να εισάγετε τον κωδικό αποκρυπτογράφησης.</p>
-
-<h3 id="κρυπτογράφηση-αποκρυπτογράφηση-φακέλου">Κρυπτογράφηση/Αποκρυπτογράφηση Φακέλου</h3>
-
+</code></pre><p>Θα σας ζητήσει να εισάγετε τον κωδικό αποκρυπτογράφησης.</p>
+<h3 id="κρυπτογράφησηαποκρυπτογράφηση-φακέλου">Κρυπτογράφηση/Αποκρυπτογράφηση Φακέλου</h3>
 <p>Εδώ χρησιμοποιούμε το OpenSSL σε συνδυασμό με την tar.</p>
-
 <pre><code>tar -zcf - directory | openssl aes-256-cbc -out directory.tar.gz.aes
-</code></pre>
-
-<p>Θα σας ζητήσει να εισάγετε τον κωδικό δυο φορές. Όπου directory το αντικαθιστούμε με τον φάκελο που θέλουμε να κρυπτογραφήσουμε.</p>
-
+</code></pre><p>Θα σας ζητήσει να εισάγετε τον κωδικό δυο φορές. Όπου directory το αντικαθιστούμε με τον φάκελο που θέλουμε να κρυπτογραφήσουμε.</p>
 <pre><code>openssl aes-256-cbc -d  -in directory.tar.gz.aes | tar -xz -f
-</code></pre>
-
-<p>Θα σας ζητήσει τον κωδικό αποκρυπτογράφησης που δώσατε πριν.</p>
-
+</code></pre><p>Θα σας ζητήσει τον κωδικό αποκρυπτογράφησης που δώσατε πριν.</p>
 <p>Μην ξεχνάτε πως οι παραπάνω εντολές δεν διαγράφουν τα αρχικά αρχεία-φακέλους. Θα πρέπει να τα διαγράψετε μόνοι σας αν θέλετε.</p>
-
-<hr />
-
-<p><span style="font-size:small;color:#999999;">Until next time &hellip;<br>
-&ldquo;Keep Your Mind in a Constant State of Openness&rdquo;</span></p>
+<hr>
+<p><!-- raw HTML omitted -->Until next time &hellip;<!-- raw HTML omitted -->
+&ldquo;Keep Your Mind in a Constant State of Openness&quot;<!-- raw HTML omitted --></p>
 
   
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://nicktux.github.io/post/apg-strong-passwords/"><i class="fa fa-chevron-left"></i></a>
-    
   </div>
   <div class="pure-u-10-24">
-    
-    <nav class="prev">
-      <a href="https://nicktux.github.io/post/apg-strong-passwords/">Παραγωγή ισχυρών κωδικών</a>
-    </nav>
     
   </div>
   <div class="pure-u-2-24">
@@ -290,14 +260,8 @@
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://nicktux.github.io/post/linux-mint-oliver-grawert/">Linux Mint - Ένα ευάλωτο παρακλάδι του Ubuntu ;</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://nicktux.github.io/post/linux-mint-oliver-grawert/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>

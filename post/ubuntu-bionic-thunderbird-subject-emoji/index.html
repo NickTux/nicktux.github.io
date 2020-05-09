@@ -4,11 +4,12 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="ocs-site-verification" content="e2c5622b648e93874896c7ec27f1907f" />
   <meta name="description" content="Υπερβολικά μεγάλα Emoji στο Subject line του Thunderbird και πως να το διορθώσετε">
-  <meta name="generator" content="Hugo 0.40.1" />
+  <meta name="generator" content="Hugo 0.68.3" />
 
   <title>[Ubuntu 18.04] Thunderbird και Emoji &middot; NickTux</title>
+
+    
 
   
   
@@ -31,15 +32,16 @@
   <link rel="stylesheet" href="https://nicktux.github.io/css/blackburn.css">
 
   
-  <link rel="stylesheet" href="https://nicktux.github.io/css/all.css">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
 
   
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 
-
   
-   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
 
   
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
@@ -54,7 +56,6 @@
   
 
 </head>
-
 
 <body>
 <div id="layout">
@@ -140,10 +141,6 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
-   
-
-    
-
     
     <li class="pure-menu-item">
 	    <a class="pure-menu-link" href="https://librenet.gr/people/9cf6700052fd01321c2d515647245e7c" target="_blank"><i class="fab fa-diaspora fa-fw"></i>Diaspora</a>
@@ -174,11 +171,10 @@
 
   <div>
   <div class="small-print">
-    <small>Copyleft (ɔ) 2019.<br> No rights reserved.</small>
+    <small>Copyleft (ɔ) 2020.<br> No rights reserved.</small>
   </div>
   <div class="small-print">
     <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
-    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
   </div>
 </div>
 
@@ -237,68 +233,41 @@
 
 </div>
 
-  <p>Αναβαθμίζοντας στην έκδοση του Ubuntu 18.04 και χρησιμοποιώντας τον Thunderbird ως Email Client ίσως έρθετε αντιμέτωποι με αυτό το περίεργο σφάλμα, το οποίο δεν είμαι σίγουρος εάν οφείλεται στη γραμματοσειρά (.ttf) ή στον συνδυασμό γραμματοσειράς και Thunderbird.
-</p>
-
-<h3>Το πρόβλημα</h3>
-
-<p>Η νέα μόδα Marketing και Sales είναι η ενσωμάτωση εικονιδίων στο Subject Line του Email. Προσωπικά το βρίσκω αχρείαστο, αλλά δεν είναι απαραίτητα και κακό. Πολλές εταιρίες επιλέγουν αυτό τον τρόπο για να ενθαρρύνουν τον χρήστη έστω να ανοίξει το Email.<br>
-Πολλοί χρήστες όταν αντιληφθούν Sales/Marketing μηνύματα η πρώτη τους ενέργεια είναι να τα στείλουν στον κάδο χωρίς καν να τα ανοίξουν ή στον φάκελο με τα ανεπιθύμητα.<br>
+  <p>Αναβαθμίζοντας στην έκδοση του Ubuntu 18.04 και χρησιμοποιώντας τον Thunderbird ως Email Client ίσως έρθετε αντιμέτωποι με αυτό το περίεργο σφάλμα, το οποίο δεν είμαι σίγουρος εάν οφείλεται στη γραμματοσειρά (.ttf) ή στον συνδυασμό γραμματοσειράς και Thunderbird.</p>
+<!-- raw HTML omitted -->
+<p>Η νέα μόδα Marketing και Sales είναι η ενσωμάτωση εικονιδίων στο Subject Line του Email. Προσωπικά το βρίσκω αχρείαστο, αλλά δεν είναι απαραίτητα και κακό. Πολλές εταιρίες επιλέγουν αυτό τον τρόπο για να ενθαρρύνουν τον χρήστη έστω να ανοίξει το Email.<!-- raw HTML omitted -->
+Πολλοί χρήστες όταν αντιληφθούν Sales/Marketing μηνύματα η πρώτη τους ενέργεια είναι να τα στείλουν στον κάδο χωρίς καν να τα ανοίξουν ή στον φάκελο με τα ανεπιθύμητα.<!-- raw HTML omitted -->
 Στον Thunderbird, στο Ubuntu 18.04, αυτά τα εικονίδια εμφανίζονται υπερβολικά μεγάλα με αποτέλεσμα να χαλάει εκτός από την αιθητική και το subject line του μηνύματος.</p>
-
-<p><a href="https://i.imgur.com/D1sDbKy.jpg" target="_blank"><img src="https://i.imgur.com/D1sDbKy.jpg" alt="" width="640" height="360" class="alignleft size-full" /></a><br></p>
-
-<h3>1η Λύση</h3>
-
-<p>Ίσως σας φανεί απλή και λίγο ακατανόητη, αλλά η συγκεκριμένη λύση δούλεψε σε Debian (Buster). Στο Ubuntu 18.04 δούλεψε η δεύτερη(παρακάτω) λύση, εσείς όμως μπορείτε να δοκιμάσετε και τις δυο με τη σειρά.<br>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p>Ίσως σας φανεί απλή και λίγο ακατανόητη, αλλά η συγκεκριμένη λύση δούλεψε σε Debian (Buster). Στο Ubuntu 18.04 δούλεψε η δεύτερη(παρακάτω) λύση, εσείς όμως μπορείτε να δοκιμάσετε και τις δυο με τη σειρά.<!-- raw HTML omitted -->
 Απλά μεταφέρουμε το αρχείο της γραμματοσειράς εκτός τοποθεσίας, κάνουμε μια ενημέρωση των fonts του συστήματος, έπειτα μεταφέρουμε ξανά το αρχείο γραμματοσειράς στη θέση του και κάνουμε ξανά ενημέρωση των Fonts του συστήματος. Τόσο απλό και επιτυγχάνεται με τις παρακάτω εντολές σε ένα τερματικό και φυσικά τον Thunderbird κλειστό.</p>
-
 <pre><code>sudo mv /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf ~/
 sudo fc-cache -v 
 sudo mv NotoColorEmoji.ttf /usr/share/fonts/truetype/noto
 sudo fc-cache -v
-</code></pre>
-
-<h4>Αποτέλεσμα</h4>
-
-<p><a href="https://i.imgur.com/gSYAopD.jpg" target="_blank"><img src="https://i.imgur.com/gSYAopD.jpg" alt="" width="640" height="360" class="alignleft size-full" /></a><br></p>
-
-<h3>2η Λύση</h3>
-
-<p>Η δεύτερη λύση έχει να κάνει με την αντικατάσταση της γραμματοσειράς με εκείνη που διατίθεται από την Google. Τη βρίσκουμε και την κάνουμε λήψη από το αποθετήριο<br>στο GitHub ⤏ <a href="https://github.com/googlei18n/noto-emoji">https://github.com/googlei18n/noto-emoji</a><br>
-Εάν γνωρίζουμε τη βασική χρήση του GitHub μπορούμε να χρησιμοποιήσουμε τις γνώσεις μας για τη λήψη του αποθετηρίου. Διαφορετικά κάνουμε κλικ στο &ldquo;Clone or Download&rdquo; και κάνουμε λήψη το αρχείο σε μορφή Zip που από προεπιλογή θα μεταφερθεί στον κατάλογο Downloads (ή Λήψεις) του υπολογιστή μας.<br>
+</code></pre><!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p>Η δεύτερη λύση έχει να κάνει με την αντικατάσταση της γραμματοσειράς με εκείνη που διατίθεται από την Google. Τη βρίσκουμε και την κάνουμε λήψη από το αποθετήριο<!-- raw HTML omitted -->στο GitHub ⤏ <a href="https://github.com/googlei18n/noto-emoji">https://github.com/googlei18n/noto-emoji</a><!-- raw HTML omitted -->
+Εάν γνωρίζουμε τη βασική χρήση του GitHub μπορούμε να χρησιμοποιήσουμε τις γνώσεις μας για τη λήψη του αποθετηρίου. Διαφορετικά κάνουμε κλικ στο &ldquo;Clone or Download&rdquo; και κάνουμε λήψη το αρχείο σε μορφή Zip που από προεπιλογή θα μεταφερθεί στον κατάλογο Downloads (ή Λήψεις) του υπολογιστή μας.<!-- raw HTML omitted -->
 Λαμβάνοντας υπόψη τη δεύτερη μέθοδο βλέπουμε παρακάτω την αντικατάσταση της γραμματοσειράς.</p>
-
 <pre><code>cd Downloads
 unzip noto-emoji-master.zip
 cd noto-emoji-master/fonts
 sudo mv * /usr/share/fonts/truetype/noto/
 sudo fc-cache -v
-</code></pre>
-
-<p><a href="https://i.imgur.com/aehFlXk.jpg" target="_blank"><img src="https://i.imgur.com/aehFlXk.jpg" alt="" width="640" height="360" class="alignleft size-full" /></a><br></p>
-
-<h4>Αποτέλεσμα</h4>
-
-<p><a href="https://i.imgur.com/yzNjNWz.jpg" target="_blank"><img src="https://i.imgur.com/yzNjNWz.jpg" alt="" width="640" height="360" class="alignleft size-full" /></a><br></p>
-
-<hr />
-
-<p><span style="font-size:small;color:#999999;">Until next time &hellip;
-&ldquo;Keep Your Mind in a Constant State of Openness&rdquo;</span></p>
+</code></pre><p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
 
   
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://nicktux.github.io/post/ubuntu-bionic-wifi-status-icon/"><i class="fa fa-chevron-left"></i></a>
-    
   </div>
   <div class="pure-u-10-24">
-    
-    <nav class="prev">
-      <a href="https://nicktux.github.io/post/ubuntu-bionic-wifi-status-icon/">[Ubuntu 18.04] Εικονίδιο WiFi με ερωτηματικό (?)</a>
-    </nav>
     
   </div>
   <div class="pure-u-2-24">
@@ -306,14 +275,8 @@ sudo fc-cache -v
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://nicktux.github.io/post/which-kernel/">Ποιόν σταθερό πυρήνα</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://nicktux.github.io/post/which-kernel/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>

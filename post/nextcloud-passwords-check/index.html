@@ -4,11 +4,12 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="ocs-site-verification" content="e2c5622b648e93874896c7ec27f1907f" />
   <meta name="description" content="Το Nextcloud θα ελέγχει τους κωδικούς των χρηστών για αδυναμίες.">
-  <meta name="generator" content="Hugo 0.40.1" />
+  <meta name="generator" content="Hugo 0.68.3" />
 
   <title>Nextcloud: Έλεγχος Κωδικών Χρηστών &middot; NickTux</title>
+
+    
 
   
   
@@ -31,15 +32,16 @@
   <link rel="stylesheet" href="https://nicktux.github.io/css/blackburn.css">
 
   
-  <link rel="stylesheet" href="https://nicktux.github.io/css/all.css">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
 
   
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 
-
   
-   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
 
   
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
@@ -54,7 +56,6 @@
   
 
 </head>
-
 
 <body>
 <div id="layout">
@@ -140,10 +141,6 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
-   
-
-    
-
     
     <li class="pure-menu-item">
 	    <a class="pure-menu-link" href="https://librenet.gr/people/9cf6700052fd01321c2d515647245e7c" target="_blank"><i class="fab fa-diaspora fa-fw"></i>Diaspora</a>
@@ -174,11 +171,10 @@
 
   <div>
   <div class="small-print">
-    <small>Copyleft (ɔ) 2019.<br> No rights reserved.</small>
+    <small>Copyleft (ɔ) 2020.<br> No rights reserved.</small>
   </div>
   <div class="small-print">
     <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
-    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
   </div>
 </div>
 
@@ -233,54 +229,32 @@
 
 </div>
 
-  
-
-<p>Σε πρόσφατη δημοσίευσή τους οι δημιουργοί του πλέον δημοφιλούς Nextcloud ανακοίνωσαν πως προτίθενται να ελέγχουν τους κωδικούς όσων τρέχουν κάποιο Nextcloud Instance με ένα built-in module, για τυχόν αδυναμίες.</p>
-
+  <p>Σε πρόσφατη δημοσίευσή τους οι δημιουργοί του πλέον δημοφιλούς Nextcloud ανακοίνωσαν πως προτίθενται να ελέγχουν τους κωδικούς όσων τρέχουν κάποιο Nextcloud Instance με ένα built-in module, για τυχόν αδυναμίες.</p>
 <h3 id="γιατί">Γιατί;</h3>
-
 <p>Λόγω του ότι οι χρήστες τείνουν να χρησιμοποιούν τους ίδιους κωδικούς σε πολλαπλές τοποθεσίες και επειδή αυτό δημιουργεί έναν σημαντικό κίνδυνο σε περίπτωση κλοπής του κωδικού, οι προγραμματιστές του Nextcloud αποφάσισαν να μειώσουν αυτό τον κίνδυνο με άλλo ένα χαρακτηριστικό ασφαλείας (Security Feature).</p>
-
-<p><img src="https://nicktux.github.io/img/post/pwned.jpg" alt="Pwned" title="Have I Been Pwned?" /></p>
-
+<p><img src="https://nicktux.github.io/img/post/pwned.jpg" alt="Pwned" title="Have I Been Pwned?"></p>
 <h3 id="have-i-been-pwned">Have I Been Pwned?</h3>
-
 <p>Ένα από τα πιο γνωστά sites συλλογής εκτεθιμένων/σπασμένων κωδικών είναι το <code>HaveIBeenPwned.com</code>
-<br>Η βάση δεδομένων για τους κωδικούς φτάνει τα 500 εκατομμύρια, με όγκο αρχείου περί τα 8,8GB.</p>
-
+<!-- raw HTML omitted -->Η βάση δεδομένων για τους κωδικούς φτάνει τα 500 εκατομμύρια, με όγκο αρχείου περί τα 8,8GB.</p>
 <h3 id="πως">Πως;</h3>
-
 <p>Μέσω ενός public API που διαθέτει το προαναφερόμενο site και ενός νέου security module το Nextcloud θα ελέγχει το hash των 5 πρώτων χαρακτήρων του κωδικού του χρήστη. Δηλαδή, θα το στέλνει για έλεγχο στο συγκεκριμένο site αναμένοντας τα αποτελέσματα.</p>
-
 <h3 id="και-θα-δώσω-τον-κωδικό-μου-ή-μέρος-αυτού-σε-κάποιο-site-για-έλεγχο">Και θα δώσω τον κωδικό μου ή μέρος αυτού σε κάποιο site για έλεγχο;</h3>
-
 <p>Όχι αν δεν θέλεις.
 Το Nextcloud είναι της φιλοσοφίας opt-in, οπότε το συγκεκριμένο χαρακτηριστικό θα είναι <strong>απενεργοποιημένο από προεπιλογή</strong>. Μόνον οι Admin του εκάστοτε Nextcloud Instance θα μπορούν να το ενεργοποιήσουν.</p>
-
 <h3 id="πότε">Πότε;</h3>
-
 <p>Σύντομα. Στην αρχή είχαν αναφερθεί για την έκδοση 14, μιας και πρόκειται για ένα εντελώς νέο χαρακτηριστικό. Λόγω του ότι πρόκειται για χαρακτηριστικό ασφαλείας όμως, αποφάσισαν από την επόμενη μικρή έκδοση (point release) να το ενσωματώσουν. Οπότε, το αναμένουμε στη 13.0.1.</p>
-
 <p>Διαβάστε όλο το άρθρο στο <a href="https://nextcloud.com/blog/nextcloud-will-check-passwords-against-database-of-haveibeenpwned">Nextcloud/blog</a></p>
-
-<hr />
-
-<p><span style="font-size:small;color:#999999;">Until next time &hellip;
-&ldquo;Keep Your Mind in a Constant State of Openness&rdquo;</span></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted -->Until next time &hellip;
+&ldquo;Keep Your Mind in a Constant State of Openness&quot;<!-- raw HTML omitted --></p>
 
 
   
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://nicktux.github.io/post/nextcloud-apps-deck/"><i class="fa fa-chevron-left"></i></a>
-    
   </div>
   <div class="pure-u-10-24">
-    
-    <nav class="prev">
-      <a href="https://nicktux.github.io/post/nextcloud-apps-deck/">Nextcloud Apps Deck</a>
-    </nav>
     
   </div>
   <div class="pure-u-2-24">
@@ -288,14 +262,8 @@
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://nicktux.github.io/post/gnome-startup-apps-delay/">[GNOME] Καθυστέρηση Εκκίνησης Εφαρμογών</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://nicktux.github.io/post/gnome-startup-apps-delay/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>
