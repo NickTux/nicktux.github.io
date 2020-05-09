@@ -18,7 +18,7 @@
       <pubDate>Sat, 09 May 2020 12:30:11 +0300</pubDate>
       
       <guid>https://nicktux.gr/post/fix-time-ubuntu-windows/</guid>
-      <description>&lt;p&gt;Σε ένα σύστημα διπλής εκκίνησης (dual boot) είναι πιθανό να αντιμετωπίζουμε πρόβλημα με τη διαφορά ώρας κάθε φορά που κάνουμε επανεκκίνηση από Ubuntu σε Windows. Αυτό οφείλεται στα διαφορετικά ρολόγια που χρησιμοποιούν τα δυο λειτουργικά.&lt;!-- raw HTML omitted --&gt; Παρακάτω σημειώνουμε πως μπορούμε να το διορθώσουμε.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Σε ένα σύστημα διπλής εκκίνησης (dual boot) είναι πιθανό να αντιμετωπίζουμε πρόβλημα με τη διαφορά ώρας κάθε φορά που κάνουμε επανεκκίνηση από Ubuntu σε Windows. Αυτό οφείλεται στα διαφορετικά ρολόγια που χρησιμοποιούν τα δυο λειτουργικά.&lt;br&gt; Παρακάτω σημειώνουμε πως μπορούμε να το διορθώσουμε.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@
       <pubDate>Wed, 03 Jul 2013 17:18:12 +0200</pubDate>
       
       <guid>https://nicktux.gr/post/problems-wireless-ubuntu/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;center&gt;&lt;a href=&#34;https://i.imgur.com/WP294Er.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/WP294Erl.jpg&#34; alt=&#34;&#34; class=&#34;aligncenter&#34; /&gt;&lt;/a&gt;&lt;/center&gt;
 &lt;p&gt;Τα προβλήματα στην ασύρματη σύνδεση μπορεί να ποικίλουν. Γι&amp;rsquo; αυτό δεν υπάρχει κάποιος γενικός κανόνας επίλυσης τέτοιων προβλημάτων.
 Το καλύτερο που μπορείτε να κάνετε είναι να ζητήσετε βοήθεια από ένα φόρουμ υποστήριξης και βοηθείας για το Ubuntu.&lt;/p&gt;</description>
     </item>
@@ -85,7 +85,7 @@
       <pubDate>Tue, 02 Jul 2013 17:16:40 +0200</pubDate>
       
       <guid>https://nicktux.gr/post/reset-password-ubuntu/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;center&gt;&lt;a href=&#34;https://i.imgur.com/6A7JEZml.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/6A7JEZml.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/center&gt;
 &lt;p&gt;Υπάρχουν διάφοροι λόγοι όπου μπορεί να θέλουμε να επαναφέρουμε τον κωδικό μας στο Ubuntu.&lt;/p&gt;</description>
     </item>
     

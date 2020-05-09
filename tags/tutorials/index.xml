@@ -18,7 +18,7 @@
       <pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate>
       
       <guid>https://nicktux.gr/post/telegram-mint-tara/</guid>
-      <description>&lt;p&gt;Σε αυτή τη δημοσίευση θα δούμε βήμα-βήμα πως κάνουμε λήψη και εγκατάσταση του Telegram Desktop App, στο λειτουργικό μας σύστημα.&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;p&gt;Σε αυτή τη δημοσίευση θα δούμε βήμα-βήμα πως κάνουμε λήψη και εγκατάσταση του Telegram Desktop App, στο λειτουργικό μας σύστημα.&lt;br&gt;
 Αν και φαντάζει απλό και εύκολο, θα κάνουμε τη διαδικασία με έναν διαφορετικό τρόπο και θα εξηγήσουμε το (τα) γιατί.&lt;/p&gt;</description>
     </item>
     
@@ -30,8 +30,8 @@
       <guid>https://nicktux.gr/post/gnome-startup-apps-delay/</guid>
       <description>&lt;p&gt;Υπάρχουν πολλοί και διάφοροι τρόποι για να πετύχει κάποιος την καθυστέρηση εκκίνησης μιας εφαρμογής.
 Ίσως ο πιο συνηθισμένος από αυτούς να είναι η δημιουργία ενός απλού εκτελέσιμου script με sleep κλπ και η προσθήκη αυτού στις εφαρμογές εκκίνησης.
-&lt;!-- raw HTML omitted --&gt;Εδώ θα δούμε έναν απλό τρόπο, με μια γραμμή κώδικα την οποία προσθέτουμε στο ήδη υπάρχον αρχείο με κατάληξη &lt;code&gt;.desktop&lt;/code&gt;.
-&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+&lt;br&gt;Εδώ θα δούμε έναν απλό τρόπο, με μια γραμμή κώδικα την οποία προσθέτουμε στο ήδη υπάρχον αρχείο με κατάληξη &lt;code&gt;.desktop&lt;/code&gt;.
+&lt;br&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@
       <pubDate>Wed, 03 Jul 2013 17:18:12 +0200</pubDate>
       
       <guid>https://nicktux.gr/post/problems-wireless-ubuntu/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;center&gt;&lt;a href=&#34;https://i.imgur.com/WP294Er.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/WP294Erl.jpg&#34; alt=&#34;&#34; class=&#34;aligncenter&#34; /&gt;&lt;/a&gt;&lt;/center&gt;
 &lt;p&gt;Τα προβλήματα στην ασύρματη σύνδεση μπορεί να ποικίλουν. Γι&amp;rsquo; αυτό δεν υπάρχει κάποιος γενικός κανόνας επίλυσης τέτοιων προβλημάτων.
 Το καλύτερο που μπορείτε να κάνετε είναι να ζητήσετε βοήθεια από ένα φόρουμ υποστήριξης και βοηθείας για το Ubuntu.&lt;/p&gt;</description>
     </item>
@@ -79,7 +79,7 @@
       <pubDate>Tue, 02 Jul 2013 17:16:40 +0200</pubDate>
       
       <guid>https://nicktux.gr/post/reset-password-ubuntu/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;center&gt;&lt;a href=&#34;https://i.imgur.com/6A7JEZml.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/6A7JEZml.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/center&gt;
 &lt;p&gt;Υπάρχουν διάφοροι λόγοι όπου μπορεί να θέλουμε να επαναφέρουμε τον κωδικό μας στο Ubuntu.&lt;/p&gt;</description>
     </item>
     
