@@ -4,10 +4,10 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta name="description" content="σε Ubuntu 20.04 LTS">
   <meta name="generator" content="Hugo 0.68.3" />
 
-  <title>Time &middot; NickTux</title>
+  <title>Αναπαραγωγή Youtube playlist στον VLC &middot; NickTux</title>
 
     
 
@@ -42,9 +42,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
  
-  
-  <link rel="alternate" type="application/rss+xml" title="NickTux"
-    href='https://nicktux.gr/tags/time/index.xml' />
   
 
   
@@ -195,16 +192,12 @@
 
 
 <div class="header">
-  <h1>Time</h1>
+  <h1>Αναπαραγωγή Youtube playlist στον VLC</h1>
+  <h2>σε Ubuntu 20.04 LTS</h2>
 </div>
-
 <div class="content">
-  
-    <article>
-  <header>
-    <h2><a href="https://nicktux.gr/post/vlc-youtube-playlist/">Αναπαραγωγή Youtube playlist στον VLC</a></h2>
 
-    <div class="post-meta">
+  <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
@@ -249,82 +242,54 @@
 
 </div>
 
-  </header>
-
-  <p>
   <p>Παρακάτω περιγράφω τη διαδικασία που ακολούθησα, μετά από κάμποσες δοκιμές, που τελικά λειτούργησε
 για την αναπαραγωγή μιας playlist του Youtube στον VLC. Δοκιμασμένο σε Ubuntu 20.04 LTS και VLC έκδοση 3.0.9.2</p>
-  </p>
+<p>Δημιουργούμε, αν δεν υπάρχει ήδη, τη παρακάτω διαδρομή</p>
+<pre><code>mkdir -p .local/share/vlc/lua/playlist
+</code></pre><p>Κατεβάζουμε τα δυο παρακάτω scripts και τα αποθηκεύσουμε στη παραπάνω διαδρομή.</p>
+<ul>
+<li><a href="https://nicktux.gr/dlc/vlc-youtube-playlist/youtube.lua" target="_blank" rel="noopener">youtube.lua</a></li>
+<li><a href="https://nicktux.gr/dlc/vlc-youtube-playlist/youtube.luac" target="_blank" rel="noopener">youtube.luac</a></li>
+</ul>
+<p>Προσέχουμε τις επεκτάσεις, όταν αποθηκευτούν να έχουν τις σωστές επεκτάσεις, lua και luac αντίστοιχα.</p>
+<p>Κάνουμε μια επανεκκίνηση τον VLC και είμαστε έτοιμοι.</p>
+<p>Πατάμε <strong>Media -&gt; Open Network Stream</strong> και δίνουμε απευθείας τον σύνδεσμο της playlist όπως είναι.<br>
+πχ <a href="https://www.youtube.com/playlist?list=PLT98CRl2KxKEKvszPW-d4wYLo2fxEJYKe">https://www.youtube.com/playlist?list=PLT98CRl2KxKEKvszPW-d4wYLo2fxEJYKe</a>
+<br>Πρέπει να δώσουμε το URL της λίστας και όχι κάποιου βίντεο της λίστας.</p>
+<p><a href="https://i.imgur.com/G09y8YP.png" target="_blank"><img src="https://i.imgur.com/G09y8YP.png" alt="" width="640" height="358" class="alignleft size-full" /></a><br>
+<em>Η παραπάνω λίστα είναι τυχαία. Απλά έγραψα &ldquo;Ubuntu playlist&rdquo; στο  Youtube και ήταν από τα πρώτα αποτελέσματα.</em></p>
+<p>Τα βίντεο δεν τα κάνει download αλλά φορτώνει όλα τα βίντεο/thumbnails της λίστας και τα έχουμε έτοιμα για playback.</p>
+<p>Μπορούμε αν θέλουμε να αποθηκεύσουμε τη λίστα (αρχείο με επέκταση .xspf) για να την έχουμε διαθέσιμη και τοπικά.</p>
+<hr />
+<span style="font-size:small;color:#999999;">Until next time ...
+"Keep Your Mind in a Constant State of Openness"</span>
 
   
-  <footer>
-    <a href="https://nicktux.gr/post/vlc-youtube-playlist/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://nicktux.gr/post/fix-time-ubuntu-windows/">Διόρθωση διαφοράς ώρας</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>09 May 2020</time>
-  </div>
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-folder fa-fw"></i>
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
     
-      <a class="post-taxonomy-topic" href="https://nicktux.gr/topics/ubuntu">Ubuntu</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-topic" href="https://nicktux.gr/topics/linux">Linux</a>
+    <a href="https://nicktux.gr/post/fix-time-ubuntu-windows/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
-  
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
+  <div class="pure-u-10-24">
     
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/desktop">Desktop</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/utc">UTC</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/time">Time</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/troubleshooting">Troubleshooting</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/ubuntu-20.04">Ubuntu 20.04</a>
+    <nav class="prev">
+      <a href="https://nicktux.gr/post/fix-time-ubuntu-windows/">Διόρθωση διαφοράς ώρας</a>
+    </nav>
     
   </div>
-  
-  
-
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
 </div>
 
-  </header>
 
-  <p>
-  <p>Σε ένα σύστημα διπλής εκκίνησης (dual boot) είναι πιθανό να αντιμετωπίζουμε πρόβλημα με τη διαφορά ώρας κάθε φορά που κάνουμε επανεκκίνηση από Ubuntu σε Windows. Αυτό οφείλεται στα διαφορετικά ρολόγια που χρησιμοποιούν τα δυο λειτουργικά.<br> Παρακάτω σημειώνουμε πως μπορούμε να το διορθώσουμε.</p>
-  </p>
-
-  
-  <footer>
-    <a href="https://nicktux.gr/post/fix-time-ubuntu-windows/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
 
   
 </div>
@@ -336,3 +301,4 @@
 
 </body>
 </html>
+
