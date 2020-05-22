@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2020.&lt;br&gt; No rights reserved.</copyright>
-    <lastBuildDate>Tue, 19 May 2020 00:04:02 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2020 09:07:12 +0300</lastBuildDate>
     
 	<atom:link href="https://nicktux.gr/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,36 @@
     <item>
       <title>Desktop</title>
       <link>https://nicktux.gr/tags/desktop/</link>
-      <pubDate>Tue, 19 May 2020 00:04:02 +0300</pubDate>
+      <pubDate>Fri, 22 May 2020 09:07:12 +0300</pubDate>
       
       <guid>https://nicktux.gr/tags/desktop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>https://nicktux.gr/tags/github/</link>
+      <pubDate>Fri, 22 May 2020 09:07:12 +0300</pubDate>
+      
+      <guid>https://nicktux.gr/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssh</title>
+      <link>https://nicktux.gr/tags/ssh/</link>
+      <pubDate>Fri, 22 May 2020 09:07:12 +0300</pubDate>
+      
+      <guid>https://nicktux.gr/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 20.04</title>
+      <link>https://nicktux.gr/tags/ubuntu-20.04/</link>
+      <pubDate>Fri, 22 May 2020 09:07:12 +0300</pubDate>
+      
+      <guid>https://nicktux.gr/tags/ubuntu-20.04/</guid>
       <description></description>
     </item>
     
@@ -27,15 +54,6 @@
       <pubDate>Tue, 19 May 2020 00:04:02 +0300</pubDate>
       
       <guid>https://nicktux.gr/tags/playlist/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ubuntu 20.04</title>
-      <link>https://nicktux.gr/tags/ubuntu-20.04/</link>
-      <pubDate>Tue, 19 May 2020 00:04:02 +0300</pubDate>
-      
-      <guid>https://nicktux.gr/tags/ubuntu-20.04/</guid>
       <description></description>
     </item>
     

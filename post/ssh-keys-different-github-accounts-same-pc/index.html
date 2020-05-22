@@ -4,10 +4,10 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta name="description" content="σε έναν υπολογιστή με Ubuntu 20.04 LTS">
   <meta name="generator" content="Hugo 0.68.3" />
 
-  <title>NickTux</title>
+  <title>Πολλαπλά κλειδιά ssh και διαφορετικοί λογαριασμοί Github &middot; NickTux</title>
 
     
 
@@ -42,9 +42,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
  
-  
-  <link rel="alternate" type="application/rss+xml" title="NickTux"
-    href='https://nicktux.gr/index.xml' />
   
 
   
@@ -195,21 +192,16 @@
 
 
 <div class="header">
-  <h1>NickTux</h1>
-  <h2>Keep Your Mind in a Constant State of Openness</h2>
+  <h1>Πολλαπλά κλειδιά ssh και διαφορετικοί λογαριασμοί Github</h1>
+  <h2>σε έναν υπολογιστή με Ubuntu 20.04 LTS</h2>
 </div>
-
 <div class="content">
-  
-    <article>
-  <header>
-    <h2><a href="https://nicktux.gr/post/release-party-ubuntu-13-10-athens2013/">Release Party Ubuntu 13.10 Athens 2013</a></h2>
 
-    <div class="post-meta">
+  <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>02 Jul 2013</time>
+    <time>22 May 2020</time>
   </div>
 
   
@@ -234,71 +226,13 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/desktop">desktop</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/desktop">Desktop</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/events">events</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/ssh">ssh</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/over_a_year_old">over_a_year_old</a>
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/github">Github</a>&nbsp;&#47;
     
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  To release party για το Ubuntu 13.04 διεξήχθη με επιτυχία και φέτος στο καφέ Ηλιοστάσιο στο Θησείο. Ο κόσμος προσήλθε σε ικανοποιητικό αριθμό, η τούρτα όμορφη και εύγευστη και το κλίμα όπως πάντα φιλικό.
-  
-Περισσότερο φωτογραφικό υλικό στο φώτο-άλμπουμ της Ελληνικής κοινότητας.
-Until next time ... "Keep Your Mind in a Constant State of Openness"
-  </p>
-
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://nicktux.gr/post/wubi/">Wubi - Ένα παρωχημένο project</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>11 Jun 2013</time>
-  </div>
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-folder fa-fw"></i>
-    
-      <a class="post-taxonomy-topic" href="https://nicktux.gr/topics/ubuntu">Ubuntu</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-topic" href="https://nicktux.gr/topics/linux">Linux</a>
-    
-  </div>
-  
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/announce">announce</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/windows-installer">windows installer</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/wubi">wubi</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/over_a_year_old">over_a_year_old</a>
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/ubuntu-20.04">Ubuntu 20.04</a>
     
   </div>
   
@@ -306,37 +240,58 @@ Until next time ... "Keep Your Mind in a Constant State of Openness"
 
 </div>
 
-  </header>
-
-  <p>
-  <pre style="width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:'Ubuntu';font-style:normal;font-size:medium;">ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!</pre>
-<p>Το wubi.exe (<strong>W</strong>indows <strong>Ub</strong>untu <strong>I</strong>nstaller) όταν ξεκίνησε ήταν ένα από τα πιο δημοφιλή projects ου Ubuntu.</p>
-  </p>
+  <p>Ένα πρόβλημα που αντιμετώπισα πρόσφατα είχε σχέση με το ότι ο ssh-agent δεν μπορούσε
+να ξεχωρίσει ποιο ssh κλειδί να στείλει σε ποιο αποθετήριο Github.</p>
+<p>Αυτό μπορεί να συμβεί σε διάφορες περιπτώσεις. Η πιο απλή είναι όταν κάποιος έχει
+περισσότερους από έναν λογαριασμούς στο Github ή ακόμη και πρόσβαση σε αποθετήρια,
+με διαφορετικά ssh κλειδιά για τον κάθε λογαριασμό και όλα αυτά στον ίδιο υπολογιστή.</p>
+<p>Βρήκα διάφορες λύσεις ψάχνοντας στο διαδίκτυο όπως να ορίσω την <code>sshComand</code>
+στο αποθετήριο μέσω της git config, να κοιτάξω το url του αποθετηρίου μπας και είναι
+λάθος και άλλα. Τίποτα δεν δούλεψε όπως δούλεψε ο απλός και αποτελεσματικός τρόπος
+του alias.</p>
+<p>Την επόμενη φορά λοιπόν, που θα αντιμετωπίσω τέτοιο πρόβλημα, να θυμηθώ να κάνω τα εξής:<br>
+Αφού έχω τσεκάρει ότι δεν έχω κάποιο commit σε εκρεμμότητα, διαγράφω το &ldquo;προβληματικό&rdquo; αποθετήριο από το PC (Local Only).<br>
+Κάνω git clone το αποθετήριο, αυτή τη φορά όμως προσθέτοντας μια λέξη δίπλα από το github.com, όπως πχ. <a href="mailto:git@github.com">git@github.com</a> <strong>-blog</strong>:NickTux/nicktux.github.io.git<br></p>
+<p>Ανοίγω το <code>.ssh/config</code> και προσθέτω τη κατάλληλη εγγραφή όπως παρακάτω:</p>
+<pre><code># Github for BLOG (nicktux.gr)
+Host github.com-blog # αυτό κάνει τη διαφορά
+HostName github.com
+IdentityFile /home/nicktux/.ssh/id_rsa_blog
+</code></pre><p>Αποθηκεύω και κάνω μια επανεκκίνηση τον ssh-agent
+<br></p>
+<pre><code>killall ssh-agent
+ssh-agent
+</code></pre><p>Έτοιμος!</p>
+<p>Αυτό είναι το &ldquo;μυστικό&rdquo;, ότι μπορώ να κάνω clone το αποθετήριο με alias. Το οποίο βέβαια, έως τώρα, δεν ήξερα ότι γίνεται.</p>
 
   
-  <footer>
-    <a href="https://nicktux.gr/post/wubi/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://nicktux.gr/post/vlc-youtube-playlist/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://nicktux.gr/post/vlc-youtube-playlist/">Αναπαραγωγή Youtube playlist στον VLC</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
 
   
-
-  
-
-
-<nav class="pagination" role="pagination">
-  
-  <a href="https://nicktux.gr/page/3/"><i class="fa fa-chevron-left"></i></a>
-  
-  <span>&nbsp;4 / 4&nbsp;</span>
-  
-  <i class="fa fa-chevron-right"></i>
-  
-</nav>
-
-
-
 </div>
 
 </div>
