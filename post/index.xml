@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2020&lt;br&gt; No rights reserved</copyright>
-    <lastBuildDate>Fri, 22 May 2020 09:07:12 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2020 01:18:12 +0300</lastBuildDate>
     
 	<atom:link href="https://nicktux.gr/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>pkexec για σωστή χρήση root GUI</title>
+      <link>https://nicktux.gr/post/gksu-pkexec-alias-tip/</link>
+      <pubDate>Wed, 27 May 2020 01:18:12 +0300</pubDate>
+      
+      <guid>https://nicktux.gr/post/gksu-pkexec-alias-tip/</guid>
+      <description>&lt;p&gt;Πρόσφατα χρειάστηκε να τρέξω μια γραφική εφαρμογή ως root και βρέθηκα μπροστά
+σε ένα ερώτημα. Πως;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Πολλαπλά κλειδιά ssh και διαφορετικοί λογαριασμοί Github</title>
@@ -198,16 +208,6 @@
       <guid>https://nicktux.gr/post/nextcloud-apps-deck/</guid>
       <description>Το Deck είναι μια εφαρμογή για το Nextcloud. Είναι ένα εργαλείο που επιτρέπει την οργάνωση της καθημερινότητάς μας, είτε και στην εργασία μας, με ομάδες που συμμετέχουν στο Nextcloud.
 Μια από τις πολλές και χρήσιμες εφαρμογές στο Nextcloud Store είναι και το Deck. Ένα εργαλείο οργάνωσης ομάδων και έργων σε Kanban Board Style. Ένα από τα πιο γνωστά τέτοια εργαλεία, για όσους δεν γνωρίζουν τι είναι ένα Kanban Board, είναι το Trello.</description>
-    </item>
-    
-    <item>
-      <title>Arch Linux - Χτίσιμο και εγκατάσταση custom πυρήνα(ABS)</title>
-      <link>https://nicktux.gr/post/arch-linux-custom-kernel/</link>
-      <pubDate>Sat, 14 Dec 2013 10:25:28 +0300</pubDate>
-      
-      <guid>https://nicktux.gr/post/arch-linux-custom-kernel/</guid>
-      <description>&lt;pre style=&#34;width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:&#39;Ubuntu&#39;;font-style:normal;font-size:medium;&#34;&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!&lt;/pre&gt;
-&lt;p&gt;Τώρα λογικά θα περιμένετε ένα τεράστιο ποστ με πολύ configuration και διάφορες εντολές, όσοι τουλάχιστον έχετε στο παρελθόν κάποια εμπειρία με χτίσιμο πυρήνα.&lt;/p&gt;</description>
     </item>
     
   </channel>

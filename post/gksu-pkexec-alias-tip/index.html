@@ -4,10 +4,10 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta name="description" content="σε Ubuntu 20.04 LTS">
   <meta name="generator" content="Hugo 0.68.3" />
 
-  <title>Ubuntu 20.04 &middot; NickTux</title>
+  <title>pkexec για σωστή χρήση root GUI &middot; NickTux</title>
 
     
 
@@ -42,9 +42,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
  
-  
-  <link rel="alternate" type="application/rss+xml" title="NickTux"
-    href='https://nicktux.gr/tags/ubuntu-20.04/index.xml' />
   
 
   
@@ -197,16 +194,12 @@
 
 
 <div class="header">
-  <h1>Ubuntu 20.04</h1>
+  <h1>pkexec για σωστή χρήση root GUI</h1>
+  <h2>σε Ubuntu 20.04 LTS</h2>
 </div>
-
 <div class="content">
-  
-    <article>
-  <header>
-    <h2><a href="https://nicktux.gr/post/gksu-pkexec-alias-tip/">pkexec για σωστή χρήση root GUI</a></h2>
 
-    <div class="post-meta">
+  <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
@@ -251,208 +244,69 @@
 
 </div>
 
-  </header>
-
-  <p>
   <p>Πρόσφατα χρειάστηκε να τρέξω μια γραφική εφαρμογή ως root και βρέθηκα μπροστά
 σε ένα ερώτημα. Πως;</p>
-  </p>
+<p>Αν και <strong>δεν συνίσταται</strong> να τρέχουμε γραφικές εφαμογές ως root, μερικές φορές
+αυτό το απαιτεί η ίδια η εφαρμογή. πχ. gparted.<br>
+Ο τρόπος με τον οποίο παλιότερα, αν θυμάμαι καλά μέχρι και τη 16.04 αν και δεν
+έχει σημασία, τρέχαμε τέτοιες εφαρμογές ήταν μέσω της εντολής <em>gksu</em> η οποία
+διαχειριζόταν τις μεταβλητές περιβάλλοντος με τέτοιο τρόπο ώστε να μη δημιουργηθεί
+κάποιο πρόβλημα στην εφαρμογή.<br>
+Γενικά αποφεύγουμε να τρέχουμε γραφικές εφαρμογές ως root και αν αυτό πρέπει
+να γίνει, ας γίνει με το σωστό τρόπο.</p>
+<p>Ο <strong>σωστός</strong> τρόπος <strong>δεν είναι</strong></p>
+<pre><code>sudo εφαρμογή
+</code></pre><p>Ακόμη και η</p>
+<pre><code>sudo -H εφαρμογή
+</code></pre><p>κάποιες φορές δε λειτουργεί σωστά.<br></p>
+<p>Η gksu έχει αντικατασταθεί πλέον από την pkexec. Ωστόσο τρέχοντας</p>
+<pre><code>pkexec εφαρμογή
+</code></pre><p>βρίσκομαι αντιμέτωπος με ένα μήνυμα λάθους. Ανοίγει ναι μεν το παράθυρο για να
+εισάγω τον κωδικό, αλλά η εφαρμογή δεν τρέχει.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">DISPLAY is not set, unable to open the VMware Workstation user interface.
+</code></pre></div><p><em>Ναι, στη δική μου περίπτωση ήταν το VMware γιατί ήθελα να αλλάξω κάποιες
+ρυθμίσεις στη μνήμη και αυτές μπορείς να τις πειράξεις μόνο αν τρέχεις το VMware
+ως Administrator, όπως χαρακτηριστικά αναφέρει.</em></p>
+<h3 id="λύση">Λύση</h3>
+<p>Ένα alias, έτσι για να θυμηθούμε και τα παλιά, στο <code>~/.bashrc</code> έδωσε τη λύση.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">alias gksu<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY&#39;</span>
+</code></pre></div><p>Άλλωστε, είναι η συμπεριφορά της pkexec τέτοια. Το γράφουν οι άνθρωποι, αλλά
+ποιος τα διαβάζει αυτά.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">man pkexec
+
+<span style="color:#f92672">[</span>...<span style="color:#f92672">]</span> pkexec will not allow you to run X11 applications
+       as another user since the $DISPLAY and $XAUTHORITY environment
+       variables are not set.<span style="color:#f92672">[</span>...<span style="color:#f92672">]</span>
+</code></pre></div><hr />
+<span style="font-size:small;color:#999999;">Until next time ...
+"Keep Your Mind in a Constant State of Openness"</span>
 
   
-  <footer>
-    <a href="https://nicktux.gr/post/gksu-pkexec-alias-tip/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://nicktux.gr/post/ssh-keys-different-github-accounts-same-pc/">Πολλαπλά κλειδιά ssh και διαφορετικοί λογαριασμοί Github</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>22 May 2020</time>
-  </div>
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-folder fa-fw"></i>
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
     
-      <a class="post-taxonomy-topic" href="https://nicktux.gr/topics/ubuntu">Ubuntu</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-topic" href="https://nicktux.gr/topics/linux">Linux</a>
-    
-  </div>
-  
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/desktop">Desktop</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/ssh">ssh</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/github">Github</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/ubuntu-20.04">Ubuntu 20.04</a>
+    <a href="https://nicktux.gr/post/ssh-keys-different-github-accounts-same-pc/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
-  
-  
-
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://nicktux.gr/post/ssh-keys-different-github-accounts-same-pc/">Πολλαπλά κλειδιά ssh και διαφορετικοί λογαριασμοί Github</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
 </div>
 
-  </header>
 
-  <p>
-  <p>Ένα πρόβλημα που αντιμετώπισα πρόσφατα είχε σχέση με το ότι ο ssh-agent δεν μπορούσε
-να ξεχωρίσει ποιο ssh κλειδί να στείλει σε ποιο αποθετήριο Github.</p>
-  </p>
-
-  
-  <footer>
-    <a href="https://nicktux.gr/post/ssh-keys-different-github-accounts-same-pc/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://nicktux.gr/post/vlc-youtube-playlist/">Αναπαραγωγή Youtube playlist στον VLC</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>19 May 2020</time>
-  </div>
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-folder fa-fw"></i>
-    
-      <a class="post-taxonomy-topic" href="https://nicktux.gr/topics/ubuntu">Ubuntu</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-topic" href="https://nicktux.gr/topics/linux">Linux</a>
-    
-  </div>
-  
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/desktop">Desktop</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/vlc">VLC</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/youtube">Youtube</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/playlist">Playlist</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/ubuntu-20.04">Ubuntu 20.04</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  <p>Παρακάτω περιγράφω τη διαδικασία που ακολούθησα, μετά από κάμποσες δοκιμές, που τελικά λειτούργησε
-για την αναπαραγωγή μιας playlist του Youtube στον VLC. Δοκιμασμένο σε Ubuntu 20.04 LTS και VLC έκδοση 3.0.9.2</p>
-  </p>
-
-  
-  <footer>
-    <a href="https://nicktux.gr/post/vlc-youtube-playlist/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://nicktux.gr/post/fix-time-ubuntu-windows/">Διόρθωση διαφοράς ώρας</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>09 May 2020</time>
-  </div>
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-folder fa-fw"></i>
-    
-      <a class="post-taxonomy-topic" href="https://nicktux.gr/topics/ubuntu">Ubuntu</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-topic" href="https://nicktux.gr/topics/linux">Linux</a>
-    
-  </div>
-  
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/desktop">Desktop</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/utc">UTC</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/time">Time</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/troubleshooting">Troubleshooting</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/ubuntu-20.04">Ubuntu 20.04</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  <p>Σε ένα σύστημα διπλής εκκίνησης (dual boot) είναι πιθανό να αντιμετωπίζουμε πρόβλημα με τη διαφορά ώρας κάθε φορά που κάνουμε επανεκκίνηση από Ubuntu σε Windows. Αυτό οφείλεται στα διαφορετικά ρολόγια που χρησιμοποιούν τα δυο λειτουργικά.<br> Παρακάτω σημειώνουμε πως μπορούμε να το διορθώσουμε.</p>
-  </p>
-
-  
-  <footer>
-    <a href="https://nicktux.gr/post/fix-time-ubuntu-windows/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
 
   
 </div>
@@ -464,3 +318,4 @@
 
 </body>
 </html>
+

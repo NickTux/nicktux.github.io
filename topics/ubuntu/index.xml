@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2020&lt;br&gt; No rights reserved</copyright>
-    <lastBuildDate>Fri, 22 May 2020 09:07:12 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2020 01:18:12 +0300</lastBuildDate>
     
 	<atom:link href="https://nicktux.gr/topics/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>pkexec για σωστή χρήση root GUI</title>
+      <link>https://nicktux.gr/post/gksu-pkexec-alias-tip/</link>
+      <pubDate>Wed, 27 May 2020 01:18:12 +0300</pubDate>
+      
+      <guid>https://nicktux.gr/post/gksu-pkexec-alias-tip/</guid>
+      <description>&lt;p&gt;Πρόσφατα χρειάστηκε να τρέξω μια γραφική εφαρμογή ως root και βρέθηκα μπροστά
+σε ένα ερώτημα. Πως;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Πολλαπλά κλειδιά ssh και διαφορετικοί λογαριασμοί Github</title>
@@ -197,15 +207,6 @@
       <guid>https://nicktux.gr/post/reset-password-ubuntu/</guid>
       <description>&lt;center&gt;&lt;a href=&#34;https://i.imgur.com/6A7JEZml.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/6A7JEZml.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/center&gt;
 &lt;p&gt;Υπάρχουν διάφοροι λόγοι όπου μπορεί να θέλουμε να επαναφέρουμε τον κωδικό μας στο Ubuntu.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Fosscomm 2013</title>
-      <link>https://nicktux.gr/post/fosscomm-2013/</link>
-      <pubDate>Tue, 02 Jul 2013 02:16:08 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/post/fosscomm-2013/</guid>
-      <description>&lt;p&gt;H Ελληνική κοινότητα Ubuntu (Ubuntu-gr) συμμετείχε και φέτος στην Fosscomm 2013, που πραγματοποιήθηκε στο Χαροκόπειο Πανεπιστήμιο Αθηνών με δικό της booth - καθώς και παρουσιάσεις.&lt;/p&gt;</description>
     </item>
     
   </channel>
