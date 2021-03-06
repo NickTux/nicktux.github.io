@@ -7,17 +7,53 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2021&lt;br&gt; No rights reserved</copyright>
-    <lastBuildDate>Wed, 27 May 2020 01:18:12 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 06 Mar 2021 20:27:15 +0200</lastBuildDate>
     
 	<atom:link href="https://nicktux.gr/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Colors</title>
+      <link>https://nicktux.gr/tags/colors/</link>
+      <pubDate>Sat, 06 Mar 2021 20:27:15 +0200</pubDate>
+      
+      <guid>https://nicktux.gr/tags/colors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Desktop</title>
       <link>https://nicktux.gr/tags/desktop/</link>
-      <pubDate>Wed, 27 May 2020 01:18:12 +0300</pubDate>
+      <pubDate>Sat, 06 Mar 2021 20:27:15 +0200</pubDate>
       
       <guid>https://nicktux.gr/tags/desktop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>logitech</title>
+      <link>https://nicktux.gr/tags/logitech/</link>
+      <pubDate>Sat, 06 Mar 2021 20:27:15 +0200</pubDate>
+      
+      <guid>https://nicktux.gr/tags/logitech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips</title>
+      <link>https://nicktux.gr/tags/tips/</link>
+      <pubDate>Sat, 06 Mar 2021 20:27:15 +0200</pubDate>
+      
+      <guid>https://nicktux.gr/tags/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 20.04</title>
+      <link>https://nicktux.gr/tags/ubuntu-20.04/</link>
+      <pubDate>Sat, 06 Mar 2021 20:27:15 +0200</pubDate>
+      
+      <guid>https://nicktux.gr/tags/ubuntu-20.04/</guid>
       <description></description>
     </item>
     
@@ -36,24 +72,6 @@
       <pubDate>Wed, 27 May 2020 01:18:12 +0300</pubDate>
       
       <guid>https://nicktux.gr/tags/pkexec/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tips</title>
-      <link>https://nicktux.gr/tags/tips/</link>
-      <pubDate>Wed, 27 May 2020 01:18:12 +0300</pubDate>
-      
-      <guid>https://nicktux.gr/tags/tips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ubuntu 20.04</title>
-      <link>https://nicktux.gr/tags/ubuntu-20.04/</link>
-      <pubDate>Wed, 27 May 2020 01:18:12 +0300</pubDate>
-      
-      <guid>https://nicktux.gr/tags/ubuntu-20.04/</guid>
       <description></description>
     </item>
     
@@ -171,24 +189,6 @@
       <pubDate>Fri, 05 Apr 2019 18:55:56 +0300</pubDate>
       
       <guid>https://nicktux.gr/tags/usb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mastodon</title>
-      <link>https://nicktux.gr/tags/mastodon/</link>
-      <pubDate>Sat, 29 Dec 2018 13:10:23 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/tags/mastodon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PeerTube</title>
-      <link>https://nicktux.gr/tags/peertube/</link>
-      <pubDate>Sat, 29 Dec 2018 13:10:23 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/tags/peertube/</guid>
       <description></description>
     </item>
     

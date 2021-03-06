@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Φωτιζόμενο πληκτρολόγιο σε Logitech Keyboard</title>
+      <link>https://nicktux.gr/post/g123colors/</link>
+      <pubDate>Sat, 06 Mar 2021 20:27:15 +0200</pubDate>
+      
+      <guid>https://nicktux.gr/post/g123colors/</guid>
+      <description>&lt;p&gt;Πριν λίγο καιρό αγόρασα το &amp;ldquo;ξαδερφάκι&amp;rdquo; του G102 mouse, το G123 keyboard. Όπως είχα γράψει τότε για το mouse&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>pkexec για σωστή χρήση root GUI</title>
       <link>https://nicktux.gr/post/gksu-pkexec-alias-tip/</link>
       <pubDate>Wed, 27 May 2020 01:18:12 +0300</pubDate>
@@ -200,16 +209,6 @@ KeyID Short: A1F33101 KeyID Long: 585C328CA1F33101 Full fingerprint: 99D836D28BE
 Ίσως ο πιο συνηθισμένος από αυτούς να είναι η δημιουργία ενός απλού εκτελέσιμου script με sleep κλπ και η προσθήκη αυτού στις εφαρμογές εκκίνησης.
 &lt;br&gt;Εδώ θα δούμε έναν απλό τρόπο, με μια γραμμή κώδικα την οποία προσθέτουμε στο ήδη υπάρχον αρχείο με κατάληξη &lt;code&gt;.desktop&lt;/code&gt;.
 &lt;br&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Nextcloud: Έλεγχος Κωδικών Χρηστών</title>
-      <link>https://nicktux.gr/post/nextcloud-passwords-check/</link>
-      <pubDate>Tue, 27 Feb 2018 00:08:51 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/post/nextcloud-passwords-check/</guid>
-      <description>Σε πρόσφατη δημοσίευσή τους οι δημιουργοί του πλέον δημοφιλούς Nextcloud ανακοίνωσαν πως προτίθενται να ελέγχουν τους κωδικούς όσων τρέχουν κάποιο Nextcloud Instance με ένα built-in module, για τυχόν αδυναμίες.
-Γιατί; Λόγω του ότι οι χρήστες τείνουν να χρησιμοποιούν τους ίδιους κωδικούς σε πολλαπλές τοποθεσίες και επειδή αυτό δημιουργεί έναν σημαντικό κίνδυνο σε περίπτωση κλοπής του κωδικού, οι προγραμματιστές του Nextcloud αποφάσισαν να μειώσουν αυτό τον κίνδυνο με άλλo ένα χαρακτηριστικό ασφαλείας (Security Feature).</description>
     </item>
     
   </channel>
