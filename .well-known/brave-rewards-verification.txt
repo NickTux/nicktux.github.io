@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: nicktux.gr
+Token: edec5a463cf7ab31392e8a1911a6ef65fd29d8c48880185f1cca0a78c0acb0c2
