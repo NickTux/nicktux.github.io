@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wifi on NickTux</title>
+    <link>https://nicktux.gr/tags/wifi/</link>
+    <description>Recent content in Wifi on NickTux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>el</language>
+    <copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright>
+    <lastBuildDate>Tue, 01 May 2018 21:25:02 +0300</lastBuildDate>
+    
+	<atom:link href="https://nicktux.gr/tags/wifi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Ubuntu 18.04] Εικονίδιο WiFi με ερωτηματικό (?)</title>
+      <link>https://nicktux.gr/post/ubuntu-bionic-wifi-status-icon/</link>
+      <pubDate>Tue, 01 May 2018 21:25:02 +0300</pubDate>
+      
+      <guid>https://nicktux.gr/post/ubuntu-bionic-wifi-status-icon/</guid>
+      <description>&lt;p&gt;Είναι γνωστό σε όσους ασχολούνται λίγο περισσότερο με το λειτουργικό τους σύστημα πως κάθε νέα έκδοση ή πακέτο αναβαθμίσεων εκτός από νέα χαρακτηριστικά και βελτιώσεις, μπορεί να φέρει και νέα προβλήματα. Το Ubuntu δεν θα μπορούσε να αποτελεί εξαίρεση.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

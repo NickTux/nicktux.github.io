@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Packages on NickTux</title>
+    <link>https://nicktux.gr/tags/packages/</link>
+    <description>Recent content in Packages on NickTux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>el</language>
+    <copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright>
+    <lastBuildDate>Sun, 25 Nov 2018 21:54:28 +0200</lastBuildDate>
+    
+	<atom:link href="https://nicktux.gr/tags/packages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Εγκατάσταση του Telegram Desktop σε Linux Mint</title>
+      <link>https://nicktux.gr/post/telegram-mint-tara/</link>
+      <pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate>
+      
+      <guid>https://nicktux.gr/post/telegram-mint-tara/</guid>
+      <description>&lt;p&gt;Σε αυτή τη δημοσίευση θα δούμε βήμα-βήμα πως κάνουμε λήψη και εγκατάσταση του Telegram Desktop App, στο λειτουργικό μας σύστημα.&lt;br&gt;
+Αν και φαντάζει απλό και εύκολο, θα κάνουμε τη διαδικασία με έναν διαφορετικό τρόπο και θα εξηγήσουμε το (τα) γιατί.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Ubuntu 18.04] Thunderbird και Emoji</title>
+      <link>https://nicktux.gr/post/ubuntu-bionic-thunderbird-subject-emoji/</link>
+      <pubDate>Thu, 03 May 2018 22:30:51 +0300</pubDate>
+      
+      <guid>https://nicktux.gr/post/ubuntu-bionic-thunderbird-subject-emoji/</guid>
+      <description>&lt;p&gt;Αναβαθμίζοντας στην έκδοση του Ubuntu 18.04 και χρησιμοποιώντας τον Thunderbird ως Email Client ίσως έρθετε αντιμέτωποι με αυτό το περίεργο σφάλμα, το οποίο δεν είμαι σίγουρος εάν οφείλεται στη γραμματοσειρά (.ttf) ή στον συνδυασμό γραμματοσειράς και Thunderbird.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

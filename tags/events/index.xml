@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on NickTux</title>
+    <link>https://nicktux.gr/tags/events/</link>
+    <description>Recent content in Events on NickTux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>el</language>
+    <copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright>
+    <lastBuildDate>Tue, 02 Jul 2013 02:16:08 +0200</lastBuildDate>
+    
+	<atom:link href="https://nicktux.gr/tags/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fosscomm 2013</title>
+      <link>https://nicktux.gr/post/fosscomm-2013/</link>
+      <pubDate>Tue, 02 Jul 2013 02:16:08 +0200</pubDate>
+      
+      <guid>https://nicktux.gr/post/fosscomm-2013/</guid>
+      <description>&lt;p&gt;H Ελληνική κοινότητα Ubuntu (Ubuntu-gr) συμμετείχε και φέτος στην Fosscomm 2013, που πραγματοποιήθηκε στο Χαροκόπειο Πανεπιστήμιο Αθηνών με δικό της booth - καθώς και παρουσιάσεις.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Release Party Ubuntu 13.10 Athens 2013</title>
+      <link>https://nicktux.gr/post/release-party-ubuntu-13-10-athens2013/</link>
+      <pubDate>Tue, 02 Jul 2013 02:05:25 +0200</pubDate>
+      
+      <guid>https://nicktux.gr/post/release-party-ubuntu-13-10-athens2013/</guid>
+      <description>&lt;p&gt;To release party για το Ubuntu 13.04 διεξήχθη με επιτυχία και φέτος στο καφέ Ηλιοστάσιο στο Θησείο. Ο κόσμος προσήλθε σε ικανοποιητικό αριθμό, η τούρτα όμορφη και εύγευστη και το κλίμα όπως πάντα φιλικό.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/lY5r1hb.jpg&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/lY5r1hb.jpg&#34; width=&#34;300&#34; height=&#34;168&#34; /&gt;&lt;/a&gt; 
+&lt;a href=&#34;https://i.imgur.com/lBbecsK.jpg&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/lBbecsK.jpg&#34; width=&#34;300&#34; height=&#34;168&#34; /&gt;&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://i.imgur.com/fPzxtvc.jpg&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/fPzxtvc.jpg&#34; width=&#34;600&#34; height=&#34;368&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Περισσότερο φωτογραφικό υλικό στο &lt;a href=&#34;http://ubuntu-gr.org/content/ubuntu-release-party-raring-ringtail-athens-2013&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;φώτο-άλμπουμ&lt;/a&gt; της Ελληνικής κοινότητας.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time ...
+&#34;Keep Your Mind in a Constant State of Openness&#34;&lt;/span&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

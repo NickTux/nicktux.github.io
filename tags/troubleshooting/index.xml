@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Troubleshooting on NickTux</title>
+    <link>https://nicktux.gr/tags/troubleshooting/</link>
+    <description>Recent content in Troubleshooting on NickTux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>el</language>
+    <copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright>
+    <lastBuildDate>Sat, 09 May 2020 12:30:11 +0300</lastBuildDate>
+    
+	<atom:link href="https://nicktux.gr/tags/troubleshooting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Διόρθωση διαφοράς ώρας</title>
+      <link>https://nicktux.gr/post/fix-time-ubuntu-windows/</link>
+      <pubDate>Sat, 09 May 2020 12:30:11 +0300</pubDate>
+      
+      <guid>https://nicktux.gr/post/fix-time-ubuntu-windows/</guid>
+      <description>&lt;p&gt;Σε ένα σύστημα διπλής εκκίνησης (dual boot) είναι πιθανό να αντιμετωπίζουμε πρόβλημα με τη διαφορά ώρας κάθε φορά που κάνουμε επανεκκίνηση από Ubuntu σε Windows. Αυτό οφείλεται στα διαφορετικά ρολόγια που χρησιμοποιούν τα δυο λειτουργικά.&lt;br&gt; Παρακάτω σημειώνουμε πως μπορούμε να το διορθώσουμε.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Αναβάθμιση σε Nextcloud 14</title>
+      <link>https://nicktux.gr/post/nextcloud-14-upgrade/</link>
+      <pubDate>Tue, 11 Dec 2018 14:13:46 -0500</pubDate>
+      
+      <guid>https://nicktux.gr/post/nextcloud-14-upgrade/</guid>
+      <description>&lt;p&gt;Πρόσφατα αναβάθμισα στην έκδοση Nextcloud 14, από τη 13 που βρισκόμουν. Βλέπετε είμαι στο &amp;ldquo;Production Channel&amp;rdquo;, οπότε οι αναβαθμίσεις εκδόσεων έρχονται με λίγη καθυστέρηση για να εξασφαλιστεί η σταθερότητα. Αυτή τη στιγμή το Nextcloud βρίσκεται στη σταθερή έκδοση 15, οπότε φανταστείτε το Production Channel κάτι σαν LTS release.
+Παρόλαυτα τα προβληματάκια δεν έλλειψαν και λεω να τα παραθέσω παρακάτω, καθώς και τις λύσεις τους.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Ubuntu 18.04] Thunderbird και Emoji</title>
+      <link>https://nicktux.gr/post/ubuntu-bionic-thunderbird-subject-emoji/</link>
+      <pubDate>Thu, 03 May 2018 22:30:51 +0300</pubDate>
+      
+      <guid>https://nicktux.gr/post/ubuntu-bionic-thunderbird-subject-emoji/</guid>
+      <description>&lt;p&gt;Αναβαθμίζοντας στην έκδοση του Ubuntu 18.04 και χρησιμοποιώντας τον Thunderbird ως Email Client ίσως έρθετε αντιμέτωποι με αυτό το περίεργο σφάλμα, το οποίο δεν είμαι σίγουρος εάν οφείλεται στη γραμματοσειρά (.ttf) ή στον συνδυασμό γραμματοσειράς και Thunderbird.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Ubuntu 18.04] Εικονίδιο WiFi με ερωτηματικό (?)</title>
+      <link>https://nicktux.gr/post/ubuntu-bionic-wifi-status-icon/</link>
+      <pubDate>Tue, 01 May 2018 21:25:02 +0300</pubDate>
+      
+      <guid>https://nicktux.gr/post/ubuntu-bionic-wifi-status-icon/</guid>
+      <description>&lt;p&gt;Είναι γνωστό σε όσους ασχολούνται λίγο περισσότερο με το λειτουργικό τους σύστημα πως κάθε νέα έκδοση ή πακέτο αναβαθμίσεων εκτός από νέα χαρακτηριστικά και βελτιώσεις, μπορεί να φέρει και νέα προβλήματα. Το Ubuntu δεν θα μπορούσε να αποτελεί εξαίρεση.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Προβλήματα στην ασύρματη σύνδεση</title>
+      <link>https://nicktux.gr/post/problems-wireless-ubuntu/</link>
+      <pubDate>Wed, 03 Jul 2013 17:18:12 +0200</pubDate>
+      
+      <guid>https://nicktux.gr/post/problems-wireless-ubuntu/</guid>
+      <description>&lt;center&gt;&lt;a href=&#34;https://i.imgur.com/WP294Er.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/WP294Erl.jpg&#34; alt=&#34;&#34; class=&#34;aligncenter&#34; /&gt;&lt;/a&gt;&lt;/center&gt;
+&lt;p&gt;Τα προβλήματα στην ασύρματη σύνδεση μπορεί να ποικίλουν. Γι&amp;rsquo; αυτό δεν υπάρχει κάποιος γενικός κανόνας επίλυσης τέτοιων προβλημάτων.
+Το καλύτερο που μπορείτε να κάνετε είναι να ζητήσετε βοήθεια από ένα φόρουμ υποστήριξης και βοηθείας για το Ubuntu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Διόρθωση Εκκίνησης</title>
+      <link>https://nicktux.gr/post/boot-repair/</link>
+      <pubDate>Wed, 03 Jul 2013 00:47:27 +0200</pubDate>
+      
+      <guid>https://nicktux.gr/post/boot-repair/</guid>
+      <description>&lt;p&gt;Το boot-repair είναι ένα πρόγραμμα που θα σας βοηθήσει να διορθώσετε τυχών προβλήματα εκκίνησης του λειτουργικού συστήματος Ubuntu. Τέτοια προβλήματα μπορεί να είναι:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Επιδόρθωση στο διαχειριστή πακέτων</title>
+      <link>https://nicktux.gr/post/package-manager-troubleshooting-ubuntu/</link>
+      <pubDate>Tue, 02 Jul 2013 14:50:44 -0500</pubDate>
+      
+      <guid>https://nicktux.gr/post/package-manager-troubleshooting-ubuntu/</guid>
+      <description>&lt;p&gt;Όταν λέμε διαχειριστής πακέτων , εννοούμε οτιδήποτε έχει σχέση με την εγκατάσταση ή αναβάθμιση των πακέτων - προγραμμάτων του Ubuntu.
+Το πρόβλημα μπορεί να είναι , είτε &amp;ldquo;μη επιλυμένες εξαρτήσεις&amp;rdquo; (dependencies) , είτε αδυναμία αναβάθμισης , είτε κρατούμενα ελαττωματικά πακέτα &amp;hellip; κλπ.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Επαναφορά κωδικού χρήστη</title>
+      <link>https://nicktux.gr/post/reset-password-ubuntu/</link>
+      <pubDate>Tue, 02 Jul 2013 17:16:40 +0200</pubDate>
+      
+      <guid>https://nicktux.gr/post/reset-password-ubuntu/</guid>
+      <description>&lt;center&gt;&lt;a href=&#34;https://i.imgur.com/6A7JEZml.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/6A7JEZml.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/center&gt;
+&lt;p&gt;Υπάρχουν διάφοροι λόγοι όπου μπορεί να θέλουμε να επαναφέρουμε τον κωδικό μας στο Ubuntu.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

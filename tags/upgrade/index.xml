@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Upgrade on NickTux</title>
+    <link>https://nicktux.gr/tags/upgrade/</link>
+    <description>Recent content in Upgrade on NickTux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>el</language>
+    <copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright>
+    <lastBuildDate>Tue, 11 Dec 2018 14:13:46 -0500</lastBuildDate>
+    
+	<atom:link href="https://nicktux.gr/tags/upgrade/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Αναβάθμιση σε Nextcloud 14</title>
+      <link>https://nicktux.gr/post/nextcloud-14-upgrade/</link>
+      <pubDate>Tue, 11 Dec 2018 14:13:46 -0500</pubDate>
+      
+      <guid>https://nicktux.gr/post/nextcloud-14-upgrade/</guid>
+      <description>&lt;p&gt;Πρόσφατα αναβάθμισα στην έκδοση Nextcloud 14, από τη 13 που βρισκόμουν. Βλέπετε είμαι στο &amp;ldquo;Production Channel&amp;rdquo;, οπότε οι αναβαθμίσεις εκδόσεων έρχονται με λίγη καθυστέρηση για να εξασφαλιστεί η σταθερότητα. Αυτή τη στιγμή το Nextcloud βρίσκεται στη σταθερή έκδοση 15, οπότε φανταστείτε το Production Channel κάτι σαν LTS release.
+Παρόλαυτα τα προβληματάκια δεν έλλειψαν και λεω να τα παραθέσω παρακάτω, καθώς και τις λύσεις τους.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

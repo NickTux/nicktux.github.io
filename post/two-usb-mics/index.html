@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="και τι να προσέξουμε">
+  <meta name="generator" content="Hugo 0.152.2">
+
+  <title>Δύο USB μικρόφωνα σε Linux &middot; NickTux</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://nicktux.gr/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://nicktux.gr/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://nicktux.gr/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://nicktux.gr/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  <a class="pure-menu-heading brand" href="https://nicktux.gr/">
+  <img src="https://nicktux.gr/img/logo.png" width="35px">
+</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/topics/"><i class='fa fa-folder fa-fw'></i>Topics</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/tags/"><i class='fa fa-tags fa-fw'></i>Tags</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/post/index.xml"><i class='fa fa-rss fa-fw'></i>RSS</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/contact/"><i class='fa fa-phone fa-fw'></i>Contact</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/my-pgp-key/"><i class='fa fa-key fa-fw'></i>OpenPGP Key</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.com"><i class='fa fa-link fa-fw'></i>NickTux.com</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/nicktux" rel="me" target="_blank"><i class="fas fa-key fa-fw"></i>Keybase</a>
+    </li>
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="nicktux" rel="me" target="_blank"><i class="fab fa-mastodon fa-fw"></i>Mastodon</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://matrix.to/#/%23nicktux%3amatrix.org" rel="me" target="_blank"><i class="fas fa-comments fa-fw"></i>Matrix</a>
+    </li>
+    
+    
+    
+    <li class="pure-menu-item">
+       <a class="pure-menu-link" href="nicktux" rel="me" target="_blank"><i class="fab fa-bluetooth fa-fw"></i>Libretooth</a>
+    </li>
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>Copyleft (ɔ) 2025<br> No rights reserved</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Δύο USB μικρόφωνα σε Linux</h1>
+  <h2>και τι να προσέξουμε</h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>05 Apr 2019</time>
+  </div>
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-folder fa-fw"></i>
+    
+      <a class="post-taxonomy-topic" href="https://nicktux.gr/topics/ubuntu">Ubuntu</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-topic" href="https://nicktux.gr/topics/linux-mint">Linux Mint</a>
+    
+  </div>
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/mic">mic</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/podcast">podcast</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/usb">usb</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Καλή Χρονιά είπαμε;<br>
+Νομίζω είναι η πρώτη δημοσίευση του 2019. Ξέρετε, επειδή δεν είμαι επαγγελματίας αρθρογράφος και επειδή είμαι ένθερμος υποστηρικτής της άποψης &ldquo;Γράψε, όταν έχεις κάτι να γράψεις&rdquo;, επιπροσθέτως ότι ο ελεύθερος χρόνος είναι πλέον λίγος, το αποτέλεσμα είναι ακριβώς αυτό.<br>
+Αυτή τη φορά έχω να δημοσιεύσω κάτι όμως, το οποίο ίσως βοηθήσει άλλους που θα ήθελαν να πάρουν μια απόφαση στην αγορά ξεχωριστού/αποκλειστικού μικροφώνου πχ. για podcasts, youtube, live chatting, gaming κλπ.</p>
+<h3>Η λάθος επιλογή</h3>
+<p>Θα προτείνω να ψάξετε αρκετά πριν αποφασίσετε τι είδους μικρόφωνο θα αγοράσετε. Σε γενικές γραμμές υπάρχουν δυο είδη μικροφώνων, τα πυκνωτικά (condenser) και τα δυναμικά (dynamic). Υπάρχουν κι άλλα πολλά χαρακτηριστικά τα οποία όμως θεωρώ δευτερεύουσας σημασίας για τη παρούσα δημοσίευση. Σε ότι αφορά τη σύνδεση, τα XLR απαιτούν έξτρα εξοπλισμό για σύνδεση με υπολογιστή. Τα USB φυσικά δεν έχουν τέτοιες απαιτήσεις, απλά τα συνδέεις και (τις περισσότερες φορές) απλά δουλεύουν.<br>
+Αν και το έψαξα αρκετά, με reviews στο Youtube, άρθρα κλπ, κατέληξα να κάνω τη λάθος (για μένα) επιλογή. Αυτή ήταν ένα <b>Samson Meteor</b> το οποίο είναι πραγματικά ένα εξαιρετικό μικρόφωνο, αλλά δεν είναι για μένα ή για να το πω καλύτερα για το χώρο που διαθέτω.<br>
+Βλέπετε, τα πυκνωτικά μικρόφωνα (όπως το Meteor) είναι αρκετά ευαίσθητα στη &ldquo;σύλληψη&rdquo; ήχων από παντού. Το συγκεριμένο είναι μεν καρδιοειδές (cardioid), αλλά αυτό λίγη σημασία έχει στη δική μου περίπτωση. Δηλαδή, μιλάμε ότι αν περάσει κουνούπι εκείνη την ώρα θα ακουστεί στο μικρόφωνο. Αυτό για άλλους είναι καλό, για άλλους (σαν εμένα) είναι κακό. <br>
+Το αποτέλεσμα της παραπάνω λάθους επιλογής ήταν να παραγγείλω άλλο ένα μικρόφωνο, αυτή τη φορά δυναμικό. Το αρνητικό με αυτές τις αγορές είναι ότι δύσκολα μπορεί κάποιος να δοκιμάσει το προϊόν πριν το αγοράσει.<br> <i>Να σημειώσω εδώ ότι τα συγκεκριμένα δυο μικρόφωνα δεν υπήρχαν διαθέσιμα στην Ελληνική αγορά, τουλάχιστον σε ακτίνα 10χλμ από το σπίτι μου.</i><br>
+Επαναλαμβάνω ότι το μικρόφωνο είναι εξαιρετικό και ως κατασκευή και ως απόδοση. Απλά δεν είναι για μένα. Δείτε σχετικό review με δοκιμή στο παρακάτω βίντεο. Λάβετε υπόψη σας ότι ο τύπος έχει, όπως θα δείτε και μόνοι σας, (σχεδόν) studio στο σπίτι του.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z1_sAbTh_nw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h3>Η σωστή επιλογή</h3>
+<p>Η σωστή επιλογή για μένα, αυτή που μου ταίριαξε καλύτερα, ήταν ένα <b>Samson Q2U Dynamic</b>. Άλλη κατασκευή βέβαια, στιβαρή και αυτή μεν, αλλά διαφορετικής &ldquo;νοοτροπίας&rdquo;. <i>Είμαι έτοιμος για πίστα λέμε</i>.<br>
+Χρειάζεται να είσαι πιο κοντά στο μικρόφωνο για να γράψεις σωστά, ενώ στο πυκνωτικό αυτό είναι πιο δύσκολο (μπουκώνει). Για τη &ldquo;δουλειά&rdquo; που το θέλω εγώ είναι μια χαρά. Το προηγούμενο απλά ήταν &ldquo;too much&rdquo;. Δείτε review του Q2U στο παρακάτω βίντεο.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qjCJbhjFYiA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<h3>Audacity</h3>
+<p>Όσοι ασχοληθείτε με το &ldquo;άθλημα&rdquo; θα προτείνω ένα πρόγραμμα ανοιχτού κώδικα με το όνομα Audacity. Θέλει μια μικρή εξοικείωση για να το δουλεύετε άνετα, αλλά μικρή. Δεν είναι Blender ή Kdenlive και έχει εξίσου καλά αποτελέσματα, σε ότι αφορά βέβαια τον ήχο που επεξεργάζεστε. Δείτε ένα βίντεο για νέους χρήστες (από τα πολλά που κυκλοφορούν εκεί έξω) που αφορά το Audacity.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZWoycsTWLQk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h3>Windows & Linux</h3>
+<p>Ωραία όλα τα παραπάνω, ας πάμε όμως στο &ldquo;ζουμί&rdquo; της υπόθεσης. Λοιπόν, απλά και απέριττα θα σας πω ότι και τα δυο μικρόφωνα λειτουργούν καλύτερα σε Ubuntu/Linux 18.04 και Linux Mint 19.1 απ&rsquo; ότι σε Windows 10. Η διαφορά εδώ είναι ένα πρόγραμμα (Samson Sound Deck), το οποίο προσωπικά θεωρώ απαραίτητο, που πρέπει να κάνεις εγκατάσταση σε Windows ώστε να μπορείς να γράψεις σαν άνθρωπος. Αυτό το πρόγραμμα <a href="http://www.samsontech.com/samson/products/microphones/usb-microphones/sounddeck-win/" target="_blank" rel="noreferer"><b>βρίσκεται εδώ</b></a>.<br>
+Σε Linux, από την άλλη, δεν χρειάζεται κάτι τέτοιο (και να θέλαμε δεν υπάρχει). Ο θόρυβος (background noise) είναι λιγότερος (στα δικά μου αυτιά) και διορθώνεται εύκολα με το Audacity. Να πούμε εδώ για όσους δεν το γνωρίζουν ότι το Audacity είναι διαθέσιμο και σε Windows, αλλά για μένα δεν ήταν αρκετό για να μειώσω σε ικανοποιητικό επίπεδο τον θόρυβο (λαμβανομένου υπόψη ότι δεν είμαι και κανένας expert στο Audacity).<br>
+Επίσης το Monitoring, είναι η διαδικασία αυτή που ακούς σε realtime χωρίς καθυστερήσεις (latency) τι λες και τι γράφεις, λειτουργεί επίσης απρόσκοπτα (και στα δυο μικρόφωνα).</p>
+<p><a href="https://i.imgur.com/2JzJkUF.jpg" target="_blank" rel="noopener"><img src="https://i.imgur.com/2JzJkUF.jpg" alt="" width="640" height="460" /></a><br></p>
+<p><a href="https://i.imgur.com/05Ecywl.jpg" target="_blank" rel="noopener"><img src="https://i.imgur.com/05Ecywl.jpg" alt="" width="640" height="460" /></a><br></p>
+<p>Αυτά τα ολίγα από &lsquo;μένα και κάτι άλλο. Το Meteor σκέφτομαι να το δώσω. Είναι δυο μέρες χρησιμοποιημένο, με απόδειξη αγοράς και 2 χρόνια εγγύηση. Όποιος/α ενδιαφέρεται ας στείλει ένα μήνυμα στο nicktux AT disroot PERIOD com.</p>
+<hr>
+<p><span style="font-size:small;color:#999999;">Until next time &hellip;<br>
+&ldquo;Keep Your Mind in a Constant State of Openness&rdquo;</span></p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fnicktux.gr%2fpost%2ftwo-usb-mics%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fnicktux.gr%2fpost%2ftwo-usb-mics%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fnicktux.gr%2fpost%2ftwo-usb-mics%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fnicktux.gr%2fpost%2ftwo-usb-mics%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fnicktux.gr%2fpost%2ftwo-usb-mics%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fnicktux.gr%2fpost%2ftwo-usb-mics%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://nicktux.gr/js/ui.js"></script>
+<script src="https://nicktux.gr/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cryptography on NickTux</title>
+    <link>https://nicktux.gr/tags/cryptography/</link>
+    <description>Recent content in Cryptography on NickTux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>el</language>
+    <copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright>
+    <lastBuildDate>Fri, 05 Jul 2013 14:32:35 +0100</lastBuildDate>
+    
+	<atom:link href="https://nicktux.gr/tags/cryptography/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Κρυπτογράφηση αρχείων και φακέλων με το OpenSSL</title>
+      <link>https://nicktux.gr/post/encrypt-with-openssl/</link>
+      <pubDate>Fri, 05 Jul 2013 14:32:35 +0100</pubDate>
+      
+      <guid>https://nicktux.gr/post/encrypt-with-openssl/</guid>
+      <description>&lt;pre style=&#34;width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:&#39;Ubuntu&#39;;font-style:normal;font-size:medium;&#34;&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!&lt;/pre&gt;
+&lt;p&gt;Υπάρχουν πάρα πολλά προγράμματα κρυπτογράφησης. Εδώ θα δούμε ένα προ-εγκατεστημένο (στο Ubuntu και τις περισσότερες διανομές) εργαλείο, ονόματι OpenSSL. Μια εντολή σε τερματικό* είναι. Μια για κρυπτογράφηση και μια για αποκρυπτογράφηση. Εύκολα και γρήγορα. Το μόνο που πρέπει να φυλάξετε σε ασφαλές μέρος είναι  ο κωδικός αποκρυπτογράφησης.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

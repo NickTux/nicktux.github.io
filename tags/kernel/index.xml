@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kernel on NickTux</title>
+    <link>https://nicktux.gr/tags/kernel/</link>
+    <description>Recent content in Kernel on NickTux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>el</language>
+    <copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright>
+    <lastBuildDate>Sat, 25 Aug 2018 14:52:27 +0300</lastBuildDate>
+    
+	<atom:link href="https://nicktux.gr/tags/kernel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ποιόν σταθερό πυρήνα</title>
+      <link>https://nicktux.gr/post/which-kernel/</link>
+      <pubDate>Sat, 25 Aug 2018 14:52:27 +0300</pubDate>
+      
+      <guid>https://nicktux.gr/post/which-kernel/</guid>
+      <description>&lt;p&gt;Ένα εύλογο ερώτημα που προκύπτει σε όσους/ες ενδιαφέρονται για τη σωστή και ασφαλή λειτουργία του συστήματός τους. Ποιο πυρήνα πρέπει να χρησιμοποιώ ώστε να:&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>New Version on NickTux</title>
+    <link>https://nicktux.gr/tags/new-version/</link>
+    <description>Recent content in New Version on NickTux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>el</language>
+    <copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright>
+    <lastBuildDate>Sat, 22 Dec 2018 19:56:06 +0200</lastBuildDate>
+    
+	<atom:link href="https://nicktux.gr/tags/new-version/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Εγκατάσταση του GIMP 2.10 σε Linux Mint</title>
+      <link>https://nicktux.gr/post/gimp210-lm19/</link>
+      <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
+      
+      <guid>https://nicktux.gr/post/gimp210-lm19/</guid>
+      <description>&lt;p&gt;Σε αυτή τη δημοσίευση θα δούμε έναν τρόπο εγκατάστασης της νέας έκδοσης του GIMP 2.10 σε Linux Mint 19.1, την οποία έχω ήδη δοκιμάσει και λειτουργεί χωρίς προβλήματα.&lt;br&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
