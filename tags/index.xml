@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright>
-    <lastBuildDate>Sat, 06 Mar 2021 20:27:15 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 18:39:33 +0200</lastBuildDate>
     
 	<atom:link href="https://nicktux.gr/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Desktop, Fedora, Gaming</title>
+      <link>https://nicktux.gr/tags/desktop-fedora-gaming/</link>
+      <pubDate>Mon, 08 Dec 2025 18:39:33 +0200</pubDate>
+      
+      <guid>https://nicktux.gr/tags/desktop-fedora-gaming/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Colors</title>
@@ -180,15 +189,6 @@
       <pubDate>Fri, 05 Apr 2019 18:55:56 +0300</pubDate>
       
       <guid>https://nicktux.gr/tags/podcast/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Usb</title>
-      <link>https://nicktux.gr/tags/usb/</link>
-      <pubDate>Fri, 05 Apr 2019 18:55:56 +0300</pubDate>
-      
-      <guid>https://nicktux.gr/tags/usb/</guid>
       <description></description>
     </item>
     

@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright>
-    <lastBuildDate>Sat, 06 Mar 2021 20:27:15 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 18:39:33 +0200</lastBuildDate>
     
 	<atom:link href="https://nicktux.gr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Univeral Blue</title>
+      <link>https://nicktux.gr/post/univeral-blue/</link>
+      <pubDate>Mon, 08 Dec 2025 18:39:33 +0200</pubDate>
+      
+      <guid>https://nicktux.gr/post/univeral-blue/</guid>
+      <description>&lt;p&gt;Στο πλαίσιο του συνεδρίου KubeCon, ο Jorge Castro, συντηρητής του Project Bluefin και μέλος του Universal Blue, συζήτησε για το μέλλον του Linux Desktop και τη μετάβαση σε μια νέα αρχιτεκτονική βασισμένη σε &amp;ldquo;εικόνες&amp;rdquo; (images). Η συζήτηση εστίασε στο πώς τεχνολογίες που χρησιμοποιούνται κατά κόρον στους servers και στο cloud, μπορούν να μεταφερθούν στους προσωπικούς υπολογιστές για να λύσουν χρόνια προβλήματα αξιοπιστίας.&lt;/p&gt;
+&lt;h2 id=&#34;η-αλλαγή-του-μοντέλου-διανομής&#34;&gt;Η αλλαγή του μοντέλου διανομής&lt;/h2&gt;
+&lt;p&gt;Σύμφωνα με τον Castro, η ανάλυση δεδομένων ετών από φόρουμ υποστήριξης όπως το AskUbuntu, έδειξε ότι τα περισσότερα προβλήματα που αντιμετωπίζουν οι χρήστες πηγάζουν από το παραδοσιακό μοντέλο διανομής Linux. Στις κλασικές διανομές, η εγκατάσταση πακέτων και οι αναβαθμίσεις συχνά προκαλούν αστάθεια, απαιτώντας από τον χρήστη να διαθέτει γνώσεις διαχειριστή συστήματος για να επαναφέρει τον υπολογιστή του σε λειτουργική κατάσταση.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Φωτιζόμενο πληκτρολόγιο Logitech G213</title>
@@ -204,18 +215,6 @@ Full fingerprint: 99D836D28BE53419FE2A57DF585C328CA1F33101
       <guid>https://nicktux.gr/post/ubuntu-26_april_18_04_release/</guid>
       <description>&lt;p&gt;Σε λίγες ημέρες από σήμερα η νέα έκδοση του Ubuntu 18.04 προβλέπεται να κυκλοφορήσει ως η νέα σταθερή LTS έκδοση.&lt;br&gt;
 Παρακάτω θα δούμε τι νέο φέρνει, πως μπορούμε να αναβαθμίσουμε με ασφάλεια και πότε, καθώς και άλλες χρήσιμες πληροφορίες.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[GNOME] Καθυστέρηση Εκκίνησης Εφαρμογών</title>
-      <link>https://nicktux.gr/post/gnome-startup-apps-delay/</link>
-      <pubDate>Thu, 01 Mar 2018 02:46:56 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/post/gnome-startup-apps-delay/</guid>
-      <description>&lt;p&gt;Υπάρχουν πολλοί και διάφοροι τρόποι για να πετύχει κάποιος την καθυστέρηση εκκίνησης μιας εφαρμογής.
-Ίσως ο πιο συνηθισμένος από αυτούς να είναι η δημιουργία ενός απλού εκτελέσιμου script με sleep κλπ και η προσθήκη αυτού στις εφαρμογές εκκίνησης.
-&lt;br&gt;Εδώ θα δούμε έναν απλό τρόπο, με μια γραμμή κώδικα την οποία προσθέτουμε στο ήδη υπάρχον αρχείο με κατάληξη &lt;code&gt;.desktop&lt;/code&gt;.
-&lt;br&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
