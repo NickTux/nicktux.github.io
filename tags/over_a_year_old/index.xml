@@ -18,8 +18,7 @@
       <pubDate>Sat, 14 Dec 2013 10:25:28 +0300</pubDate>
       
       <guid>https://nicktux.gr/post/arch-linux-custom-kernel/arch-linux-custom-kernel/</guid>
-      <description>&lt;pre style=&#34;width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:&#39;Ubuntu&#39;;font-style:normal;font-size:medium;&#34;&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!&lt;/pre&gt;
-&lt;p&gt;Τώρα λογικά θα περιμένετε ένα τεράστιο ποστ με πολύ configuration και διάφορες εντολές, όσοι τουλάχιστον έχετε στο παρελθόν κάποια εμπειρία με χτίσιμο πυρήνα.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Τώρα λογικά θα περιμένετε ένα τεράστιο ποστ με πολύ configuration και διάφορες εντολές, όσοι τουλάχιστον έχετε στο παρελθόν κάποια εμπειρία με χτίσιμο πυρήνα.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -28,18 +27,7 @@
       <pubDate>Fri, 15 Nov 2013 14:26:59 +0300</pubDate>
       
       <guid>https://nicktux.gr/post/arch-wiki-greek-team/arch-wiki-greek-team/</guid>
-      <description>&lt;pre style=&#34;width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:&#39;Ubuntu&#39;;font-style:normal;font-size:medium;&#34;&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!&lt;/pre&gt;
-&lt;p&gt;Πριν από μερικές ημέρες γεννήθηκε η ιδέα. Να μαζευτούμε λέει και να μεταφράσουμε το Arch Wiki. Να το συμμαζέψουμε (καλλωπίσουμε λέει ο Πάνος, μ&amp;rsquo; αρέσει αυτή λέξη) και να μεταφράσουμε ότι (σημαντικό τουλάχιστον) υπάρχει αμετάφραστο.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Linux Mint - Ένα ευάλωτο παρακλάδι του Ubuntu ;</title>
-      <link>https://nicktux.gr/post/linux-mint-oliver-grawert/linux-mint-oliver-grawert/</link>
-      <pubDate>Thu, 07 Nov 2013 17:44:19 +0300</pubDate>
-      
-      <guid>https://nicktux.gr/post/linux-mint-oliver-grawert/linux-mint-oliver-grawert/</guid>
-      <description>&lt;pre style=&#34;width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:&#39;Ubuntu&#39;;font-style:normal;font-size:medium;&#34;&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!&lt;/pre&gt;
-&lt;p&gt;Φαντάζομαι όλοι γνωρίζετε το Linux Mint, σωστά; Τουλάχιστον όσοι γνωρίζετε το Ubuntu θα γνωρίζετε και το Linux Mint. Κάποια στιγμή είχε φτάσει να ξεπερνά κατά πολύ το Ubuntu σε δημοτικότητα(δεν ξέρω αν ισχύει ακόμη το ίδιο).&lt;/p&gt;</description>
+      <description>&lt;p&gt;Πριν από μερικές ημέρες γεννήθηκε η ιδέα. Να μαζευτούμε λέει και να μεταφράσουμε το Arch Wiki. Να το συμμαζέψουμε (καλλωπίσουμε λέει ο Πάνος, μ&amp;rsquo; αρέσει αυτή λέξη) και να μεταφράσουμε ότι (σημαντικό τουλάχιστον) υπάρχει αμετάφραστο.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -124,16 +112,6 @@
 &lt;hr /&gt;
 &lt;span style=&#34;font-size:small;color:#999999;&#34;&gt;Until next time ...
 &#34;Keep Your Mind in a Constant State of Openness&#34;&lt;/span&gt;</description>
-    </item>
-    
-    <item>
-      <title>Wubi - Ένα παρωχημένο project</title>
-      <link>https://nicktux.gr/post/wubi/wubi/</link>
-      <pubDate>Tue, 11 Jun 2013 06:09:44 -0500</pubDate>
-      
-      <guid>https://nicktux.gr/post/wubi/wubi/</guid>
-      <description>&lt;pre style=&#34;width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:&#39;Ubuntu&#39;;font-style:normal;font-size:medium;&#34;&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!&lt;/pre&gt;
-&lt;p&gt;Το wubi.exe (&lt;strong&gt;W&lt;/strong&gt;indows &lt;strong&gt;Ub&lt;/strong&gt;untu &lt;strong&gt;I&lt;/strong&gt;nstaller) όταν ξεκίνησε ήταν ένα από τα πιο δημοφιλή projects ου Ubuntu.&lt;/p&gt;</description>
     </item>
     
   </channel>
