@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hardware on NickTux</title>
+    <link>https://nicktux.gr/tags/hardware/</link>
+    <description>Recent content in Hardware on NickTux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>el</language>
+    <copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright>
+    <lastBuildDate>Wed, 17 Dec 2025 22:47:06 +0200</lastBuildDate>
+    
+	<atom:link href="https://nicktux.gr/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Το Τέλος του Hardware όπως το ξέραμε;</title>
+      <link>https://nicktux.gr/post/hardware-endgame/</link>
+      <pubDate>Wed, 17 Dec 2025 22:47:06 +0200</pubDate>
+      
+      <guid>https://nicktux.gr/post/hardware-endgame/</guid>
+      <description>&lt;h3 id=&#34;το-σοκ-της-τιμής&#34;&gt;Το Σοκ της Τιμής&lt;/h3&gt;
+&lt;p&gt;Μπήκα πρόσφατα στο Skroutz και στο BestPrice για να φτιάξω ένα build για έναν φίλο. Τίποτα το εξωπραγματικό, ένα solid μηχάνημα για να τρέχει κανά Docker container, λίγο compiling και κανά παιχνίδι το Σαββατοκύριακο. Το αποτέλεσμα; Εγκεφαλικό 🤯&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
