@@ -31,11 +31,29 @@
     </item>
     
     <item>
-      <title>Desktop, Fedora, Gaming</title>
-      <link>https://nicktux.gr/tags/desktop-fedora-gaming/</link>
+      <title>Desktop</title>
+      <link>https://nicktux.gr/tags/desktop/</link>
       <pubDate>Mon, 08 Dec 2025 18:39:33 +0200</pubDate>
       
-      <guid>https://nicktux.gr/tags/desktop-fedora-gaming/</guid>
+      <guid>https://nicktux.gr/tags/desktop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fedora</title>
+      <link>https://nicktux.gr/tags/fedora/</link>
+      <pubDate>Mon, 08 Dec 2025 18:39:33 +0200</pubDate>
+      
+      <guid>https://nicktux.gr/tags/fedora/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gaming</title>
+      <link>https://nicktux.gr/tags/gaming/</link>
+      <pubDate>Mon, 08 Dec 2025 18:39:33 +0200</pubDate>
+      
+      <guid>https://nicktux.gr/tags/gaming/</guid>
       <description></description>
     </item>
     
@@ -45,15 +63,6 @@
       <pubDate>Sat, 06 Mar 2021 20:27:15 +0200</pubDate>
       
       <guid>https://nicktux.gr/tags/colors/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Desktop</title>
-      <link>https://nicktux.gr/tags/desktop/</link>
-      <pubDate>Sat, 06 Mar 2021 20:27:15 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/tags/desktop/</guid>
       <description></description>
     </item>
     
@@ -180,15 +189,6 @@
       <pubDate>Mon, 30 Sep 2019 18:55:30 +0300</pubDate>
       
       <guid>https://nicktux.gr/tags/password/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Security</title>
-      <link>https://nicktux.gr/tags/security/</link>
-      <pubDate>Mon, 30 Sep 2019 18:55:30 +0300</pubDate>
-      
-      <guid>https://nicktux.gr/tags/security/</guid>
       <description></description>
     </item>
     

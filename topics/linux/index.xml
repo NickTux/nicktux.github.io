@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright>
-    <lastBuildDate>Sat, 06 Mar 2021 20:27:15 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 18:39:33 +0200</lastBuildDate>
     
 	<atom:link href="https://nicktux.gr/topics/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Univeral Blue</title>
+      <link>https://nicktux.gr/post/univeral-blue/univeral-blue/</link>
+      <pubDate>Mon, 08 Dec 2025 18:39:33 +0200</pubDate>
+      
+      <guid>https://nicktux.gr/post/univeral-blue/univeral-blue/</guid>
+      <description>&lt;p&gt;Στο πλαίσιο του συνεδρίου KubeCon, ο Jorge Castro, συντηρητής του Project Bluefin και μέλος του Universal Blue, συζήτησε για το μέλλον του Linux Desktop και τη μετάβαση σε μια νέα αρχιτεκτονική βασισμένη σε &amp;ldquo;εικόνες&amp;rdquo; (images). Η συζήτηση εστίασε στο πώς τεχνολογίες που χρησιμοποιούνται κατά κόρον στους servers και στο cloud, μπορούν να μεταφερθούν στους προσωπικούς υπολογιστές για να λύσουν χρόνια προβλήματα αξιοπιστίας.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Φωτιζόμενο πληκτρολόγιο Logitech G213</title>
@@ -193,15 +202,6 @@
       
       <guid>https://nicktux.gr/post/encrypt-with-openssl/encrypt-with-openssl/</guid>
       <description>&lt;p&gt;Υπάρχουν πάρα πολλά προγράμματα κρυπτογράφησης. Εδώ θα δούμε ένα προ-εγκατεστημένο (στο Ubuntu και τις περισσότερες διανομές) εργαλείο, ονόματι OpenSSL. Μια εντολή σε τερματικό* είναι. Μια για κρυπτογράφηση και μια για αποκρυπτογράφηση. Εύκολα και γρήγορα. Το μόνο που πρέπει να φυλάξετε σε ασφαλές μέρος είναι  ο κωδικός αποκρυπτογράφησης.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Παραγωγή ισχυρών κωδικών</title>
-      <link>https://nicktux.gr/post/apg-strong-passwords/</link>
-      <pubDate>Thu, 04 Jul 2013 22:42:11 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/post/apg-strong-passwords/</guid>
-      <description>&lt;p&gt;Το apg είναι ένα εργαλείο που μπορεί να μας βοηθήσει στην παραγωγή ισχυρών τυχαίων (random) κωδικών. Είναι προ-εγκατεστημένο σε Ubuntu. Αν χρειαζόμαστε ισχυρούς κωδικούς που σπάνε δύσκολα έως καθόλου (πρακτικά) τότε με μια απλή εντολή σε ένα τερματικό* μπορούμε να έχουμε το επιθυμητό αποτέλεσμα.&lt;/p&gt;</description>
     </item>
     
   </channel>
