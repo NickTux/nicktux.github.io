@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Προβλήματα και Λύσεις">
+  <meta name="generator" content="Hugo 0.152.2">
+
+  <title>Αναβάθμιση σε Nextcloud 14 &middot; NickTux</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://nicktux.gr/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://nicktux.gr/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://nicktux.gr/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://nicktux.gr/img/favicon.ico" type="image/x-icon" />
+
+  
+    
+        <link rel="stylesheet" href="https://nicktux.gr/css/custom.css">
+    
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  <a class="pure-menu-heading brand" href="https://nicktux.gr/">
+  <img src="https://nicktux.gr/img/logo.png" width="35px">
+</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/topics/"><i class='fa fa-folder fa-fw'></i>Topics</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/tags/"><i class='fa fa-tags fa-fw'></i>Tags</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/post/index.xml"><i class='fa fa-rss fa-fw'></i>RSS</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/contact/"><i class='fa fa-phone fa-fw'></i>Contact</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/my-pgp-key/"><i class='fa fa-key fa-fw'></i>OpenPGP Key</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.com"><i class='fa fa-link fa-fw'></i>NickTux.com</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/nicktux" rel="me" target="_blank"><i class="fas fa-key fa-fw"></i>Keybase</a>
+    </li>
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://mastodon.social/@nicktux" rel="me" target="_blank"><i class="fab fa-mastodon fa-fw"></i>Mastodon</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://matrix.to/#/%23nicktux%3amatrix.org" rel="me" target="_blank"><i class="fas fa-comments fa-fw"></i>Matrix</a>
+    </li>
+    
+    
+    
+    <li class="pure-menu-item">
+       <a class="pure-menu-link" href="https://libretooth.gr/@nicktux" rel="me" target="_blank"><i class="fab fa-bluetooth fa-fw"></i>Libretooth</a>
+    </li>
+    
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>Copyleft (ɔ) 2025<br> No rights reserved</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Αναβάθμιση σε Nextcloud 14</h1>
+  <h2>Προβλήματα και Λύσεις</h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>11 Dec 2018</time>
+  </div>
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-folder fa-fw"></i>
+    
+      <a class="post-taxonomy-topic" href="https://nicktux.gr/topics/nextcloud">Nextcloud</a>
+    
+  </div>
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/release">release</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/upgrade">upgrade</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/troubleshooting">troubleshooting</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Πρόσφατα αναβάθμισα στην έκδοση Nextcloud 14, από τη 13 που βρισκόμουν. Βλέπετε είμαι στο &ldquo;Production Channel&rdquo;, οπότε οι αναβαθμίσεις εκδόσεων έρχονται με λίγη καθυστέρηση για να εξασφαλιστεί η σταθερότητα. Αυτή τη στιγμή το Nextcloud βρίσκεται στη σταθερή έκδοση 15, οπότε φανταστείτε το Production Channel κάτι σαν LTS release.
+Παρόλαυτα τα προβληματάκια δεν έλλειψαν και λεω να τα παραθέσω παρακάτω, καθώς και τις λύσεις τους.</p>
+<p>Η αναβάθμιση ως διαδικασία πήγε Smooth που λένε. Δηλαδή, δεν υπήρξε κάποιο ουσιαστικό πρόβλημα και ολοκληρώθηκε σε λίγα λεπτά, ως συνήθως.</p>
+<h2>Passman Problem</h2>
+<p>Αν και ο Passman είναι μια εφαρμογή τρίτου, για ορισμένους ίσως είναι essential εαν τη χρησιμοποιούν για την αποθήκευση των κωδικών τους. Αν δεν γνωρίζετε τι είναι ο Passman, με απλά λόγια θα πούμε ότι πρόκειται για έναν Password Manager με Browser Integration και όλα τα καλούδια.<br>
+Δουλεύει εξαιρετικά και το βασικότερο απ&rsquo; όλα είναι ότι εσείς έχετε τον έλεγχο, μιας και οι κωδικοί αποθηκεύονται (κρυπτογραφημένοι) στον Nextcloud Server σας.</p>
+<p>Το πρόβλημα που αντιμετώπισα με τον Passman και το Nextcloud 14 είναι απλό και λιτό. Δεν είναι συμβατός! Τέλος.<br>
+Το Nextcloud δεν σε αφήνει να ενεργοποιήσεις την εφαρμογή και απλά δεν μπορείς να τη χρησιμοποιήσεις. Αν σε αυτό προσθέσουμε και το ενδεχόμενο να μην έχει κάποιος τους κωδικούς του και κάπου αλλού&hellip;.. τη βάψαμε. Γι&rsquo; αυτό, πάντα δυο πηγές τουλάχιστον και οπωσδήποτε backup.</p>
+<h3>Πως επαναφέρουμε τον Passman</h3>
+<p>Η διαδικασία είναι απλή, αλλά χρειάζεται πρόσβαση ssh ή τελοσπάντων κονσόλας στον server και φυσικά δικαιώματα root.<br>
+Μπαίνουμε στον κατάλογο που φιλοξενούνται οι εφαρμογές μας.<br>
+Πχ. <strong>/var/www/nextcloud/apps/</strong> και τρέχουμε τις παρακάτω εντολές με δικαιώματα root.</p>
+<pre tabindex="0"><code>cd /var/www/nextcloud/apps/
+mv passman ~/ # εδώ θεωρούμε ότι υπάρχει ήδη ο φάκελος passman και τον μετακινούμε αλλού
+git clone https://github.com/nextcloud/passman.git
+cd passman
+git checkout fix_layout_for_14
+cd ..
+sudo su www-data chown -R passman
+</code></pre><p>Αν πάμε τώρα ξανά στις εφαρμογές μας, θα δούμε τον Passman έτοιμο για ενεργοποίηση. Ενεργοποιούμε την εφαρμογή και λειτουργεί μια χαρά. <em>Όλα αυτά μέχρι να διορθωθεί το πρόβλημα ασυμβατότητας.</em></p>
+<p><a href="https://i.imgur.com/BfPjcSZ.jpg" rel="noopener" target="_blank"><img src="https://i.imgur.com/BfPjcSZ.jpg" width="640" height="298"></a></p>
+<h2>HTTP "Referrer-Policy Warning"</h2>
+<p>Κάποιοι, αυτό δε συμβαίνει σε όλους και εδώ είναι το παράξενο, ίσως δουν μια προειδοποίηση στο Admin Overview όπως η παρακάτω:</p>
+<p><a href="https://i.imgur.com/L9PRFhs.jpg" rel="noopener" target="_blank"><img src="https://i.imgur.com/L9PRFhs.jpg" width="640" height="106"></a></p>
+<blockquote>
+<p>The “Referrer-Policy” HTTP header is not set to “no-referrer”, “no-referrer-when-downgrade”, “strict-origin” or “strict-origin-when-cross-origin”</p>
+</blockquote>
+<p>Αυτό διορθώνεται εαν επεξεργαστούμε το αρχείο <strong>.htaccess</strong> το οποίο βρίσκεται στη διαδρομή <strong>/var/www/nextcloud/</strong> και είναι κρυφό αρχείο.<br>
+Οπότε με έναν text editor ανοίγουμε το αρχείο και στο section <code>&lt;IfModule mod_env.c&gt;</code>
+προσθέτουμε τη παρακάτω γραμμή:</p>
+<pre><code>Header set Referrer-Policy &quot;no-referrer&quot;
+</code></pre>
+<p>κάνουμε reload τον apache2 / nginx και η προειδοποίηση πρέπει να εξαφανιστεί. Εαν δεν εξαφανιστεί, τότε δοκιμάζουμε αυτό που δούλεψε στη δική μου περίπτωση.</p>
+<pre><code>Header always set Referrer-Policy &quot;no-referrer&quot;
+</code></pre>
+<p>Προσέξτε εδώ τη διαφορά στο <strong>always</strong>.</p>
+<p><a href="https://i.imgur.com/cUEUDmP.jpg" rel="noopener" target="_blank"><img src="https://i.imgur.com/cUEUDmP.jpg" width="640" height="300"></a></p>
+<p>Αυτά τα ολίγα.<br>
+Το Nextcloud συνεχίζει να λειτουργεί απρόσκοπτα and it feels good when you have your data under control!</p>
+<hr>
+<p><span style="font-size:small;color:#999999;">Until next time &hellip;<br>
+&ldquo;Keep Your Mind in a Constant State of Openness&rdquo;</span></p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fnicktux.gr%2fpost%2fnextcloud-14-upgrade%2fnextcloud-14-upgrade%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fnicktux.gr%2fpost%2fnextcloud-14-upgrade%2fnextcloud-14-upgrade%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fnicktux.gr%2fpost%2fnextcloud-14-upgrade%2fnextcloud-14-upgrade%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fnicktux.gr%2fpost%2fnextcloud-14-upgrade%2fnextcloud-14-upgrade%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fnicktux.gr%2fpost%2fnextcloud-14-upgrade%2fnextcloud-14-upgrade%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fnicktux.gr%2fpost%2fnextcloud-14-upgrade%2fnextcloud-14-upgrade%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+
+  <div id="comments">
+<script src="https://giscus.app/client.js"
+        data-repo="NickTux/nicktux.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk3MTM4NzE3NQ=="
+        data-category="General"
+        data-category-id="DIC_kwDOBEFIJ84Cz4WR"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="gr"
+        crossorigin="anonymous"
+        async>
+</script>
+</div>
+
+</div>
+
+</div>
+</div>
+<script src="https://nicktux.gr/js/ui.js"></script>
+<script src="https://nicktux.gr/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

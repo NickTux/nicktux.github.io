@@ -14,10 +14,10 @@
     
     <item>
       <title>Nextcloud: Έλεγχος Κωδικών Χρηστών</title>
-      <link>https://nicktux.gr/post/nextcloud-passwords-check/</link>
+      <link>https://nicktux.gr/post/nextcloud-passwords-check/nextcloud-passwords-check/</link>
       <pubDate>Tue, 27 Feb 2018 00:08:51 +0200</pubDate>
       
-      <guid>https://nicktux.gr/post/nextcloud-passwords-check/</guid>
+      <guid>https://nicktux.gr/post/nextcloud-passwords-check/nextcloud-passwords-check/</guid>
       <description>&lt;p&gt;Σε πρόσφατη δημοσίευσή τους οι δημιουργοί του πλέον δημοφιλούς Nextcloud ανακοίνωσαν πως προτίθενται να ελέγχουν τους κωδικούς όσων τρέχουν κάποιο Nextcloud Instance με ένα built-in module, για τυχόν αδυναμίες.&lt;/p&gt;
 &lt;h3 id=&#34;γιατί&#34;&gt;Γιατί;&lt;/h3&gt;
 &lt;p&gt;Λόγω του ότι οι χρήστες τείνουν να χρησιμοποιούν τους ίδιους κωδικούς σε πολλαπλές τοποθεσίες και επειδή αυτό δημιουργεί έναν σημαντικό κίνδυνο σε περίπτωση κλοπής του κωδικού, οι προγραμματιστές του Nextcloud αποφάσισαν να μειώσουν αυτό τον κίνδυνο με άλλo ένα χαρακτηριστικό ασφαλείας (Security Feature).&lt;/p&gt;</description>

@@ -14,10 +14,10 @@
     
     <item>
       <title>[GNOME] Καθυστέρηση Εκκίνησης Εφαρμογών</title>
-      <link>https://nicktux.gr/post/gnome-startup-apps-delay/</link>
+      <link>https://nicktux.gr/post/gnome-startup-apps-delay/gnome-startup-apps-delay/</link>
       <pubDate>Thu, 01 Mar 2018 02:46:56 +0200</pubDate>
       
-      <guid>https://nicktux.gr/post/gnome-startup-apps-delay/</guid>
+      <guid>https://nicktux.gr/post/gnome-startup-apps-delay/gnome-startup-apps-delay/</guid>
       <description>&lt;p&gt;Υπάρχουν πολλοί και διάφοροι τρόποι για να πετύχει κάποιος την καθυστέρηση εκκίνησης μιας εφαρμογής.
 Ίσως ο πιο συνηθισμένος από αυτούς να είναι η δημιουργία ενός απλού εκτελέσιμου script με sleep κλπ και η προσθήκη αυτού στις εφαρμογές εκκίνησης.
 &lt;br&gt;Εδώ θα δούμε έναν απλό τρόπο, με μια γραμμή κώδικα την οποία προσθέτουμε στο ήδη υπάρχον αρχείο με κατάληξη &lt;code&gt;.desktop&lt;/code&gt;.

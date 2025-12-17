@@ -14,10 +14,10 @@
     
     <item>
       <title>Πολλαπλά κλειδιά ssh και διαφορετικοί λογαριασμοί Github</title>
-      <link>https://nicktux.gr/post/ssh-keys-different-github-accounts-same-pc/</link>
+      <link>https://nicktux.gr/post/ssh-keys-different-github-accounts-same-pc/ssh-keys-different-github-accounts-same-pc/</link>
       <pubDate>Fri, 22 May 2020 09:07:12 +0300</pubDate>
       
-      <guid>https://nicktux.gr/post/ssh-keys-different-github-accounts-same-pc/</guid>
+      <guid>https://nicktux.gr/post/ssh-keys-different-github-accounts-same-pc/ssh-keys-different-github-accounts-same-pc/</guid>
       <description>&lt;p&gt;Ένα πρόβλημα που αντιμετώπισα πρόσφατα είχε σχέση με το ότι ο ssh-agent δεν μπορούσε
 να ξεχωρίσει ποιο ssh κλειδί να στείλει σε ποιο αποθετήριο Github.&lt;/p&gt;</description>
     </item>

@@ -14,30 +14,30 @@
     
     <item>
       <title>Bitwarden Password Manager</title>
-      <link>https://nicktux.gr/post/bitwarden/</link>
+      <link>https://nicktux.gr/post/bitwarden/bitwarden/</link>
       <pubDate>Mon, 30 Sep 2019 18:55:30 +0300</pubDate>
       
-      <guid>https://nicktux.gr/post/bitwarden/</guid>
+      <guid>https://nicktux.gr/post/bitwarden/bitwarden/</guid>
       <description>&lt;p&gt;Κατά τον παλιό καιρό είχαμε ένα-δυο κωδικούς πρόσβασης για τις δυο-τρεις υπηρεσίες στις οποίες διαθέταμε λογαριασμό. Ένα φόρουμ, μια λίστα, ένα Email.&lt;br&gt;
 Πλέον τα πράγματα έχουν αλλάξει δραστικά αφού ο καθένας από εμάς διαθέτει περί τους 20+ λογαριασμούς σε διάφορα fora, emails, social media, τράπεζες και λοιπές υπηρεσίες.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Decentralize Your Digital Life</title>
-      <link>https://nicktux.gr/post/decentralized-digital-life/</link>
+      <link>https://nicktux.gr/post/decentralized-digital-life/decentralized-digital-life/</link>
       <pubDate>Sat, 29 Dec 2018 13:10:23 +0200</pubDate>
       
-      <guid>https://nicktux.gr/post/decentralized-digital-life/</guid>
+      <guid>https://nicktux.gr/post/decentralized-digital-life/decentralized-digital-life/</guid>
       <description>&lt;p&gt;Αποχωριζόμενοι το 2018 και μπαίνοντας στη νέα χρονιά, είναι μια καλή στιγμή για ένα Reboot. Ίσως ήρθε η ώρα να αναλογιστούμε τη ψηφιακή μας εξάρτηση/απεξάρτηση από μεγάλες εταιρίες που χαλιναγωγούν και διαμορφώνουν τον ψηφιακό μας κόσμο.
 Δεν είναι υπερβολή να πούμε ότι τα μισά από τα κλικ που κάνουμε είναι καθοδηγούμενα από εταιρίες που μας προσφέρουν “δωρεάν” υπηρεσίες, με πολλά ανταλλάγματα βεβαίως, βεβαίως. Το πιο συνηθισμένο από αυτά (τα ανταλλάγματα) είναι η στοχευμένη διαφήμιση αφού προηγουμένως έχουν καταγραφεί τα θέλω μας, τα πιστεύω μας, τα ενδιαφέροντά μας και ότι άλλο μπορεί να βοηθήσει σε μια στατιστική ανάλυση για το χτίσιμο ενός καλού Profile, για τον κάθε ένα από εμάς. Και αυτό το Προφιλ επεξεργάζεται και ανανεώνεται συνεχώς.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Nextcloud: Έλεγχος Κωδικών Χρηστών</title>
-      <link>https://nicktux.gr/post/nextcloud-passwords-check/</link>
+      <link>https://nicktux.gr/post/nextcloud-passwords-check/nextcloud-passwords-check/</link>
       <pubDate>Tue, 27 Feb 2018 00:08:51 +0200</pubDate>
       
-      <guid>https://nicktux.gr/post/nextcloud-passwords-check/</guid>
+      <guid>https://nicktux.gr/post/nextcloud-passwords-check/nextcloud-passwords-check/</guid>
       <description>&lt;p&gt;Σε πρόσφατη δημοσίευσή τους οι δημιουργοί του πλέον δημοφιλούς Nextcloud ανακοίνωσαν πως προτίθενται να ελέγχουν τους κωδικούς όσων τρέχουν κάποιο Nextcloud Instance με ένα built-in module, για τυχόν αδυναμίες.&lt;/p&gt;
 &lt;h3 id=&#34;γιατί&#34;&gt;Γιατί;&lt;/h3&gt;
 &lt;p&gt;Λόγω του ότι οι χρήστες τείνουν να χρησιμοποιούν τους ίδιους κωδικούς σε πολλαπλές τοποθεσίες και επειδή αυτό δημιουργεί έναν σημαντικό κίνδυνο σε περίπτωση κλοπής του κωδικού, οι προγραμματιστές του Nextcloud αποφάσισαν να μειώσουν αυτό τον κίνδυνο με άλλo ένα χαρακτηριστικό ασφαλείας (Security Feature).&lt;/p&gt;</description>
@@ -45,10 +45,10 @@
     
     <item>
       <title>Κρυπτογράφηση αρχείων και φακέλων με το OpenSSL</title>
-      <link>https://nicktux.gr/post/encrypt-with-openssl/</link>
+      <link>https://nicktux.gr/post/encrypt-with-openssl/encrypt-with-openssl/</link>
       <pubDate>Fri, 05 Jul 2013 14:32:35 +0100</pubDate>
       
-      <guid>https://nicktux.gr/post/encrypt-with-openssl/</guid>
+      <guid>https://nicktux.gr/post/encrypt-with-openssl/encrypt-with-openssl/</guid>
       <description>&lt;pre style=&#34;width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:&#39;Ubuntu&#39;;font-style:normal;font-size:medium;&#34;&gt;ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!&lt;/pre&gt;
 &lt;p&gt;Υπάρχουν πάρα πολλά προγράμματα κρυπτογράφησης. Εδώ θα δούμε ένα προ-εγκατεστημένο (στο Ubuntu και τις περισσότερες διανομές) εργαλείο, ονόματι OpenSSL. Μια εντολή σε τερματικό* είναι. Μια για κρυπτογράφηση και μια για αποκρυπτογράφηση. Εύκολα και γρήγορα. Το μόνο που πρέπει να φυλάξετε σε ασφαλές μέρος είναι  ο κωδικός αποκρυπτογράφησης.&lt;/p&gt;</description>
     </item>

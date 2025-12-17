@@ -1,0 +1,64 @@
+/* 1. Εισαγωγή Google Fonts */
+/* Αλλάξαμε τη Merriweather με τη 'Roboto Slab' που "κουμπώνει" τέλεια με τα Ελληνικά */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+/* 2. Γενικές Ρυθμίσεις (Body) */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333333;
+}
+
+/* 3. Ρυθμίσεις Κυρίως Περιεχομένου */
+#main {
+    background-color: #f9f9f9;
+}
+
+/* 4. Στυλ Τίτλων (H1-H4 & Post Titles) */
+/* Εδώ μπαίνει η Roboto Slab για να είναι ολόιδια Ελληνικά και Αγγλικά */
+h1, h2, h3, h4, .post-title a {
+    font-family: 'Roboto Slab', serif; 
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 700; /* Σιγουρεύουμε ότι είναι bold */
+}
+
+/* 5. Links μέσα στο κείμενο */
+#main a {
+    color: #2980b9;
+    transition: color 0.3s ease;
+}
+
+#main a:hover {
+    color: #e74c3c;
+}
+
+/* 6. Κώδικας (Code blocks) */
+code {
+    background-color: #e0e0e0;
+    color: #c0392b;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* --- Διορθώσεις για τα στοιχεία που "ξεφεύγουν" --- */
+
+/* Metadata (Ημερομηνία, tags κλπ) */
+.post-meta {
+   
+    font-family: 'Roboto', sans-serif;
+}
+
+.post-meta a {
+
+    text-decoration: none;
+}
+
+/* Ειδική στόχευση για τίτλους μέσα στο άρθρο (για να πάρουν κι αυτοί Roboto Slab) */
+#main .post-content h2,
+#main .post-content h3,
+#main .post-content h4 {
+    color: #2c3e50 !important;
+    font-family: 'Roboto Slab', serif;
+}

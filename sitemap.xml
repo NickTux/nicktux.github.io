@@ -2,22 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://nicktux.gr/topics/hardware/</loc>
+    <lastmod>2025-12-17T22:47:06+02:00</lastmod>
+  </url><url>
+    <loc>https://nicktux.gr/tags/hardware-ai/</loc>
+    <lastmod>2025-12-17T22:47:06+02:00</lastmod>
+  </url><url>
+    <loc>https://nicktux.gr/</loc>
+    <lastmod>2025-12-17T22:47:06+02:00</lastmod>
+  </url><url>
+    <loc>https://nicktux.gr/tags/</loc>
+    <lastmod>2025-12-17T22:47:06+02:00</lastmod>
+  </url><url>
+    <loc>https://nicktux.gr/topics/</loc>
+    <lastmod>2025-12-17T22:47:06+02:00</lastmod>
+  </url><url>
+    <loc>https://nicktux.gr/post/hardware-endgame/</loc>
+    <lastmod>2025-12-17T22:47:06+02:00</lastmod>
+  </url><url>
     <loc>https://nicktux.gr/tags/desktop-fedora-gaming/</loc>
     <lastmod>2025-12-08T18:39:33+02:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/topics/linux-fedora/</loc>
     <lastmod>2025-12-08T18:39:33+02:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/</loc>
-    <lastmod>2025-12-08T18:39:33+02:00</lastmod>
-  </url><url>
-    <loc>https://nicktux.gr/tags/</loc>
-    <lastmod>2025-12-08T18:39:33+02:00</lastmod>
-  </url><url>
-    <loc>https://nicktux.gr/topics/</loc>
-    <lastmod>2025-12-08T18:39:33+02:00</lastmod>
-  </url><url>
-    <loc>https://nicktux.gr/post/univeral-blue/</loc>
+    <loc>https://nicktux.gr/post/univeral-blue/univeral-blue/</loc>
     <lastmod>2025-12-08T18:39:33+02:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/colors/</loc>
@@ -41,7 +50,7 @@
     <loc>https://nicktux.gr/tags/ubuntu-20.04/</loc>
     <lastmod>2021-03-06T20:27:15+02:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/g213colors/</loc>
+    <loc>https://nicktux.gr/post/g213colors/g213colors/</loc>
     <lastmod>2021-03-06T20:27:15+02:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/gksu/</loc>
@@ -50,7 +59,7 @@
     <loc>https://nicktux.gr/tags/pkexec/</loc>
     <lastmod>2020-05-27T01:18:12+03:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/gksu-pkexec-alias-tip/</loc>
+    <loc>https://nicktux.gr/post/gksu-pkexec-alias-tip/gksu-pkexec-alias-tip/</loc>
     <lastmod>2020-05-27T01:18:12+03:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/github/</loc>
@@ -59,7 +68,7 @@
     <loc>https://nicktux.gr/tags/ssh/</loc>
     <lastmod>2020-05-22T09:07:12+03:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/ssh-keys-different-github-accounts-same-pc/</loc>
+    <loc>https://nicktux.gr/post/ssh-keys-different-github-accounts-same-pc/ssh-keys-different-github-accounts-same-pc/</loc>
     <lastmod>2020-05-22T09:07:12+03:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/playlist/</loc>
@@ -71,7 +80,7 @@
     <loc>https://nicktux.gr/tags/youtube/</loc>
     <lastmod>2020-05-19T00:04:02+03:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/vlc-youtube-playlist/</loc>
+    <loc>https://nicktux.gr/post/vlc-youtube-playlist/vlc-youtube-playlist/</loc>
     <lastmod>2020-05-19T00:04:02+03:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/time/</loc>
@@ -83,10 +92,10 @@
     <loc>https://nicktux.gr/tags/utc/</loc>
     <lastmod>2020-05-09T12:30:11+03:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/fix-time-ubuntu-windows/</loc>
+    <loc>https://nicktux.gr/post/fix-time-ubuntu-windows/fix-time-ubuntu-windows/</loc>
     <lastmod>2020-05-09T12:30:11+03:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/bitwarden/</loc>
+    <loc>https://nicktux.gr/post/bitwarden/bitwarden/</loc>
     <lastmod>2019-09-30T18:55:30+03:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/password/</loc>
@@ -107,13 +116,13 @@
     <loc>https://nicktux.gr/tags/usb/</loc>
     <lastmod>2019-04-05T18:55:56+03:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/two-usb-mics/</loc>
+    <loc>https://nicktux.gr/post/two-usb-mics/two-usb-mics/</loc>
     <lastmod>2019-04-05T18:55:56+03:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/topics/decentralization/</loc>
     <lastmod>2018-12-29T13:10:23+02:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/decentralized-digital-life/</loc>
+    <loc>https://nicktux.gr/post/decentralized-digital-life/decentralized-digital-life/</loc>
     <lastmod>2018-12-29T13:10:23+02:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/mastodon/</loc>
@@ -137,7 +146,7 @@
     <loc>https://nicktux.gr/tags/snap/</loc>
     <lastmod>2018-12-22T19:56:06+02:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/gimp210-lm19/</loc>
+    <loc>https://nicktux.gr/post/gimp210-lm19/gimp210-lm19/</loc>
     <lastmod>2018-12-22T19:56:06+02:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/topics/nextcloud/</loc>
@@ -149,7 +158,7 @@
     <loc>https://nicktux.gr/tags/upgrade/</loc>
     <lastmod>2018-12-11T14:13:46-05:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/nextcloud-14-upgrade/</loc>
+    <loc>https://nicktux.gr/post/nextcloud-14-upgrade/nextcloud-14-upgrade/</loc>
     <lastmod>2018-12-11T14:13:46-05:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/apps/</loc>
@@ -164,13 +173,13 @@
     <loc>https://nicktux.gr/tags/tutorials/</loc>
     <lastmod>2018-11-25T21:54:28+02:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/telegram-mint-tara/</loc>
+    <loc>https://nicktux.gr/post/telegram-mint-tara/telegram-mint-tara/</loc>
     <lastmod>2018-11-25T21:54:28+02:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/new/</loc>
     <lastmod>2018-11-24T20:19:02+02:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/linux-mint-tara/</loc>
+    <loc>https://nicktux.gr/post/linux-mint-tara/linux-mint-tara/</loc>
     <lastmod>2018-11-24T20:19:02+02:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/my-pgp-key/</loc>
@@ -188,28 +197,28 @@
     <loc>https://nicktux.gr/tags/suggestion/</loc>
     <lastmod>2018-08-25T14:52:27+03:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/which-kernel/</loc>
+    <loc>https://nicktux.gr/post/which-kernel/which-kernel/</loc>
     <lastmod>2018-08-25T14:52:27+03:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/ubuntu-bionic-thunderbird-subject-emoji/</loc>
+    <loc>https://nicktux.gr/post/ubuntu-bionic-thunderbird-subject-emoji/ubuntu-bionic-thunderbird-subject-emoji/</loc>
     <lastmod>2018-05-03T22:30:51+03:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/thunderbird/</loc>
     <lastmod>2018-05-03T22:30:51+03:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/ubuntu-bionic-wifi-status-icon/</loc>
+    <loc>https://nicktux.gr/post/ubuntu-bionic-wifi-status-icon/ubuntu-bionic-wifi-status-icon/</loc>
     <lastmod>2018-05-01T21:25:02+03:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/wifi/</loc>
     <lastmod>2018-05-01T21:25:02+03:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/ubuntu-bionic-gksu-removed/</loc>
+    <loc>https://nicktux.gr/post/ubuntu-bionic-gksu-removed/ubuntu-bionic-gksu-removed/</loc>
     <lastmod>2018-04-16T22:29:19+03:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/distro-changes/</loc>
     <lastmod>2018-04-16T22:29:19+03:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/nextcloud-bionic-online-accounts/</loc>
+    <loc>https://nicktux.gr/post/nextcloud-bionic-online-accounts/nextcloud-bionic-online-accounts/</loc>
     <lastmod>2018-04-11T22:46:06+03:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/client/</loc>
@@ -221,10 +230,10 @@
     <loc>https://nicktux.gr/tags/gnome/</loc>
     <lastmod>2018-04-11T22:46:06+03:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/ubuntu-26_april_18_04_release/</loc>
+    <loc>https://nicktux.gr/post/ubuntu-26_april_18_04_release/ubuntu-26_april_18_04_release/</loc>
     <lastmod>2018-04-09T12:26:43+03:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/gnome-startup-apps-delay/</loc>
+    <loc>https://nicktux.gr/post/gnome-startup-apps-delay/gnome-startup-apps-delay/</loc>
     <lastmod>2018-03-01T02:46:56+02:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/topics/debian/</loc>
@@ -233,7 +242,7 @@
     <loc>https://nicktux.gr/tags/startup/</loc>
     <lastmod>2018-03-01T02:46:56+02:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/nextcloud-passwords-check/</loc>
+    <loc>https://nicktux.gr/post/nextcloud-passwords-check/nextcloud-passwords-check/</loc>
     <lastmod>2018-02-27T00:08:51+02:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/passwords/</loc>
@@ -251,7 +260,7 @@
     <loc>https://nicktux.gr/tags/kanban/</loc>
     <lastmod>2018-02-26T20:28:39+02:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/nextcloud-apps-deck/</loc>
+    <loc>https://nicktux.gr/post/nextcloud-apps-deck/nextcloud-apps-deck/</loc>
     <lastmod>2018-02-26T20:28:39+02:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/organization/</loc>
@@ -266,7 +275,7 @@
     <loc>https://nicktux.gr/tags/arch-linux/</loc>
     <lastmod>2013-12-14T10:25:28+03:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/arch-linux-custom-kernel/</loc>
+    <loc>https://nicktux.gr/post/arch-linux-custom-kernel/arch-linux-custom-kernel/</loc>
     <lastmod>2013-12-14T10:25:28+03:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/custom-kernel/</loc>
@@ -278,7 +287,7 @@
     <loc>https://nicktux.gr/tags/arch-wiki/</loc>
     <lastmod>2013-11-15T14:26:59+03:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/arch-wiki-greek-team/</loc>
+    <loc>https://nicktux.gr/post/arch-wiki-greek-team/arch-wiki-greek-team/</loc>
     <lastmod>2013-11-15T14:26:59+03:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/translation/</loc>
@@ -287,13 +296,13 @@
     <loc>https://nicktux.gr/tags/linux-mint/</loc>
     <lastmod>2013-11-07T17:44:19+03:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/linux-mint-oliver-grawert/</loc>
+    <loc>https://nicktux.gr/post/linux-mint-oliver-grawert/linux-mint-oliver-grawert/</loc>
     <lastmod>2013-11-07T17:44:19+03:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/cryptography/</loc>
     <lastmod>2013-07-05T14:32:35+01:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/encrypt-with-openssl/</loc>
+    <loc>https://nicktux.gr/post/encrypt-with-openssl/encrypt-with-openssl/</loc>
     <lastmod>2013-07-05T14:32:35+01:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/apg/</loc>
@@ -305,7 +314,7 @@
     <loc>https://nicktux.gr/tags/wireless/</loc>
     <lastmod>2013-07-03T17:18:12+02:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/problems-wireless-ubuntu/</loc>
+    <loc>https://nicktux.gr/post/problems-wireless-ubuntu/problems-wireless-ubuntu/</loc>
     <lastmod>2013-07-03T17:18:12+02:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/boot/</loc>
@@ -314,13 +323,13 @@
     <loc>https://nicktux.gr/tags/repair/</loc>
     <lastmod>2013-07-03T00:47:27+02:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/boot-repair/</loc>
+    <loc>https://nicktux.gr/post/boot-repair/boot-repair/</loc>
     <lastmod>2013-07-03T00:47:27+02:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/package-manager/</loc>
     <lastmod>2013-07-02T14:50:44-05:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/package-manager-troubleshooting-ubuntu/</loc>
+    <loc>https://nicktux.gr/post/package-manager-troubleshooting-ubuntu/package-manager-troubleshooting-ubuntu/</loc>
     <lastmod>2013-07-02T14:50:44-05:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/community/</loc>
@@ -332,10 +341,10 @@
     <loc>https://nicktux.gr/tags/member/</loc>
     <lastmod>2013-07-02T18:54:28+02:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/how-to-become-ubuntu-member/</loc>
+    <loc>https://nicktux.gr/post/how-to-become-ubuntu-member/how-to-become-ubuntu-member/</loc>
     <lastmod>2013-07-02T18:54:28+02:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/reset-password-ubuntu/</loc>
+    <loc>https://nicktux.gr/post/reset-password-ubuntu/reset-password-ubuntu/</loc>
     <lastmod>2013-07-02T17:16:40+02:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/events/</loc>
@@ -344,10 +353,10 @@
     <loc>https://nicktux.gr/tags/fosscomm/</loc>
     <lastmod>2013-07-02T02:16:08+02:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/fosscomm-2013/</loc>
+    <loc>https://nicktux.gr/post/fosscomm-2013/fosscomm-2013/</loc>
     <lastmod>2013-07-02T02:16:08+02:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/release-party-ubuntu-13-10-athens2013/</loc>
+    <loc>https://nicktux.gr/post/release-party-ubuntu-13-10-athens2013/release-party-ubuntu-13-10-athens2013/</loc>
     <lastmod>2013-07-02T02:05:25+02:00</lastmod>
   </url><url>
     <loc>https://nicktux.gr/tags/announce/</loc>
@@ -359,7 +368,7 @@
     <loc>https://nicktux.gr/tags/wubi/</loc>
     <lastmod>2013-06-11T06:09:44-05:00</lastmod>
   </url><url>
-    <loc>https://nicktux.gr/post/wubi/</loc>
+    <loc>https://nicktux.gr/post/wubi/wubi/</loc>
     <lastmod>2013-06-11T06:09:44-05:00</lastmod>
   </url>
 </urlset>

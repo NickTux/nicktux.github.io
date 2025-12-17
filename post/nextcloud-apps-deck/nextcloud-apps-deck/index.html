@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Μια λειτουργική εφαρμογή παρόμοια του Trello">
+  <meta name="generator" content="Hugo 0.152.2">
+
+  <title>Nextcloud Apps Deck &middot; NickTux</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://nicktux.gr/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://nicktux.gr/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://nicktux.gr/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://nicktux.gr/img/favicon.ico" type="image/x-icon" />
+
+  
+    
+        <link rel="stylesheet" href="https://nicktux.gr/css/custom.css">
+    
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  <a class="pure-menu-heading brand" href="https://nicktux.gr/">
+  <img src="https://nicktux.gr/img/logo.png" width="35px">
+</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/topics/"><i class='fa fa-folder fa-fw'></i>Topics</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/tags/"><i class='fa fa-tags fa-fw'></i>Tags</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/post/index.xml"><i class='fa fa-rss fa-fw'></i>RSS</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/contact/"><i class='fa fa-phone fa-fw'></i>Contact</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/my-pgp-key/"><i class='fa fa-key fa-fw'></i>OpenPGP Key</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.com"><i class='fa fa-link fa-fw'></i>NickTux.com</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/nicktux" rel="me" target="_blank"><i class="fas fa-key fa-fw"></i>Keybase</a>
+    </li>
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://mastodon.social/@nicktux" rel="me" target="_blank"><i class="fab fa-mastodon fa-fw"></i>Mastodon</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://matrix.to/#/%23nicktux%3amatrix.org" rel="me" target="_blank"><i class="fas fa-comments fa-fw"></i>Matrix</a>
+    </li>
+    
+    
+    
+    <li class="pure-menu-item">
+       <a class="pure-menu-link" href="https://libretooth.gr/@nicktux" rel="me" target="_blank"><i class="fab fa-bluetooth fa-fw"></i>Libretooth</a>
+    </li>
+    
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>Copyleft (ɔ) 2025<br> No rights reserved</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Nextcloud Apps Deck</h1>
+  <h2>Μια λειτουργική εφαρμογή παρόμοια του Trello</h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>26 Feb 2018</time>
+  </div>
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-folder fa-fw"></i>
+    
+      <a class="post-taxonomy-topic" href="https://nicktux.gr/topics/nextcloud">Nextcloud</a>
+    
+  </div>
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/kanban">kanban</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/organization">Organization</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/apps">Apps</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/deck">Deck</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Το Deck είναι μια εφαρμογή για το Nextcloud. Είναι ένα εργαλείο που επιτρέπει την οργάνωση της καθημερινότητάς μας, είτε και στην εργασία μας, με ομάδες που συμμετέχουν στο Nextcloud.</p>
+<p>Μια από τις πολλές και χρήσιμες εφαρμογές στο Nextcloud Store είναι και το Deck. Ένα εργαλείο οργάνωσης ομάδων και έργων σε Kanban Board Style. Ένα από τα πιο γνωστά τέτοια εργαλεία, για όσους δεν γνωρίζουν τι είναι ένα Kanban Board, είναι το Trello. Επιτρέπει την οργάνωση εργασιών για ένα έργο σε μορφή πινάκων, με συμμετοχή, σχόλια, ToDo lists και γενικότερα ότι εξυπηρετεί την κάθε ομάδα. Δυστυχώς το Trello είναι κλειστού κώδικα και φυσικά τον έλεγχο της εφαρμογής την έχει το Trello και όχι εσείς.</p>
+<p>Με το Nextcloud Deck φανταστείτε ένα δικό σας Trello, στον δικό σας Nextcloud Server. Για να μη τα παραλέμε, οι δυνατότητες δεν είναι ακριβώς οι ίδιες, τουλάχιστον όχι ακόμη. Όπως πολύ καλά γνωρίζουμε όμως, οι δυνατότητες στο Open Source είναι απεριόριστες. Αυτό που χρειάζεται είναι συνεργασία - συμμετοχή - συνεισφορά.
+Το αποθετήριο στο GitHub βρίσκεται στον παρακάτω σύνδεσμο:
+<a href="https://github.com/nextcloud/deck">https://github.com/nextcloud/deck</a></p>
+<p>Κάντε εγκατάσταση το Deck από τη κατηγορία &ldquo;Εφαρμογές&rdquo;(+Apps) και ξεκινήστε να το χρησιμοποιείτε ευθύς αμέσως.
+<strong>Προσέξτε ότι</strong> βρίσκεται ακόμη σε <strong>Beta έκδοση</strong> άρα σφάλματα (bugs) υπάρχουν.</p>
+<p>Δείτε το και στο Nextcloud Apps: <a href="https://apps.nextcloud.com/apps/deck">https://apps.nextcloud.com/apps/deck</a></p>
+<p>Το ενεργοποιείτε από Apps → Organization → Deck</p>
+<p><a href="https://nicktux.files.wordpress.com/2018/02/deck11.jpg"><img src="https://nicktux.files.wordpress.com/2018/02/deck11.jpg" alt="" width="640" height="316" class="alignnone size-full wp-image-6362" /></a></p>
+<p><a href="https://nicktux.files.wordpress.com/2018/02/deck.jpg"><img src="https://nicktux.files.wordpress.com/2018/02/deck.jpg" alt="" width="640" height="332" class="alignnone size-full wp-image-6364" /></a></p>
+<hr />
+<p><span style="font-size:small;color:#999999;">Until next time &hellip;
+&ldquo;Keep Your Mind in a Constant State of Openness&rdquo;</span></p>
+
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fnicktux.gr%2fpost%2fnextcloud-apps-deck%2fnextcloud-apps-deck%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fnicktux.gr%2fpost%2fnextcloud-apps-deck%2fnextcloud-apps-deck%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fnicktux.gr%2fpost%2fnextcloud-apps-deck%2fnextcloud-apps-deck%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fnicktux.gr%2fpost%2fnextcloud-apps-deck%2fnextcloud-apps-deck%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fnicktux.gr%2fpost%2fnextcloud-apps-deck%2fnextcloud-apps-deck%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fnicktux.gr%2fpost%2fnextcloud-apps-deck%2fnextcloud-apps-deck%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+
+  <div id="comments">
+<script src="https://giscus.app/client.js"
+        data-repo="NickTux/nicktux.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk3MTM4NzE3NQ=="
+        data-category="General"
+        data-category-id="DIC_kwDOBEFIJ84Cz4WR"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="gr"
+        crossorigin="anonymous"
+        async>
+</script>
+</div>
+
+</div>
+
+</div>
+</div>
+<script src="https://nicktux.gr/js/ui.js"></script>
+<script src="https://nicktux.gr/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

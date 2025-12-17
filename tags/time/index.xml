@@ -14,10 +14,10 @@
     
     <item>
       <title>Διόρθωση διαφοράς ώρας</title>
-      <link>https://nicktux.gr/post/fix-time-ubuntu-windows/</link>
+      <link>https://nicktux.gr/post/fix-time-ubuntu-windows/fix-time-ubuntu-windows/</link>
       <pubDate>Sat, 09 May 2020 12:30:11 +0300</pubDate>
       
-      <guid>https://nicktux.gr/post/fix-time-ubuntu-windows/</guid>
+      <guid>https://nicktux.gr/post/fix-time-ubuntu-windows/fix-time-ubuntu-windows/</guid>
       <description>&lt;p&gt;Σε ένα σύστημα διπλής εκκίνησης (dual boot) είναι πιθανό να αντιμετωπίζουμε πρόβλημα με τη διαφορά ώρας κάθε φορά που κάνουμε επανεκκίνηση από Ubuntu σε Windows. Αυτό οφείλεται στα διαφορετικά ρολόγια που χρησιμοποιούν τα δυο λειτουργικά.&lt;br&gt; Παρακάτω σημειώνουμε πως μπορούμε να το διορθώσουμε.&lt;/p&gt;</description>
     </item>
     

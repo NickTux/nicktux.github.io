@@ -14,10 +14,10 @@
     
     <item>
       <title>Αναβάθμιση σε Nextcloud 14</title>
-      <link>https://nicktux.gr/post/nextcloud-14-upgrade/</link>
+      <link>https://nicktux.gr/post/nextcloud-14-upgrade/nextcloud-14-upgrade/</link>
       <pubDate>Tue, 11 Dec 2018 14:13:46 -0500</pubDate>
       
-      <guid>https://nicktux.gr/post/nextcloud-14-upgrade/</guid>
+      <guid>https://nicktux.gr/post/nextcloud-14-upgrade/nextcloud-14-upgrade/</guid>
       <description>&lt;p&gt;Πρόσφατα αναβάθμισα στην έκδοση Nextcloud 14, από τη 13 που βρισκόμουν. Βλέπετε είμαι στο &amp;ldquo;Production Channel&amp;rdquo;, οπότε οι αναβαθμίσεις εκδόσεων έρχονται με λίγη καθυστέρηση για να εξασφαλιστεί η σταθερότητα. Αυτή τη στιγμή το Nextcloud βρίσκεται στη σταθερή έκδοση 15, οπότε φανταστείτε το Production Channel κάτι σαν LTS release.
 Παρόλαυτα τα προβληματάκια δεν έλλειψαν και λεω να τα παραθέσω παρακάτω, καθώς και τις λύσεις τους.&lt;/p&gt;</description>
     </item>

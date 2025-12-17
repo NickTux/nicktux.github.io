@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="19.1 Tessa">
+  <meta name="generator" content="Hugo 0.152.2">
+
+  <title>Εγκατάσταση του GIMP 2.10 σε Linux Mint &middot; NickTux</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://nicktux.gr/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://nicktux.gr/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://nicktux.gr/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://nicktux.gr/img/favicon.ico" type="image/x-icon" />
+
+  
+    
+        <link rel="stylesheet" href="https://nicktux.gr/css/custom.css">
+    
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  <a class="pure-menu-heading brand" href="https://nicktux.gr/">
+  <img src="https://nicktux.gr/img/logo.png" width="35px">
+</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/topics/"><i class='fa fa-folder fa-fw'></i>Topics</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/tags/"><i class='fa fa-tags fa-fw'></i>Tags</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/post/index.xml"><i class='fa fa-rss fa-fw'></i>RSS</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/contact/"><i class='fa fa-phone fa-fw'></i>Contact</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/my-pgp-key/"><i class='fa fa-key fa-fw'></i>OpenPGP Key</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.com"><i class='fa fa-link fa-fw'></i>NickTux.com</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/nicktux" rel="me" target="_blank"><i class="fas fa-key fa-fw"></i>Keybase</a>
+    </li>
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://mastodon.social/@nicktux" rel="me" target="_blank"><i class="fab fa-mastodon fa-fw"></i>Mastodon</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://matrix.to/#/%23nicktux%3amatrix.org" rel="me" target="_blank"><i class="fas fa-comments fa-fw"></i>Matrix</a>
+    </li>
+    
+    
+    
+    <li class="pure-menu-item">
+       <a class="pure-menu-link" href="https://libretooth.gr/@nicktux" rel="me" target="_blank"><i class="fab fa-bluetooth fa-fw"></i>Libretooth</a>
+    </li>
+    
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>Copyleft (ɔ) 2025<br> No rights reserved</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Εγκατάσταση του GIMP 2.10 σε Linux Mint</h1>
+  <h2>19.1 Tessa</h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>22 Dec 2018</time>
+  </div>
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-folder fa-fw"></i>
+    
+      <a class="post-taxonomy-topic" href="https://nicktux.gr/topics/linux">Linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-topic" href="https://nicktux.gr/topics/linux-mint">Linux Mint</a>
+    
+  </div>
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/gimp">GIMP</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/new-version">new version</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/install">install</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/snap">snap</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Σε αυτή τη δημοσίευση θα δούμε έναν τρόπο εγκατάστασης της νέας έκδοσης του GIMP 2.10 σε Linux Mint 19.1, την οποία έχω ήδη δοκιμάσει και λειτουργεί χωρίς προβλήματα.<br></p>
+<p>Η νέα έκδοση του GIMP είναι αποτέλεσμα 6 ετών ανάπτυξης. Η αρχικός στόχος ήταν η μεταφορά (porting) του προγράμματος σε μια νέα μηχανή επεξεργασίας (processing engine), την <a href="http://gegl.org" target="_blank" rel="noopener">GEGL</a>. Εκτός αυτού βέβαια έχουν αναβαθμιστεί ακόμη πολλά χαρακτηριστικά και έχουν προστεθεί αρκετά νέα.<br>
+Για μια πλήρη παρουσίαση των νέων χαρακτηριστικών διαβάστε στην <a href="https://www.gimp.org/release-notes/gimp-2.10.html" target="_blank" rel="noopener">επίσημη σελίδα του GIMP</a>.</p>
+<h2>Εγκατάσταση σε Linux Mint</h2>
+<p>Την εγκατάσταση στο Linux Mint θα την κάνουμε με έναν, ίσως, ανορθόδοξο τρόπο αλλά ασφαλή. Τον χαρακτηρίζω ανορθόδοξο διότι το Mint στοχεύει περισσότερο στην υποστήριξη των πακέτων Flatpaks παρά των Snaps.<br>
+Από τα προαναφερόμενα καταλάβατε με ποιον τρόπο θα εγκαταστήσουμε το GIMP 2.10 στο Linux Mint 19.1. Τα Snaps τα θεωρώ ασφαλέστερα των προσωπικών αποθετηρίων (PPAs) και γενικότερα τα προτιμώ και από τα PPAs αλλά και από τα Flatpaks. Τα τελευταία λόγω όγκου αρχείων είναι κάπως απαγορευτικά. Σε ότι αφορά τα PPAs, επειδή είναι ένας άλλος τρόπος εγκατάστασης εφαρμογών που δεν υπάρχουν στα επίσημα αποθετήρια, τα χρησιμοποιώ μόνον όταν υπάρχει ανάγκη.</p>
+<p>Μέσω ενός τερματικού εκτελούμε τις παρακάτω εντολές.</p>
+<pre tabindex="0"><code>sudo apt update
+sudo apt install snapd
+sudo snap install gimp
+</code></pre><p>Το αρχείο είναι μεγέθους 177MB.</p>
+<p>Με τις παραπάνω εντολές έχουμε κάνει εγκατάσταση τη τελευταία έκδοση του GIMP. Μη τρομάξετε με τη πρώτη εκκίνηση, εκεί γίνεται το initialization και ίσως αργήσει λίγο. Έπειτα θα είναι ΟΚ.</p>
+<p><a href="https://i.imgur.com/yEQmycf.jpg" target="_blank" rel="noopener"><img src="https://i.imgur.com/yEQmycf.jpg" alt="" width="640" height="342" /></a><br></p>
+<p>Το θέμα (theme) καθώς και τα εικονίδια τα αλλάζετε από το μενού Edit → Preferences.</p>
+<p><a href="https://i.imgur.com/LsZdBaN.jpg" target="_blank" rel="noopener"><img src="https://i.imgur.com/LsZdBaN.jpg" alt="" width="640" height="340" /></a><br></p>
+<h3>Troubleshooting</h3>
+<p>Στη περίπτωση που δημιουργηθεί κάποιο πρόβλημα με τα δικαιώματα σε καταλόγους, δηλαδή θέλουμε να ανοίξουμε μια εικόνα και το GIMP επιστρέφει error του τύπου <code>Opening failed: Could not open '/media/nicktux/pictures/.....' for reading: Permission denied</code></p>
+<p>Τότε η παρακάτω εντολή πιθανόν να επιλύσει το πρόβλημα.</p>
+<pre tabindex="0"><code>snap connect gimp:removable-media :removable-media
+</code></pre><p>Αυτό συνήθως συμβαίνει όταν θελήσουμε να ανοίξουμε ένα αρχείο με το GIMP σε μια τοποθεσία εκτός του προσωπικού μας καταλόγου (Home) και η τοποθεσία αυτή βρίσκεται σε άλλο δίσκο/διαμέρισμα δίσκου ή USB stick το οποίο έχει προσαρτηθεί (mounted).
+<br><br></p>
+<h3>AppImage</h3>
+<p>Μια άλλη εναλλακτική είναι τα λεγόμενα appimages. Ίσως ο πιο απλός τρόπος &ldquo;εγκατάστασης&rdquo; εφαρμογών στο Linux. Το &ldquo;εγκατάστασης&rdquo; είναι σε εισαγωγικά μιας και τα appimages στην ουσία τα εκτελείς(run) μόνο, δεν κάνεις κάτι άλλο.</p>
+<p>Τα AppImages του GIMP τα βρίσκουμε στο GitHub σε <a href="https://github.com/aferrero2707/gimp-appimage/releases/" target="_blank" rel="noopener">αυτό τον σύνδεσμο.</a>. Δημιουργούνται και φιλοξενούνται εκεί από έναν χρήστη και κατασκευάζονται σε CentOS 7. Εκείνο που εγώ δοκίμασα είναι το <strong>GIMP_AppImage-release-2.10.8-x86_64.AppImage</strong> στα 128MB, τελευταίο στη σειρά. Είναι και η τελευταία σταθερή έκδοση του GIMP καθώς γράφεται αυτή η δημοσίευση.</p>
+<p>Το AppΙmage το κάνετε λήψη στον υπολογιστή σας, του δίνεται δικαιώματα εκτέλεσης και απλά το τρέχετε. Αν δεν λειτουργεί σωστά, απλά διαγράφετε το αρχείο AppImage.</p>
+<p>Στη πρώτη εκτέλεση θα σας ρωτήσει για Integration με το Desktop, αυτό είναι για να δημιουργήσει τα κατάλληλα εικονίδια του GIMP. Είτε επιλέξετε ναι, είτε όχι το GIMP θα τρέξει.</p>
+<p>Οπότε, αυτό που κάνουμε είναι να συνδεθούμε στον κατάλογο που έχουμε αποθηκεύσει το AppImage και να του δώσουμε δικαιώματα εκτέλεσης.</p>
+<pre tabindex="0"><code>cd Downloads ## υποθέτω ότι έχετε αποθηκεύσει εκεί το AppImage
+chmod 755 GIMP_AppImage-release-2.10.8-x86_64.AppImage
+</code></pre><p>Έπειτα με διπλό κλικ απολαμβάνουμε τη νέα έκδοση του GIMP.</p>
+<p><em>Για πακέτο Flatpak, ο όγκος του αρχείου είναι απαγορευτικός.</em></p>
+<p><a href="https://i.imgur.com/cqlxCIJ.jpg" target="_blank" rel="noopener"><img src="https://i.imgur.com/cqlxCIJ.jpg" alt="" width="640" height="344" /></a><br></p>
+<hr />
+<p><span style="font-size:small;color:#999999;">Until next time &hellip;<br>
+&ldquo;Keep Your Mind in a Constant State of Openness&rdquo;</span></p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fnicktux.gr%2fpost%2fgimp210-lm19%2fgimp210-lm19%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fnicktux.gr%2fpost%2fgimp210-lm19%2fgimp210-lm19%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fnicktux.gr%2fpost%2fgimp210-lm19%2fgimp210-lm19%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fnicktux.gr%2fpost%2fgimp210-lm19%2fgimp210-lm19%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fnicktux.gr%2fpost%2fgimp210-lm19%2fgimp210-lm19%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fnicktux.gr%2fpost%2fgimp210-lm19%2fgimp210-lm19%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+
+  <div id="comments">
+<script src="https://giscus.app/client.js"
+        data-repo="NickTux/nicktux.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk3MTM4NzE3NQ=="
+        data-category="General"
+        data-category-id="DIC_kwDOBEFIJ84Cz4WR"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="gr"
+        crossorigin="anonymous"
+        async>
+</script>
+</div>
+
+</div>
+
+</div>
+</div>
+<script src="https://nicktux.gr/js/ui.js"></script>
+<script src="https://nicktux.gr/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

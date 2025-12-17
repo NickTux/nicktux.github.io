@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright>
-    <lastBuildDate>Mon, 08 Dec 2025 18:39:33 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 17 Dec 2025 22:47:06 +0200</lastBuildDate>
     
 	<atom:link href="https://nicktux.gr/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hardware, AI</title>
+      <link>https://nicktux.gr/tags/hardware-ai/</link>
+      <pubDate>Wed, 17 Dec 2025 22:47:06 +0200</pubDate>
+      
+      <guid>https://nicktux.gr/tags/hardware-ai/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Desktop, Fedora, Gaming</title>
@@ -180,15 +189,6 @@
       <pubDate>Fri, 05 Apr 2019 18:55:56 +0300</pubDate>
       
       <guid>https://nicktux.gr/tags/mic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Podcast</title>
-      <link>https://nicktux.gr/tags/podcast/</link>
-      <pubDate>Fri, 05 Apr 2019 18:55:56 +0300</pubDate>
-      
-      <guid>https://nicktux.gr/tags/podcast/</guid>
       <description></description>
     </item>
     

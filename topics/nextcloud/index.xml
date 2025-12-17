@@ -14,29 +14,29 @@
     
     <item>
       <title>Αναβάθμιση σε Nextcloud 14</title>
-      <link>https://nicktux.gr/post/nextcloud-14-upgrade/</link>
+      <link>https://nicktux.gr/post/nextcloud-14-upgrade/nextcloud-14-upgrade/</link>
       <pubDate>Tue, 11 Dec 2018 14:13:46 -0500</pubDate>
       
-      <guid>https://nicktux.gr/post/nextcloud-14-upgrade/</guid>
+      <guid>https://nicktux.gr/post/nextcloud-14-upgrade/nextcloud-14-upgrade/</guid>
       <description>&lt;p&gt;Πρόσφατα αναβάθμισα στην έκδοση Nextcloud 14, από τη 13 που βρισκόμουν. Βλέπετε είμαι στο &amp;ldquo;Production Channel&amp;rdquo;, οπότε οι αναβαθμίσεις εκδόσεων έρχονται με λίγη καθυστέρηση για να εξασφαλιστεί η σταθερότητα. Αυτή τη στιγμή το Nextcloud βρίσκεται στη σταθερή έκδοση 15, οπότε φανταστείτε το Production Channel κάτι σαν LTS release.
 Παρόλαυτα τα προβληματάκια δεν έλλειψαν και λεω να τα παραθέσω παρακάτω, καθώς και τις λύσεις τους.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[Nextcloud] Απευθείας πρόσβαση από Online Accounts</title>
-      <link>https://nicktux.gr/post/nextcloud-bionic-online-accounts/</link>
+      <link>https://nicktux.gr/post/nextcloud-bionic-online-accounts/nextcloud-bionic-online-accounts/</link>
       <pubDate>Wed, 11 Apr 2018 22:46:06 +0300</pubDate>
       
-      <guid>https://nicktux.gr/post/nextcloud-bionic-online-accounts/</guid>
+      <guid>https://nicktux.gr/post/nextcloud-bionic-online-accounts/nextcloud-bionic-online-accounts/</guid>
       <description>&lt;p&gt;Με την έλευση του Ubuntu 18.04 LTS(Bionic Beaver) και την αλλαγή από Unity σε GNOME (3.28), οι ρυθμίσεις για Online Accounts εμπεριέχουν πλέον την επιλογή για Nextcloud.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Nextcloud: Έλεγχος Κωδικών Χρηστών</title>
-      <link>https://nicktux.gr/post/nextcloud-passwords-check/</link>
+      <link>https://nicktux.gr/post/nextcloud-passwords-check/nextcloud-passwords-check/</link>
       <pubDate>Tue, 27 Feb 2018 00:08:51 +0200</pubDate>
       
-      <guid>https://nicktux.gr/post/nextcloud-passwords-check/</guid>
+      <guid>https://nicktux.gr/post/nextcloud-passwords-check/nextcloud-passwords-check/</guid>
       <description>&lt;p&gt;Σε πρόσφατη δημοσίευσή τους οι δημιουργοί του πλέον δημοφιλούς Nextcloud ανακοίνωσαν πως προτίθενται να ελέγχουν τους κωδικούς όσων τρέχουν κάποιο Nextcloud Instance με ένα built-in module, για τυχόν αδυναμίες.&lt;/p&gt;
 &lt;h3 id=&#34;γιατί&#34;&gt;Γιατί;&lt;/h3&gt;
 &lt;p&gt;Λόγω του ότι οι χρήστες τείνουν να χρησιμοποιούν τους ίδιους κωδικούς σε πολλαπλές τοποθεσίες και επειδή αυτό δημιουργεί έναν σημαντικό κίνδυνο σε περίπτωση κλοπής του κωδικού, οι προγραμματιστές του Nextcloud αποφάσισαν να μειώσουν αυτό τον κίνδυνο με άλλo ένα χαρακτηριστικό ασφαλείας (Security Feature).&lt;/p&gt;</description>
@@ -44,10 +44,10 @@
     
     <item>
       <title>Nextcloud Apps Deck</title>
-      <link>https://nicktux.gr/post/nextcloud-apps-deck/</link>
+      <link>https://nicktux.gr/post/nextcloud-apps-deck/nextcloud-apps-deck/</link>
       <pubDate>Mon, 26 Feb 2018 20:28:39 +0200</pubDate>
       
-      <guid>https://nicktux.gr/post/nextcloud-apps-deck/</guid>
+      <guid>https://nicktux.gr/post/nextcloud-apps-deck/nextcloud-apps-deck/</guid>
       <description>&lt;p&gt;Το Deck είναι μια εφαρμογή για το Nextcloud. Είναι ένα εργαλείο που επιτρέπει την οργάνωση της καθημερινότητάς μας, είτε και στην εργασία μας, με ομάδες που συμμετέχουν στο Nextcloud.&lt;/p&gt;
 &lt;p&gt;Μια από τις πολλές και χρήσιμες εφαρμογές στο Nextcloud Store είναι και το Deck. Ένα εργαλείο οργάνωσης ομάδων και έργων σε Kanban Board Style. Ένα από τα πιο γνωστά τέτοια εργαλεία, για όσους δεν γνωρίζουν τι είναι ένα Kanban Board, είναι το Trello. Επιτρέπει την οργάνωση εργασιών για ένα έργο σε μορφή πινάκων, με συμμετοχή, σχόλια, ToDo lists και γενικότερα ότι εξυπηρετεί την κάθε ομάδα. Δυστυχώς το Trello είναι κλειστού κώδικα και φυσικά τον έλεγχο της εφαρμογής την έχει το Trello και όχι εσείς.&lt;/p&gt;</description>
     </item>

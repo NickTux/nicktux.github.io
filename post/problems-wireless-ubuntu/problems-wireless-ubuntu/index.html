@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="σε λειτουργικό σύστημα Ubuntu/Linux">
+  <meta name="generator" content="Hugo 0.152.2">
+
+  <title>Προβλήματα στην ασύρματη σύνδεση &middot; NickTux</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://nicktux.gr/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://nicktux.gr/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://nicktux.gr/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://nicktux.gr/img/favicon.ico" type="image/x-icon" />
+
+  
+    
+        <link rel="stylesheet" href="https://nicktux.gr/css/custom.css">
+    
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  <a class="pure-menu-heading brand" href="https://nicktux.gr/">
+  <img src="https://nicktux.gr/img/logo.png" width="35px">
+</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/topics/"><i class='fa fa-folder fa-fw'></i>Topics</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/tags/"><i class='fa fa-tags fa-fw'></i>Tags</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/post/index.xml"><i class='fa fa-rss fa-fw'></i>RSS</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/contact/"><i class='fa fa-phone fa-fw'></i>Contact</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/my-pgp-key/"><i class='fa fa-key fa-fw'></i>OpenPGP Key</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.com"><i class='fa fa-link fa-fw'></i>NickTux.com</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/nicktux" rel="me" target="_blank"><i class="fas fa-key fa-fw"></i>Keybase</a>
+    </li>
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://mastodon.social/@nicktux" rel="me" target="_blank"><i class="fab fa-mastodon fa-fw"></i>Mastodon</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://matrix.to/#/%23nicktux%3amatrix.org" rel="me" target="_blank"><i class="fas fa-comments fa-fw"></i>Matrix</a>
+    </li>
+    
+    
+    
+    <li class="pure-menu-item">
+       <a class="pure-menu-link" href="https://libretooth.gr/@nicktux" rel="me" target="_blank"><i class="fab fa-bluetooth fa-fw"></i>Libretooth</a>
+    </li>
+    
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>Copyleft (ɔ) 2025<br> No rights reserved</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Προβλήματα στην ασύρματη σύνδεση</h1>
+  <h2>σε λειτουργικό σύστημα Ubuntu/Linux</h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>03 Jul 2013</time>
+  </div>
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-folder fa-fw"></i>
+    
+      <a class="post-taxonomy-topic" href="https://nicktux.gr/topics/ubuntu">Ubuntu</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-topic" href="https://nicktux.gr/topics/linux">Linux</a>
+    
+  </div>
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/tutorials">tutorials</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/troubleshooting">troubleshooting</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/wireless">wireless</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/over_a_year_old">over_a_year_old</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <center><a href="https://i.imgur.com/WP294Er.jpg"><img src="https://i.imgur.com/WP294Erl.jpg" alt="" class="aligncenter" /></a></center>
+<p>Τα προβλήματα στην ασύρματη σύνδεση μπορεί να ποικίλουν. Γι&rsquo; αυτό δεν υπάρχει κάποιος γενικός κανόνας επίλυσης τέτοιων προβλημάτων.
+Το καλύτερο που μπορείτε να κάνετε είναι να ζητήσετε βοήθεια από ένα φόρουμ υποστήριξης και βοηθείας για το Ubuntu.</p>
+<center><span style="font-size:x-small;color:#ff0000;"><strong>ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ! ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΙΣΧΥΕΙ ΠΛΕΟΝ.</strong></span></center>
+<p>Παρακάτω θα παραθέσω κάποιες εντολές διάγνωσης. Οι εντολές αυτές περιέχονται σε ένα script , το οποίο έχει γραφτεί από χρήστες του <a href="http://ubuntuforums.org/forum.php">UbuntuForums.org</a> και τα αποτελέσματα θα βοηθήσουν αρκετά όσους ασχολούνται με wireless troubleshooting.</p>
+<h3 style="text-align:center;">Η παρακάτω διαδικασία απαιτεί ενεργή σύνδεση στο Internet.</h3>
+<p>Συνδέστε τον υπολογιστή σας στο Internet μέσω καλωδίου Ethernet .</p>
+<p>Ανοίξτε ένα τερματικό με τον συνδυασμό πλήκτρων CTRL+ALT+T και εκτελέστε τις παρακάτω εντολές μια-μια.</p>
+<pre tabindex="0"><code>wget -N -t 5 -T 10 &#34;https://dl.dropboxusercontent.com/s/l93ifv397doyvil/wireless-script&#34;
+chmod +x wireless-script
+./wireless-script
+</code></pre><p>Οι παραπάνω εντολές θα κατεβάσουν και θα εκτελέσουν το script ονόματι <strong>wireless-script</strong>.</p>
+<p>Όταν εκτελεστεί η τελευταία εντολή θα δημιουργηθεί ένα αρχείο ονόματι <strong>wireless-info.txt</strong> στον προσωπικό σας κατάλογο. Δώσε τον κωδικό σας όταν σας ζητηθεί.</p>
+<p>Αυτό το αρχείο περιέχει όλες τις πληροφορίες που χρειάζεται ένας troubleshooter για να προσπαθήσει να λύσει το πρόβλημα σας.
+Μπορείτε να κάνετε αντιγραφή και επικόλληση όλα τα περιεχόμενα σε ένα <a href="https://forum.ubuntu-gr.org/" target="_blank">φόρουμ</a> υποστήριξης και βοήθειας για το Ubuntu ή σε κάποια υπηρεσία <a href="http://termbin.com" target="_blank" rel="noopener">Pastebin</a>.</p>
+<p>Σε περίπτωση που το script ανιχνεύσει το πρόγραμμα pastebinit εγκατεστημένο, θα σας προτείνει να ανεβάσει το περιεχόμενο στο προεπιλεγμένο paste site που είναι το <a href="http://paste.ubuntu.com/">http://paste.ubuntu.com/</a>.</p>
+<p><span style="color:#ff0000;"><strong>Σημείωση:</strong></span> Όλα τα προσωπικά σας στοιχεία , όπως access point , ESSID κλπ , έχουν αφαιρεθεί από τα αποτελέσματα του script για λόγους ασφαλείας.</p>
+<p>Το αρχείο <strong>wireless-info.txt</strong> που περιέχει τα αποτελέσματα μπορείτε να το ανοίξετε με έναν κειμενογράφο. Στο Ubuntu ως προ-εγκατεστημένος κειμενογράφος είναι το gedit , οπότε αρκεί να δώσετε στο τερματικό σας την εντολή</p>
+<pre tabindex="0"><code>gedit wireless-info.txt
+</code></pre><p>ή απλά να κάνετε ένα δεξί κλικ στο αρχείο wireless-info.txt και να πατήσετε άνοιγμα (θα ανοίξει με τον προ-επιλεγμένο κειμενογράφο)
+Έτσι θα μπορέσετε να δείτε και να κάνετε αντιγραφή - επικόλληση τα αποτελέσματα.</p>
+<p><em>Αν θέλετε να δείτε τα περιεχόμενα του script, τις εντολές που περιέχει, ανοίξτε το αρχείο (wireless-script) με έναν κειμενογράφο</em></p>
+<h3 style="text-align:center;">H παρακάτω διαδικασία δεν απαιτεί σύνδεση στο Internet.</h3>
+<p>Σε περίπτωση που δεν έχετε την δυνατότητα ενσύρματης σύνδεσης στο Internet από το λειτουργικό σύστημα Ubuntu , τότε μπείτε από έναν υπολογιστή που διαθέτει σύνδεση στο Internet και κάνετε <a href="https://dl.dropboxusercontent.com/s/l93ifv397doyvil/wireless-script" target="_blank">κλικ εδώ</a> . Πατήστε &ldquo;Save page as&hellip;&rdquo; , έτσι ώστε να κατέβει και να σωθεί το αρχείο με την ονομασία wireless-script.
+Έπειτα πρέπει να το μεταφέρετε (π.χ μέσω USB-stick) στο λειτουργικό σύστημα Ubuntu, το οποίο «πάσχει» από το πρόβλημα.
+Αφού το μεταφέρετε κάνετε δεξί κλικ στο αρχείο (wireless-script) και κλικ στο properties (Ιδιότητες) , στο παράθυρο που θα ανοίξει πάτε στην καρτέλα Permissions(δικαιώματα) και μαρκάρετε το κουτάκι &ldquo;Allow executing file as program&rdquo; (να επιτρέπεται η εκτέλεση του αρχείου ως πρόγραμμα).</p>
+<p><a href="https://i.imgur.com/CmKmDKZl.jpg"><img src="https://i.imgur.com/CmKmDKZl.jpg" alt="" width="360" height="326" /></a></p>
+<p>Τέλος κάνετε ένα διπλό κλικ επάνω στο αρχείο wireless-script και πατήστε Run (Εκτέλεση).</p>
+<p>Έπειτα ισχύει η ίδια διαδικασία (όπως παραπάνω) προκειμένου να ανοίξετε και να δείτε τα περιεχόμενα του αρχείου wireless-info.txt που θα δημιουργηθεί.</p>
+<hr>
+<p><span style="font-size:small;color:#999999;">Until next time &hellip;<br>
+&ldquo;Keep Your Mind in a Constant State of Openness&rdquo;</span></p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fnicktux.gr%2fpost%2fproblems-wireless-ubuntu%2fproblems-wireless-ubuntu%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fnicktux.gr%2fpost%2fproblems-wireless-ubuntu%2fproblems-wireless-ubuntu%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fnicktux.gr%2fpost%2fproblems-wireless-ubuntu%2fproblems-wireless-ubuntu%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fnicktux.gr%2fpost%2fproblems-wireless-ubuntu%2fproblems-wireless-ubuntu%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fnicktux.gr%2fpost%2fproblems-wireless-ubuntu%2fproblems-wireless-ubuntu%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fnicktux.gr%2fpost%2fproblems-wireless-ubuntu%2fproblems-wireless-ubuntu%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+
+  <div id="comments">
+<script src="https://giscus.app/client.js"
+        data-repo="NickTux/nicktux.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk3MTM4NzE3NQ=="
+        data-category="General"
+        data-category-id="DIC_kwDOBEFIJ84Cz4WR"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="gr"
+        crossorigin="anonymous"
+        async>
+</script>
+</div>
+
+</div>
+
+</div>
+</div>
+<script src="https://nicktux.gr/js/ui.js"></script>
+<script src="https://nicktux.gr/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

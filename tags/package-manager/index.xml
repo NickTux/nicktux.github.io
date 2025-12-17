@@ -14,10 +14,10 @@
     
     <item>
       <title>Επιδόρθωση στο διαχειριστή πακέτων</title>
-      <link>https://nicktux.gr/post/package-manager-troubleshooting-ubuntu/</link>
+      <link>https://nicktux.gr/post/package-manager-troubleshooting-ubuntu/package-manager-troubleshooting-ubuntu/</link>
       <pubDate>Tue, 02 Jul 2013 14:50:44 -0500</pubDate>
       
-      <guid>https://nicktux.gr/post/package-manager-troubleshooting-ubuntu/</guid>
+      <guid>https://nicktux.gr/post/package-manager-troubleshooting-ubuntu/package-manager-troubleshooting-ubuntu/</guid>
       <description>&lt;p&gt;Όταν λέμε διαχειριστής πακέτων , εννοούμε οτιδήποτε έχει σχέση με την εγκατάσταση ή αναβάθμιση των πακέτων - προγραμμάτων του Ubuntu.
 Το πρόβλημα μπορεί να είναι , είτε &amp;ldquo;μη επιλυμένες εξαρτήσεις&amp;rdquo; (dependencies) , είτε αδυναμία αναβάθμισης , είτε κρατούμενα ελαττωματικά πακέτα &amp;hellip; κλπ.&lt;/p&gt;</description>
     </item>

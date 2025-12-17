@@ -14,105 +14,105 @@
     
     <item>
       <title>Φωτιζόμενο πληκτρολόγιο Logitech G213</title>
-      <link>https://nicktux.gr/post/g213colors/</link>
+      <link>https://nicktux.gr/post/g213colors/g213colors/</link>
       <pubDate>Sat, 06 Mar 2021 20:27:15 +0200</pubDate>
       
-      <guid>https://nicktux.gr/post/g213colors/</guid>
+      <guid>https://nicktux.gr/post/g213colors/g213colors/</guid>
       <description>&lt;p&gt;Πριν λίγο καιρό αγόρασα το &amp;ldquo;αδερφάκι&amp;rdquo; του G102 mouse, το G213 keyboard. Όπως είχα γράψει τότε για το mouse&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>pkexec για σωστή χρήση root GUI</title>
-      <link>https://nicktux.gr/post/gksu-pkexec-alias-tip/</link>
+      <link>https://nicktux.gr/post/gksu-pkexec-alias-tip/gksu-pkexec-alias-tip/</link>
       <pubDate>Wed, 27 May 2020 01:18:12 +0300</pubDate>
       
-      <guid>https://nicktux.gr/post/gksu-pkexec-alias-tip/</guid>
+      <guid>https://nicktux.gr/post/gksu-pkexec-alias-tip/gksu-pkexec-alias-tip/</guid>
       <description>&lt;p&gt;Πρόσφατα χρειάστηκε να τρέξω μια γραφική εφαρμογή ως root και βρέθηκα μπροστά
 σε ένα ερώτημα. Πως;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Πολλαπλά κλειδιά ssh και διαφορετικοί λογαριασμοί Github</title>
-      <link>https://nicktux.gr/post/ssh-keys-different-github-accounts-same-pc/</link>
+      <link>https://nicktux.gr/post/ssh-keys-different-github-accounts-same-pc/ssh-keys-different-github-accounts-same-pc/</link>
       <pubDate>Fri, 22 May 2020 09:07:12 +0300</pubDate>
       
-      <guid>https://nicktux.gr/post/ssh-keys-different-github-accounts-same-pc/</guid>
+      <guid>https://nicktux.gr/post/ssh-keys-different-github-accounts-same-pc/ssh-keys-different-github-accounts-same-pc/</guid>
       <description>&lt;p&gt;Ένα πρόβλημα που αντιμετώπισα πρόσφατα είχε σχέση με το ότι ο ssh-agent δεν μπορούσε
 να ξεχωρίσει ποιο ssh κλειδί να στείλει σε ποιο αποθετήριο Github.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Αναπαραγωγή Youtube playlist στον VLC</title>
-      <link>https://nicktux.gr/post/vlc-youtube-playlist/</link>
+      <link>https://nicktux.gr/post/vlc-youtube-playlist/vlc-youtube-playlist/</link>
       <pubDate>Tue, 19 May 2020 00:04:02 +0300</pubDate>
       
-      <guid>https://nicktux.gr/post/vlc-youtube-playlist/</guid>
+      <guid>https://nicktux.gr/post/vlc-youtube-playlist/vlc-youtube-playlist/</guid>
       <description>&lt;p&gt;Παρακάτω περιγράφω τη διαδικασία που ακολούθησα, μετά από κάμποσες δοκιμές, που τελικά λειτούργησε
 για την αναπαραγωγή μιας playlist του Youtube στον VLC. Δοκιμασμένο σε Ubuntu 20.04 LTS και VLC έκδοση 3.0.9.2&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Διόρθωση διαφοράς ώρας</title>
-      <link>https://nicktux.gr/post/fix-time-ubuntu-windows/</link>
+      <link>https://nicktux.gr/post/fix-time-ubuntu-windows/fix-time-ubuntu-windows/</link>
       <pubDate>Sat, 09 May 2020 12:30:11 +0300</pubDate>
       
-      <guid>https://nicktux.gr/post/fix-time-ubuntu-windows/</guid>
+      <guid>https://nicktux.gr/post/fix-time-ubuntu-windows/fix-time-ubuntu-windows/</guid>
       <description>&lt;p&gt;Σε ένα σύστημα διπλής εκκίνησης (dual boot) είναι πιθανό να αντιμετωπίζουμε πρόβλημα με τη διαφορά ώρας κάθε φορά που κάνουμε επανεκκίνηση από Ubuntu σε Windows. Αυτό οφείλεται στα διαφορετικά ρολόγια που χρησιμοποιούν τα δυο λειτουργικά.&lt;br&gt; Παρακάτω σημειώνουμε πως μπορούμε να το διορθώσουμε.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[Ubuntu 18.04] Thunderbird και Emoji</title>
-      <link>https://nicktux.gr/post/ubuntu-bionic-thunderbird-subject-emoji/</link>
+      <link>https://nicktux.gr/post/ubuntu-bionic-thunderbird-subject-emoji/ubuntu-bionic-thunderbird-subject-emoji/</link>
       <pubDate>Thu, 03 May 2018 22:30:51 +0300</pubDate>
       
-      <guid>https://nicktux.gr/post/ubuntu-bionic-thunderbird-subject-emoji/</guid>
+      <guid>https://nicktux.gr/post/ubuntu-bionic-thunderbird-subject-emoji/ubuntu-bionic-thunderbird-subject-emoji/</guid>
       <description>&lt;p&gt;Αναβαθμίζοντας στην έκδοση του Ubuntu 18.04 και χρησιμοποιώντας τον Thunderbird ως Email Client ίσως έρθετε αντιμέτωποι με αυτό το περίεργο σφάλμα, το οποίο δεν είμαι σίγουρος εάν οφείλεται στη γραμματοσειρά (.ttf) ή στον συνδυασμό γραμματοσειράς και Thunderbird.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[Ubuntu 18.04] Εικονίδιο WiFi με ερωτηματικό (?)</title>
-      <link>https://nicktux.gr/post/ubuntu-bionic-wifi-status-icon/</link>
+      <link>https://nicktux.gr/post/ubuntu-bionic-wifi-status-icon/ubuntu-bionic-wifi-status-icon/</link>
       <pubDate>Tue, 01 May 2018 21:25:02 +0300</pubDate>
       
-      <guid>https://nicktux.gr/post/ubuntu-bionic-wifi-status-icon/</guid>
+      <guid>https://nicktux.gr/post/ubuntu-bionic-wifi-status-icon/ubuntu-bionic-wifi-status-icon/</guid>
       <description>&lt;p&gt;Είναι γνωστό σε όσους ασχολούνται λίγο περισσότερο με το λειτουργικό τους σύστημα πως κάθε νέα έκδοση ή πακέτο αναβαθμίσεων εκτός από νέα χαρακτηριστικά και βελτιώσεις, μπορεί να φέρει και νέα προβλήματα. Το Ubuntu δεν θα μπορούσε να αποτελεί εξαίρεση.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[Ubuntu] Αφαίρεση του gksu από τη 18.04 LTS</title>
-      <link>https://nicktux.gr/post/ubuntu-bionic-gksu-removed/</link>
+      <link>https://nicktux.gr/post/ubuntu-bionic-gksu-removed/ubuntu-bionic-gksu-removed/</link>
       <pubDate>Mon, 16 Apr 2018 22:29:19 +0300</pubDate>
       
-      <guid>https://nicktux.gr/post/ubuntu-bionic-gksu-removed/</guid>
+      <guid>https://nicktux.gr/post/ubuntu-bionic-gksu-removed/ubuntu-bionic-gksu-removed/</guid>
       <description>&lt;p&gt;Αυτή η μετάβαση, δηλαδή η πλήρης κατάργηση του gksu από το Ubuntu έχει ξεκινήσει κάμποσες εκδόσεις πριν. Συγκεκριμένα από τη 13.10 όπου το από προ-επιλογή εγκατεστημένο gksu έπαψε να υφίσταται. Μέχρι και σήμερα βέβαια οι χρήστες είχαν την επιλογή της εγκατάστασης από τα αποθετήρια, αφού εκεί ήταν και είναι ακόμη διαθέσιμο.&lt;br&gt;
 Στο άμεσο μέλλον όμως, προβλέπεται να αφαιρεθεί εντελώς από τα αποθετήρια. Επίσης, παρακάτω θα δούμε ποια είναι η προτεινόμενη από τους Developers εναλλακτική.&lt;br&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[Nextcloud] Απευθείας πρόσβαση από Online Accounts</title>
-      <link>https://nicktux.gr/post/nextcloud-bionic-online-accounts/</link>
+      <link>https://nicktux.gr/post/nextcloud-bionic-online-accounts/nextcloud-bionic-online-accounts/</link>
       <pubDate>Wed, 11 Apr 2018 22:46:06 +0300</pubDate>
       
-      <guid>https://nicktux.gr/post/nextcloud-bionic-online-accounts/</guid>
+      <guid>https://nicktux.gr/post/nextcloud-bionic-online-accounts/nextcloud-bionic-online-accounts/</guid>
       <description>&lt;p&gt;Με την έλευση του Ubuntu 18.04 LTS(Bionic Beaver) και την αλλαγή από Unity σε GNOME (3.28), οι ρυθμίσεις για Online Accounts εμπεριέχουν πλέον την επιλογή για Nextcloud.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[Ubuntu] 26 Απριλίου η νέα LTS έκδοση</title>
-      <link>https://nicktux.gr/post/ubuntu-26_april_18_04_release/</link>
+      <link>https://nicktux.gr/post/ubuntu-26_april_18_04_release/ubuntu-26_april_18_04_release/</link>
       <pubDate>Mon, 09 Apr 2018 12:26:43 +0300</pubDate>
       
-      <guid>https://nicktux.gr/post/ubuntu-26_april_18_04_release/</guid>
+      <guid>https://nicktux.gr/post/ubuntu-26_april_18_04_release/ubuntu-26_april_18_04_release/</guid>
       <description>&lt;p&gt;Σε λίγες ημέρες από σήμερα η νέα έκδοση του Ubuntu 18.04 προβλέπεται να κυκλοφορήσει ως η νέα σταθερή LTS έκδοση.&lt;br&gt;
 Παρακάτω θα δούμε τι νέο φέρνει, πως μπορούμε να αναβαθμίσουμε με ασφάλεια και πότε, καθώς και άλλες χρήσιμες πληροφορίες.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[GNOME] Καθυστέρηση Εκκίνησης Εφαρμογών</title>
-      <link>https://nicktux.gr/post/gnome-startup-apps-delay/</link>
+      <link>https://nicktux.gr/post/gnome-startup-apps-delay/gnome-startup-apps-delay/</link>
       <pubDate>Thu, 01 Mar 2018 02:46:56 +0200</pubDate>
       
-      <guid>https://nicktux.gr/post/gnome-startup-apps-delay/</guid>
+      <guid>https://nicktux.gr/post/gnome-startup-apps-delay/gnome-startup-apps-delay/</guid>
       <description>&lt;p&gt;Υπάρχουν πολλοί και διάφοροι τρόποι για να πετύχει κάποιος την καθυστέρηση εκκίνησης μιας εφαρμογής.
 Ίσως ο πιο συνηθισμένος από αυτούς να είναι η δημιουργία ενός απλού εκτελέσιμου script με sleep κλπ και η προσθήκη αυτού στις εφαρμογές εκκίνησης.
 &lt;br&gt;Εδώ θα δούμε έναν απλό τρόπο, με μια γραμμή κώδικα την οποία προσθέτουμε στο ήδη υπάρχον αρχείο με κατάληξη &lt;code&gt;.desktop&lt;/code&gt;.
@@ -121,10 +121,10 @@
     
     <item>
       <title>Release Party Ubuntu 13.10 Athens 2013</title>
-      <link>https://nicktux.gr/post/release-party-ubuntu-13-10-athens2013/</link>
+      <link>https://nicktux.gr/post/release-party-ubuntu-13-10-athens2013/release-party-ubuntu-13-10-athens2013/</link>
       <pubDate>Tue, 02 Jul 2013 02:05:25 +0200</pubDate>
       
-      <guid>https://nicktux.gr/post/release-party-ubuntu-13-10-athens2013/</guid>
+      <guid>https://nicktux.gr/post/release-party-ubuntu-13-10-athens2013/release-party-ubuntu-13-10-athens2013/</guid>
       <description>&lt;p&gt;To release party για το Ubuntu 13.04 διεξήχθη με επιτυχία και φέτος στο καφέ Ηλιοστάσιο στο Θησείο. Ο κόσμος προσήλθε σε ικανοποιητικό αριθμό, η τούρτα όμορφη και εύγευστη και το κλίμα όπως πάντα φιλικό.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://i.imgur.com/lY5r1hb.jpg&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/lY5r1hb.jpg&#34; width=&#34;300&#34; height=&#34;168&#34; /&gt;&lt;/a&gt; 
 &lt;a href=&#34;https://i.imgur.com/lBbecsK.jpg&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.imgur.com/lBbecsK.jpg&#34; width=&#34;300&#34; height=&#34;168&#34; /&gt;&lt;/a&gt;

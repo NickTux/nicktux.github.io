@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Που δεν πρέπει πλέον να χρησιμοποιείτε.">
+  <meta name="generator" content="Hugo 0.152.2">
+
+  <title>Wubi - Ένα παρωχημένο project &middot; NickTux</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://nicktux.gr/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://nicktux.gr/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://nicktux.gr/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://nicktux.gr/img/favicon.ico" type="image/x-icon" />
+
+  
+    
+        <link rel="stylesheet" href="https://nicktux.gr/css/custom.css">
+    
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  <a class="pure-menu-heading brand" href="https://nicktux.gr/">
+  <img src="https://nicktux.gr/img/logo.png" width="35px">
+</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/topics/"><i class='fa fa-folder fa-fw'></i>Topics</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/tags/"><i class='fa fa-tags fa-fw'></i>Tags</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.github.io/post/index.xml"><i class='fa fa-rss fa-fw'></i>RSS</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/contact/"><i class='fa fa-phone fa-fw'></i>Contact</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.gr/my-pgp-key/"><i class='fa fa-key fa-fw'></i>OpenPGP Key</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://nicktux.com"><i class='fa fa-link fa-fw'></i>NickTux.com</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/nicktux" rel="me" target="_blank"><i class="fas fa-key fa-fw"></i>Keybase</a>
+    </li>
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://mastodon.social/@nicktux" rel="me" target="_blank"><i class="fab fa-mastodon fa-fw"></i>Mastodon</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://matrix.to/#/%23nicktux%3amatrix.org" rel="me" target="_blank"><i class="fas fa-comments fa-fw"></i>Matrix</a>
+    </li>
+    
+    
+    
+    <li class="pure-menu-item">
+       <a class="pure-menu-link" href="https://libretooth.gr/@nicktux" rel="me" target="_blank"><i class="fab fa-bluetooth fa-fw"></i>Libretooth</a>
+    </li>
+    
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>Copyleft (ɔ) 2025<br> No rights reserved</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Wubi - Ένα παρωχημένο project</h1>
+  <h2>Που δεν πρέπει πλέον να χρησιμοποιείτε.</h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>11 Jun 2013</time>
+  </div>
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-folder fa-fw"></i>
+    
+      <a class="post-taxonomy-topic" href="https://nicktux.gr/topics/ubuntu">Ubuntu</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-topic" href="https://nicktux.gr/topics/linux">Linux</a>
+    
+  </div>
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/announce">announce</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/windows-installer">windows installer</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/wubi">wubi</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://nicktux.gr/tags/over_a_year_old">over_a_year_old</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <pre style="width:100%;padding:2px;background:#f51f20;text-align:center;color:#ffffff;font-family:'Ubuntu';font-style:normal;font-size:medium;">ΑΥΤΗ Η ΔΗΜΟΣΙΕΥΣΗ ΕΧΕΙ ΓΙΝΕΙ ΠΑΝΩ ΑΠΟ ΕΝΑ ΧΡΟΝΟ ΠΡΙΝ!</pre>
+<p>Το wubi.exe (<strong>W</strong>indows <strong>Ub</strong>untu <strong>I</strong>nstaller) όταν ξεκίνησε ήταν ένα από τα πιο δημοφιλή projects ου Ubuntu.</p>
+<p>Σου επέτρεπε να εγκαταστήσεις το Ubuntu μέσα στα Windows και να το δεις, να δουλέψεις σε αυτό. Μέσω αυτού του project το Ubuntu απέκτησε λίγο παραπάνω φήμη και αναγνώριση από εκείνη που είχε τότε. Οι χρήστες του windows λειτουργικού μπορούσαν εύκολα και γρήγορα να εγκαταστήσουν το Ubuntu μέσω του wubi.exe και μετά από μια επανεκκίνηση να δουν το Ubuntu να παρατίθεται στην λίστα του windows bootloader.</p>
+<h2>Τι κερδίζετε</h2>
+<p>Αυτό που κέρδιζαν οι χρήστες του wubi.exe ήταν η γρήγορη και απλή εγκατάσταση του Ubuntu. Όταν πρώτο ξεκίνησα με το Ubuntu ήμουν κι εγώ ένας από εκείνους που υποστήριζαν αυτό το project. Μια χαρά μου φαινόταν. Μέχρι που μια «ωραία πρωία» έγιναν όλα μπάχαλο. (<a href="http://forum.ubuntu-gr.org/viewtopic.php?f=4&amp;t=19889#p204007" target="_blank">και για του λόγου το αληθές</a>).
+Αυτό που κερδίζουν όσοι χρησιμοποιούν wubi, είναι πολύ λίγο σε σχέση με αυτά που χάνουν.</p>
+<h2>Τι χάνετε</h2>
+<p>Καταρχήν χάνετε σε ταχύτητα - απόκριση συστήματος - και αποφεύγετε με κάποιον τρόπο να μπείτε στην λογική του Linux. Να έχετε υπόψιν σας πως <strong>δεν πρόκειται για μια κανονική εγκατάσταση Linux</strong>. Με το wubi εγκαθιστάτε το Ubuntu ως ένα απλό πρόγραμμα windows. Θα το βρείτε-δείτε και στην προσθαφαίρεση προγραμμάτων στον πίνακα ελέγχου των windows.
+Επίσης υπάρχει περίπτωση, ειδικά αν χρησιμοποιήσετε προγράμματα τύπου EasyBCD, να καταστρέψετε τον bootloader των windows και να μην μπορείτε στο τέλος να κάνετε boot ούτε σε αυτά.
+Έχετε περιορισμό στον χώρο. Το wubi.exe επιτρέπει να δημιουργήσετε ένα εικονικό partition μεγέθους έως 30GB.
+Είναι μια εικονική εγκατάσταση που δεν την προτείνω σε καμία περίπτωση. Καλύτερα χρησιμοποιείστε μια εικονική μηχανή (virtualbox) αν θέλετε να δείτε πως είναι το Ubuntu και να «δουλέψετε» κάπως μαζί του.</p>
+<h2>Προβλήματα του wubi</h2>
+<p>Κι εδώ ερχόμαστε στο προκείμενο. Στον τίτλο του άρθρου. Το wubi πλέον έχει σταματήσει την ανάπτυξή του. Είναι ένα παρωχημένο project. Είναι ένα project που σε σύγχρονους υπολογιστές με windows 8 , UEFI, GPT ..κλπ, <strong>θα προκαλέσει ζημιά</strong>. <span style="color:#ff0000;">Μην το χρησιμοποιήσετε.</span>
+Έχει αφαιρεθεί τελείως από την έκδοση Ubuntu 13.10 , ωστόσο υπάρχει ακόμη ως κομμάτι μέσα στο .iso.
+Πραγματικά απορώ γιατί υπάρχει ακόμη αυτό το project. Έπρεπε (κατά τη γνώμη μου) να έχει αφαιρεθεί ολοκληρωτικά από όλες τις σελίδες και τα .iso του Ubuntu ή να φτιάξουν τον κώδικα έτσι ώστε όταν εντοπίζει windows 8 και UEFI να μην συνεχίζει η εγκατάσταση. Τον κώδικα το βλέπω χλωμό να τον διορθώνουν, οπότε καλύτερα μην το δοκιμάσετε ποτέ.
+Υπάρχει βέβαια και η <strong>σχετική προειδοποίηση</strong> στην σελίδα του Ubuntu</p>
+<p><a href="https://i.imgur.com/cFXnaLg.jpg" target="blank"><img src="https://i.imgur.com/cFXnaLg.jpg?w=497" alt="wubi" width="497" height="128" class="aligncenter size-large" /></a></p>
+<p>Αφορμή γι&rsquo; αυτό το άρθρο ήταν ένα πρόσφατο πρόβλημα ενός <a href="http://askubuntu.com/questions/370834/windows-8-and-ubuntu-12-04-are-both-not-working#comment474018_370834" target="_blank">χρήστη στο AskUbuntu</a>. Ο άνθρωπος εγκατέστησε το Ubuntu 12.04 μέσω wubi σε μηχάνημα με windows 8 και UEFI και έγιναν όλα μπάχαλο. Ούτε τα windows δεν μπορεί να εκκινήσει πλέον.
+Υπάρχουν κι άλλα, πολλά τέτοια ζητήματα με τη συγκεκριμένη εφαρμογή.</p>
+<hr>
+<p><span style="font-size:small;color:#999999;">Until next time &hellip;<br>
+&ldquo;Keep Your Mind in a Constant State of Openness&rdquo;</span></p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fnicktux.gr%2fpost%2fwubi%2fwubi%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fnicktux.gr%2fpost%2fwubi%2fwubi%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fnicktux.gr%2fpost%2fwubi%2fwubi%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fnicktux.gr%2fpost%2fwubi%2fwubi%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fnicktux.gr%2fpost%2fwubi%2fwubi%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fnicktux.gr%2fpost%2fwubi%2fwubi%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+
+  <div id="comments">
+<script src="https://giscus.app/client.js"
+        data-repo="NickTux/nicktux.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk3MTM4NzE3NQ=="
+        data-category="General"
+        data-category-id="DIC_kwDOBEFIJ84Cz4WR"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="gr"
+        crossorigin="anonymous"
+        async>
+</script>
+</div>
+
+</div>
+
+</div>
+</div>
+<script src="https://nicktux.gr/js/ui.js"></script>
+<script src="https://nicktux.gr/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
