@@ -1,26 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Package Manager on NickTux</title>
-    <link>https://nicktux.gr/tags/package-manager/</link>
-    <description>Recent content in Package Manager on NickTux</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>el</language>
-    <copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright>
-    <lastBuildDate>Tue, 02 Jul 2013 14:50:44 -0500</lastBuildDate>
-    
-	<atom:link href="https://nicktux.gr/tags/package-manager/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Επιδόρθωση στο διαχειριστή πακέτων</title>
-      <link>https://nicktux.gr/post/package-manager-troubleshooting-ubuntu/package-manager-troubleshooting-ubuntu/</link>
-      <pubDate>Tue, 02 Jul 2013 14:50:44 -0500</pubDate>
-      
-      <guid>https://nicktux.gr/post/package-manager-troubleshooting-ubuntu/package-manager-troubleshooting-ubuntu/</guid>
-      <description>&lt;p&gt;Όταν λέμε διαχειριστής πακέτων , εννοούμε οτιδήποτε έχει σχέση με την εγκατάσταση ή αναβάθμιση των πακέτων - προγραμμάτων του Ubuntu.
-Το πρόβλημα μπορεί να είναι , είτε &amp;ldquo;μη επιλυμένες εξαρτήσεις&amp;rdquo; (dependencies) , είτε αδυναμία αναβάθμισης , είτε κρατούμενα ελαττωματικά πακέτα &amp;hellip; κλπ.&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Package Manager on NickTux</title><link>https://nicktux.gr/tags/package-manager/</link><description>Recent content in Package Manager on NickTux</description><generator>Hugo -- gohugo.io</generator><language>el</language><copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright><lastBuildDate>Tue, 02 Jul 2013 14:50:44 -0500</lastBuildDate><atom:link href="https://nicktux.gr/tags/package-manager/index.xml" rel="self" type="application/rss+xml"/><item><title>Επιδόρθωση στο διαχειριστή πακέτων</title><link>https://nicktux.gr/post/package-manager-troubleshooting-ubuntu/package-manager-troubleshooting-ubuntu/</link><pubDate>Tue, 02 Jul 2013 14:50:44 -0500</pubDate><guid>https://nicktux.gr/post/package-manager-troubleshooting-ubuntu/package-manager-troubleshooting-ubuntu/</guid><description>&lt;p&gt;Όταν λέμε διαχειριστής πακέτων , εννοούμε οτιδήποτε έχει σχέση με την εγκατάσταση ή αναβάθμιση των πακέτων - προγραμμάτων του Ubuntu.
+Το πρόβλημα μπορεί να είναι , είτε &amp;ldquo;μη επιλυμένες εξαρτήσεις&amp;rdquo; (dependencies) , είτε αδυναμία αναβάθμισης , είτε κρατούμενα ελαττωματικά πακέτα &amp;hellip; κλπ.&lt;/p&gt;</description></item></channel></rss>

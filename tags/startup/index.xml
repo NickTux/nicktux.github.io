@@ -1,28 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Startup on NickTux</title>
-    <link>https://nicktux.gr/tags/startup/</link>
-    <description>Recent content in Startup on NickTux</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>el</language>
-    <copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright>
-    <lastBuildDate>Thu, 01 Mar 2018 02:46:56 +0200</lastBuildDate>
-    
-	<atom:link href="https://nicktux.gr/tags/startup/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>[GNOME] Καθυστέρηση Εκκίνησης Εφαρμογών</title>
-      <link>https://nicktux.gr/post/gnome-startup-apps-delay/gnome-startup-apps-delay/</link>
-      <pubDate>Thu, 01 Mar 2018 02:46:56 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/post/gnome-startup-apps-delay/gnome-startup-apps-delay/</guid>
-      <description>&lt;p&gt;Υπάρχουν πολλοί και διάφοροι τρόποι για να πετύχει κάποιος την καθυστέρηση εκκίνησης μιας εφαρμογής.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Startup on NickTux</title><link>https://nicktux.gr/tags/startup/</link><description>Recent content in Startup on NickTux</description><generator>Hugo -- gohugo.io</generator><language>el</language><copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright><lastBuildDate>Thu, 01 Mar 2018 02:46:56 +0200</lastBuildDate><atom:link href="https://nicktux.gr/tags/startup/index.xml" rel="self" type="application/rss+xml"/><item><title>[GNOME] Καθυστέρηση Εκκίνησης Εφαρμογών</title><link>https://nicktux.gr/post/gnome-startup-apps-delay/gnome-startup-apps-delay/</link><pubDate>Thu, 01 Mar 2018 02:46:56 +0200</pubDate><guid>https://nicktux.gr/post/gnome-startup-apps-delay/gnome-startup-apps-delay/</guid><description>&lt;p&gt;Υπάρχουν πολλοί και διάφοροι τρόποι για να πετύχει κάποιος την καθυστέρηση εκκίνησης μιας εφαρμογής.
 Ίσως ο πιο συνηθισμένος από αυτούς να είναι η δημιουργία ενός απλού εκτελέσιμου script με sleep κλπ και η προσθήκη αυτού στις εφαρμογές εκκίνησης.
 &lt;br&gt;Εδώ θα δούμε έναν απλό τρόπο, με μια γραμμή κώδικα την οποία προσθέτουμε στο ήδη υπάρχον αρχείο με κατάληξη &lt;code&gt;.desktop&lt;/code&gt;.
-&lt;br&gt;&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;br&gt;&lt;/p&gt;</description></item></channel></rss>

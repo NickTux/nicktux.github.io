@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on NickTux</title>
-    <link>https://nicktux.gr/post/</link>
-    <description>Recent content in Posts on NickTux</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>el</language>
-    <copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright>
-    <lastBuildDate>Mon, 26 Feb 2018 23:44:30 +0200</lastBuildDate>
-    
-	<atom:link href="https://nicktux.gr/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on NickTux</title><link>https://nicktux.gr/post/</link><description>Recent content in Posts on NickTux</description><generator>Hugo -- gohugo.io</generator><language>el</language><copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright><lastBuildDate>Mon, 26 Feb 2018 23:44:30 +0200</lastBuildDate><atom:link href="https://nicktux.gr/post/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

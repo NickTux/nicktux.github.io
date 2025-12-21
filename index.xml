@@ -1,219 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>NickTux</title>
-    <link>https://nicktux.gr/</link>
-    <description>Recent content on NickTux</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>el</language>
-    <copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright>
-    <lastBuildDate>Wed, 17 Dec 2025 22:47:06 +0200</lastBuildDate>
-    
-	<atom:link href="https://nicktux.gr/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Το Τέλος του Hardware όπως το ξέραμε;</title>
-      <link>https://nicktux.gr/post/hardware-endgame/</link>
-      <pubDate>Wed, 17 Dec 2025 22:47:06 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/post/hardware-endgame/</guid>
-      <description>&lt;h3 id=&#34;το-σοκ-της-τιμής&#34;&gt;Το Σοκ της Τιμής&lt;/h3&gt;
-&lt;p&gt;Μπήκα πρόσφατα στο Skroutz και στο BestPrice για να φτιάξω ένα build για έναν φίλο. Τίποτα το εξωπραγματικό, ένα solid μηχάνημα για να τρέχει κανά Docker container, λίγο compiling και κανά παιχνίδι το Σαββατοκύριακο. Το αποτέλεσμα; Εγκεφαλικό 🤯&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Univeral Blue</title>
-      <link>https://nicktux.gr/post/univeral-blue/univeral-blue/</link>
-      <pubDate>Mon, 08 Dec 2025 18:39:33 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/post/univeral-blue/univeral-blue/</guid>
-      <description>&lt;p&gt;Στο πλαίσιο του συνεδρίου KubeCon, ο Jorge Castro, συντηρητής του Project Bluefin και μέλος του Universal Blue, συζήτησε για το μέλλον του Linux Desktop και τη μετάβαση σε μια νέα αρχιτεκτονική βασισμένη σε &amp;ldquo;εικόνες&amp;rdquo; (images). Η συζήτηση εστίασε στο πώς τεχνολογίες που χρησιμοποιούνται κατά κόρον στους servers και στο cloud, μπορούν να μεταφερθούν στους προσωπικούς υπολογιστές για να λύσουν χρόνια προβλήματα αξιοπιστίας.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Φωτιζόμενο πληκτρολόγιο Logitech G213</title>
-      <link>https://nicktux.gr/post/g213colors/g213colors/</link>
-      <pubDate>Sat, 06 Mar 2021 20:27:15 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/post/g213colors/g213colors/</guid>
-      <description>&lt;p&gt;Πριν λίγο καιρό αγόρασα το &amp;ldquo;αδερφάκι&amp;rdquo; του G102 mouse, το G213 keyboard. Όπως είχα γράψει τότε για το mouse&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>pkexec για σωστή χρήση root GUI</title>
-      <link>https://nicktux.gr/post/gksu-pkexec-alias-tip/gksu-pkexec-alias-tip/</link>
-      <pubDate>Wed, 27 May 2020 01:18:12 +0300</pubDate>
-      
-      <guid>https://nicktux.gr/post/gksu-pkexec-alias-tip/gksu-pkexec-alias-tip/</guid>
-      <description>&lt;p&gt;Πρόσφατα χρειάστηκε να τρέξω μια γραφική εφαρμογή ως root και βρέθηκα μπροστά
-σε ένα ερώτημα. Πως;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Πολλαπλά κλειδιά ssh και διαφορετικοί λογαριασμοί Github</title>
-      <link>https://nicktux.gr/post/ssh-keys-different-github-accounts-same-pc/ssh-keys-different-github-accounts-same-pc/</link>
-      <pubDate>Fri, 22 May 2020 09:07:12 +0300</pubDate>
-      
-      <guid>https://nicktux.gr/post/ssh-keys-different-github-accounts-same-pc/ssh-keys-different-github-accounts-same-pc/</guid>
-      <description>&lt;p&gt;Ένα πρόβλημα που αντιμετώπισα πρόσφατα είχε σχέση με το ότι ο ssh-agent δεν μπορούσε
-να ξεχωρίσει ποιο ssh κλειδί να στείλει σε ποιο αποθετήριο Github.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Αναπαραγωγή Youtube playlist στον VLC</title>
-      <link>https://nicktux.gr/post/vlc-youtube-playlist/vlc-youtube-playlist/</link>
-      <pubDate>Tue, 19 May 2020 00:04:02 +0300</pubDate>
-      
-      <guid>https://nicktux.gr/post/vlc-youtube-playlist/vlc-youtube-playlist/</guid>
-      <description>&lt;p&gt;Παρακάτω περιγράφω τη διαδικασία που ακολούθησα, μετά από κάμποσες δοκιμές, που τελικά λειτούργησε
-για την αναπαραγωγή μιας playlist του Youtube στον VLC. Δοκιμασμένο σε Ubuntu 20.04 LTS και VLC έκδοση 3.0.9.2&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Διόρθωση διαφοράς ώρας</title>
-      <link>https://nicktux.gr/post/fix-time-ubuntu-windows/fix-time-ubuntu-windows/</link>
-      <pubDate>Sat, 09 May 2020 12:30:11 +0300</pubDate>
-      
-      <guid>https://nicktux.gr/post/fix-time-ubuntu-windows/fix-time-ubuntu-windows/</guid>
-      <description>&lt;p&gt;Σε ένα σύστημα διπλής εκκίνησης (dual boot) είναι πιθανό να αντιμετωπίζουμε πρόβλημα με τη διαφορά ώρας κάθε φορά που κάνουμε επανεκκίνηση από Ubuntu σε Windows. Αυτό οφείλεται στα διαφορετικά ρολόγια που χρησιμοποιούν τα δυο λειτουργικά.&lt;br&gt; Παρακάτω σημειώνουμε πως μπορούμε να το διορθώσουμε.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Bitwarden Password Manager</title>
-      <link>https://nicktux.gr/post/bitwarden/bitwarden/</link>
-      <pubDate>Mon, 30 Sep 2019 18:55:30 +0300</pubDate>
-      
-      <guid>https://nicktux.gr/post/bitwarden/bitwarden/</guid>
-      <description>&lt;p&gt;Κατά τον παλιό καιρό είχαμε ένα-δυο κωδικούς πρόσβασης για τις δυο-τρεις υπηρεσίες στις οποίες διαθέταμε λογαριασμό. Ένα φόρουμ, μια λίστα, ένα Email.&lt;br&gt;
-Πλέον τα πράγματα έχουν αλλάξει δραστικά αφού ο καθένας από εμάς διαθέτει περί τους 20+ λογαριασμούς σε διάφορα fora, emails, social media, τράπεζες και λοιπές υπηρεσίες.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Δύο USB μικρόφωνα σε Linux</title>
-      <link>https://nicktux.gr/post/two-usb-mics/two-usb-mics/</link>
-      <pubDate>Fri, 05 Apr 2019 18:55:56 +0300</pubDate>
-      
-      <guid>https://nicktux.gr/post/two-usb-mics/two-usb-mics/</guid>
-      <description>&lt;p&gt;Καλή Χρονιά είπαμε;&lt;br&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NickTux</title><link>https://nicktux.gr/</link><description>Recent content on NickTux</description><generator>Hugo -- gohugo.io</generator><language>el</language><copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright><lastBuildDate>Sun, 21 Dec 2025 13:33:03 +0200</lastBuildDate><atom:link href="https://nicktux.gr/index.xml" rel="self" type="application/rss+xml"/><item><title>Από Ubuntu σε Bluefin</title><link>https://nicktux.gr/post/bluefin-gdx-nvidia/</link><pubDate>Sun, 21 Dec 2025 13:33:03 +0200</pubDate><guid>https://nicktux.gr/post/bluefin-gdx-nvidia/</guid><description>&lt;p&gt;Η αλλαγή διανομής δεν είναι &amp;ldquo;διαζύγιο&amp;rdquo;, είναι εξερεύνηση.&lt;/p&gt;
+&lt;p&gt;Ας βάλουμε τα πράγματα στη θέση τους: Το Ubuntu είναι η διανομή που ξεκίνησα το ταξίδι μου στο Linux. Ακόμα τρέχει τους servers μου.
+Είναι, κατά κοινή παραδοχή, το λειτουργικό που έκανε το Linux προσιτό σε όλους. Δεν άλλαξα διανομή επειδή &amp;ldquo;δεν δούλευε&amp;rdquo;. Άλλαξα γιατί με έτρωγε η περιέργεια να δω πώς είναι η ζωή στην απέναντι όχθη: στον κόσμο των Immutable (Αμετάβλητων) συστημάτων.&lt;/p&gt;</description></item><item><title>Το Τέλος του Hardware όπως το ξέραμε;</title><link>https://nicktux.gr/post/hardware-endgame/</link><pubDate>Wed, 17 Dec 2025 22:47:06 +0200</pubDate><guid>https://nicktux.gr/post/hardware-endgame/</guid><description>&lt;h3 id="το-σοκ-της-τιμής"&gt;Το Σοκ της Τιμής&lt;/h3&gt;
+&lt;p&gt;Μπήκα πρόσφατα στο Skroutz και στο BestPrice για να φτιάξω ένα build για έναν φίλο. Τίποτα το εξωπραγματικό, ένα solid μηχάνημα για να τρέχει κανά Docker container, λίγο compiling και κανά παιχνίδι το Σαββατοκύριακο. Το αποτέλεσμα; Εγκεφαλικό 🤯&lt;/p&gt;</description></item><item><title>Univeral Blue</title><link>https://nicktux.gr/post/univeral-blue/univeral-blue/</link><pubDate>Mon, 08 Dec 2025 18:39:33 +0200</pubDate><guid>https://nicktux.gr/post/univeral-blue/univeral-blue/</guid><description>&lt;p&gt;Στο πλαίσιο του συνεδρίου KubeCon, ο Jorge Castro, συντηρητής του Project Bluefin και μέλος του Universal Blue, συζήτησε για το μέλλον του Linux Desktop και τη μετάβαση σε μια νέα αρχιτεκτονική βασισμένη σε &amp;ldquo;εικόνες&amp;rdquo; (images). Η συζήτηση εστίασε στο πώς τεχνολογίες που χρησιμοποιούνται κατά κόρον στους servers και στο cloud, μπορούν να μεταφερθούν στους προσωπικούς υπολογιστές για να λύσουν χρόνια προβλήματα αξιοπιστίας.&lt;/p&gt;</description></item><item><title>Φωτιζόμενο πληκτρολόγιο Logitech G213</title><link>https://nicktux.gr/post/g213colors/g213colors/</link><pubDate>Sat, 06 Mar 2021 20:27:15 +0200</pubDate><guid>https://nicktux.gr/post/g213colors/g213colors/</guid><description>&lt;p&gt;Πριν λίγο καιρό αγόρασα το &amp;ldquo;αδερφάκι&amp;rdquo; του G102 mouse, το G213 keyboard. Όπως είχα γράψει τότε για το mouse&lt;/p&gt;</description></item><item><title>pkexec για σωστή χρήση root GUI</title><link>https://nicktux.gr/post/gksu-pkexec-alias-tip/gksu-pkexec-alias-tip/</link><pubDate>Wed, 27 May 2020 01:18:12 +0300</pubDate><guid>https://nicktux.gr/post/gksu-pkexec-alias-tip/gksu-pkexec-alias-tip/</guid><description>&lt;p&gt;Πρόσφατα χρειάστηκε να τρέξω μια γραφική εφαρμογή ως root και βρέθηκα μπροστά
+σε ένα ερώτημα. Πως;&lt;/p&gt;</description></item><item><title>Πολλαπλά κλειδιά ssh και διαφορετικοί λογαριασμοί Github</title><link>https://nicktux.gr/post/ssh-keys-different-github-accounts-same-pc/ssh-keys-different-github-accounts-same-pc/</link><pubDate>Fri, 22 May 2020 09:07:12 +0300</pubDate><guid>https://nicktux.gr/post/ssh-keys-different-github-accounts-same-pc/ssh-keys-different-github-accounts-same-pc/</guid><description>&lt;p&gt;Ένα πρόβλημα που αντιμετώπισα πρόσφατα είχε σχέση με το ότι ο ssh-agent δεν μπορούσε
+να ξεχωρίσει ποιο ssh κλειδί να στείλει σε ποιο αποθετήριο Github.&lt;/p&gt;</description></item><item><title>Αναπαραγωγή Youtube playlist στον VLC</title><link>https://nicktux.gr/post/vlc-youtube-playlist/vlc-youtube-playlist/</link><pubDate>Tue, 19 May 2020 00:04:02 +0300</pubDate><guid>https://nicktux.gr/post/vlc-youtube-playlist/vlc-youtube-playlist/</guid><description>&lt;p&gt;Παρακάτω περιγράφω τη διαδικασία που ακολούθησα, μετά από κάμποσες δοκιμές, που τελικά λειτούργησε
+για την αναπαραγωγή μιας playlist του Youtube στον VLC. Δοκιμασμένο σε Ubuntu 20.04 LTS και VLC έκδοση 3.0.9.2&lt;/p&gt;</description></item><item><title>Διόρθωση διαφοράς ώρας</title><link>https://nicktux.gr/post/fix-time-ubuntu-windows/fix-time-ubuntu-windows/</link><pubDate>Sat, 09 May 2020 12:30:11 +0300</pubDate><guid>https://nicktux.gr/post/fix-time-ubuntu-windows/fix-time-ubuntu-windows/</guid><description>&lt;p&gt;Σε ένα σύστημα διπλής εκκίνησης (dual boot) είναι πιθανό να αντιμετωπίζουμε πρόβλημα με τη διαφορά ώρας κάθε φορά που κάνουμε επανεκκίνηση από Ubuntu σε Windows. Αυτό οφείλεται στα διαφορετικά ρολόγια που χρησιμοποιούν τα δυο λειτουργικά.&lt;br&gt; Παρακάτω σημειώνουμε πως μπορούμε να το διορθώσουμε.&lt;/p&gt;</description></item><item><title>Bitwarden Password Manager</title><link>https://nicktux.gr/post/bitwarden/bitwarden/</link><pubDate>Mon, 30 Sep 2019 18:55:30 +0300</pubDate><guid>https://nicktux.gr/post/bitwarden/bitwarden/</guid><description>&lt;p&gt;Κατά τον παλιό καιρό είχαμε ένα-δυο κωδικούς πρόσβασης για τις δυο-τρεις υπηρεσίες στις οποίες διαθέταμε λογαριασμό. Ένα φόρουμ, μια λίστα, ένα Email.&lt;br&gt;
+Πλέον τα πράγματα έχουν αλλάξει δραστικά αφού ο καθένας από εμάς διαθέτει περί τους 20+ λογαριασμούς σε διάφορα fora, emails, social media, τράπεζες και λοιπές υπηρεσίες.&lt;/p&gt;</description></item><item><title>Δύο USB μικρόφωνα σε Linux</title><link>https://nicktux.gr/post/two-usb-mics/two-usb-mics/</link><pubDate>Fri, 05 Apr 2019 18:55:56 +0300</pubDate><guid>https://nicktux.gr/post/two-usb-mics/two-usb-mics/</guid><description>&lt;p&gt;Καλή Χρονιά είπαμε;&lt;br&gt;
 Νομίζω είναι η πρώτη δημοσίευση του 2019. Ξέρετε, επειδή δεν είμαι επαγγελματίας αρθρογράφος και επειδή είμαι ένθερμος υποστηρικτής της άποψης &amp;ldquo;Γράψε, όταν έχεις κάτι να γράψεις&amp;rdquo;, επιπροσθέτως ότι ο ελεύθερος χρόνος είναι πλέον λίγος, το αποτέλεσμα είναι ακριβώς αυτό.&lt;br&gt;
-Αυτή τη φορά έχω να δημοσιεύσω κάτι όμως, το οποίο ίσως βοηθήσει άλλους που θα ήθελαν να πάρουν μια απόφαση στην αγορά ξεχωριστού/αποκλειστικού μικροφώνου πχ. για podcasts, youtube, live chatting, gaming κλπ.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Decentralize Your Digital Life</title>
-      <link>https://nicktux.gr/post/decentralized-digital-life/decentralized-digital-life/</link>
-      <pubDate>Sat, 29 Dec 2018 13:10:23 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/post/decentralized-digital-life/decentralized-digital-life/</guid>
-      <description>&lt;p&gt;Αποχωριζόμενοι το 2018 και μπαίνοντας στη νέα χρονιά, είναι μια καλή στιγμή για ένα Reboot. Ίσως ήρθε η ώρα να αναλογιστούμε τη ψηφιακή μας εξάρτηση/απεξάρτηση από μεγάλες εταιρίες που χαλιναγωγούν και διαμορφώνουν τον ψηφιακό μας κόσμο.
-Δεν είναι υπερβολή να πούμε ότι τα μισά από τα κλικ που κάνουμε είναι καθοδηγούμενα από εταιρίες που μας προσφέρουν “δωρεάν” υπηρεσίες, με πολλά ανταλλάγματα βεβαίως, βεβαίως. Το πιο συνηθισμένο από αυτά (τα ανταλλάγματα) είναι η στοχευμένη διαφήμιση αφού προηγουμένως έχουν καταγραφεί τα θέλω μας, τα πιστεύω μας, τα ενδιαφέροντά μας και ότι άλλο μπορεί να βοηθήσει σε μια στατιστική ανάλυση για το χτίσιμο ενός καλού Profile, για τον κάθε ένα από εμάς. Και αυτό το Προφιλ επεξεργάζεται και ανανεώνεται συνεχώς.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Εγκατάσταση του GIMP 2.10 σε Linux Mint</title>
-      <link>https://nicktux.gr/post/gimp210-lm19/gimp210-lm19/</link>
-      <pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/post/gimp210-lm19/gimp210-lm19/</guid>
-      <description>&lt;p&gt;Σε αυτή τη δημοσίευση θα δούμε έναν τρόπο εγκατάστασης της νέας έκδοσης του GIMP 2.10 σε Linux Mint 19.1, την οποία έχω ήδη δοκιμάσει και λειτουργεί χωρίς προβλήματα.&lt;br&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Αναβάθμιση σε Nextcloud 14</title>
-      <link>https://nicktux.gr/post/nextcloud-14-upgrade/nextcloud-14-upgrade/</link>
-      <pubDate>Tue, 11 Dec 2018 14:13:46 -0500</pubDate>
-      
-      <guid>https://nicktux.gr/post/nextcloud-14-upgrade/nextcloud-14-upgrade/</guid>
-      <description>&lt;p&gt;Πρόσφατα αναβάθμισα στην έκδοση Nextcloud 14, από τη 13 που βρισκόμουν. Βλέπετε είμαι στο &amp;ldquo;Production Channel&amp;rdquo;, οπότε οι αναβαθμίσεις εκδόσεων έρχονται με λίγη καθυστέρηση για να εξασφαλιστεί η σταθερότητα. Αυτή τη στιγμή το Nextcloud βρίσκεται στη σταθερή έκδοση 15, οπότε φανταστείτε το Production Channel κάτι σαν LTS release.
-Παρόλαυτα τα προβληματάκια δεν έλλειψαν και λεω να τα παραθέσω παρακάτω, καθώς και τις λύσεις τους.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Εγκατάσταση του Telegram Desktop σε Linux Mint</title>
-      <link>https://nicktux.gr/post/telegram-mint-tara/telegram-mint-tara/</link>
-      <pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/post/telegram-mint-tara/telegram-mint-tara/</guid>
-      <description>&lt;p&gt;Σε αυτή τη δημοσίευση θα δούμε βήμα-βήμα πως κάνουμε λήψη και εγκατάσταση του Telegram Desktop App, στο λειτουργικό μας σύστημα.&lt;br&gt;
-Αν και φαντάζει απλό και εύκολο, θα κάνουμε τη διαδικασία με έναν διαφορετικό τρόπο και θα εξηγήσουμε το (τα) γιατί.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Νέα χαρακτηριστικά στο Linux Mint 19</title>
-      <link>https://nicktux.gr/post/linux-mint-tara/linux-mint-tara/</link>
-      <pubDate>Sat, 24 Nov 2018 20:19:02 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/post/linux-mint-tara/linux-mint-tara/</guid>
-      <description>&lt;p&gt;Το Linux Mint 19 είναι μια έκδοση με υποστήριξη μακράς διάρκειας η οποία κυκλοφόρησε στις 29 Ιουνίου 2018. Αυτό σημαίνει ότι θα υποστηρίζεται μέχρι το **2023**.&lt;br&gt;
+Αυτή τη φορά έχω να δημοσιεύσω κάτι όμως, το οποίο ίσως βοηθήσει άλλους που θα ήθελαν να πάρουν μια απόφαση στην αγορά ξεχωριστού/αποκλειστικού μικροφώνου πχ. για podcasts, youtube, live chatting, gaming κλπ.&lt;/p&gt;</description></item><item><title>Decentralize Your Digital Life</title><link>https://nicktux.gr/post/decentralized-digital-life/decentralized-digital-life/</link><pubDate>Sat, 29 Dec 2018 13:10:23 +0200</pubDate><guid>https://nicktux.gr/post/decentralized-digital-life/decentralized-digital-life/</guid><description>&lt;p&gt;Αποχωριζόμενοι το 2018 και μπαίνοντας στη νέα χρονιά, είναι μια καλή στιγμή για ένα Reboot. Ίσως ήρθε η ώρα να αναλογιστούμε τη ψηφιακή μας εξάρτηση/απεξάρτηση από μεγάλες εταιρίες που χαλιναγωγούν και διαμορφώνουν τον ψηφιακό μας κόσμο.
+Δεν είναι υπερβολή να πούμε ότι τα μισά από τα κλικ που κάνουμε είναι καθοδηγούμενα από εταιρίες που μας προσφέρουν “δωρεάν” υπηρεσίες, με πολλά ανταλλάγματα βεβαίως, βεβαίως. Το πιο συνηθισμένο από αυτά (τα ανταλλάγματα) είναι η στοχευμένη διαφήμιση αφού προηγουμένως έχουν καταγραφεί τα θέλω μας, τα πιστεύω μας, τα ενδιαφέροντά μας και ότι άλλο μπορεί να βοηθήσει σε μια στατιστική ανάλυση για το χτίσιμο ενός καλού Profile, για τον κάθε ένα από εμάς. Και αυτό το Προφιλ επεξεργάζεται και ανανεώνεται συνεχώς.&lt;/p&gt;</description></item><item><title>Εγκατάσταση του GIMP 2.10 σε Linux Mint</title><link>https://nicktux.gr/post/gimp210-lm19/gimp210-lm19/</link><pubDate>Sat, 22 Dec 2018 19:56:06 +0200</pubDate><guid>https://nicktux.gr/post/gimp210-lm19/gimp210-lm19/</guid><description>&lt;p&gt;Σε αυτή τη δημοσίευση θα δούμε έναν τρόπο εγκατάστασης της νέας έκδοσης του GIMP 2.10 σε Linux Mint 19.1, την οποία έχω ήδη δοκιμάσει και λειτουργεί χωρίς προβλήματα.&lt;br&gt;&lt;/p&gt;</description></item><item><title>Αναβάθμιση σε Nextcloud 14</title><link>https://nicktux.gr/post/nextcloud-14-upgrade/nextcloud-14-upgrade/</link><pubDate>Tue, 11 Dec 2018 14:13:46 -0500</pubDate><guid>https://nicktux.gr/post/nextcloud-14-upgrade/nextcloud-14-upgrade/</guid><description>&lt;p&gt;Πρόσφατα αναβάθμισα στην έκδοση Nextcloud 14, από τη 13 που βρισκόμουν. Βλέπετε είμαι στο &amp;ldquo;Production Channel&amp;rdquo;, οπότε οι αναβαθμίσεις εκδόσεων έρχονται με λίγη καθυστέρηση για να εξασφαλιστεί η σταθερότητα. Αυτή τη στιγμή το Nextcloud βρίσκεται στη σταθερή έκδοση 15, οπότε φανταστείτε το Production Channel κάτι σαν LTS release.
+Παρόλαυτα τα προβληματάκια δεν έλλειψαν και λεω να τα παραθέσω παρακάτω, καθώς και τις λύσεις τους.&lt;/p&gt;</description></item><item><title>Εγκατάσταση του Telegram Desktop σε Linux Mint</title><link>https://nicktux.gr/post/telegram-mint-tara/telegram-mint-tara/</link><pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate><guid>https://nicktux.gr/post/telegram-mint-tara/telegram-mint-tara/</guid><description>&lt;p&gt;Σε αυτή τη δημοσίευση θα δούμε βήμα-βήμα πως κάνουμε λήψη και εγκατάσταση του Telegram Desktop App, στο λειτουργικό μας σύστημα.&lt;br&gt;
+Αν και φαντάζει απλό και εύκολο, θα κάνουμε τη διαδικασία με έναν διαφορετικό τρόπο και θα εξηγήσουμε το (τα) γιατί.&lt;/p&gt;</description></item><item><title>Νέα χαρακτηριστικά στο Linux Mint 19</title><link>https://nicktux.gr/post/linux-mint-tara/linux-mint-tara/</link><pubDate>Sat, 24 Nov 2018 20:19:02 +0200</pubDate><guid>https://nicktux.gr/post/linux-mint-tara/linux-mint-tara/</guid><description>&lt;p&gt;Το Linux Mint 19 είναι μια έκδοση με υποστήριξη μακράς διάρκειας η οποία κυκλοφόρησε στις 29 Ιουνίου 2018. Αυτό σημαίνει ότι θα υποστηρίζεται μέχρι το **2023**.&lt;br&gt;
 Είναι βασισμένο στο Ubuntu 18.04 LTS.&lt;br&gt;
-Δυο σημαντικά από τα νέα χαρακτηριστικά που φέρνει αυτή η έκδοση, αναφέρονται παρακάτω.</description>
-    </item>
-    
-    <item>
-      <title>PGP Key</title>
-      <link>https://nicktux.gr/my-pgp-key/</link>
-      <pubDate>Tue, 23 Oct 2018 00:37:48 +0300</pubDate>
-      
-      <guid>https://nicktux.gr/my-pgp-key/</guid>
-      <description>&lt;p&gt;Στον παρακάτω σύνδεσμο μπορείτε να βρείτε το &lt;strong&gt;μοναδικό&lt;/strong&gt; &lt;strong&gt;OpenPGP κλειδί&lt;/strong&gt;, το οποίο είναι &lt;strong&gt;ισχυρό&lt;/strong&gt; και &lt;strong&gt;έγκυρο&lt;/strong&gt; για επικοινωνία.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://keys.mailvelope.com/pks/lookup?op=get&amp;search=0x585C328CA1F33101&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://keys.mailvelope.com/pks/lookup?op=get&amp;amp;search=0x585C328CA1F33101&#34;&gt;https://keys.mailvelope.com/pks/lookup?op=get&amp;amp;search=0x585C328CA1F33101&lt;/a&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;KeyID Short: A1F33101 
+Δυο σημαντικά από τα νέα χαρακτηριστικά που φέρνει αυτή η έκδοση, αναφέρονται παρακάτω.</description></item><item><title>PGP Key</title><link>https://nicktux.gr/my-pgp-key/</link><pubDate>Tue, 23 Oct 2018 00:37:48 +0300</pubDate><guid>https://nicktux.gr/my-pgp-key/</guid><description>&lt;p&gt;Στον παρακάτω σύνδεσμο μπορείτε να βρείτε το &lt;strong&gt;μοναδικό&lt;/strong&gt; &lt;strong&gt;OpenPGP κλειδί&lt;/strong&gt;, το οποίο είναι &lt;strong&gt;ισχυρό&lt;/strong&gt; και &lt;strong&gt;έγκυρο&lt;/strong&gt; για επικοινωνία.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://keys.mailvelope.com/pks/lookup?op=get&amp;search=0x585C328CA1F33101" target="_blank"&gt;&lt;a href="https://keys.mailvelope.com/pks/lookup?op=get&amp;amp;search=0x585C328CA1F33101"&gt;https://keys.mailvelope.com/pks/lookup?op=get&amp;amp;search=0x585C328CA1F33101&lt;/a&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;KeyID Short: A1F33101
 KeyID Long: 585C328CA1F33101
 Full fingerprint: 99D836D28BE53419FE2A57DF585C328CA1F33101
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Όλα τα υπόλοιπα που ενδεχομένως να υπάρχουν εκεί έξω:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;είτε χρησιμοποιούνται για συγκεκριμένους λόγους (πχ υπογραφή πακέτων),&lt;/li&gt;
-&lt;li&gt;είτε έχουν &lt;span style=&#34;color:#ff0000;&#34;&gt;λήξει (expired)&lt;/span&gt;,&lt;/li&gt;
-&lt;li&gt;είτε έχουν γίνει&lt;span style=&#34;color:#ff0000;&#34;&gt; revoke&lt;/span&gt;.&lt;/li&gt;
-&lt;/ol&gt;</description>
-    </item>
-    
-    <item>
-      <title>Ποιόν σταθερό πυρήνα</title>
-      <link>https://nicktux.gr/post/which-kernel/which-kernel/</link>
-      <pubDate>Sat, 25 Aug 2018 14:52:27 +0300</pubDate>
-      
-      <guid>https://nicktux.gr/post/which-kernel/which-kernel/</guid>
-      <description>&lt;p&gt;Ένα εύλογο ερώτημα που προκύπτει σε όσους/ες ενδιαφέρονται για τη σωστή και ασφαλή λειτουργία του συστήματός τους. Ποιο πυρήνα πρέπει να χρησιμοποιώ ώστε να:&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Ubuntu 18.04] Thunderbird και Emoji</title>
-      <link>https://nicktux.gr/post/ubuntu-bionic-thunderbird-subject-emoji/ubuntu-bionic-thunderbird-subject-emoji/</link>
-      <pubDate>Thu, 03 May 2018 22:30:51 +0300</pubDate>
-      
-      <guid>https://nicktux.gr/post/ubuntu-bionic-thunderbird-subject-emoji/ubuntu-bionic-thunderbird-subject-emoji/</guid>
-      <description>&lt;p&gt;Αναβαθμίζοντας στην έκδοση του Ubuntu 18.04 και χρησιμοποιώντας τον Thunderbird ως Email Client ίσως έρθετε αντιμέτωποι με αυτό το περίεργο σφάλμα, το οποίο δεν είμαι σίγουρος εάν οφείλεται στη γραμματοσειρά (.ttf) ή στον συνδυασμό γραμματοσειράς και Thunderbird.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Ubuntu 18.04] Εικονίδιο WiFi με ερωτηματικό (?)</title>
-      <link>https://nicktux.gr/post/ubuntu-bionic-wifi-status-icon/ubuntu-bionic-wifi-status-icon/</link>
-      <pubDate>Tue, 01 May 2018 21:25:02 +0300</pubDate>
-      
-      <guid>https://nicktux.gr/post/ubuntu-bionic-wifi-status-icon/ubuntu-bionic-wifi-status-icon/</guid>
-      <description>&lt;p&gt;Είναι γνωστό σε όσους ασχολούνται λίγο περισσότερο με το λειτουργικό τους σύστημα πως κάθε νέα έκδοση ή πακέτο αναβαθμίσεων εκτός από νέα χαρακτηριστικά και βελτιώσεις, μπορεί να φέρει και νέα προβλήματα. Το Ubuntu δεν θα μπορούσε να αποτελεί εξαίρεση.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Ubuntu] Αφαίρεση του gksu από τη 18.04 LTS</title>
-      <link>https://nicktux.gr/post/ubuntu-bionic-gksu-removed/ubuntu-bionic-gksu-removed/</link>
-      <pubDate>Mon, 16 Apr 2018 22:29:19 +0300</pubDate>
-      
-      <guid>https://nicktux.gr/post/ubuntu-bionic-gksu-removed/ubuntu-bionic-gksu-removed/</guid>
-      <description>&lt;p&gt;Αυτή η μετάβαση, δηλαδή η πλήρης κατάργηση του gksu από το Ubuntu έχει ξεκινήσει κάμποσες εκδόσεις πριν. Συγκεκριμένα από τη 13.10 όπου το από προ-επιλογή εγκατεστημένο gksu έπαψε να υφίσταται. Μέχρι και σήμερα βέβαια οι χρήστες είχαν την επιλογή της εγκατάστασης από τα αποθετήρια, αφού εκεί ήταν και είναι ακόμη διαθέσιμο.&lt;br&gt;
-Στο άμεσο μέλλον όμως, προβλέπεται να αφαιρεθεί εντελώς από τα αποθετήρια. Επίσης, παρακάτω θα δούμε ποια είναι η προτεινόμενη από τους Developers εναλλακτική.&lt;br&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Nextcloud] Απευθείας πρόσβαση από Online Accounts</title>
-      <link>https://nicktux.gr/post/nextcloud-bionic-online-accounts/nextcloud-bionic-online-accounts/</link>
-      <pubDate>Wed, 11 Apr 2018 22:46:06 +0300</pubDate>
-      
-      <guid>https://nicktux.gr/post/nextcloud-bionic-online-accounts/nextcloud-bionic-online-accounts/</guid>
-      <description>&lt;p&gt;Με την έλευση του Ubuntu 18.04 LTS(Bionic Beaver) και την αλλαγή από Unity σε GNOME (3.28), οι ρυθμίσεις για Online Accounts εμπεριέχουν πλέον την επιλογή για Nextcloud.&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;li&gt;είτε έχουν &lt;span style="color:#ff0000;"&gt;λήξει (expired)&lt;/span&gt;,&lt;/li&gt;
+&lt;li&gt;είτε έχουν γίνει&lt;span style="color:#ff0000;"&gt; revoke&lt;/span&gt;.&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>Ποιόν σταθερό πυρήνα</title><link>https://nicktux.gr/post/which-kernel/which-kernel/</link><pubDate>Sat, 25 Aug 2018 14:52:27 +0300</pubDate><guid>https://nicktux.gr/post/which-kernel/which-kernel/</guid><description>&lt;p&gt;Ένα εύλογο ερώτημα που προκύπτει σε όσους/ες ενδιαφέρονται για τη σωστή και ασφαλή λειτουργία του συστήματός τους. Ποιο πυρήνα πρέπει να χρησιμοποιώ ώστε να:&lt;/p&gt;</description></item><item><title>[Ubuntu 18.04] Thunderbird και Emoji</title><link>https://nicktux.gr/post/ubuntu-bionic-thunderbird-subject-emoji/ubuntu-bionic-thunderbird-subject-emoji/</link><pubDate>Thu, 03 May 2018 22:30:51 +0300</pubDate><guid>https://nicktux.gr/post/ubuntu-bionic-thunderbird-subject-emoji/ubuntu-bionic-thunderbird-subject-emoji/</guid><description>&lt;p&gt;Αναβαθμίζοντας στην έκδοση του Ubuntu 18.04 και χρησιμοποιώντας τον Thunderbird ως Email Client ίσως έρθετε αντιμέτωποι με αυτό το περίεργο σφάλμα, το οποίο δεν είμαι σίγουρος εάν οφείλεται στη γραμματοσειρά (.ttf) ή στον συνδυασμό γραμματοσειράς και Thunderbird.&lt;/p&gt;</description></item><item><title>[Ubuntu 18.04] Εικονίδιο WiFi με ερωτηματικό (?)</title><link>https://nicktux.gr/post/ubuntu-bionic-wifi-status-icon/ubuntu-bionic-wifi-status-icon/</link><pubDate>Tue, 01 May 2018 21:25:02 +0300</pubDate><guid>https://nicktux.gr/post/ubuntu-bionic-wifi-status-icon/ubuntu-bionic-wifi-status-icon/</guid><description>&lt;p&gt;Είναι γνωστό σε όσους ασχολούνται λίγο περισσότερο με το λειτουργικό τους σύστημα πως κάθε νέα έκδοση ή πακέτο αναβαθμίσεων εκτός από νέα χαρακτηριστικά και βελτιώσεις, μπορεί να φέρει και νέα προβλήματα. Το Ubuntu δεν θα μπορούσε να αποτελεί εξαίρεση.&lt;/p&gt;</description></item><item><title>[Ubuntu] Αφαίρεση του gksu από τη 18.04 LTS</title><link>https://nicktux.gr/post/ubuntu-bionic-gksu-removed/ubuntu-bionic-gksu-removed/</link><pubDate>Mon, 16 Apr 2018 22:29:19 +0300</pubDate><guid>https://nicktux.gr/post/ubuntu-bionic-gksu-removed/ubuntu-bionic-gksu-removed/</guid><description>&lt;p&gt;Αυτή η μετάβαση, δηλαδή η πλήρης κατάργηση του gksu από το Ubuntu έχει ξεκινήσει κάμποσες εκδόσεις πριν. Συγκεκριμένα από τη 13.10 όπου το από προ-επιλογή εγκατεστημένο gksu έπαψε να υφίσταται. Μέχρι και σήμερα βέβαια οι χρήστες είχαν την επιλογή της εγκατάστασης από τα αποθετήρια, αφού εκεί ήταν και είναι ακόμη διαθέσιμο.&lt;br&gt;
+Στο άμεσο μέλλον όμως, προβλέπεται να αφαιρεθεί εντελώς από τα αποθετήρια. Επίσης, παρακάτω θα δούμε ποια είναι η προτεινόμενη από τους Developers εναλλακτική.&lt;br&gt;&lt;/p&gt;</description></item></channel></rss>

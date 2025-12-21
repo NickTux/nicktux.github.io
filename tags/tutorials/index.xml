@@ -1,87 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tutorials on NickTux</title>
-    <link>https://nicktux.gr/tags/tutorials/</link>
-    <description>Recent content in Tutorials on NickTux</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>el</language>
-    <copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright>
-    <lastBuildDate>Sun, 25 Nov 2018 21:54:28 +0200</lastBuildDate>
-    
-	<atom:link href="https://nicktux.gr/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Εγκατάσταση του Telegram Desktop σε Linux Mint</title>
-      <link>https://nicktux.gr/post/telegram-mint-tara/telegram-mint-tara/</link>
-      <pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/post/telegram-mint-tara/telegram-mint-tara/</guid>
-      <description>&lt;p&gt;Σε αυτή τη δημοσίευση θα δούμε βήμα-βήμα πως κάνουμε λήψη και εγκατάσταση του Telegram Desktop App, στο λειτουργικό μας σύστημα.&lt;br&gt;
-Αν και φαντάζει απλό και εύκολο, θα κάνουμε τη διαδικασία με έναν διαφορετικό τρόπο και θα εξηγήσουμε το (τα) γιατί.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[GNOME] Καθυστέρηση Εκκίνησης Εφαρμογών</title>
-      <link>https://nicktux.gr/post/gnome-startup-apps-delay/gnome-startup-apps-delay/</link>
-      <pubDate>Thu, 01 Mar 2018 02:46:56 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/post/gnome-startup-apps-delay/gnome-startup-apps-delay/</guid>
-      <description>&lt;p&gt;Υπάρχουν πολλοί και διάφοροι τρόποι για να πετύχει κάποιος την καθυστέρηση εκκίνησης μιας εφαρμογής.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorials on NickTux</title><link>https://nicktux.gr/tags/tutorials/</link><description>Recent content in Tutorials on NickTux</description><generator>Hugo -- gohugo.io</generator><language>el</language><copyright>Copyleft (ɔ) 2025&lt;br&gt; No rights reserved</copyright><lastBuildDate>Sun, 25 Nov 2018 21:54:28 +0200</lastBuildDate><atom:link href="https://nicktux.gr/tags/tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>Εγκατάσταση του Telegram Desktop σε Linux Mint</title><link>https://nicktux.gr/post/telegram-mint-tara/telegram-mint-tara/</link><pubDate>Sun, 25 Nov 2018 21:54:28 +0200</pubDate><guid>https://nicktux.gr/post/telegram-mint-tara/telegram-mint-tara/</guid><description>&lt;p&gt;Σε αυτή τη δημοσίευση θα δούμε βήμα-βήμα πως κάνουμε λήψη και εγκατάσταση του Telegram Desktop App, στο λειτουργικό μας σύστημα.&lt;br&gt;
+Αν και φαντάζει απλό και εύκολο, θα κάνουμε τη διαδικασία με έναν διαφορετικό τρόπο και θα εξηγήσουμε το (τα) γιατί.&lt;/p&gt;</description></item><item><title>[GNOME] Καθυστέρηση Εκκίνησης Εφαρμογών</title><link>https://nicktux.gr/post/gnome-startup-apps-delay/gnome-startup-apps-delay/</link><pubDate>Thu, 01 Mar 2018 02:46:56 +0200</pubDate><guid>https://nicktux.gr/post/gnome-startup-apps-delay/gnome-startup-apps-delay/</guid><description>&lt;p&gt;Υπάρχουν πολλοί και διάφοροι τρόποι για να πετύχει κάποιος την καθυστέρηση εκκίνησης μιας εφαρμογής.
 Ίσως ο πιο συνηθισμένος από αυτούς να είναι η δημιουργία ενός απλού εκτελέσιμου script με sleep κλπ και η προσθήκη αυτού στις εφαρμογές εκκίνησης.
 &lt;br&gt;Εδώ θα δούμε έναν απλό τρόπο, με μια γραμμή κώδικα την οποία προσθέτουμε στο ήδη υπάρχον αρχείο με κατάληξη &lt;code&gt;.desktop&lt;/code&gt;.
-&lt;br&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Παραγωγή ισχυρών κωδικών</title>
-      <link>https://nicktux.gr/post/apg-strong-passwords/</link>
-      <pubDate>Thu, 04 Jul 2013 22:42:11 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/post/apg-strong-passwords/</guid>
-      <description>&lt;p&gt;Το apg είναι ένα εργαλείο που μπορεί να μας βοηθήσει στην παραγωγή ισχυρών τυχαίων (random) κωδικών. Είναι προ-εγκατεστημένο σε Ubuntu. Αν χρειαζόμαστε ισχυρούς κωδικούς που σπάνε δύσκολα έως καθόλου (πρακτικά) τότε με μια απλή εντολή σε ένα τερματικό* μπορούμε να έχουμε το επιθυμητό αποτέλεσμα.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Προβλήματα στην ασύρματη σύνδεση</title>
-      <link>https://nicktux.gr/post/problems-wireless-ubuntu/problems-wireless-ubuntu/</link>
-      <pubDate>Wed, 03 Jul 2013 17:18:12 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/post/problems-wireless-ubuntu/problems-wireless-ubuntu/</guid>
-      <description>&lt;center&gt;&lt;a href=&#34;https://i.imgur.com/WP294Er.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/WP294Erl.jpg&#34; alt=&#34;&#34; class=&#34;aligncenter&#34; /&gt;&lt;/a&gt;&lt;/center&gt;
+&lt;br&gt;&lt;/p&gt;</description></item><item><title>Παραγωγή ισχυρών κωδικών</title><link>https://nicktux.gr/post/apg-strong-passwords/</link><pubDate>Thu, 04 Jul 2013 22:42:11 +0200</pubDate><guid>https://nicktux.gr/post/apg-strong-passwords/</guid><description>&lt;p&gt;Το apg είναι ένα εργαλείο που μπορεί να μας βοηθήσει στην παραγωγή ισχυρών τυχαίων (random) κωδικών. Είναι προ-εγκατεστημένο σε Ubuntu. Αν χρειαζόμαστε ισχυρούς κωδικούς που σπάνε δύσκολα έως καθόλου (πρακτικά) τότε με μια απλή εντολή σε ένα τερματικό* μπορούμε να έχουμε το επιθυμητό αποτέλεσμα.&lt;/p&gt;</description></item><item><title>Προβλήματα στην ασύρματη σύνδεση</title><link>https://nicktux.gr/post/problems-wireless-ubuntu/problems-wireless-ubuntu/</link><pubDate>Wed, 03 Jul 2013 17:18:12 +0200</pubDate><guid>https://nicktux.gr/post/problems-wireless-ubuntu/problems-wireless-ubuntu/</guid><description>&lt;center&gt;&lt;a href="https://i.imgur.com/WP294Er.jpg"&gt;&lt;img src="https://i.imgur.com/WP294Erl.jpg" alt="" class="aligncenter" /&gt;&lt;/a&gt;&lt;/center&gt;
 &lt;p&gt;Τα προβλήματα στην ασύρματη σύνδεση μπορεί να ποικίλουν. Γι&amp;rsquo; αυτό δεν υπάρχει κάποιος γενικός κανόνας επίλυσης τέτοιων προβλημάτων.
-Το καλύτερο που μπορείτε να κάνετε είναι να ζητήσετε βοήθεια από ένα φόρουμ υποστήριξης και βοηθείας για το Ubuntu.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Επιδόρθωση στο διαχειριστή πακέτων</title>
-      <link>https://nicktux.gr/post/package-manager-troubleshooting-ubuntu/package-manager-troubleshooting-ubuntu/</link>
-      <pubDate>Tue, 02 Jul 2013 14:50:44 -0500</pubDate>
-      
-      <guid>https://nicktux.gr/post/package-manager-troubleshooting-ubuntu/package-manager-troubleshooting-ubuntu/</guid>
-      <description>&lt;p&gt;Όταν λέμε διαχειριστής πακέτων , εννοούμε οτιδήποτε έχει σχέση με την εγκατάσταση ή αναβάθμιση των πακέτων - προγραμμάτων του Ubuntu.
-Το πρόβλημα μπορεί να είναι , είτε &amp;ldquo;μη επιλυμένες εξαρτήσεις&amp;rdquo; (dependencies) , είτε αδυναμία αναβάθμισης , είτε κρατούμενα ελαττωματικά πακέτα &amp;hellip; κλπ.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Πως να γίνετε Ubuntu Member</title>
-      <link>https://nicktux.gr/post/how-to-become-ubuntu-member/how-to-become-ubuntu-member/</link>
-      <pubDate>Tue, 02 Jul 2013 18:54:28 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/post/how-to-become-ubuntu-member/how-to-become-ubuntu-member/</guid>
-      <description>&lt;p&gt;Με το να γίνει κάποιος Ubuntu Member σημαίνει αναγνώριση, από την διεθνή κοινότητα, της σημαντικής και συνεχούς προσφοράς του στο Ubuntu και κατ&amp;rsquo; επέκταση στο Ανοιχτό Λογισμικό.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Επαναφορά κωδικού χρήστη</title>
-      <link>https://nicktux.gr/post/reset-password-ubuntu/reset-password-ubuntu/</link>
-      <pubDate>Tue, 02 Jul 2013 17:16:40 +0200</pubDate>
-      
-      <guid>https://nicktux.gr/post/reset-password-ubuntu/reset-password-ubuntu/</guid>
-      <description>&lt;center&gt;&lt;a href=&#34;https://i.imgur.com/6A7JEZml.jpg&#34;&gt;&lt;img src=&#34;https://i.imgur.com/6A7JEZml.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/center&gt;
-&lt;p&gt;Υπάρχουν διάφοροι λόγοι όπου μπορεί να θέλουμε να επαναφέρουμε τον κωδικό μας στο Ubuntu.&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+Το καλύτερο που μπορείτε να κάνετε είναι να ζητήσετε βοήθεια από ένα φόρουμ υποστήριξης και βοηθείας για το Ubuntu.&lt;/p&gt;</description></item><item><title>Επιδόρθωση στο διαχειριστή πακέτων</title><link>https://nicktux.gr/post/package-manager-troubleshooting-ubuntu/package-manager-troubleshooting-ubuntu/</link><pubDate>Tue, 02 Jul 2013 14:50:44 -0500</pubDate><guid>https://nicktux.gr/post/package-manager-troubleshooting-ubuntu/package-manager-troubleshooting-ubuntu/</guid><description>&lt;p&gt;Όταν λέμε διαχειριστής πακέτων , εννοούμε οτιδήποτε έχει σχέση με την εγκατάσταση ή αναβάθμιση των πακέτων - προγραμμάτων του Ubuntu.
+Το πρόβλημα μπορεί να είναι , είτε &amp;ldquo;μη επιλυμένες εξαρτήσεις&amp;rdquo; (dependencies) , είτε αδυναμία αναβάθμισης , είτε κρατούμενα ελαττωματικά πακέτα &amp;hellip; κλπ.&lt;/p&gt;</description></item><item><title>Πως να γίνετε Ubuntu Member</title><link>https://nicktux.gr/post/how-to-become-ubuntu-member/how-to-become-ubuntu-member/</link><pubDate>Tue, 02 Jul 2013 18:54:28 +0200</pubDate><guid>https://nicktux.gr/post/how-to-become-ubuntu-member/how-to-become-ubuntu-member/</guid><description>&lt;p&gt;Με το να γίνει κάποιος Ubuntu Member σημαίνει αναγνώριση, από την διεθνή κοινότητα, της σημαντικής και συνεχούς προσφοράς του στο Ubuntu και κατ&amp;rsquo; επέκταση στο Ανοιχτό Λογισμικό.&lt;/p&gt;</description></item><item><title>Επαναφορά κωδικού χρήστη</title><link>https://nicktux.gr/post/reset-password-ubuntu/reset-password-ubuntu/</link><pubDate>Tue, 02 Jul 2013 17:16:40 +0200</pubDate><guid>https://nicktux.gr/post/reset-password-ubuntu/reset-password-ubuntu/</guid><description>&lt;center&gt;&lt;a href="https://i.imgur.com/6A7JEZml.jpg"&gt;&lt;img src="https://i.imgur.com/6A7JEZml.jpg" alt="" width="640" height="362" /&gt;&lt;/a&gt;&lt;/center&gt;
+&lt;p&gt;Υπάρχουν διάφοροι λόγοι όπου μπορεί να θέλουμε να επαναφέρουμε τον κωδικό μας στο Ubuntu.&lt;/p&gt;</description></item></channel></rss>
