@@ -1,5 +1,4 @@
 /* 1. Εισαγωγή Google Fonts */
-/* Αλλάξαμε τη Merriweather με τη 'Roboto Slab' που "κουμπώνει" τέλεια με τα Ελληνικά */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
 
 /* 2. Γενικές Ρυθμίσεις (Body) */
@@ -14,13 +13,12 @@ body {
     background-color: #f9f9f9;
 }
 
-/* 4. Στυλ Τίτλων (H1-H4 & Post Titles) */
-/* Εδώ μπαίνει η Roboto Slab για να είναι ολόιδια Ελληνικά και Αγγλικά */
+/* 4. Στυλ Τίτλων */
 h1, h2, h3, h4, .post-title a {
     font-family: 'Roboto Slab', serif; 
     color: #2c3e50;
     text-decoration: none;
-    font-weight: 700; /* Σιγουρεύουμε ότι είναι bold */
+    font-weight: 700;
 }
 
 /* 5. Links μέσα στο κείμενο */
@@ -33,35 +31,63 @@ h1, h2, h3, h4, .post-title a {
     color: #e74c3c;
 }
 
-/* 6. Κώδικας (Code blocks) */
+/* 6. Κώδικας - Inline (Π.χ. `git status` μέσα σε πρόταση) */
+/* ΑΛΛΑΓΗ ΕΔΩ: Σκούρο φόντο, ανοιχτά γράμματα (Monokai style) */
 code {
-    background-color: #e0e0e0;
-    color: #c0392b;
-    font-family: 'Courier New', Courier, monospace;
-    padding: 2px 4px;
+    background-color: #272822; /* Το σκούρο του Monokai */
+    color: #f8f8f2;            /* Off-white γράμματα */
+    font-family: 'Roboto mono', 'Courier New', Courier, monospace;
+    padding: 2px 6px;          /* Λίγο πιο "άνετο" padding */
     border-radius: 4px;
+    font-size: 0.9em;          /* Προαιρετικό: ελαφρώς μικρότερο για να μην "φωνάζει" */
+}
+
+/* 6.1. Κώδικας - Blocks (Τα μεγάλα κουτιά κώδικα) */
+/* Εδώ λέμε: Αν ο κώδικας είναι σε block, να είναι transparent γιατί το χρώμα το δίνει το div.highlight */
+.highlight pre code, 
+pre code {
+    background-color: transparent !important; 
+    color: inherit !important;                
+    padding: 0;
+    border: none;
+}
+
+/* Το εξωτερικό κουτί που φτιάχνει το Hugo */
+.highlight {
+    background-color: #272822; 
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow-x: auto; 
+}
+
+/* Διόρθωση για margins */
+.highlight pre {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border: none !important;
 }
 
 /* --- Διορθώσεις για τα στοιχεία που "ξεφεύγουν" --- */
 
-/* Metadata (Ημερομηνία, tags κλπ) */
+/* Metadata */
 .post-meta {
-   
     font-family: 'Roboto', sans-serif;
 }
 
 .post-meta a {
-
     text-decoration: none;
 }
 
-/* Ειδική στόχευση για τίτλους μέσα στο άρθρο (για να πάρουν κι αυτοί Roboto Slab) */
+/* Ειδική στόχευση για τίτλους μέσα στο άρθρο */
 #main .post-content h2,
 #main .post-content h3,
 #main .post-content h4 {
     color: #2c3e50 !important;
     font-family: 'Roboto Slab', serif;
 }
+
 /* Search Box στο Sidebar */
 .search-box input[type="text"] {
     background-color: #333;
@@ -78,5 +104,5 @@ code {
 }
 
 .search-box button:hover {
-    background-color: #2980b9; /* Το μπλε που βάλαμε στα links */
+    background-color: #2980b9;
 }

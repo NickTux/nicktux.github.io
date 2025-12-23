@@ -14,10 +14,10 @@
 Είναι βασισμένο στο Ubuntu 18.04 LTS.&lt;br&gt;
 Δυο σημαντικά από τα νέα χαρακτηριστικά που φέρνει αυτή η έκδοση, αναφέρονται παρακάτω.</description></item><item><title>PGP Key</title><link>https://nicktux.gr/my-pgp-key/</link><pubDate>Tue, 23 Oct 2018 00:37:48 +0300</pubDate><guid>https://nicktux.gr/my-pgp-key/</guid><description>&lt;p&gt;Στον παρακάτω σύνδεσμο μπορείτε να βρείτε το &lt;strong&gt;μοναδικό&lt;/strong&gt; &lt;strong&gt;OpenPGP κλειδί&lt;/strong&gt;, το οποίο είναι &lt;strong&gt;ισχυρό&lt;/strong&gt; και &lt;strong&gt;έγκυρο&lt;/strong&gt; για επικοινωνία.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href="https://keys.mailvelope.com/pks/lookup?op=get&amp;search=0x585C328CA1F33101" target="_blank"&gt;&lt;a href="https://keys.mailvelope.com/pks/lookup?op=get&amp;amp;search=0x585C328CA1F33101"&gt;https://keys.mailvelope.com/pks/lookup?op=get&amp;amp;search=0x585C328CA1F33101&lt;/a&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;KeyID Short: A1F33101
-KeyID Long: 585C328CA1F33101
-Full fingerprint: 99D836D28BE53419FE2A57DF585C328CA1F33101
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Όλα τα υπόλοιπα που ενδεχομένως να υπάρχουν εκεί έξω:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;KeyID Short: A1F33101
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;KeyID Long: 585C328CA1F33101
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Full fingerprint: 99D836D28BE53419FE2A57DF585C328CA1F33101
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Όλα τα υπόλοιπα που ενδεχομένως να υπάρχουν εκεί έξω:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;είτε χρησιμοποιούνται για συγκεκριμένους λόγους (πχ υπογραφή πακέτων),&lt;/li&gt;
 &lt;li&gt;είτε έχουν &lt;span style="color:#ff0000;"&gt;λήξει (expired)&lt;/span&gt;,&lt;/li&gt;
